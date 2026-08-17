@@ -1,0 +1,17 @@
+node_modules/
+.DS_Store
+Thumbs.db
+*.log
+
+# A carteira vem da planilha de MICE e carrega nome, e-mail e telefone de
+# pessoas de fora da Azul. O site é publicado em GitHub Pages público, então
+# este arquivo nunca pode ser versionado. O coletor lê se existir na máquina.
+dados/carteira.csv
+dados/carteira.json
+*.xlsx
+*.xls
+*.csv
+
+# estado de ferramentas de design, não faz parte do projeto
+.impeccable/
+_preview.html

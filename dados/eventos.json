@@ -1,0 +1,6370 @@
+{
+  "atualizadoEm": "2026-08-17T21:23:52.472Z",
+  "totalEventos": 105,
+  "fontes": [
+    {
+      "fonte": "Distrito Anhembi",
+      "eventos": 24,
+      "ms": 1992,
+      "erro": null
+    },
+    {
+      "fonte": "Expo Center Norte",
+      "eventos": 26,
+      "ms": 1364,
+      "erro": null
+    },
+    {
+      "fonte": "Pro Magno Centro de Eventos",
+      "eventos": 22,
+      "ms": 656,
+      "erro": null
+    },
+    {
+      "fonte": "São Paulo Expo",
+      "eventos": 34,
+      "ms": 1799,
+      "erro": null
+    }
+  ],
+  "eventos": [
+    {
+      "id": "expo-center-norte:reefdaybrasil|2026-08-15",
+      "nome": "Reef Day Brasil",
+      "descricao": "Participe de uma experiência incrível no universo do aquarismo! Conecte-se com palestrantes, empreendedores, líderes da indústria, influencers e outros entusiastas apaixonados, criando conexões que vão além do comum. Explore produtos e tecnologias inovadoras, mergulhando nos equipamentos mais modernos e nos corais mais fascinantes. Descubra segredos e tendências diretamente de especialistas em pal",
+      "dataInicio": "2026-08-15",
+      "dataFim": "2026-08-16",
+      "textoData": "15 a 16 agosto",
+      "espaco": "Pavilhão",
+      "link": "https://www.expocenternorte.com.br/eventos/reef-day-brasil",
+      "local": {
+        "nome": "Expo Center Norte",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "expo-center-norte",
+        "nome": "Expo Center Norte",
+        "url": "https://www.expocenternorte.com.br/eventos"
+      },
+      "fonteDominio": "expocenternorte.com.br",
+      "score": 29,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [
+        "Brasil"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 14,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 14,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 2,
+      "faltamDias": -2,
+      "janela": "passou",
+      "acionavel": false
+    },
+    {
+      "id": "sao-paulo-expo:34congressoexpofenabrave|2026-08-17",
+      "nome": "34° CONGRESSO & EXPO FENABRAVE",
+      "descricao": "Empresários e lideranças do setor automotivo se reúnem no 34° Congresso & Expo Fenabrave para debater tendências, inovação e os rumos do mercado. A agenda inclui conteúdo estratégico, conexões qualificadas e oportunidades de negócios entre representantes da distribuição de veículos.",
+      "dataInicio": "2026-08-17",
+      "dataFim": "2026-08-19",
+      "textoData": "17 - 19 ago",
+      "espaco": "Pavilhões",
+      "link": "https://www.congresso-fenabrave.com.br/?occurrence=2026-08-17",
+      "local": {
+        "nome": "São Paulo Expo",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "sao-paulo-expo",
+        "nome": "São Paulo Expo",
+        "url": "https://www.saopauloexpo.com.br/pt/agenda-de-eventos/"
+      },
+      "fonteDominio": "saopauloexpo.com.br",
+      "score": 89,
+      "faixa": "alto",
+      "confianca": "alta",
+      "tipo": "Congresso",
+      "sinais": [
+        "34ª edição",
+        "Site próprio",
+        "Entidade nacional"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 34,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 26,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 24,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 34,
+      "alcance": 0,
+      "mercado": 26,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 0,
+      "janela": "esta semana",
+      "acionavel": false
+    },
+    {
+      "id": "sao-paulo-expo:conarh|2026-08-18",
+      "nome": "CONARH",
+      "descricao": "Ideias que transformam pessoas e organizações ganham espaço no CONARH 2026. O encontro reúne profissionais de RH e gestão de pessoas em uma programação focada em tendências, desenvolvimento humano e práticas aplicáveis ao dia a dia das empresas.",
+      "dataInicio": "2026-08-18",
+      "dataFim": "2026-08-20",
+      "textoData": "18 - 20 ago",
+      "espaco": "Pavilhões",
+      "link": "https://conarh.org.br/?occurrence=2026-08-18",
+      "local": {
+        "nome": "São Paulo Expo",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "sao-paulo-expo",
+        "nome": "São Paulo Expo",
+        "url": "https://www.saopauloexpo.com.br/pt/agenda-de-eventos/"
+      },
+      "fonteDominio": "saopauloexpo.com.br",
+      "score": 57,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [
+        "Site próprio",
+        "Entidade nacional"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 16,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 26,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 16,
+      "alcance": 0,
+      "mercado": 26,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 1,
+      "janela": "esta semana",
+      "acionavel": false
+    },
+    {
+      "id": "sao-paulo-expo:shopeetrends|2026-08-18",
+      "nome": "SHOPEE TRENDS",
+      "descricao": "O Shopee Trends 2026 é o principal encontro para vendedores da Shopee no Brasil. Em sua segunda edição, o evento reúne mais de 10 mil participantes em dois dias de conteúdo, networking e novas oportunidades para quem quer aprender, se conectar e vender mais. Com três palcos simultâneos, traz conteúdos práticos, palestrantes e experiências para impulsionar negócios e acelerar resultados no e-commerce e gerar resultados.",
+      "dataInicio": "2026-08-18",
+      "dataFim": "2026-08-19",
+      "textoData": "18 - 19 ago",
+      "espaco": "Pavilhões",
+      "link": "https://shopeetrends.com/?occurrence=2026-08-18",
+      "local": {
+        "nome": "São Paulo Expo",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "sao-paulo-expo",
+        "nome": "São Paulo Expo",
+        "url": "https://www.saopauloexpo.com.br/pt/agenda-de-eventos/"
+      },
+      "fonteDominio": "saopauloexpo.com.br",
+      "score": 81,
+      "faixa": "alto",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [
+        "mais de 10 mil participantes",
+        "Brasil",
+        "Grande varejista"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 28,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 14,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 24,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 28,
+      "alcance": 14,
+      "mercado": 24,
+      "publicoEstimado": 10000,
+      "diasDeEvento": 2,
+      "faltamDias": 1,
+      "janela": "esta semana",
+      "acionavel": false
+    },
+    {
+      "id": "pro-magno:eventosocialprivado|2026-08-22",
+      "nome": "EVENTO SOCIAL PRIVADO",
+      "descricao": "",
+      "dataInicio": "2026-08-22",
+      "dataFim": "2026-08-22",
+      "textoData": "22/Agosto/2026",
+      "espaco": "Pro Magno",
+      "link": "https://www.promagno.com.br/evento/evento-social-privado-132/",
+      "local": {
+        "nome": "Pro Magno Centro de Eventos",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "pro-magno",
+        "nome": "Pro Magno Centro de Eventos",
+        "url": "https://www.promagno.com.br/"
+      },
+      "fonteDominio": "promagno.com.br",
+      "score": 0,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Social/privado",
+      "sinais": [],
+      "componentes": [],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 5,
+      "janela": "esta semana",
+      "acionavel": false
+    },
+    {
+      "id": "distrito-anhembi:febrabantech|2026-08-24",
+      "nome": "FEBRABAN TECH 2026",
+      "descricao": "Considerado o principal evento de tecnologia e inovação do setor financeiro, o Febraban Tech traz diversas lideranças para discutir o futuro dos bancos e da economia digital.",
+      "dataInicio": "2026-08-24",
+      "dataFim": "2026-08-26",
+      "textoData": "24 - 26 ago",
+      "espaco": "Distrito Anhembi",
+      "link": "https://distritoanhembi.com.br/events/febraban-tech-2026/",
+      "local": {
+        "nome": "Distrito Anhembi",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "distrito-anhembi",
+        "nome": "Distrito Anhembi",
+        "url": "https://distritoanhembi.com.br/agenda/"
+      },
+      "fonteDominio": "distritoanhembi.com.br",
+      "score": 61,
+      "faixa": "alto",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [
+        "Principal do setor",
+        "Entidade nacional"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 20,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 26,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 20,
+      "alcance": 0,
+      "mercado": 26,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 7,
+      "janela": "esta semana",
+      "acionavel": false
+    },
+    {
+      "id": "distrito-anhembi:superlogicanext|2026-08-24",
+      "nome": "SUPERLÓGICA NEXT 2026",
+      "descricao": "O maior evento do mercado do morar traz uma programação imersiva com foco em inovação, tendências, geração de negócios e novas parcerias.",
+      "dataInicio": "2026-08-24",
+      "dataFim": "2026-08-25",
+      "textoData": "24 - 25 ago",
+      "espaco": "Distrito Anhembi",
+      "link": "https://distritoanhembi.com.br/events/superlogica-next-2026/",
+      "local": {
+        "nome": "Distrito Anhembi",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "distrito-anhembi",
+        "nome": "Distrito Anhembi",
+        "url": "https://distritoanhembi.com.br/agenda/"
+      },
+      "fonteDominio": "distritoanhembi.com.br",
+      "score": 39,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [
+        "Maior do segmento"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 24,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 24,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 2,
+      "faltamDias": 7,
+      "janela": "esta semana",
+      "acionavel": false
+    },
+    {
+      "id": "expo-center-norte:plconnection|2026-08-25",
+      "nome": "PL CONNECTION",
+      "descricao": "O PL Connection é o principal evento totalmente dedicado ao Private Label na América Latina. Realizado em parceria entre a Amicci, que é referência no desenvolvimento de marcas próprias da América Latina, contando com mais de 235 clientes, e a Francal Feiras, que há mais de 50 anos realiza os maiores e mais importantes eventos comerciais e feiras da América Latina.",
+      "dataInicio": "2026-08-25",
+      "dataFim": "2026-08-26",
+      "textoData": "25 a 26 agosto",
+      "espaco": "Pavilhão",
+      "link": "https://www.expocenternorte.com.br/eventos/pl-connection",
+      "local": {
+        "nome": "Expo Center Norte",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "expo-center-norte",
+        "nome": "Expo Center Norte",
+        "url": "https://www.expocenternorte.com.br/eventos"
+      },
+      "fonteDominio": "expocenternorte.com.br",
+      "score": 78,
+      "faixa": "alto",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [
+        "Principal do setor",
+        "50ª edição",
+        "América Latina"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 38,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 25,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 38,
+      "alcance": 25,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 2,
+      "faltamDias": 8,
+      "janela": "em cima da hora",
+      "acionavel": false
+    },
+    {
+      "id": "expo-center-norte:thesmarteresouthamerica|2026-08-25",
+      "nome": "The smarter E South America",
+      "descricao": "A The smarter E South America é a maior exposição e conferência da América Latina dedicada à indústria solar. Reunindo mais de 680 expositores e esperando atrair mais de 58.000 visitantes, a feira serve como um ponto de encontro para profissionais do setor, incluindo fabricantes, fornecedores, distribuidores e prestadores de serviços.",
+      "dataInicio": "2026-08-25",
+      "dataFim": "2026-08-27",
+      "textoData": "25 a 27 agosto",
+      "espaco": "Pavilhão & Centro de Convenções",
+      "link": "https://www.expocenternorte.com.br/eventos/intersolar-2026",
+      "local": {
+        "nome": "Expo Center Norte",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "expo-center-norte",
+        "nome": "Expo Center Norte",
+        "url": "https://www.expocenternorte.com.br/eventos"
+      },
+      "fonteDominio": "expocenternorte.com.br",
+      "score": 99,
+      "faixa": "alto",
+      "confianca": "alta",
+      "tipo": "Congresso",
+      "sinais": [
+        "mais de 58.000 visitantes",
+        "América Latina"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 45,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 25,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 24,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 45,
+      "alcance": 25,
+      "mercado": 0,
+      "publicoEstimado": 58000,
+      "diasDeEvento": 3,
+      "faltamDias": 8,
+      "janela": "em cima da hora",
+      "acionavel": false
+    },
+    {
+      "id": "pro-magno:rabbitcrescer|2026-08-25",
+      "nome": "RABBIT CRESCER",
+      "descricao": "",
+      "dataInicio": "2026-08-25",
+      "dataFim": "2026-08-26",
+      "textoData": "25-26/Agosto/2026",
+      "espaco": "Pro Magno",
+      "link": "https://www.promagno.com.br/evento/rabbit-crescer/",
+      "local": {
+        "nome": "Pro Magno Centro de Eventos",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "pro-magno",
+        "nome": "Pro Magno Centro de Eventos",
+        "url": "https://www.promagno.com.br/"
+      },
+      "fonteDominio": "promagno.com.br",
+      "score": 15,
+      "faixa": "baixo",
+      "confianca": "baixa",
+      "tipo": "Evento",
+      "sinais": [],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 2,
+      "faltamDias": 8,
+      "janela": "em cima da hora",
+      "acionavel": false
+    },
+    {
+      "id": "sao-paulo-expo:concreteshow|2026-08-25",
+      "nome": "CONCRETE SHOW",
+      "descricao": "Tecnologia, inovação e negócios impulsionam o Concrete Show South America, que conecta toda a cadeia construtiva do concreto. Integrante do circuito World of Concrete, a edição destaca conteúdo técnico qualificado, networking estratégico e as principais tendências do setor na América Latina.",
+      "dataInicio": "2026-08-25",
+      "dataFim": "2026-08-27",
+      "textoData": "25 - 27 ago",
+      "espaco": "Pavilhões",
+      "link": "https://www.concreteshow.com.br/pt/home.html?occurrence=2026-08-25",
+      "local": {
+        "nome": "São Paulo Expo",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "sao-paulo-expo",
+        "nome": "São Paulo Expo",
+        "url": "https://www.saopauloexpo.com.br/pt/agenda-de-eventos/"
+      },
+      "fonteDominio": "saopauloexpo.com.br",
+      "score": 68,
+      "faixa": "alto",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [
+        "Site próprio",
+        "América Latina"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 16,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 25,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 16,
+      "alcance": 25,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 8,
+      "janela": "em cima da hora",
+      "acionavel": false
+    },
+    {
+      "id": "sao-paulo-expo:feiplarfeipur|2026-08-25",
+      "nome": "FEIPLAR & FEIPUR",
+      "descricao": "Feiplas & Feipur reúnem tecnologias, matérias-primas e lançamentos voltados aos segmentos de plásticos, poliuretanos e compósitos. A feira apresenta soluções industriais, demonstrações e oportunidades para acompanhar de perto a evolução desses materiais.",
+      "dataInicio": "2026-08-25",
+      "dataFim": "2026-08-27",
+      "textoData": "25 - 27 ago",
+      "espaco": "Pavilhões",
+      "link": "https://feiplar.com/?occurrence=2026-08-25",
+      "local": {
+        "nome": "São Paulo Expo",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "sao-paulo-expo",
+        "nome": "São Paulo Expo",
+        "url": "https://www.saopauloexpo.com.br/pt/agenda-de-eventos/"
+      },
+      "fonteDominio": "saopauloexpo.com.br",
+      "score": 43,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [
+        "Site próprio"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 16,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 16,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 8,
+      "janela": "em cima da hora",
+      "acionavel": false
+    },
+    {
+      "id": "pro-magno:encontrofarmarcas|2026-08-27",
+      "nome": "ENCONTRO FARMARCAS",
+      "descricao": "",
+      "dataInicio": "2026-08-27",
+      "dataFim": "2026-08-27",
+      "textoData": "27/Agosto/2026",
+      "espaco": "Pro Magno",
+      "link": "https://www.promagno.com.br/evento/encontro-farmarcas-4/",
+      "local": {
+        "nome": "Pro Magno Centro de Eventos",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "pro-magno",
+        "nome": "Pro Magno Centro de Eventos",
+        "url": "https://www.promagno.com.br/"
+      },
+      "fonteDominio": "promagno.com.br",
+      "score": 47,
+      "faixa": "medio",
+      "confianca": "baixa",
+      "tipo": "Encontro corporativo",
+      "sinais": [
+        "Convenção de rede"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 22,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 25,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 0,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 22,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 10,
+      "janela": "em cima da hora",
+      "acionavel": false
+    },
+    {
+      "id": "distrito-anhembi:encontrofarmarcas|2026-08-28",
+      "nome": "ENCONTRO FARMARCAS",
+      "descricao": "Com mais de uma década de história, este é o maior evento de negociação do varejo farmacêutico do Brasil, com palestras, networking e feira de negócios.",
+      "dataInicio": "2026-08-28",
+      "dataFim": "2026-08-28",
+      "textoData": "28 ago",
+      "espaco": "Distrito Anhembi",
+      "link": "https://distritoanhembi.com.br/events/encontro-farmarcas-2/",
+      "local": {
+        "nome": "Distrito Anhembi",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "distrito-anhembi",
+        "nome": "Distrito Anhembi",
+        "url": "https://distritoanhembi.com.br/agenda/"
+      },
+      "fonteDominio": "distritoanhembi.com.br",
+      "score": 85,
+      "faixa": "alto",
+      "confianca": "alta",
+      "tipo": "Encontro corporativo",
+      "sinais": [
+        "Maior do segmento",
+        "Brasil",
+        "Convenção de rede"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 24,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 14,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 22,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 25,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 0,
+          "teto": 8
+        }
+      ],
+      "porte": 24,
+      "alcance": 14,
+      "mercado": 22,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 11,
+      "janela": "em cima da hora",
+      "acionavel": false
+    },
+    {
+      "id": "pro-magno:eventosocialprivado|2026-08-29",
+      "nome": "EVENTO SOCIAL PRIVADO",
+      "descricao": "",
+      "dataInicio": "2026-08-29",
+      "dataFim": "2026-08-29",
+      "textoData": "29/Agosto/2026",
+      "espaco": "Pro Magno",
+      "link": "https://www.promagno.com.br/evento/evento-social-privado-133/",
+      "local": {
+        "nome": "Pro Magno Centro de Eventos",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "pro-magno",
+        "nome": "Pro Magno Centro de Eventos",
+        "url": "https://www.promagno.com.br/"
+      },
+      "fonteDominio": "promagno.com.br",
+      "score": 0,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Social/privado",
+      "sinais": [],
+      "componentes": [],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 12,
+      "janela": "em cima da hora",
+      "acionavel": false
+    },
+    {
+      "id": "sao-paulo-expo:awssummit|2026-09-03",
+      "nome": "AWS SUMMIT",
+      "descricao": "O AWS Summit é um evento de tecnologia focado em computação em nuvem. É uma oportunidade para aprender com líderes do setor e tirar dúvidas diretamente com especialistas da AWS. A experiência permite escolher sessões alinhadas ao negócio, workshops interativos, casos de clientes e networking.",
+      "dataInicio": "2026-09-03",
+      "dataFim": "2026-09-03",
+      "textoData": "03 set",
+      "espaco": "Pavilhões",
+      "link": "https://aws.amazon.com/pt/events/summits/sao-paulo/?occurrence=2026-09-03",
+      "local": {
+        "nome": "São Paulo Expo",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "sao-paulo-expo",
+        "nome": "São Paulo Expo",
+        "url": "https://www.saopauloexpo.com.br/pt/agenda-de-eventos/"
+      },
+      "fonteDominio": "saopauloexpo.com.br",
+      "score": 64,
+      "faixa": "alto",
+      "confianca": "alta",
+      "tipo": "Congresso",
+      "sinais": [
+        "Site próprio",
+        "Multinacional de tecnologia"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 16,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 24,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 24,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 0,
+          "teto": 8
+        }
+      ],
+      "porte": 16,
+      "alcance": 0,
+      "mercado": 24,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 17,
+      "janela": "em cima da hora",
+      "acionavel": false
+    },
+    {
+      "id": "distrito-anhembi:28bienaldolivrodesaopaulo|2026-09-04",
+      "nome": "28º BIENAL DO LIVRO DE SÃO PAULO",
+      "descricao": "A 28ª Bienal Internacional do Livro de São Paulo promete uma edição histórica, com o tema “Palavra e Futuro”, destacando como a literatura dialoga com tecnologia, inclusão e sustentabilidade.",
+      "dataInicio": "2026-09-04",
+      "dataFim": "2026-09-13",
+      "textoData": "04 - 13 set",
+      "espaco": "Distrito Anhembi",
+      "link": "https://distritoanhembi.com.br/events/bienal-do-livro-2026/",
+      "local": {
+        "nome": "Distrito Anhembi",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "distrito-anhembi",
+        "nome": "Distrito Anhembi",
+        "url": "https://distritoanhembi.com.br/agenda/"
+      },
+      "fonteDominio": "distritoanhembi.com.br",
+      "score": 60,
+      "faixa": "alto",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [
+        "28ª edição",
+        "Internacional"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 18,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 24,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 8,
+          "teto": 8
+        }
+      ],
+      "porte": 18,
+      "alcance": 24,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 10,
+      "faltamDias": 18,
+      "janela": "em cima da hora",
+      "acionavel": false
+    },
+    {
+      "id": "expo-center-norte:beautyfair|2026-09-04",
+      "nome": "Beauty Fair",
+      "descricao": "Evento para os profissionais da beleza. A Beauty Fair é direcionada a todos os profissionais de áreas voltadas à beleza, como maquiadores, lojistas, cabeleireiros, esteticistas, manicures, médicos, supermercadistas e farmacistas, indústrias, entre outros. Evento para os profissionais da beleza.",
+      "dataInicio": "2026-09-04",
+      "dataFim": "2026-09-08",
+      "textoData": "04 a 08 setembro",
+      "espaco": "Pavilhão & Centro de Convenções",
+      "link": "https://www.expocenternorte.com.br/eventos/beauty-fair",
+      "local": {
+        "nome": "Expo Center Norte",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "expo-center-norte",
+        "nome": "Expo Center Norte",
+        "url": "https://www.expocenternorte.com.br/eventos"
+      },
+      "fonteDominio": "expocenternorte.com.br",
+      "score": 36,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 6,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 8,
+          "teto": 8
+        }
+      ],
+      "porte": 6,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 5,
+      "faltamDias": 18,
+      "janela": "em cima da hora",
+      "acionavel": false
+    },
+    {
+      "id": "pro-magno:abmweek|2026-09-08",
+      "nome": "ABM WEEK 10ª EDIÇÃO",
+      "descricao": "",
+      "dataInicio": "2026-09-08",
+      "dataFim": "2026-09-10",
+      "textoData": "8-10/Setembro/2026",
+      "espaco": "Pro Magno",
+      "link": "https://www.promagno.com.br/evento/abm-week-10a-edicao/",
+      "local": {
+        "nome": "Pro Magno Centro de Eventos",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "pro-magno",
+        "nome": "Pro Magno Centro de Eventos",
+        "url": "https://www.promagno.com.br/"
+      },
+      "fonteDominio": "promagno.com.br",
+      "score": 37,
+      "faixa": "baixo",
+      "confianca": "baixa",
+      "tipo": "Semana setorial",
+      "sinais": [
+        "10ª edição"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 12,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 20,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 12,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 22,
+      "janela": "agir agora",
+      "acionavel": true
+    },
+    {
+      "id": "sao-paulo-expo:expopostosconveniencia|2026-09-08",
+      "nome": "EXPOPOSTOS & CONVENIÊNCIA",
+      "descricao": "Atualização, soluções e conexões comerciais se concentram na ExpoPostos & Conveniência, com apresentação de produtos, equipamentos, serviços e tecnologias voltadas a postos, lojas de conveniência e food service. Um ambiente estratégico que fortalece relações e acompanha as tendências do mercado.",
+      "dataInicio": "2026-09-08",
+      "dataFim": "2026-09-10",
+      "textoData": "08 - 10 set",
+      "espaco": "Pavilhões",
+      "link": "https://expopostos.com.br/?occurrence=2026-09-08",
+      "local": {
+        "nome": "São Paulo Expo",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "sao-paulo-expo",
+        "nome": "São Paulo Expo",
+        "url": "https://www.saopauloexpo.com.br/pt/agenda-de-eventos/"
+      },
+      "fonteDominio": "saopauloexpo.com.br",
+      "score": 31,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [
+        "Site próprio"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 16,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 16,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 22,
+      "janela": "agir agora",
+      "acionavel": true
+    },
+    {
+      "id": "sao-paulo-expo:fesqua|2026-09-09",
+      "nome": "FESQUA",
+      "descricao": "Empresas e profissionais da indústria de esquadrias encontram na FESQUA um espaço dedicado à apresentação de soluções em vidros, portas, janelas, fachadas, máquinas e equipamentos. A feira estimula conexões comerciais, networking e oportunidades de negócios em toda a cadeia produtiva.",
+      "dataInicio": "2026-09-09",
+      "dataFim": "2026-09-12",
+      "textoData": "09 - 12 set",
+      "espaco": "Pavilhões",
+      "link": "https://fesqua.com.br/?occurrence=2026-09-09",
+      "local": {
+        "nome": "São Paulo Expo",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "sao-paulo-expo",
+        "nome": "São Paulo Expo",
+        "url": "https://www.saopauloexpo.com.br/pt/agenda-de-eventos/"
+      },
+      "fonteDominio": "saopauloexpo.com.br",
+      "score": 46,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [
+        "Site próprio"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 16,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 8,
+          "teto": 8
+        }
+      ],
+      "porte": 16,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 4,
+      "faltamDias": 23,
+      "janela": "agir agora",
+      "acionavel": true
+    },
+    {
+      "id": "distrito-anhembi:sankhyaconnection|2026-09-10",
+      "nome": "SANKHYA CONNECTION 2026",
+      "descricao": "Em sua 3ª edição, o evento faz uma imersão em ERP e tecnologia, reunindo especialistas para debater o futuro da gestão corporativa e gerar negócios.",
+      "dataInicio": "2026-09-10",
+      "dataFim": "2026-09-10",
+      "textoData": "10 set",
+      "espaco": "Distrito Anhembi",
+      "link": "https://distritoanhembi.com.br/events/sankhya-connection-2026/",
+      "local": {
+        "nome": "Distrito Anhembi",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "distrito-anhembi",
+        "nome": "Distrito Anhembi",
+        "url": "https://distritoanhembi.com.br/agenda/"
+      },
+      "fonteDominio": "distritoanhembi.com.br",
+      "score": 16,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 6,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 0,
+          "teto": 8
+        }
+      ],
+      "porte": 6,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 24,
+      "janela": "agir agora",
+      "acionavel": true
+    },
+    {
+      "id": "pro-magno:cocriadormilionario|2026-09-11",
+      "nome": "COCRIADOR MILIONÁRIO",
+      "descricao": "",
+      "dataInicio": "2026-09-11",
+      "dataFim": "2026-09-13",
+      "textoData": "11-13/Setembro/2026",
+      "espaco": "Pro Magno",
+      "link": "https://www.promagno.com.br/evento/cocriador-milionario/",
+      "local": {
+        "nome": "Pro Magno Centro de Eventos",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "pro-magno",
+        "nome": "Pro Magno Centro de Eventos",
+        "url": "https://www.promagno.com.br/"
+      },
+      "fonteDominio": "promagno.com.br",
+      "score": 15,
+      "faixa": "baixo",
+      "confianca": "baixa",
+      "tipo": "Evento",
+      "sinais": [],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 25,
+      "janela": "agir agora",
+      "acionavel": true
+    },
+    {
+      "id": "expo-center-norte:equipotel|2026-09-15",
+      "nome": "Equipotel",
+      "descricao": "Equipotel, o principal evento de hospitalidade da América Latina, que oferece excelentes oportunidades de negócios, melhor retorno sobre o investimento e acesso a compradores e influenciadores qualificados dos meios de hospedagem. Durante 4 dias é possível explorar as últimas tendências, expandir sua rede de contatos e encontrar oportunidades que vão impulsionar seus negócios. A Equipotel se conso",
+      "dataInicio": "2026-09-15",
+      "dataFim": "2026-09-18",
+      "textoData": "15 a 18 setembro",
+      "espaco": "Pavilhão",
+      "link": "https://www.expocenternorte.com.br/eventos/equipotel-",
+      "local": {
+        "nome": "Expo Center Norte",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "expo-center-norte",
+        "nome": "Expo Center Norte",
+        "url": "https://www.expocenternorte.com.br/eventos"
+      },
+      "fonteDominio": "expocenternorte.com.br",
+      "score": 63,
+      "faixa": "alto",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [
+        "Principal do setor",
+        "América Latina"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 20,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 25,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 8,
+          "teto": 8
+        }
+      ],
+      "porte": 20,
+      "alcance": 25,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 4,
+      "faltamDias": 29,
+      "janela": "agir agora",
+      "acionavel": true
+    },
+    {
+      "id": "expo-center-norte:intralog|2026-09-15",
+      "nome": "Intralog",
+      "descricao": "A Intralog reúne, em um mesmo local, o mais completo ecossistema de inovações para o setor de Intralogística e Automação. Um evento internacional, exclusivo e especializado em novas tecnologias e soluções para toda cadeia de suprimentos, de ponta a ponta, interessada em tornar suas operações mais eficientes, ágeis, econômicas e sustentáveis.",
+      "dataInicio": "2026-09-15",
+      "dataFim": "2026-09-17",
+      "textoData": "15 a 17 setembro",
+      "espaco": "Pavilhão",
+      "link": "https://www.expocenternorte.com.br/eventos/intralog",
+      "local": {
+        "nome": "Expo Center Norte",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "expo-center-norte",
+        "nome": "Expo Center Norte",
+        "url": "https://www.expocenternorte.com.br/eventos"
+      },
+      "fonteDominio": "expocenternorte.com.br",
+      "score": 39,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [
+        "Internacional"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 24,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 24,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 29,
+      "janela": "agir agora",
+      "acionavel": true
+    },
+    {
+      "id": "expo-center-norte:expolux|2026-09-15",
+      "nome": "Expolux",
+      "descricao": "A Expolux é a principal feira internacional da indústria da iluminação da América Latina. É um evento focado no mercado de iluminação, tanto técnica quanto decorativa, que reúne expositores, profissionais, arquitetos, designers e outros interessados para apresentar novidades, promover negócios, compartilhar conhecimento e explorar tendências do setor.",
+      "dataInicio": "2026-09-15",
+      "dataFim": "2026-09-18",
+      "textoData": "15 a 18 setembro",
+      "espaco": "Pavilhão",
+      "link": "https://www.expocenternorte.com.br/eventos/expolux",
+      "local": {
+        "nome": "Expo Center Norte",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "expo-center-norte",
+        "nome": "Expo Center Norte",
+        "url": "https://www.expocenternorte.com.br/eventos"
+      },
+      "fonteDominio": "expocenternorte.com.br",
+      "score": 75,
+      "faixa": "alto",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [
+        "Principal do setor",
+        "América Latina",
+        "Internacional"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 20,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 25,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 8,
+          "teto": 8
+        }
+      ],
+      "porte": 20,
+      "alcance": 25,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 4,
+      "faltamDias": 29,
+      "janela": "agir agora",
+      "acionavel": true
+    },
+    {
+      "id": "distrito-anhembi:fnesp|2026-09-16",
+      "nome": "FNESP",
+      "descricao": "Maior fórum de ensino superior da América Latina, o evento reúne especialistas para antecipar tendências em gestão e transformação digital acadêmica.",
+      "dataInicio": "2026-09-16",
+      "dataFim": "2026-09-17",
+      "textoData": "16 - 17 set",
+      "espaco": "Distrito Anhembi",
+      "link": "https://distritoanhembi.com.br/events/fnesp-2/",
+      "local": {
+        "nome": "Distrito Anhembi",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "distrito-anhembi",
+        "nome": "Distrito Anhembi",
+        "url": "https://distritoanhembi.com.br/agenda/"
+      },
+      "fonteDominio": "distritoanhembi.com.br",
+      "score": 54,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Congresso",
+      "sinais": [
+        "América Latina"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 25,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 24,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 25,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 2,
+      "faltamDias": 30,
+      "janela": "agir agora",
+      "acionavel": true
+    },
+    {
+      "id": "sao-paulo-expo:his|2026-09-16",
+      "nome": "HIS",
+      "descricao": "Tecnologia aplicada, inovação e saúde digital são os pilares do Healthcare Innovation Show (HIS), que reúne líderes, especialistas, startups e marcas do setor. O encontro apresenta soluções, cases práticos e oportunidades de negócios, promovendo atualização e conexões estratégicas na saúde.",
+      "dataInicio": "2026-09-16",
+      "dataFim": "2026-09-17",
+      "textoData": "16 - 17 set",
+      "espaco": "Pavilhões",
+      "link": "https://his.saudebusiness.com/pt/home.html?occurrence=2026-09-16",
+      "local": {
+        "nome": "São Paulo Expo",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "sao-paulo-expo",
+        "nome": "São Paulo Expo",
+        "url": "https://www.saopauloexpo.com.br/pt/agenda-de-eventos/"
+      },
+      "fonteDominio": "saopauloexpo.com.br",
+      "score": 43,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [
+        "Site próprio"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 16,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 16,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 2,
+      "faltamDias": 30,
+      "janela": "agir agora",
+      "acionavel": true
+    },
+    {
+      "id": "sao-paulo-expo:mindsummit|2026-09-16",
+      "nome": "MIND SUMMIT",
+      "descricao": "O Mind Summit 2026 acontece ao longo de dois dias dedicados à mente, à saúde mental e ao bem-estar. Conteúdos, vivências imersivas e Immersive Labs integram a programação, apoiando profissionais e organizações a transformar inspiração em prática e prática em propósito.",
+      "dataInicio": "2026-09-16",
+      "dataFim": "2026-09-17",
+      "textoData": "16 - 17 set",
+      "espaco": "Pavilhões",
+      "link": "https://lp.mindsummit.com.br/?occurrence=2026-09-16",
+      "local": {
+        "nome": "São Paulo Expo",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "sao-paulo-expo",
+        "nome": "São Paulo Expo",
+        "url": "https://www.saopauloexpo.com.br/pt/agenda-de-eventos/"
+      },
+      "fonteDominio": "saopauloexpo.com.br",
+      "score": 45,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Congresso",
+      "sinais": [
+        "Site próprio"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 16,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 24,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 16,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 2,
+      "faltamDias": 30,
+      "janela": "agir agora",
+      "acionavel": true
+    },
+    {
+      "id": "sao-paulo-expo:chinahomelifemachinex|2026-09-16",
+      "nome": "CHINA HOMELIFE MACHINEX",
+      "descricao": "Fabricantes chineses e compradores se conectam em um encontro que reúne milhares de produtos e fornecedores verificados. Entre os destaques estão soluções em construção, eletrônicos, casa, máquinas, têxteis e móveis, com matchmaking e acesso a informações estratégicas do setor.",
+      "dataInicio": "2026-09-16",
+      "dataFim": "2026-09-18",
+      "textoData": "16 - 18 set",
+      "espaco": "Pavilhões",
+      "link": "https://www.tradechina.com/chinahomelifebrazil?occurrence=2026-09-16",
+      "local": {
+        "nome": "São Paulo Expo",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "sao-paulo-expo",
+        "nome": "São Paulo Expo",
+        "url": "https://www.saopauloexpo.com.br/pt/agenda-de-eventos/"
+      },
+      "fonteDominio": "saopauloexpo.com.br",
+      "score": 31,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [
+        "Site próprio"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 16,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 16,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 30,
+      "janela": "agir agora",
+      "acionavel": true
+    },
+    {
+      "id": "sao-paulo-expo:ifoodmove|2026-09-16",
+      "nome": "IFOOD MOVE",
+      "descricao": "Considerado o maior evento da América Latina para restaurantes, o encontro reúne lideranças, dados, tendências e visão de futuro. Um ponto estratégico de networking para donos de restaurantes e players do foodservice trocarem experiências e se conectarem com quem move o setor no Brasil.",
+      "dataInicio": "2026-09-16",
+      "dataFim": "2026-09-17",
+      "textoData": "16 - 17 set",
+      "espaco": "Pavilhões",
+      "link": "https://www.ifoodmove.com.br/?occurrence=2026-09-16",
+      "local": {
+        "nome": "São Paulo Expo",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "sao-paulo-expo",
+        "nome": "São Paulo Expo",
+        "url": "https://www.saopauloexpo.com.br/pt/agenda-de-eventos/"
+      },
+      "fonteDominio": "saopauloexpo.com.br",
+      "score": 80,
+      "faixa": "alto",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [
+        "Maior do segmento",
+        "Site próprio",
+        "América Latina",
+        "Brasil"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 40,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 25,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 40,
+      "alcance": 25,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 2,
+      "faltamDias": 30,
+      "janela": "agir agora",
+      "acionavel": true
+    },
+    {
+      "id": "expo-center-norte:ciproexpolab|2026-09-17",
+      "nome": "CIPRO & EXPOLAB",
+      "descricao": "O CIPRO & EXPOLAB é um evento que reúne o Congresso Internacional de Prótese Odontológica e uma feira voltada para o setor laboratorial. Ele combina conteúdo científico — com palestras, cursos e demonstrações práticas sobre as técnicas e tecnologias mais atuais da prótese dentária — com uma exposição onde empresas apresentam equipamentos, materiais, soluções digitais e inovações para laboratórios",
+      "dataInicio": "2026-09-17",
+      "dataFim": "2026-09-19",
+      "textoData": "17 a 19 setembro",
+      "espaco": "Pavilhão & Centro de Convenções",
+      "link": "https://www.expocenternorte.com.br/eventos/cipro-e-expolab",
+      "local": {
+        "nome": "Expo Center Norte",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "expo-center-norte",
+        "nome": "Expo Center Norte",
+        "url": "https://www.expocenternorte.com.br/eventos"
+      },
+      "fonteDominio": "expocenternorte.com.br",
+      "score": 59,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Congresso",
+      "sinais": [
+        "Internacional"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 6,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 24,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 24,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 6,
+      "alcance": 24,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 31,
+      "janela": "agir agora",
+      "acionavel": true
+    },
+    {
+      "id": "pro-magno:amcosummitbrasil|2026-09-19",
+      "nome": "AMCO SUMMIT BRASIL",
+      "descricao": "",
+      "dataInicio": "2026-09-19",
+      "dataFim": "2026-09-19",
+      "textoData": "19/Setembro/2026",
+      "espaco": "Pro Magno",
+      "link": "https://www.promagno.com.br/evento/amco-summit-brasil/",
+      "local": {
+        "nome": "Pro Magno Centro de Eventos",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "pro-magno",
+        "nome": "Pro Magno Centro de Eventos",
+        "url": "https://www.promagno.com.br/"
+      },
+      "fonteDominio": "promagno.com.br",
+      "score": 38,
+      "faixa": "medio",
+      "confianca": "baixa",
+      "tipo": "Congresso",
+      "sinais": [
+        "Brasil"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 14,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 24,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 0,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 14,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 33,
+      "janela": "agir agora",
+      "acionavel": true
+    },
+    {
+      "id": "distrito-anhembi:in26latinamericanosseointegrationcongress|2026-09-22",
+      "nome": "IN26 | Latin American Osseointegration Congress",
+      "descricao": "Referência mundial em Reabilitação Oral, o evento traz especialistas e tecnologias para uma imersão científica em práticas clínicas.",
+      "dataInicio": "2026-09-22",
+      "dataFim": "2026-09-25",
+      "textoData": "22 - 25 set",
+      "espaco": "Distrito Anhembi",
+      "link": "https://distritoanhembi.com.br/events/in26-latin-american-osseointegration-congress/",
+      "local": {
+        "nome": "Distrito Anhembi",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "distrito-anhembi",
+        "nome": "Distrito Anhembi",
+        "url": "https://distritoanhembi.com.br/agenda/"
+      },
+      "fonteDominio": "distritoanhembi.com.br",
+      "score": 43,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [
+        "América Latina",
+        "Internacional"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 25,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 8,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 25,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 4,
+      "faltamDias": 36,
+      "janela": "agir agora",
+      "acionavel": true
+    },
+    {
+      "id": "distrito-anhembi:pavingexpo|2026-09-22",
+      "nome": "PAVING EXPO",
+      "descricao": "A 9ª edição do principal evento de infraestrutura viária e rodoviária recebe especialistas e gestores públicos para uma troca de experiências, com destaque às inovações em gestão e construção.",
+      "dataInicio": "2026-09-22",
+      "dataFim": "2026-09-24",
+      "textoData": "22 - 24 set",
+      "espaco": "Distrito Anhembi",
+      "link": "https://distritoanhembi.com.br/events/paving-expo/",
+      "local": {
+        "nome": "Distrito Anhembi",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "distrito-anhembi",
+        "nome": "Distrito Anhembi",
+        "url": "https://distritoanhembi.com.br/agenda/"
+      },
+      "fonteDominio": "distritoanhembi.com.br",
+      "score": 59,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [
+        "Principal do setor",
+        "9ª edição"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 32,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 32,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 36,
+      "janela": "agir agora",
+      "acionavel": true
+    },
+    {
+      "id": "expo-center-norte:gotexshow|2026-09-23",
+      "nome": "GOTEX SHOW",
+      "descricao": "A Gotex Show é um encontro internacional que conecta toda a cadeia têxtil, atuando como global sourcing para confeccionistas, importadores, lojistas, compradores e empresários em busca de produtos inovadores. Realizada em São Paulo desde 2013, a feira cresce a cada edição e reúne expositores nacionais e internacionais, oferecendo tendências de mercado e insights valiosos.",
+      "dataInicio": "2026-09-23",
+      "dataFim": "2026-09-25",
+      "textoData": "23 a 25 setembro",
+      "espaco": "Pavilhão",
+      "link": "https://www.expocenternorte.com.br/eventos/gotex-show",
+      "local": {
+        "nome": "Expo Center Norte",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "expo-center-norte",
+        "nome": "Expo Center Norte",
+        "url": "https://www.expocenternorte.com.br/eventos"
+      },
+      "fonteDominio": "expocenternorte.com.br",
+      "score": 51,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [
+        "Internacional"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 24,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 24,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 37,
+      "janela": "agir agora",
+      "acionavel": true
+    },
+    {
+      "id": "expo-center-norte:incosmetics|2026-09-23",
+      "nome": "In Cosmetics",
+      "descricao": "A in-cosmetics Latin America é o principal evento de matérias-primas para cosméticos da America Latina. A feira conecta os principais fornecedores de matérias-primas, fragrâncias, equipamentos de laboratório, testes e soluções regulatórias do mundo todo com fabricantes de cosméticos da região, e oferece as melhores oportunidades de negócios e networking para toda a comunidade da indústria latino-a",
+      "dataInicio": "2026-09-23",
+      "dataFim": "2026-09-24",
+      "textoData": "23 a 24 setembro",
+      "espaco": "Pavilhão",
+      "link": "https://www.expocenternorte.com.br/eventos/in-cosmetics",
+      "local": {
+        "nome": "Expo Center Norte",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "expo-center-norte",
+        "nome": "Expo Center Norte",
+        "url": "https://www.expocenternorte.com.br/eventos"
+      },
+      "fonteDominio": "expocenternorte.com.br",
+      "score": 72,
+      "faixa": "alto",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [
+        "Principal do setor",
+        "América Latina"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 20,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 25,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 20,
+      "alcance": 25,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 2,
+      "faltamDias": 37,
+      "janela": "agir agora",
+      "acionavel": true
+    },
+    {
+      "id": "pro-magno:tdcsaopaulo|2026-09-23",
+      "nome": "TDC SÃO PAULO",
+      "descricao": "",
+      "dataInicio": "2026-09-23",
+      "dataFim": "2026-09-25",
+      "textoData": "23-25/Setembro/2026",
+      "espaco": "Pro Magno",
+      "link": "https://www.promagno.com.br/evento/tdc-sao-paulo-3/",
+      "local": {
+        "nome": "Pro Magno Centro de Eventos",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "pro-magno",
+        "nome": "Pro Magno Centro de Eventos",
+        "url": "https://www.promagno.com.br/"
+      },
+      "fonteDominio": "promagno.com.br",
+      "score": 15,
+      "faixa": "baixo",
+      "confianca": "baixa",
+      "tipo": "Evento",
+      "sinais": [],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 37,
+      "janela": "agir agora",
+      "acionavel": true
+    },
+    {
+      "id": "sao-paulo-expo:mercadolivreexperience|2026-09-24",
+      "nome": "MERCADO LIVRE EXPERIENCE",
+      "descricao": "O Mercado Livre Experience 2026 acontece ao longo de dois dias, reunindo conteúdo ao vivo, feira de negócios e ativações de patrocinadores. Um encontro que conecta participantes do ecossistema da plataforma para troca de informações e oportunidades comerciais.",
+      "dataInicio": "2026-09-24",
+      "dataFim": "2026-09-25",
+      "textoData": "24 - 25 set",
+      "espaco": "Pavilhões",
+      "link": "https://mercadolivreexperience.mercadolivre.com.br/?occurrence=2026-09-24",
+      "local": {
+        "nome": "São Paulo Expo",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "sao-paulo-expo",
+        "nome": "São Paulo Expo",
+        "url": "https://www.saopauloexpo.com.br/pt/agenda-de-eventos/"
+      },
+      "fonteDominio": "saopauloexpo.com.br",
+      "score": 67,
+      "faixa": "alto",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [
+        "Site próprio",
+        "Grande empresa nacional"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 16,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 24,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 16,
+      "alcance": 0,
+      "mercado": 24,
+      "publicoEstimado": null,
+      "diasDeEvento": 2,
+      "faltamDias": 38,
+      "janela": "agir agora",
+      "acionavel": true
+    },
+    {
+      "id": "sao-paulo-expo:saopauloboatshow|2026-09-24",
+      "nome": "SÃO PAULO BOAT SHOW 2026",
+      "descricao": "Maior evento náutico da América Latina, o São Paulo Boat Show retorna para mais uma edição no São Paulo Expo. O encontro reúne as principais tendências em embarcações, inovações tecnológicas, acessórios, serviços de alto padrão e oportunidades únicas de negócios para o setor.",
+      "dataInicio": "2026-09-24",
+      "dataFim": "2026-09-29",
+      "textoData": "24 - 29 set",
+      "espaco": "Pavilhões",
+      "link": "https://saopauloboatshow.com.br/?occurrence=2026-09-24",
+      "local": {
+        "nome": "São Paulo Expo",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "sao-paulo-expo",
+        "nome": "São Paulo Expo",
+        "url": "https://www.saopauloexpo.com.br/pt/agenda-de-eventos/"
+      },
+      "fonteDominio": "saopauloexpo.com.br",
+      "score": 95,
+      "faixa": "alto",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [
+        "Maior do segmento",
+        "Site próprio",
+        "América Latina"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 40,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 25,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 8,
+          "teto": 8
+        }
+      ],
+      "porte": 40,
+      "alcance": 25,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 6,
+      "faltamDias": 38,
+      "janela": "agir agora",
+      "acionavel": true
+    },
+    {
+      "id": "pro-magno:eventosocialprivado|2026-09-26",
+      "nome": "EVENTO SOCIAL PRIVADO",
+      "descricao": "",
+      "dataInicio": "2026-09-26",
+      "dataFim": "2026-09-26",
+      "textoData": "26/Setembro/2026",
+      "espaco": "Pro Magno",
+      "link": "https://www.promagno.com.br/evento/evento-social-privado-99/",
+      "local": {
+        "nome": "Pro Magno Centro de Eventos",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "pro-magno",
+        "nome": "Pro Magno Centro de Eventos",
+        "url": "https://www.promagno.com.br/"
+      },
+      "fonteDominio": "promagno.com.br",
+      "score": 0,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Social/privado",
+      "sinais": [],
+      "componentes": [],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 40,
+      "janela": "agir agora",
+      "acionavel": false
+    },
+    {
+      "id": "distrito-anhembi:modernconstructionshow|2026-09-29",
+      "nome": "MODERN CONSTRUCTION SHOW 2026",
+      "descricao": "Principal feira de construção industrializada do país, focada em tecnologia, inovação, sistemas modulares e soluções sustentáveis.",
+      "dataInicio": "2026-09-29",
+      "dataFim": "2026-09-29",
+      "textoData": "29 set",
+      "espaco": "Distrito Anhembi",
+      "link": "https://distritoanhembi.com.br/events/modern-construction-show-2026/",
+      "local": {
+        "nome": "Distrito Anhembi",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "distrito-anhembi",
+        "nome": "Distrito Anhembi",
+        "url": "https://distritoanhembi.com.br/agenda/"
+      },
+      "fonteDominio": "distritoanhembi.com.br",
+      "score": 42,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [
+        "Principal do setor"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 20,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 0,
+          "teto": 8
+        }
+      ],
+      "porte": 20,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 43,
+      "janela": "agir agora",
+      "acionavel": true
+    },
+    {
+      "id": "distrito-anhembi:congressoortospoorto26|2026-09-30",
+      "nome": "Congresso Orto-SPO | Orto26",
+      "descricao": "O maior evento de ortodontia da América Latina traz novas soluções e tecnologias integradas para otimizar a prática clínica.",
+      "dataInicio": "2026-09-30",
+      "dataFim": "2026-09-30",
+      "textoData": "30 set",
+      "espaco": "Distrito Anhembi",
+      "link": "https://distritoanhembi.com.br/events/congresso-orto-spo-orto26/",
+      "local": {
+        "nome": "Distrito Anhembi",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "distrito-anhembi",
+        "nome": "Distrito Anhembi",
+        "url": "https://distritoanhembi.com.br/agenda/"
+      },
+      "fonteDominio": "distritoanhembi.com.br",
+      "score": 73,
+      "faixa": "alto",
+      "confianca": "alta",
+      "tipo": "Congresso",
+      "sinais": [
+        "Maior do segmento",
+        "América Latina"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 24,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 25,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 24,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 0,
+          "teto": 8
+        }
+      ],
+      "porte": 24,
+      "alcance": 25,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 44,
+      "janela": "agir agora",
+      "acionavel": true
+    },
+    {
+      "id": "distrito-anhembi:d2csummit|2026-09-30",
+      "nome": "D2C Summit 2026",
+      "descricao": "Focado em estratégias de e-commerce e modelo D2C, o evento reúne especialistas para impulsionar e escalar marcas no mercado digital.",
+      "dataInicio": "2026-09-30",
+      "dataFim": "2026-09-30",
+      "textoData": "30 set",
+      "espaco": "Distrito Anhembi",
+      "link": "https://distritoanhembi.com.br/events/d2c-summit-2026/",
+      "local": {
+        "nome": "Distrito Anhembi",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "distrito-anhembi",
+        "nome": "Distrito Anhembi",
+        "url": "https://distritoanhembi.com.br/agenda/"
+      },
+      "fonteDominio": "distritoanhembi.com.br",
+      "score": 24,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Congresso",
+      "sinais": [],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 24,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 0,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 44,
+      "janela": "agir agora",
+      "acionavel": true
+    },
+    {
+      "id": "expo-center-norte:abavexpo|2026-09-30",
+      "nome": "ABAV Expo",
+      "descricao": "A ABAV Expo, realizada pela ABAV Nacional - Associação Brasileira de Agências de Viagens - , é a maior feira de turismo da América Latina e a principal vitrine do agente de viagens, reunindo profissionais do setor de turismo do Brasil e do mundo em um ambiente estratégico para negócios, networking e capacitação.",
+      "dataInicio": "2026-09-30",
+      "dataFim": "2026-09-30",
+      "textoData": "30/09/2026 a 02/10/2026",
+      "espaco": "Pavilhão & Centro de Convenções",
+      "link": "https://www.expocenternorte.com.br/eventos/abav-expo",
+      "local": {
+        "nome": "Expo Center Norte",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "expo-center-norte",
+        "nome": "Expo Center Norte",
+        "url": "https://www.expocenternorte.com.br/eventos"
+      },
+      "fonteDominio": "expocenternorte.com.br",
+      "score": 100,
+      "faixa": "alto",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [
+        "Maior do segmento",
+        "América Latina",
+        "Nacional",
+        "Brasil",
+        "Entidade nacional"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 30,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 25,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 26,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 0,
+          "teto": 8
+        }
+      ],
+      "porte": 30,
+      "alcance": 25,
+      "mercado": 26,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 44,
+      "janela": "agir agora",
+      "acionavel": true
+    },
+    {
+      "id": "pro-magno:cobexpo|2026-09-30",
+      "nome": "COB EXPO",
+      "descricao": "",
+      "dataInicio": "2026-09-30",
+      "dataFim": "2026-10-04",
+      "textoData": "30, Setembro -4, Outubro/2026",
+      "espaco": "Pro Magno",
+      "link": "https://www.promagno.com.br/evento/cob-expo-2/",
+      "local": {
+        "nome": "Pro Magno Centro de Eventos",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "pro-magno",
+        "nome": "Pro Magno Centro de Eventos",
+        "url": "https://www.promagno.com.br/"
+      },
+      "fonteDominio": "promagno.com.br",
+      "score": 30,
+      "faixa": "baixo",
+      "confianca": "baixa",
+      "tipo": "Feira",
+      "sinais": [],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 8,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 5,
+      "faltamDias": 44,
+      "janela": "agir agora",
+      "acionavel": true
+    },
+    {
+      "id": "sao-paulo-expo:automotivebusinessexperience|2026-10-01",
+      "nome": "AUTOMOTIVE BUSINESS EXPERIENCE",
+      "descricao": "Marcas, empresas e profissionais do setor automotivo e de mobilidade participam de uma experiência que reúne exposição de produtos, rodadas de negócios e atividades com veículos. Um espaço voltado à conexão entre diferentes segmentos e à geração de oportunidades estratégicas.",
+      "dataInicio": "2026-10-01",
+      "dataFim": "2026-10-01",
+      "textoData": "01 out",
+      "espaco": "Pavilhões",
+      "link": "https://abx26.com.br/?occurrence=2026-10-01",
+      "local": {
+        "nome": "São Paulo Expo",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "sao-paulo-expo",
+        "nome": "São Paulo Expo",
+        "url": "https://www.saopauloexpo.com.br/pt/agenda-de-eventos/"
+      },
+      "fonteDominio": "saopauloexpo.com.br",
+      "score": 38,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [
+        "Site próprio"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 16,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 0,
+          "teto": 8
+        }
+      ],
+      "porte": 16,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 45,
+      "janela": "agir agora",
+      "acionavel": true
+    },
+    {
+      "id": "distrito-anhembi:35congressosinpeem|2026-10-06",
+      "nome": "35º CONGRESSO SINPEEM",
+      "descricao": "Principal fórum de ensino de São Paulo: debates e atividades formativas para o fortalecimento da rede docente.",
+      "dataInicio": "2026-10-06",
+      "dataFim": "2026-10-09",
+      "textoData": "06 - 09 out",
+      "espaco": "Distrito Anhembi",
+      "link": "https://distritoanhembi.com.br/events/35o-congresso-sinpeem/",
+      "local": {
+        "nome": "Distrito Anhembi",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "distrito-anhembi",
+        "nome": "Distrito Anhembi",
+        "url": "https://distritoanhembi.com.br/agenda/"
+      },
+      "fonteDominio": "distritoanhembi.com.br",
+      "score": 50,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Congresso",
+      "sinais": [
+        "35ª edição"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 18,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 24,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 8,
+          "teto": 8
+        }
+      ],
+      "porte": 18,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 4,
+      "faltamDias": 50,
+      "janela": "agir agora",
+      "acionavel": true
+    },
+    {
+      "id": "expo-center-norte:prowinesaopaulo|2026-10-06",
+      "nome": "Prowine São Paulo 2026",
+      "descricao": "A maior e principal feira profissional de vinhos destilados das Américas.",
+      "dataInicio": "2026-10-06",
+      "dataFim": "2026-10-08",
+      "textoData": "06 a 08 outubro",
+      "espaco": "Pavilhão",
+      "link": "https://www.expocenternorte.com.br/eventos/prowine-sao-paulo-2026",
+      "local": {
+        "nome": "Expo Center Norte",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "expo-center-norte",
+        "nome": "Expo Center Norte",
+        "url": "https://www.expocenternorte.com.br/eventos"
+      },
+      "fonteDominio": "expocenternorte.com.br",
+      "score": 47,
+      "faixa": "medio",
+      "confianca": "media",
+      "tipo": "Feira",
+      "sinais": [
+        "Principal do setor"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 20,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 20,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 50,
+      "janela": "agir agora",
+      "acionavel": true
+    },
+    {
+      "id": "sao-paulo-expo:fisp|2026-10-06",
+      "nome": "FISP",
+      "descricao": "Equipamentos, soluções e tecnologias para a segurança e proteção do trabalhador ganham destaque na FISP 2026. A feira reúne marcas e profissionais de diferentes áreas, apresentando inovações em EPIs, vestimentas especiais e sistemas voltados à saúde, prevenção de riscos e ambientes de trabalho mais seguros.",
+      "dataInicio": "2026-10-06",
+      "dataFim": "2026-10-08",
+      "textoData": "06 - 08 out",
+      "espaco": "Pavilhões",
+      "link": "https://feirafisp.com.br/?occurrence=2026-10-06",
+      "local": {
+        "nome": "São Paulo Expo",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "sao-paulo-expo",
+        "nome": "São Paulo Expo",
+        "url": "https://www.saopauloexpo.com.br/pt/agenda-de-eventos/"
+      },
+      "fonteDominio": "saopauloexpo.com.br",
+      "score": 43,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [
+        "Site próprio"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 16,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 16,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 50,
+      "janela": "agir agora",
+      "acionavel": true
+    },
+    {
+      "id": "sao-paulo-expo:futurecom|2026-10-06",
+      "nome": "FUTURECOM",
+      "descricao": "Conectividade, inovação e transformação digital se encontram no Futurecom, hub de soluções para redes e cibersegurança. A programação integra exposição e demonstrações, estimulando networking e negócios entre profissionais de tecnologia, indústria, logística e setor público.",
+      "dataInicio": "2026-10-06",
+      "dataFim": "2026-10-08",
+      "textoData": "06 - 08 out",
+      "espaco": "Pavilhões",
+      "link": "https://www.futurecom.com.br/pt/home.html?occurrence=2026-10-06",
+      "local": {
+        "nome": "São Paulo Expo",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "sao-paulo-expo",
+        "nome": "São Paulo Expo",
+        "url": "https://www.saopauloexpo.com.br/pt/agenda-de-eventos/"
+      },
+      "fonteDominio": "saopauloexpo.com.br",
+      "score": 43,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [
+        "Site próprio"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 16,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 16,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 50,
+      "janela": "agir agora",
+      "acionavel": true
+    },
+    {
+      "id": "sao-paulo-expo:globalgospelfestivaltheconnectfaith|2026-10-07",
+      "nome": "GLOBAL GOSPEL FESTIVAL – THE CONNECT FAITH",
+      "descricao": "Um evento internacional que conecta inovação, criatividade e fé. The Connect Faith explora a influência do cristianismo no desenvolvimento das nações, reunindo tecnologia, estratégias e colaboração para organizações públicas, privadas e do terceiro setor.",
+      "dataInicio": "2026-10-07",
+      "dataFim": "2026-10-10",
+      "textoData": "07 - 10 out",
+      "espaco": "Pavilhões",
+      "link": "https://theconnectfaith.com/?occurrence=2026-10-07",
+      "local": {
+        "nome": "São Paulo Expo",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "sao-paulo-expo",
+        "nome": "São Paulo Expo",
+        "url": "https://www.saopauloexpo.com.br/pt/agenda-de-eventos/"
+      },
+      "fonteDominio": "saopauloexpo.com.br",
+      "score": 58,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [
+        "Site próprio",
+        "Internacional"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 16,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 24,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 8,
+          "teto": 8
+        }
+      ],
+      "porte": 16,
+      "alcance": 24,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 4,
+      "faltamDias": 51,
+      "janela": "agir agora",
+      "acionavel": true
+    },
+    {
+      "id": "pro-magno:eventosocialprivado|2026-10-08",
+      "nome": "EVENTO SOCIAL PRIVADO",
+      "descricao": "",
+      "dataInicio": "2026-10-08",
+      "dataFim": "2026-10-08",
+      "textoData": "8/Outubro/2026",
+      "espaco": "Pro Magno",
+      "link": "https://www.promagno.com.br/evento/evento-social-privado-108/",
+      "local": {
+        "nome": "Pro Magno Centro de Eventos",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "pro-magno",
+        "nome": "Pro Magno Centro de Eventos",
+        "url": "https://www.promagno.com.br/"
+      },
+      "fonteDominio": "promagno.com.br",
+      "score": 0,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Social/privado",
+      "sinais": [],
+      "componentes": [],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 52,
+      "janela": "agir agora",
+      "acionavel": false
+    },
+    {
+      "id": "distrito-anhembi:brasilgameshowbgs|2026-10-09",
+      "nome": "BRASIL GAME SHOW (BGS)",
+      "descricao": "Em mais uma edição repleta de experiências imersivas, inovações e lançamentos, a BGS chega para conectar grandes marcas, desenvolvedores e o público apaixonado por tecnologia.",
+      "dataInicio": "2026-10-09",
+      "dataFim": "2026-10-12",
+      "textoData": "09 - 12 out",
+      "espaco": "Distrito Anhembi",
+      "link": "https://distritoanhembi.com.br/events/brasil-game-show-bgs/",
+      "local": {
+        "nome": "Distrito Anhembi",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "distrito-anhembi",
+        "nome": "Distrito Anhembi",
+        "url": "https://distritoanhembi.com.br/agenda/"
+      },
+      "fonteDominio": "distritoanhembi.com.br",
+      "score": 44,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [
+        "Brasil"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 14,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 8,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 14,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 4,
+      "faltamDias": 53,
+      "janela": "agir agora",
+      "acionavel": true
+    },
+    {
+      "id": "pro-magno:eventosocialprivado|2026-10-10",
+      "nome": "EVENTO SOCIAL PRIVADO",
+      "descricao": "",
+      "dataInicio": "2026-10-10",
+      "dataFim": "2026-10-10",
+      "textoData": "10/Outubro/2026",
+      "espaco": "Pro Magno",
+      "link": "https://www.promagno.com.br/evento/evento-social-privado-109/",
+      "local": {
+        "nome": "Pro Magno Centro de Eventos",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "pro-magno",
+        "nome": "Pro Magno Centro de Eventos",
+        "url": "https://www.promagno.com.br/"
+      },
+      "fonteDominio": "promagno.com.br",
+      "score": 0,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Social/privado",
+      "sinais": [],
+      "componentes": [],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 54,
+      "janela": "agir agora",
+      "acionavel": false
+    },
+    {
+      "id": "expo-center-norte:universototvs|2026-10-13",
+      "nome": "Universo TOTVS",
+      "descricao": "O maior evento de tecnologia e negócios do Brasil. Um espaço pensado nos detalhes para você explorar conteúdos, descobrir pontos de vista, encontrar inovação e estabelecer conexões. Serão dois dias em que você vai desbravar novas fronteiras… Palestras, painéis, masterclasses, demonstrações, aulas práticas e teóricas – tudo preparado para apoiar a evolução da sua trajetória profissional. Faça parte",
+      "dataInicio": "2026-10-13",
+      "dataFim": "2026-10-14",
+      "textoData": "13 a 14 outubro",
+      "espaco": "Pavilhão",
+      "link": "https://www.expocenternorte.com.br/eventos/universo-totvs",
+      "local": {
+        "nome": "Expo Center Norte",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "expo-center-norte",
+        "nome": "Expo Center Norte",
+        "url": "https://www.expocenternorte.com.br/eventos"
+      },
+      "fonteDominio": "expocenternorte.com.br",
+      "score": 53,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [
+        "Maior do segmento",
+        "Brasil"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 24,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 14,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 24,
+      "alcance": 14,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 2,
+      "faltamDias": 57,
+      "janela": "agir agora",
+      "acionavel": true
+    },
+    {
+      "id": "sao-paulo-expo:construlevexpo|2026-10-14",
+      "nome": "CONSTRULEV EXPO",
+      "descricao": "Encontro focado em soluções inovadoras e tecnológicas voltadas à construção leve, que reúne profissionais, empresas e especialistas do setor para apresentar tendências, produtos e sistemas construtivos modernos, promovendo networking, geração de negócios e atualização técnica.",
+      "dataInicio": "2026-10-14",
+      "dataFim": "2026-10-16",
+      "textoData": "14 - 16 out",
+      "espaco": "Pavilhões",
+      "link": "https://construlevexpo.com.br/?occurrence=2026-10-14",
+      "local": {
+        "nome": "São Paulo Expo",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "sao-paulo-expo",
+        "nome": "São Paulo Expo",
+        "url": "https://www.saopauloexpo.com.br/pt/agenda-de-eventos/"
+      },
+      "fonteDominio": "saopauloexpo.com.br",
+      "score": 43,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [
+        "Site próprio"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 16,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 16,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 58,
+      "janela": "agir agora",
+      "acionavel": true
+    },
+    {
+      "id": "expo-center-norte:artmedexperience|2026-10-15",
+      "nome": "Artmed Experience 2026",
+      "descricao": "O Artmed Experience 2026 reúne alguns dos principais psicólogos do mundo para discutir \"o que diferencia terapeutas extraordinários\". São três dias de aprendizado prático, com simulações ao vivo comentadas pelos grandes mestres nacionais e internacionais.",
+      "dataInicio": "2026-10-15",
+      "dataFim": "2026-10-17",
+      "textoData": "15 a 17 outubro",
+      "espaco": "Pavilhão",
+      "link": "https://www.expocenternorte.com.br/eventos/artmed-experience-2026",
+      "local": {
+        "nome": "Expo Center Norte",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "expo-center-norte",
+        "nome": "Expo Center Norte",
+        "url": "https://www.expocenternorte.com.br/eventos"
+      },
+      "fonteDominio": "expocenternorte.com.br",
+      "score": 39,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [
+        "Grande empresa nacional"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 24,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 24,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 59,
+      "janela": "agir agora",
+      "acionavel": true
+    },
+    {
+      "id": "distrito-anhembi:mrolympia|2026-10-16",
+      "nome": "MR. OLYMPIA 2026",
+      "descricao": "O maior evento de nutrição esportiva e fisiculturismo traz competições exclusivas, grandes marcas e geração de negócios.",
+      "dataInicio": "2026-10-16",
+      "dataFim": "2026-10-18",
+      "textoData": "16 - 18 out",
+      "espaco": "Distrito Anhembi",
+      "link": "https://distritoanhembi.com.br/events/mr-olympia-2026/",
+      "local": {
+        "nome": "Distrito Anhembi",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "distrito-anhembi",
+        "nome": "Distrito Anhembi",
+        "url": "https://distritoanhembi.com.br/agenda/"
+      },
+      "fonteDominio": "distritoanhembi.com.br",
+      "score": 39,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [
+        "Maior do segmento"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 24,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 24,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 60,
+      "janela": "agir agora",
+      "acionavel": true
+    },
+    {
+      "id": "distrito-anhembi:hyroxsaopaulo|2026-10-17",
+      "nome": "HYROX SÃO PAULO 2026",
+      "descricao": "HYROX São Paulo: o evento fitness que é fenômeno mundial volta ao Brasil. Uma experiência única para superar limites e celebrar a saúde.",
+      "dataInicio": "2026-10-17",
+      "dataFim": "2026-10-17",
+      "textoData": "17 out",
+      "espaco": "Distrito Anhembi",
+      "link": "https://distritoanhembi.com.br/events/hyrox-sao-paulo-2026/",
+      "local": {
+        "nome": "Distrito Anhembi",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "distrito-anhembi",
+        "nome": "Distrito Anhembi",
+        "url": "https://distritoanhembi.com.br/agenda/"
+      },
+      "fonteDominio": "distritoanhembi.com.br",
+      "score": 34,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [
+        "Internacional",
+        "Brasil"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 24,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 0,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 24,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 61,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "pro-magno:eventosocialprivado|2026-10-17",
+      "nome": "EVENTO SOCIAL PRIVADO",
+      "descricao": "",
+      "dataInicio": "2026-10-17",
+      "dataFim": "2026-10-17",
+      "textoData": "17/Outubro/2026",
+      "espaco": "Pro Magno",
+      "link": "https://www.promagno.com.br/evento/evento-social-privado-110/",
+      "local": {
+        "nome": "Pro Magno Centro de Eventos",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "pro-magno",
+        "nome": "Pro Magno Centro de Eventos",
+        "url": "https://www.promagno.com.br/"
+      },
+      "fonteDominio": "promagno.com.br",
+      "score": 0,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Social/privado",
+      "sinais": [],
+      "componentes": [],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 61,
+      "janela": "ideal",
+      "acionavel": false
+    },
+    {
+      "id": "sao-paulo-expo:feiradoempreendedor|2026-10-19",
+      "nome": "FEIRA DO EMPREENDEDOR",
+      "descricao": "A Feira do Empreendedor, realizada pelo Sebrae, é voltada a quem deseja empreender, já possui um negócio ou busca informações e networking. O encontro reúne orientações, consultorias, produtos, serviços e soluções ligadas à gestão, inovação e desenvolvimento de negócios.",
+      "dataInicio": "2026-10-19",
+      "dataFim": "2026-10-22",
+      "textoData": "19 - 22 out",
+      "espaco": "Pavilhões",
+      "link": "https://feiradoempreendedor.sebraesp.com.br/?occurrence=2026-10-19",
+      "local": {
+        "nome": "São Paulo Expo",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "sao-paulo-expo",
+        "nome": "São Paulo Expo",
+        "url": "https://www.saopauloexpo.com.br/pt/agenda-de-eventos/"
+      },
+      "fonteDominio": "saopauloexpo.com.br",
+      "score": 72,
+      "faixa": "alto",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [
+        "Site próprio",
+        "Entidade nacional"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 16,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 26,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 8,
+          "teto": 8
+        }
+      ],
+      "porte": 16,
+      "alcance": 0,
+      "mercado": 26,
+      "publicoEstimado": null,
+      "diasDeEvento": 4,
+      "faltamDias": 63,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "distrito-anhembi:higiexpo|2026-10-20",
+      "nome": "HIGIEXPO 2026",
+      "descricao": "Referência em limpeza profissional na América Latina, em sua 29ª edição, a Higiexpo é o principal evento de inovação para o setor de facilities.",
+      "dataInicio": "2026-10-20",
+      "dataFim": "2026-10-22",
+      "textoData": "20 - 22 out",
+      "espaco": "Distrito Anhembi",
+      "link": "https://distritoanhembi.com.br/events/higiexpo-2026/",
+      "local": {
+        "nome": "Distrito Anhembi",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "distrito-anhembi",
+        "nome": "Distrito Anhembi",
+        "url": "https://distritoanhembi.com.br/agenda/"
+      },
+      "fonteDominio": "distritoanhembi.com.br",
+      "score": 78,
+      "faixa": "alto",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [
+        "Principal do setor",
+        "29ª edição",
+        "América Latina"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 38,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 25,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 38,
+      "alcance": 25,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 64,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "distrito-anhembi:seafoodshowlatinamerica|2026-10-20",
+      "nome": "Seafood Show Latin America 2026",
+      "descricao": "O maior encontro da cadeia do pescado na América Latina reúne a indústria, o varejo e o food service para geração de negócios, inovação e networking.",
+      "dataInicio": "2026-10-20",
+      "dataFim": "2026-10-22",
+      "textoData": "20 - 22 out",
+      "espaco": "Distrito Anhembi",
+      "link": "https://distritoanhembi.com.br/events/seafood-show-latin-america-2026/",
+      "local": {
+        "nome": "Distrito Anhembi",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "distrito-anhembi",
+        "nome": "Distrito Anhembi",
+        "url": "https://distritoanhembi.com.br/agenda/"
+      },
+      "fonteDominio": "distritoanhembi.com.br",
+      "score": 76,
+      "faixa": "alto",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [
+        "Maior do segmento",
+        "América Latina"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 24,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 25,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 24,
+      "alcance": 25,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 64,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "expo-center-norte:ecoexpo|2026-10-20",
+      "nome": "ECO Expo 2026",
+      "descricao": "A maior e mais completa Feira da América, totalmente dedicada à gestão de resíduos sólidos.",
+      "dataInicio": "2026-10-20",
+      "dataFim": "2026-10-22",
+      "textoData": "20 a 22 outubro",
+      "espaco": "Pavilhão",
+      "link": "https://www.expocenternorte.com.br/eventos/eco-expo-2026",
+      "local": {
+        "nome": "Expo Center Norte",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "expo-center-norte",
+        "nome": "Expo Center Norte",
+        "url": "https://www.expocenternorte.com.br/eventos"
+      },
+      "fonteDominio": "expocenternorte.com.br",
+      "score": 27,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 64,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "expo-center-norte:fenasan|2026-10-20",
+      "nome": "Fenasan 2026",
+      "descricao": "A Feira Nacional de Saneamento e Meio Ambiente – Fenasan e o 37º Encontro Técnico AESabesp (de 22 a 24 de outubro, nos pavilhões Verde e Vermelho, no Expo Center Norte, em São Paulo), o maior evento de saneamento da América Latina, será ainda maior em 2026! A realização é da AESabesp – Associação dos Engenheiros da Sabesp.",
+      "dataInicio": "2026-10-20",
+      "dataFim": "2026-10-22",
+      "textoData": "20 a 22 outubro",
+      "espaco": "Pavilhão & Centro de Convenções",
+      "link": "https://www.expocenternorte.com.br/eventos/fenasan-2026",
+      "local": {
+        "nome": "Expo Center Norte",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "expo-center-norte",
+        "nome": "Expo Center Norte",
+        "url": "https://www.expocenternorte.com.br/eventos"
+      },
+      "fonteDominio": "expocenternorte.com.br",
+      "score": 100,
+      "faixa": "alto",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [
+        "Maior do segmento",
+        "37ª edição",
+        "América Latina",
+        "Nacional",
+        "Entidade nacional"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 45,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 25,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 26,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 45,
+      "alcance": 25,
+      "mercado": 26,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 64,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "distrito-anhembi:segsummit|2026-10-21",
+      "nome": "SEGSUMMIT 2026",
+      "descricao": "O SegSummit 2026 é um evento de segurança eletrônica, patrimonial e facilities, focado em apresentar tendências e inovações, além de promover negócios e networking.",
+      "dataInicio": "2026-10-21",
+      "dataFim": "2026-10-21",
+      "textoData": "21 out",
+      "espaco": "Distrito Anhembi",
+      "link": "https://distritoanhembi.com.br/events/segsummit-2026/",
+      "local": {
+        "nome": "Distrito Anhembi",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "distrito-anhembi",
+        "nome": "Distrito Anhembi",
+        "url": "https://distritoanhembi.com.br/agenda/"
+      },
+      "fonteDominio": "distritoanhembi.com.br",
+      "score": 24,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Congresso",
+      "sinais": [],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 24,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 0,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 65,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "sao-paulo-expo:conectaimobi|2026-10-21",
+      "nome": "CONECTA IMOBI",
+      "descricao": "Conecta Imobi entrega uma imersão em conteúdo para o mercado imobiliário, com palestras, painéis e insights sobre vendas, marketing e transformação digital. Ao longo dos dois dias, profissionais acompanham tendências e estratégias aplicadas ao dia a dia do negócio.",
+      "dataInicio": "2026-10-21",
+      "dataFim": "2026-10-22",
+      "textoData": "21 - 22 out",
+      "espaco": "Pavilhões",
+      "link": "https://conectaimobi.com.br/?occurrence=2026-10-21",
+      "local": {
+        "nome": "São Paulo Expo",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "sao-paulo-expo",
+        "nome": "São Paulo Expo",
+        "url": "https://www.saopauloexpo.com.br/pt/agenda-de-eventos/"
+      },
+      "fonteDominio": "saopauloexpo.com.br",
+      "score": 31,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [
+        "Site próprio"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 16,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 16,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 2,
+      "faltamDias": 65,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "expo-center-norte:pontoforadacurva|2026-10-22",
+      "nome": "Ponto Fora da Curva 2026",
+      "descricao": "O Ponto Fora da Curva é o maior evento prático sobre Gestão Contábil do país. Em 2 dias imersivos com muito conteúdo prático, do dia a dia de um escritório de contabilidade, os participantes irão receber o conhecimento e as ferramentas que os maiores do mercado utilizam para faturar milhões todos os meses. Esse é o único evento que coloca a prática na frente da teoria, e mostra a vida real das",
+      "dataInicio": "2026-10-22",
+      "dataFim": "2026-10-23",
+      "textoData": "22 a 23 outubro",
+      "espaco": "Pavilhão",
+      "link": "https://www.expocenternorte.com.br/eventos/ponto-fora-da-curva-2026-",
+      "local": {
+        "nome": "Expo Center Norte",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "expo-center-norte",
+        "nome": "Expo Center Norte",
+        "url": "https://www.expocenternorte.com.br/eventos"
+      },
+      "fonteDominio": "expocenternorte.com.br",
+      "score": 39,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [
+        "Maior do segmento"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 24,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 24,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 2,
+      "faltamDias": 66,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "sao-paulo-expo:brazilwindpower|2026-10-27",
+      "nome": "BRAZIL WINDPOWER",
+      "descricao": "Lideranças, especialistas e empresas do setor eólico se encontram no Brazil Wind Power, ponto de conexão para toda a cadeia produtiva. Players do mercado, instituições e startups promovem trocas, parcerias e debates sobre o desenvolvimento da energia eólica no Brasil e na região.",
+      "dataInicio": "2026-10-27",
+      "dataFim": "2026-10-29",
+      "textoData": "27 - 29 out",
+      "espaco": "Pavilhões",
+      "link": "https://www.brazilwindpower.com.br/pt/home.html?occurrence=2026-10-27",
+      "local": {
+        "nome": "São Paulo Expo",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "sao-paulo-expo",
+        "nome": "São Paulo Expo",
+        "url": "https://www.saopauloexpo.com.br/pt/agenda-de-eventos/"
+      },
+      "fonteDominio": "saopauloexpo.com.br",
+      "score": 45,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [
+        "Site próprio",
+        "Brasil"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 16,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 14,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 16,
+      "alcance": 14,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 71,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "sao-paulo-expo:41congressobrasileirodemanutencaoegestaodeativos|2026-10-27",
+      "nome": "41º CONGRESSO BRASILEIRO DE MANUTENÇÃO E GESTÃO DE ATIVOS",
+      "descricao": "Manutenção e gestão de ativos industriais são os temas centrais deste congresso, voltado a profissionais e empresas responsáveis por máquinas, equipamentos, instalações e sistemas industriais. Um espaço para conhecer soluções e trocar experiências do segmento.",
+      "dataInicio": "2026-10-27",
+      "dataFim": "2026-10-29",
+      "textoData": "27 - 29 out",
+      "espaco": "Pavilhões",
+      "link": "https://abramanoficial.org.br/eventos/congressos/41o-congresso-brasileiro-de-manutencao-e-gestao-de-ativos?occurrence=2026-10-27",
+      "local": {
+        "nome": "São Paulo Expo",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "sao-paulo-expo",
+        "nome": "São Paulo Expo",
+        "url": "https://www.saopauloexpo.com.br/pt/agenda-de-eventos/"
+      },
+      "fonteDominio": "saopauloexpo.com.br",
+      "score": 88,
+      "faixa": "alto",
+      "confianca": "alta",
+      "tipo": "Congresso",
+      "sinais": [
+        "41ª edição",
+        "Site próprio",
+        "Nacional"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 34,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 25,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 24,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 34,
+      "alcance": 25,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 71,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "distrito-anhembi:congressobrasileirodepsiquiatriacbp|2026-10-28",
+      "nome": "CONGRESSO BRASILEIRO DE PSIQUIATRIA – CBP",
+      "descricao": "O mais tradicional congresso de psiquiatria da América Latina promove uma rica troca de conhecimento técnico e reflexões sobre a prática.",
+      "dataInicio": "2026-10-28",
+      "dataFim": "2026-10-31",
+      "textoData": "28 - 31 out",
+      "espaco": "Distrito Anhembi",
+      "link": "https://distritoanhembi.com.br/events/congresso-brasileiro-de-psiquiatria-cbp/",
+      "local": {
+        "nome": "Distrito Anhembi",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "distrito-anhembi",
+        "nome": "Distrito Anhembi",
+        "url": "https://distritoanhembi.com.br/agenda/"
+      },
+      "fonteDominio": "distritoanhembi.com.br",
+      "score": 57,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Congresso",
+      "sinais": [
+        "América Latina",
+        "Nacional"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 25,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 24,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 8,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 25,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 4,
+      "faltamDias": 72,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "distrito-anhembi:aibrasilexperience|2026-10-28",
+      "nome": "AI BRASIL EXPERIENCE",
+      "descricao": "O maior encontro de inteligência artificial do país traz laboratórios práticos, trilhas de conteúdo e grandes líderes do setor.",
+      "dataInicio": "2026-10-28",
+      "dataFim": "2026-10-29",
+      "textoData": "28 - 29 out",
+      "espaco": "Distrito Anhembi",
+      "link": "https://distritoanhembi.com.br/events/ai-brasil-experience-3/",
+      "local": {
+        "nome": "Distrito Anhembi",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "distrito-anhembi",
+        "nome": "Distrito Anhembi",
+        "url": "https://distritoanhembi.com.br/agenda/"
+      },
+      "fonteDominio": "distritoanhembi.com.br",
+      "score": 68,
+      "faixa": "alto",
+      "confianca": "alta",
+      "tipo": "Encontro corporativo",
+      "sinais": [
+        "Maior do segmento",
+        "Brasil"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 24,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 14,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 25,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 24,
+      "alcance": 14,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 2,
+      "faltamDias": 72,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "sao-paulo-expo:expoabla|2026-10-28",
+      "nome": "EXPO ABLA",
+      "descricao": "Expo Abla apresenta novidades, serviços e tecnologias voltadas à locação de veículos, com exposição de soluções e troca de experiências entre empresas e especialistas. A programação inclui conteúdos e iniciativas que acompanham as transformações da mobilidade.",
+      "dataInicio": "2026-10-28",
+      "dataFim": "2026-10-29",
+      "textoData": "28 - 29 out",
+      "espaco": "Pavilhões",
+      "link": "https://expoabla.com/?occurrence=2026-10-28",
+      "local": {
+        "nome": "São Paulo Expo",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "sao-paulo-expo",
+        "nome": "São Paulo Expo",
+        "url": "https://www.saopauloexpo.com.br/pt/agenda-de-eventos/"
+      },
+      "fonteDominio": "saopauloexpo.com.br",
+      "score": 43,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [
+        "Site próprio"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 16,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 16,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 2,
+      "faltamDias": 72,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "sao-paulo-expo:g4valley|2026-10-29",
+      "nome": "G4 VALLEY 2026",
+      "descricao": "O maior evento para empresários do Brasil, o G4 Valley volta ao São Paulo Expo para 3 dias de imersão focados em gestão, marketing, inteligência artificial aplicada a negócios e vendas para impulsionar a eficiência corporativa.",
+      "dataInicio": "2026-10-29",
+      "dataFim": "2026-10-31",
+      "textoData": "29 - 31 out",
+      "espaco": "Pavilhões",
+      "link": "https://www.g4valley.com/ingressos?occurrence=2026-10-29",
+      "local": {
+        "nome": "São Paulo Expo",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "sao-paulo-expo",
+        "nome": "São Paulo Expo",
+        "url": "https://www.saopauloexpo.com.br/pt/agenda-de-eventos/"
+      },
+      "fonteDominio": "saopauloexpo.com.br",
+      "score": 81,
+      "faixa": "alto",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [
+        "Maior do segmento",
+        "Site próprio",
+        "Brasil"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 40,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 14,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 40,
+      "alcance": 14,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 73,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "distrito-anhembi:beautyexpo|2026-10-30",
+      "nome": "BEAUTY EXPO",
+      "descricao": "O Beauty Expo 2026 abre um novo capítulo para o universo da beleza, estética e inovação, com 3 dias de conteúdo, trocas de conhecimento, networking e experiências exclusivas.",
+      "dataInicio": "2026-10-30",
+      "dataFim": "2026-10-30",
+      "textoData": "30 out",
+      "espaco": "Distrito Anhembi",
+      "link": "https://distritoanhembi.com.br/events/beauty-expo/",
+      "local": {
+        "nome": "Distrito Anhembi",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "distrito-anhembi",
+        "nome": "Distrito Anhembi",
+        "url": "https://distritoanhembi.com.br/agenda/"
+      },
+      "fonteDominio": "distritoanhembi.com.br",
+      "score": 22,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 0,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 74,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "expo-center-norte:cbmcongressobrasileirodomecanico|2026-10-31",
+      "nome": "CBM - Congresso Brasileiro do Mecânico",
+      "descricao": "O principal encontro técnico voltado exclusivamente ao profissional da manutenção automotiva. Evento gratuito, com foco em profissionais da manutenção automotiva, direcionado prioritariamente a mecânicos e técnicos do setor. Reúne mecânicos, técnicos, influenciadores e especialistas da indústria em um ambiente direcionado à atualização técnica e relacionamento com marcas.",
+      "dataInicio": "2026-10-31",
+      "dataFim": "2026-10-31",
+      "textoData": "31 out.",
+      "espaco": "Pavilhão",
+      "link": "https://www.expocenternorte.com.br/eventos/cbm-congresso-brasileiro-do-mecanico",
+      "local": {
+        "nome": "Expo Center Norte",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "expo-center-norte",
+        "nome": "Expo Center Norte",
+        "url": "https://www.expocenternorte.com.br/eventos"
+      },
+      "fonteDominio": "expocenternorte.com.br",
+      "score": 69,
+      "faixa": "alto",
+      "confianca": "alta",
+      "tipo": "Congresso",
+      "sinais": [
+        "Principal do setor",
+        "Nacional"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 20,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 25,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 24,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 0,
+          "teto": 8
+        }
+      ],
+      "porte": 20,
+      "alcance": 25,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 75,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "pro-magno:eventosocialprivado|2026-10-31",
+      "nome": "EVENTO SOCIAL PRIVADO",
+      "descricao": "",
+      "dataInicio": "2026-10-31",
+      "dataFim": "2026-10-31",
+      "textoData": "31/Outubro/2026",
+      "espaco": "Pro Magno",
+      "link": "https://www.promagno.com.br/evento/evento-social-privado-121/",
+      "local": {
+        "nome": "Pro Magno Centro de Eventos",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "pro-magno",
+        "nome": "Pro Magno Centro de Eventos",
+        "url": "https://www.promagno.com.br/"
+      },
+      "fonteDominio": "promagno.com.br",
+      "score": 0,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Social/privado",
+      "sinais": [],
+      "componentes": [],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 75,
+      "janela": "ideal",
+      "acionavel": false
+    },
+    {
+      "id": "expo-center-norte:trincacontabil|2026-11-05",
+      "nome": "Trinca Contábil 2026",
+      "descricao": "O maior evento do Brasil para empresários que querem crescer de verdade.",
+      "dataInicio": "2026-11-05",
+      "dataFim": "2026-11-06",
+      "textoData": "05 a 06 novembro",
+      "espaco": "Pavilhão",
+      "link": "https://www.expocenternorte.com.br/eventos/trinca-contabil-2026",
+      "local": {
+        "nome": "Expo Center Norte",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "expo-center-norte",
+        "nome": "Expo Center Norte",
+        "url": "https://www.expocenternorte.com.br/eventos"
+      },
+      "fonteDominio": "expocenternorte.com.br",
+      "score": 53,
+      "faixa": "medio",
+      "confianca": "media",
+      "tipo": "Evento",
+      "sinais": [
+        "Maior do segmento",
+        "Brasil"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 24,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 14,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 24,
+      "alcance": 14,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 2,
+      "faltamDias": 80,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "expo-center-norte:webdietconference|2026-11-06",
+      "nome": "WEBDIET CONFERENCE",
+      "descricao": "O maior encontro de nutricionistas agora na maior capital de negócios do Brasil.",
+      "dataInicio": "2026-11-06",
+      "dataFim": "2026-11-07",
+      "textoData": "06 a 07 novembro",
+      "espaco": "Centro de Convenções",
+      "link": "https://www.expocenternorte.com.br/eventos/webdiet-conference",
+      "local": {
+        "nome": "Expo Center Norte",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "expo-center-norte",
+        "nome": "Expo Center Norte",
+        "url": "https://www.expocenternorte.com.br/eventos"
+      },
+      "fonteDominio": "expocenternorte.com.br",
+      "score": 74,
+      "faixa": "alto",
+      "confianca": "media",
+      "tipo": "Encontro corporativo",
+      "sinais": [
+        "Maior do segmento",
+        "Brasil"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 30,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 14,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 25,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 30,
+      "alcance": 14,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 2,
+      "faltamDias": 81,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "sao-paulo-expo:fenatran|2026-11-09",
+      "nome": "FENATRAN",
+      "descricao": "Transporte rodoviário de cargas é o foco da FENATRAN, que reúne fabricantes de caminhões, implementos e empresas de toda a cadeia logística. Soluções em tecnologia, intralogística e distribuição urbana ganham espaço, além de experiências práticas como test-drives de veículos do setor.",
+      "dataInicio": "2026-11-09",
+      "dataFim": "2026-11-13",
+      "textoData": "09 - 13 nov",
+      "espaco": "Pavilhões",
+      "link": "https://www.fenatran.com.br/?occurrence=2026-11-09",
+      "local": {
+        "nome": "São Paulo Expo",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "sao-paulo-expo",
+        "nome": "São Paulo Expo",
+        "url": "https://www.saopauloexpo.com.br/pt/agenda-de-eventos/"
+      },
+      "fonteDominio": "saopauloexpo.com.br",
+      "score": 34,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [
+        "Site próprio"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 16,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 8,
+          "teto": 8
+        }
+      ],
+      "porte": 16,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 5,
+      "faltamDias": 84,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "distrito-anhembi:lamotolatamtwowheelsexpo|2026-11-10",
+      "nome": "LAMOTO | LATAM TWO WHEELS EXPO",
+      "descricao": "O novo evento B2B para profissionais e apaixonados por duas rodas vai conectar marcas de alta performance a tendências e negócios globais.",
+      "dataInicio": "2026-11-10",
+      "dataFim": "2026-11-12",
+      "textoData": "10 - 12 nov",
+      "espaco": "Distrito Anhembi",
+      "link": "https://distritoanhembi.com.br/events/lamoto-expo/",
+      "local": {
+        "nome": "Distrito Anhembi",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "distrito-anhembi",
+        "nome": "Distrito Anhembi",
+        "url": "https://distritoanhembi.com.br/agenda/"
+      },
+      "fonteDominio": "distritoanhembi.com.br",
+      "score": 27,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 85,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "distrito-anhembi:bfshow|2026-11-10",
+      "nome": "BFSHOW 2026",
+      "descricao": "A maior feira calçadista da América Latina reúne indústrias de todos os portes e compradores globais para lançamento de tendências.",
+      "dataInicio": "2026-11-10",
+      "dataFim": "2026-11-12",
+      "textoData": "10 - 12 nov",
+      "espaco": "Distrito Anhembi",
+      "link": "https://distritoanhembi.com.br/events/bfshow-2026-2/",
+      "local": {
+        "nome": "Distrito Anhembi",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "distrito-anhembi",
+        "nome": "Distrito Anhembi",
+        "url": "https://distritoanhembi.com.br/agenda/"
+      },
+      "fonteDominio": "distritoanhembi.com.br",
+      "score": 76,
+      "faixa": "alto",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [
+        "Maior do segmento",
+        "América Latina"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 24,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 25,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 24,
+      "alcance": 25,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 85,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "expo-center-norte:15congressointernacionalfenauto|2026-11-11",
+      "nome": "15º CONGRESSO INTERNACIONAL FENAUTO",
+      "descricao": "O Congresso FENAUTO já faz parte do Calendário Oficial de Feiras e Eventos do país, por ser o maior e mais importante encontro do setor automotivo na América Latina, totalmente direcionado a profissionais do segmento de veículos seminovos e usados.",
+      "dataInicio": "2026-11-11",
+      "dataFim": "2026-11-13",
+      "textoData": "11 a 13 novembro",
+      "espaco": "Pavilhão",
+      "link": "https://www.expocenternorte.com.br/eventos/15o-congresso-internacional-fenauto",
+      "local": {
+        "nome": "Expo Center Norte",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "expo-center-norte",
+        "nome": "Expo Center Norte",
+        "url": "https://www.expocenternorte.com.br/eventos"
+      },
+      "fonteDominio": "expocenternorte.com.br",
+      "score": 92,
+      "faixa": "alto",
+      "confianca": "alta",
+      "tipo": "Congresso",
+      "sinais": [
+        "15ª edição",
+        "América Latina",
+        "Internacional",
+        "Entidade nacional"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 12,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 25,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 26,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 24,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 12,
+      "alcance": 25,
+      "mercado": 26,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 86,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "pro-magno:congressobodyscience|2026-11-13",
+      "nome": "CONGRESSO BODYSCIENCE",
+      "descricao": "",
+      "dataInicio": "2026-11-13",
+      "dataFim": "2026-11-14",
+      "textoData": "13-14/Novembro/2026",
+      "espaco": "Pro Magno",
+      "link": "https://www.promagno.com.br/evento/congresso-bodyscience/",
+      "local": {
+        "nome": "Pro Magno Centro de Eventos",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "pro-magno",
+        "nome": "Pro Magno Centro de Eventos",
+        "url": "https://www.promagno.com.br/"
+      },
+      "fonteDominio": "promagno.com.br",
+      "score": 29,
+      "faixa": "baixo",
+      "confianca": "baixa",
+      "tipo": "Congresso",
+      "sinais": [],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 24,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 2,
+      "faltamDias": 88,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "expo-center-norte:salaopaulistadecutelaria|2026-11-14",
+      "nome": "Salão Paulista de Cutelaria 2026",
+      "descricao": "O Salão Paulista investe na cutelaria artesanal e comercial, apresentando aos visitantes o melhor da indústria nacional e estrangeira. O salão traz opções para todos os gostos, das mais simples lâminas a preços acessíveis, até as sofisticadas, artísticas e colecionáveis. Também será possível conhecer e adquirir máquinas, ferramentas e demais suprimentos que envolvem a atividade da cutelaria.",
+      "dataInicio": "2026-11-14",
+      "dataFim": "2026-11-15",
+      "textoData": "14 a 15 novembro",
+      "espaco": "Centro de Convenções",
+      "link": "https://www.expocenternorte.com.br/eventos/salao-paulista-de-cutelaria-2026",
+      "local": {
+        "nome": "Expo Center Norte",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "expo-center-norte",
+        "nome": "Expo Center Norte",
+        "url": "https://www.expocenternorte.com.br/eventos"
+      },
+      "fonteDominio": "expocenternorte.com.br",
+      "score": 58,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [
+        "Nacional"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 6,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 25,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 6,
+      "alcance": 25,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 2,
+      "faltamDias": 89,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "pro-magno:eventosocialprivado|2026-11-14",
+      "nome": "EVENTO SOCIAL PRIVADO",
+      "descricao": "",
+      "dataInicio": "2026-11-14",
+      "dataFim": "2026-11-14",
+      "textoData": "14/Novembro/2026",
+      "espaco": "Pro Magno",
+      "link": "https://www.promagno.com.br/evento/evento-social-privado-112/",
+      "local": {
+        "nome": "Pro Magno Centro de Eventos",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "pro-magno",
+        "nome": "Pro Magno Centro de Eventos",
+        "url": "https://www.promagno.com.br/"
+      },
+      "fonteDominio": "promagno.com.br",
+      "score": 0,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Social/privado",
+      "sinais": [],
+      "componentes": [],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 89,
+      "janela": "ideal",
+      "acionavel": false
+    },
+    {
+      "id": "expo-center-norte:barberweek|2026-11-15",
+      "nome": "Barber Week",
+      "descricao": "Um ambiente dinâmico e interativo, onde 200 expositores apresentarão as últimas inovações, produtos e serviços do setor. É a oportunidade perfeita para conhecer de perto as novidades, negociar as melhores condições, trocar ideias, acessar promoções e expandir sua rede de contatos.",
+      "dataInicio": "2026-11-15",
+      "dataFim": "2026-11-16",
+      "textoData": "15 a 16 novembro",
+      "espaco": "Pavilhão",
+      "link": "https://www.expocenternorte.com.br/eventos/barberweek",
+      "local": {
+        "nome": "Expo Center Norte",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "expo-center-norte",
+        "nome": "Expo Center Norte",
+        "url": "https://www.expocenternorte.com.br/eventos"
+      },
+      "fonteDominio": "expocenternorte.com.br",
+      "score": 25,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Semana setorial",
+      "sinais": [],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 20,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 2,
+      "faltamDias": 90,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "distrito-anhembi:enactusworldcup|2026-11-16",
+      "nome": "ENACTUS WORLD CUP 2026",
+      "descricao": "O maior evento de empreendedorismo social jovem chega pela primeira vez à América do Sul, com a presença de estudantes, educadores, executivos e líderes de mais de 30 países.",
+      "dataInicio": "2026-11-16",
+      "dataFim": "2026-11-19",
+      "textoData": "16 - 19 nov",
+      "espaco": "Distrito Anhembi",
+      "link": "https://distritoanhembi.com.br/events/enactus-world-cup-2026/",
+      "local": {
+        "nome": "Distrito Anhembi",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "distrito-anhembi",
+        "nome": "Distrito Anhembi",
+        "url": "https://distritoanhembi.com.br/agenda/"
+      },
+      "fonteDominio": "distritoanhembi.com.br",
+      "score": 42,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [
+        "Maior do segmento"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 24,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 8,
+          "teto": 8
+        }
+      ],
+      "porte": 24,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 4,
+      "faltamDias": 91,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "pro-magno:eventosocialprivado|2026-11-19",
+      "nome": "EVENTO SOCIAL PRIVADO",
+      "descricao": "",
+      "dataInicio": "2026-11-19",
+      "dataFim": "2026-11-19",
+      "textoData": "19/Novembro/2026",
+      "espaco": "Pro Magno",
+      "link": "https://www.promagno.com.br/evento/evento-social-privado-114/",
+      "local": {
+        "nome": "Pro Magno Centro de Eventos",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "pro-magno",
+        "nome": "Pro Magno Centro de Eventos",
+        "url": "https://www.promagno.com.br/"
+      },
+      "fonteDominio": "promagno.com.br",
+      "score": 0,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Social/privado",
+      "sinais": [],
+      "componentes": [],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 94,
+      "janela": "ideal",
+      "acionavel": false
+    },
+    {
+      "id": "expo-center-norte:msaexperience|2026-11-20",
+      "nome": "MSA EXPERIENCE",
+      "descricao": "O maior evento de Marketing digital do planeta.",
+      "dataInicio": "2026-11-20",
+      "dataFim": "2026-11-22",
+      "textoData": "20 a 22 novembro",
+      "espaco": "Pavilhão",
+      "link": "https://www.expocenternorte.com.br/eventos/msaexperience",
+      "local": {
+        "nome": "Expo Center Norte",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "expo-center-norte",
+        "nome": "Expo Center Norte",
+        "url": "https://www.expocenternorte.com.br/eventos"
+      },
+      "fonteDominio": "expocenternorte.com.br",
+      "score": 39,
+      "faixa": "medio",
+      "confianca": "media",
+      "tipo": "Evento",
+      "sinais": [
+        "Maior do segmento"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 24,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 24,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 95,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "expo-center-norte:tattooweek|2026-11-20",
+      "nome": "Tattoo Week",
+      "descricao": "No maior festival de tatuagem e body piercing do mundo, algumas de suas principais missões é popularizar a arte da tatuagem no país, promover o intercâmbio internacional entre os profissionais, integrar o público apreciador da arte na pele ao apresentar as mais recentes tendências – desde estilos até lançamentos de produtos.",
+      "dataInicio": "2026-11-20",
+      "dataFim": "2026-11-22",
+      "textoData": "20 a 22 novembro",
+      "espaco": "Pavilhão",
+      "link": "https://www.expocenternorte.com.br/eventos/tattoo-week",
+      "local": {
+        "nome": "Expo Center Norte",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "expo-center-norte",
+        "nome": "Expo Center Norte",
+        "url": "https://www.expocenternorte.com.br/eventos"
+      },
+      "fonteDominio": "expocenternorte.com.br",
+      "score": 49,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Semana setorial",
+      "sinais": [
+        "Internacional"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 24,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 20,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 24,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 95,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "sao-paulo-expo:dunamiscon|2026-11-20",
+      "nome": "DUNAMIS CON",
+      "descricao": "Música, reflexão e espiritualidade se encontram em uma conferência que reúne jovens cristãos de diferentes regiões do Brasil. A proposta integra fé, cultura jovem e impacto social, criando um espaço de conexão, troca de experiências e networking comunitário.",
+      "dataInicio": "2026-11-20",
+      "dataFim": "2026-11-21",
+      "textoData": "20 - 21 nov",
+      "espaco": "Pavilhões",
+      "link": "https://www.e-inscricao.com/dunamismovement/dnmscon26?occurrence=2026-11-20",
+      "local": {
+        "nome": "São Paulo Expo",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "sao-paulo-expo",
+        "nome": "São Paulo Expo",
+        "url": "https://www.saopauloexpo.com.br/pt/agenda-de-eventos/"
+      },
+      "fonteDominio": "saopauloexpo.com.br",
+      "score": 59,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Congresso",
+      "sinais": [
+        "Site próprio",
+        "Brasil"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 16,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 14,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 24,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 16,
+      "alcance": 14,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 2,
+      "faltamDias": 95,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "sao-paulo-expo:expocannabisbrasil|2026-11-20",
+      "nome": "EXPOCANNABIS BRASIL",
+      "descricao": "Expocannabis Brasil traz uma programação que integra ciência, negócios e cultura, com palestras, exposições e experiências sobre o universo da cannabis. O evento apresenta avanços, aplicações e debates que ampliam o entendimento sobre o tema no país.",
+      "dataInicio": "2026-11-20",
+      "dataFim": "2026-11-22",
+      "textoData": "20 - 22 nov",
+      "espaco": "Pavilhões",
+      "link": "https://expocannabisbrasil.com/?occurrence=2026-11-20",
+      "local": {
+        "nome": "São Paulo Expo",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "sao-paulo-expo",
+        "nome": "São Paulo Expo",
+        "url": "https://www.saopauloexpo.com.br/pt/agenda-de-eventos/"
+      },
+      "fonteDominio": "saopauloexpo.com.br",
+      "score": 45,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [
+        "Site próprio",
+        "Brasil"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 16,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 14,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 16,
+      "alcance": 14,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 95,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "sao-paulo-expo:blockchainconferencebrasil|2026-11-20",
+      "nome": "BLOCKCHAIN CONFERENCE BRASIL 2026",
+      "descricao": "O Blockchain Conference Brasil é um dos principais eventos sobre blockchain, criptomoedas e Web3 do país. Reúne especialistas, empresas e investidores para compartilhar tendências, debater inovação e fomentar conexões e oportunidades de negócios.",
+      "dataInicio": "2026-11-20",
+      "dataFim": "2026-11-21",
+      "textoData": "20 - 21 nov",
+      "espaco": "Pavilhões",
+      "link": "https://www.blockchainconferencebrasil.com/?occurrence=2026-11-20",
+      "local": {
+        "nome": "São Paulo Expo",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "sao-paulo-expo",
+        "nome": "São Paulo Expo",
+        "url": "https://www.saopauloexpo.com.br/pt/agenda-de-eventos/"
+      },
+      "fonteDominio": "saopauloexpo.com.br",
+      "score": 59,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Congresso",
+      "sinais": [
+        "Site próprio",
+        "Brasil"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 16,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 14,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 24,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 16,
+      "alcance": 14,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 2,
+      "faltamDias": 95,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "pro-magno:eventosocialprivado|2026-11-21",
+      "nome": "EVENTO SOCIAL PRIVADO",
+      "descricao": "",
+      "dataInicio": "2026-11-21",
+      "dataFim": "2026-11-21",
+      "textoData": "21/Novembro/2026",
+      "espaco": "Pro Magno",
+      "link": "https://www.promagno.com.br/evento/evento-social-privado-118/",
+      "local": {
+        "nome": "Pro Magno Centro de Eventos",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "pro-magno",
+        "nome": "Pro Magno Centro de Eventos",
+        "url": "https://www.promagno.com.br/"
+      },
+      "fonteDominio": "promagno.com.br",
+      "score": 0,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Social/privado",
+      "sinais": [],
+      "componentes": [],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 96,
+      "janela": "ideal",
+      "acionavel": false
+    },
+    {
+      "id": "pro-magno:eventocorporativoprivado|2026-11-21",
+      "nome": "EVENTO CORPORATIVO PRIVADO",
+      "descricao": "",
+      "dataInicio": "2026-11-21",
+      "dataFim": "2026-11-21",
+      "textoData": "21/Novembro/2026",
+      "espaco": "Pro Magno",
+      "link": "https://www.promagno.com.br/evento/evento-corporativo-privado-31/",
+      "local": {
+        "nome": "Pro Magno Centro de Eventos",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "pro-magno",
+        "nome": "Pro Magno Centro de Eventos",
+        "url": "https://www.promagno.com.br/"
+      },
+      "fonteDominio": "promagno.com.br",
+      "score": 10,
+      "faixa": "baixo",
+      "confianca": "baixa",
+      "tipo": "Evento",
+      "sinais": [],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 0,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 96,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "sao-paulo-expo:conectaagro|2026-11-24",
+      "nome": "CONECTA AGRO 2026",
+      "descricao": "O Conecta Agro 2026 chega como um dos principais encontros do agronegócio brasileiro, promovendo a conexão entre inovação, tecnologia e negócios no campo. O evento reúne produtores, especialistas, empresas e lideranças do setor para debater tendências, compartilhar conhecimento e impulsionar o futuro do agro no Brasil e no mundo.",
+      "dataInicio": "2026-11-24",
+      "dataFim": "2026-11-25",
+      "textoData": "24 - 25 nov",
+      "espaco": "Pavilhões",
+      "link": "https://www.gpoconecta.com.br/ccagro?occurrence=2026-11-24",
+      "local": {
+        "nome": "São Paulo Expo",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "sao-paulo-expo",
+        "nome": "São Paulo Expo",
+        "url": "https://www.saopauloexpo.com.br/pt/agenda-de-eventos/"
+      },
+      "fonteDominio": "saopauloexpo.com.br",
+      "score": 56,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [
+        "Site próprio",
+        "Nacional",
+        "Brasil"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 16,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 25,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 16,
+      "alcance": 25,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 2,
+      "faltamDias": 99,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "sao-paulo-expo:expocarraracondominios|2026-11-24",
+      "nome": "EXPO CARRARA CONDOMINIOS",
+      "descricao": "A Expo Carrara Condomínios é o maior encontro de síndicos do Brasil, reunindo gestores, administradoras, incorporadoras, construtoras e fornecedores do setor condominial. O evento promove inovação, networking qualificado, relacionamento e oportunidades de negócios para condomínios de diferentes segmentos.",
+      "dataInicio": "2026-11-24",
+      "dataFim": "2026-11-26",
+      "textoData": "24 - 26 nov",
+      "espaco": "Pavilhões",
+      "link": "https://www.carraracondominios.com.br/?occurrence=2026-11-24",
+      "local": {
+        "nome": "São Paulo Expo",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "sao-paulo-expo",
+        "nome": "São Paulo Expo",
+        "url": "https://www.saopauloexpo.com.br/pt/agenda-de-eventos/"
+      },
+      "fonteDominio": "saopauloexpo.com.br",
+      "score": 84,
+      "faixa": "alto",
+      "confianca": "alta",
+      "tipo": "Encontro corporativo",
+      "sinais": [
+        "Maior do segmento",
+        "Site próprio",
+        "Brasil"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 40,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 14,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 25,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 40,
+      "alcance": 14,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 99,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "sao-paulo-expo:emob|2026-11-25",
+      "nome": "E-MOB",
+      "descricao": "Mobilidade elétrica e cidades inteligentes são os temas centrais do E-MOB 2026, que reúne veículos elétricos, infraestrutura de recarga e soluções para o ambiente urbano. O encontro conecta empresas, especialistas e gestores para discutir tendências e aplicações que impactam a mobilidade nas cidades.",
+      "dataInicio": "2026-11-25",
+      "dataFim": "2026-11-27",
+      "textoData": "25 - 27 nov",
+      "espaco": "Pavilhões",
+      "link": "https://salaoemob.com.br/?occurrence=2026-11-25",
+      "local": {
+        "nome": "São Paulo Expo",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "sao-paulo-expo",
+        "nome": "São Paulo Expo",
+        "url": "https://www.saopauloexpo.com.br/pt/agenda-de-eventos/"
+      },
+      "fonteDominio": "saopauloexpo.com.br",
+      "score": 31,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [
+        "Site próprio"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 16,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 16,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 100,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "sao-paulo-expo:ccxp|2026-12-03",
+      "nome": "CCXP",
+      "descricao": "A CCXP – Comic Con Experience é o maior festival de cultura pop do mundo, reunindo fãs de cinema, séries, quadrinhos, games e streaming em uma experiência imersiva. O evento traz painéis com grandes nomes da indústria, lançamentos exclusivos, ativações de marcas e uma programação intensa que celebra o entretenimento em todas as suas formas.",
+      "dataInicio": "2026-12-03",
+      "dataFim": "2026-12-06",
+      "textoData": "03 - 06 dez",
+      "espaco": "Pavilhões",
+      "link": "https://ccxp.com.br/?occurrence=2026-12-03",
+      "local": {
+        "nome": "São Paulo Expo",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "sao-paulo-expo",
+        "nome": "São Paulo Expo",
+        "url": "https://www.saopauloexpo.com.br/pt/agenda-de-eventos/"
+      },
+      "fonteDominio": "saopauloexpo.com.br",
+      "score": 34,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [
+        "Site próprio"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 16,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 8,
+          "teto": 8
+        }
+      ],
+      "porte": 16,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 4,
+      "faltamDias": 108,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "pro-magno:smartbusinesssummit|2026-12-04",
+      "nome": "SMART BUSINESS SUMMIT",
+      "descricao": "",
+      "dataInicio": "2026-12-04",
+      "dataFim": "2026-12-05",
+      "textoData": "4-5/Dezembro/2026",
+      "espaco": "Pro Magno",
+      "link": "https://www.promagno.com.br/evento/smart-business-summit/",
+      "local": {
+        "nome": "Pro Magno Centro de Eventos",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "pro-magno",
+        "nome": "Pro Magno Centro de Eventos",
+        "url": "https://www.promagno.com.br/"
+      },
+      "fonteDominio": "promagno.com.br",
+      "score": 29,
+      "faixa": "baixo",
+      "confianca": "baixa",
+      "tipo": "Congresso",
+      "sinais": [],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 24,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 2,
+      "faltamDias": 109,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "pro-magno:eventocorporativoprivado|2026-12-10",
+      "nome": "EVENTO CORPORATIVO PRIVADO",
+      "descricao": "",
+      "dataInicio": "2026-12-10",
+      "dataFim": "2026-12-10",
+      "textoData": "10/Dezembro/2026",
+      "espaco": "Pro Magno",
+      "link": "https://www.promagno.com.br/evento/evento-corporativo-privado-32/",
+      "local": {
+        "nome": "Pro Magno Centro de Eventos",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "pro-magno",
+        "nome": "Pro Magno Centro de Eventos",
+        "url": "https://www.promagno.com.br/"
+      },
+      "fonteDominio": "promagno.com.br",
+      "score": 10,
+      "faixa": "baixo",
+      "confianca": "baixa",
+      "tipo": "Evento",
+      "sinais": [],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 0,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 115,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "sao-paulo-expo:mysticfair|2026-12-12",
+      "nome": "MYSTIC FAIR",
+      "descricao": "Espiritualidade e bem-estar se encontram na Mystic Fair, feira mística que reúne consultas, palestras gratuitas, oficinas e produtos esotéricos. Uma experiência voltada ao equilíbrio entre corpo e mente, com estandes especializados e atividades culturais.",
+      "dataInicio": "2026-12-12",
+      "dataFim": "2026-12-13",
+      "textoData": "12 - 13 dez",
+      "espaco": "Pavilhões",
+      "link": "https://www.mysticfair.com.br/?occurrence=2026-12-12",
+      "local": {
+        "nome": "São Paulo Expo",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "sao-paulo-expo",
+        "nome": "São Paulo Expo",
+        "url": "https://www.saopauloexpo.com.br/pt/agenda-de-eventos/"
+      },
+      "fonteDominio": "saopauloexpo.com.br",
+      "score": 43,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [
+        "Site próprio"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 16,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 16,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 2,
+      "faltamDias": 117,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "pro-magno:eventosocialprivado|2026-12-19",
+      "nome": "EVENTO SOCIAL PRIVADO",
+      "descricao": "",
+      "dataInicio": "2026-12-19",
+      "dataFim": "2026-12-19",
+      "textoData": "19/Dezembro/2026",
+      "espaco": "Pro Magno",
+      "link": "https://www.promagno.com.br/evento/evento-corporativo-privado-33/",
+      "local": {
+        "nome": "Pro Magno Centro de Eventos",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "pro-magno",
+        "nome": "Pro Magno Centro de Eventos",
+        "url": "https://www.promagno.com.br/"
+      },
+      "fonteDominio": "promagno.com.br",
+      "score": 0,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Social/privado",
+      "sinais": [],
+      "componentes": [],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 124,
+      "janela": "ideal",
+      "acionavel": false
+    }
+  ]
+}

@@ -1,0 +1,952 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Radar de Eventos</title>
+<meta name="description" content="Eventos corporativos que trazem público de fora para São Paulo, priorizados por potencial de venda de assentos e fretamento.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  /* céu noturno visto de cima: o mundo do produto */
+  --noite: #070b14;
+  --noite-2: #0b1120;
+  --vidro: rgba(255,255,255,.045);
+  --vidro-forte: rgba(255,255,255,.075);
+  --borda: rgba(255,255,255,.10);
+  --borda-forte: rgba(255,255,255,.18);
+
+  --tinta: #f2f5fa;
+  --tinta-2: #b6c0d2;
+  --tinta-3: #8794ab;
+
+  --azul: #4d9fff;
+  --azul-claro: #9cc8ff;
+  --azul-fundo: rgba(77,159,255,.14);
+  --azul-borda: rgba(77,159,255,.42);
+
+  --alto: #4ee6a8;
+  --alto-fundo: rgba(78,230,168,.13);
+  --medio: #ffc65c;
+  --medio-fundo: rgba(255,198,92,.13);
+  --baixo: #96a3b8;
+  --baixo-fundo: rgba(150,163,184,.12);
+  --quente: #ff8a6b;
+  --quente-fundo: rgba(255,138,107,.14);
+
+  --raio: 22px;
+  --raio-p: 12px;
+  --display: 'Archivo', 'Segoe UI', system-ui, sans-serif;
+  --corpo: 'IBM Plex Sans', 'Segoe UI', system-ui, sans-serif;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--noite);
+  color: var(--tinta);
+  font-family: var(--corpo);
+  font-size: 15px;
+  line-height: 1.5;
+  font-variant-numeric: tabular-nums;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+::selection { background: var(--azul); color: #04070d; }
+:focus-visible { outline: 2px solid var(--azul); outline-offset: 3px; border-radius: 6px; }
+button, select, input { font: inherit; color: inherit; }
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(255,255,255,.13); border-radius: 99px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(255,255,255,.24); }
+
+.env { width: min(1280px, 100% - 48px); margin: 0 auto; }
+@media (max-width: 640px) { .env { width: calc(100% - 32px); } }
+
+/* ================= céu ================= */
+.ceu {
+  position: relative;
+  min-height: 92vh;
+  padding: 96px 0 72px;
+  display: flex; flex-direction: column; justify-content: center;
+  overflow: hidden;
+  isolation: isolate;
+}
+.ceu::before {
+  content: '';
+  position: absolute; inset: -20% -10% auto -10%; height: 120%;
+  background:
+    radial-gradient(70% 55% at 78% 12%, rgba(77,159,255,.20), transparent 62%),
+    radial-gradient(58% 48% at 12% 76%, rgba(78,230,168,.10), transparent 66%),
+    linear-gradient(180deg, #0c1426 0%, transparent 78%);
+  z-index: -2;
+}
+.estrelas { position: absolute; inset: 0; z-index: -2; opacity: .55; }
+.rota { position: absolute; inset: 0; z-index: -1; pointer-events: none; overflow: visible; }
+.rastro { fill: none; stroke: rgba(255,255,255,.30); stroke-width: 1.6; stroke-linecap: round; stroke-dasharray: 5 9; }
+.aviao {
+  position: absolute; top: 0; left: 0; z-index: -1;
+  width: 46px; height: 46px; margin: -23px 0 0 -23px;
+  color: var(--tinta);
+  will-change: transform;
+  filter: drop-shadow(0 6px 16px rgba(0,0,0,.6));
+}
+
+.topo-nav {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 60;
+  display: flex; align-items: center; gap: 16px;
+  padding: 14px 0;
+  background: rgba(7,11,20,.72);
+  backdrop-filter: blur(16px);
+  border-bottom: 1px solid transparent;
+  transition: border-color .3s ease, background .3s ease;
+}
+.topo-nav[data-preso="true"] { border-bottom-color: var(--borda); }
+.topo-nav .env { display: flex; align-items: center; gap: 16px; }
+.marca {
+  margin: 0; font-family: var(--display); font-weight: 800; font-size: 16px;
+  letter-spacing: -.03em; display: flex; align-items: center; gap: 9px; white-space: nowrap;
+}
+.marca svg { color: var(--azul); flex: none; }
+.nav-fim { margin-left: auto; display: flex; align-items: center; gap: 14px; }
+.carimbo { font-size: 12px; color: var(--tinta-3); white-space: nowrap; }
+.ir-bancada {
+  display: inline-flex; align-items: center; gap: 7px;
+  height: 34px; padding: 0 14px; border-radius: 999px;
+  background: var(--azul); color: #05080f; border: 0;
+  font-size: 13.5px; font-weight: 600; cursor: pointer; text-decoration: none;
+}
+.ir-bancada:hover { filter: brightness(1.12); }
+
+.chamada { max-width: 760px; }
+.olho {
+  display: inline-flex; align-items: center; gap: 8px;
+  font-size: 12.5px; letter-spacing: .04em; color: var(--azul-claro);
+  padding: 5px 13px; border-radius: 999px;
+  background: var(--azul-fundo); border: 1px solid var(--azul-borda);
+  margin-bottom: 22px;
+}
+.olho b { font-weight: 600; color: var(--tinta); }
+.ceu h2 {
+  font-family: var(--display); font-weight: 800;
+  font-size: clamp(38px, 6.6vw, 78px); line-height: .98; letter-spacing: -.045em;
+  margin: 0 0 20px; text-wrap: balance; max-width: 15ch;
+}
+.ceu h2 em { font-style: normal; color: var(--azul); }
+.ceu .linha-fina { margin: 0 0 36px; color: var(--tinta-2); font-size: 17px; max-width: 54ch; }
+
+.stats { display: flex; gap: 12px; flex-wrap: wrap; }
+.stat {
+  flex: 1 1 190px; min-width: 170px;
+  padding: 18px 20px; border-radius: var(--raio);
+  background: var(--vidro); border: 1px solid var(--borda);
+  backdrop-filter: blur(18px);
+}
+.stat b {
+  display: block; font-family: var(--display); font-weight: 800;
+  font-size: 38px; line-height: 1; letter-spacing: -.04em; margin-bottom: 7px;
+}
+.stat[data-cor="alto"] b { color: var(--alto); }
+.stat[data-cor="quente"] b { color: var(--quente); }
+.stat[data-cor="neutro"] b { color: var(--tinta); }
+.stat span { font-size: 13.5px; color: var(--tinta-2); }
+
+/* ================= bancada ================= */
+.bancada { position: relative; z-index: 2; padding-bottom: 80px; }
+.bancada-topo { padding: 8px 0 20px; }
+.bancada-topo p { margin: 0; color: var(--tinta-3); font-size: 14px; max-width: 74ch; }
+.abas { display: flex; gap: 6px; margin-bottom: 10px; flex-wrap: wrap; }
+.aba {
+  display: inline-flex; align-items: center; gap: 9px;
+  padding: 9px 16px; border-radius: 999px; cursor: pointer;
+  background: transparent; border: 1px solid var(--borda); color: var(--tinta-2);
+  font-family: var(--display); font-weight: 600; font-size: 14px; letter-spacing: -.01em;
+  transition: background .18s ease, border-color .18s ease, color .18s ease;
+}
+.aba:hover { border-color: var(--borda-forte); color: var(--tinta); }
+.aba[aria-selected="true"] { background: var(--azul); border-color: var(--azul); color: #05080f; }
+.aba-num {
+  font-size: 12px; padding: 1px 8px; border-radius: 999px;
+  background: rgba(255,255,255,.09); color: var(--tinta-2);
+}
+.aba[aria-selected="true"] .aba-num { background: rgba(0,0,0,.22); color: #05080f; }
+
+/* contatos da carteira */
+.contatos { display: grid; gap: 10px; }
+.contato-linha {
+  display: grid; grid-template-columns: 88px 1fr; gap: 12px; align-items: baseline;
+  font-size: 14px; padding-bottom: 10px; border-bottom: 1px solid rgba(255,255,255,.06);
+}
+.contato-linha:last-child { border-bottom: 0; padding-bottom: 0; }
+.contato-linha dt { color: var(--tinta-3); font-size: 12.5px; }
+.contato-linha dd { margin: 0; color: var(--tinta); }
+.contato-linha a { color: var(--azul-claro); text-decoration: none; }
+.contato-linha a:hover { text-decoration: underline; text-underline-offset: 3px; }
+.sem-data {
+  display: inline-flex; align-items: center; gap: 7px;
+  font-size: 12px; padding: 5px 12px; border-radius: 999px;
+  color: var(--medio); background: var(--medio-fundo); border: 1px solid rgba(255,198,92,.3);
+}
+.aviso-privado {
+  margin-top: 14px; padding: 13px 16px; border-radius: var(--raio-p);
+  background: rgba(255,198,92,.07); border: 1px solid rgba(255,198,92,.22);
+  color: var(--tinta-2); font-size: 13px; line-height: 1.6;
+}
+
+.filtros {
+  position: sticky; top: 62px; z-index: 40;
+  display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
+  padding: 12px; margin-bottom: 16px;
+  border-radius: var(--raio-p);
+  background: rgba(11,17,32,.86); backdrop-filter: blur(18px);
+  border: 1px solid var(--borda);
+}
+.busca { position: relative; flex: 1 1 220px; min-width: 180px; }
+.busca svg { position: absolute; left: 11px; top: 50%; transform: translateY(-50%); color: var(--tinta-3); pointer-events: none; }
+.busca input {
+  width: 100%; height: 34px; padding: 0 11px 0 33px;
+  border-radius: 9px; border: 1px solid var(--borda);
+  background: rgba(255,255,255,.04); font-size: 13.5px; color: var(--tinta);
+}
+.busca input::placeholder { color: var(--tinta-3); }
+select {
+  height: 34px; padding: 0 30px 0 11px; font-size: 13.5px; flex: none;
+  border-radius: 9px; border: 1px solid var(--borda);
+  background-color: rgba(255,255,255,.04); color: var(--tinta);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%238794ab' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat; background-position: right 10px center;
+  appearance: none; cursor: pointer;
+}
+select option { background: #0d1424; color: var(--tinta); }
+.busca input:hover, select:hover { border-color: var(--borda-forte); }
+.marcador {
+  display: inline-flex; align-items: center; gap: 8px; flex: none;
+  height: 34px; padding: 0 13px 0 10px; font-size: 13.5px; color: var(--tinta-2);
+  border-radius: 9px; border: 1px solid var(--borda); background: rgba(255,255,255,.04);
+  cursor: pointer; user-select: none; white-space: nowrap;
+}
+.marcador input { position: absolute; opacity: 0; width: 0; height: 0; }
+.caixa {
+  width: 16px; height: 16px; border-radius: 5px; flex: none;
+  border: 1.5px solid var(--borda-forte); display: grid; place-items: center;
+  transition: background .16s ease, border-color .16s ease;
+}
+.caixa svg { opacity: 0; color: #05080f; transition: opacity .16s ease; }
+.marcador input:checked + .caixa { background: var(--azul); border-color: var(--azul); }
+.marcador input:checked + .caixa svg { opacity: 1; }
+.marcador:has(input:checked) { color: var(--tinta); border-color: var(--azul-borda); background: var(--azul-fundo); }
+.marcador input:focus-visible + .caixa { outline: 2px solid var(--azul); outline-offset: 2px; }
+.limpar {
+  margin-left: auto; background: none; border: 0; color: var(--azul);
+  font-size: 13px; cursor: pointer; padding: 5px 8px; border-radius: 7px;
+}
+.limpar:hover { background: var(--azul-fundo); }
+.limpar[hidden] { display: none; }
+
+.area {
+  display: grid; grid-template-columns: minmax(310px, 34%) 1fr; gap: 16px;
+  align-items: start;
+}
+.painel {
+  border-radius: var(--raio);
+  background: var(--vidro); border: 1px solid var(--borda);
+  backdrop-filter: blur(16px);
+  overflow: hidden;
+}
+.lista { position: sticky; top: 130px; max-height: calc(100vh - 154px); overflow-y: auto; }
+.lista-topo {
+  position: sticky; top: 0; z-index: 2;
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 12px 16px; background: rgba(13,20,36,.94); backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--borda);
+  font-size: 11px; letter-spacing: .09em; text-transform: uppercase;
+  color: var(--tinta-3); font-weight: 600;
+}
+.grupo-mes {
+  position: sticky; top: 41px; z-index: 1;
+  padding: 8px 16px; background: rgba(9,14,26,.92); backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--borda);
+  font-family: var(--display); font-weight: 700; font-size: 11px;
+  letter-spacing: .1em; text-transform: uppercase; color: var(--azul-claro);
+}
+.item {
+  display: grid; grid-template-columns: 46px 1fr auto; gap: 12px; align-items: center;
+  width: 100%; text-align: left; padding: 12px 16px;
+  border: 0; border-bottom: 1px solid rgba(255,255,255,.055);
+  background: none; cursor: pointer; position: relative; color: inherit;
+  transition: background .18s ease;
+}
+.item:hover { background: rgba(255,255,255,.045); }
+.item[aria-selected="true"] { background: var(--azul-fundo); }
+.item[aria-selected="true"]::before { content: ''; position: absolute; inset: 0 auto 0 0; width: 3px; background: var(--azul); }
+.item-data { font-family: var(--display); font-weight: 600; font-size: 11px; color: var(--tinta-3); line-height: 1.2; text-transform: uppercase; }
+.item-data b { display: block; font-size: 17px; color: var(--tinta); font-weight: 800; letter-spacing: -.03em; }
+.item-nome { font-weight: 500; font-size: 14px; line-height: 1.3; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.item-sub { font-size: 12px; color: var(--tinta-3); margin-top: 3px; }
+.item[data-arquivado="true"] .item-nome { color: var(--tinta-3); text-decoration: line-through; }
+.pontos {
+  font-family: var(--display); font-weight: 800; font-size: 12.5px;
+  padding: 3px 9px; border-radius: 999px; min-width: 34px; text-align: center;
+}
+.pontos[data-faixa="alto"] { color: var(--alto); background: var(--alto-fundo); }
+.pontos[data-faixa="medio"] { color: var(--medio); background: var(--medio-fundo); }
+.pontos[data-faixa="baixo"] { color: var(--baixo); background: var(--baixo-fundo); }
+
+.ficha { padding: 30px 32px 34px; }
+@media (max-width: 1080px) { .ficha { padding: 24px 22px 28px; } }
+.voltar { display: none; }
+.selos { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; }
+.selo {
+  display: inline-flex; align-items: center; gap: 7px;
+  font-size: 12px; font-weight: 500; padding: 5px 12px; border-radius: 999px;
+  border: 1px solid transparent;
+}
+.selo::before { content: ''; width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
+.selo[data-faixa="alto"] { color: var(--alto); background: var(--alto-fundo); border-color: rgba(78,230,168,.3); }
+.selo[data-faixa="medio"] { color: var(--medio); background: var(--medio-fundo); border-color: rgba(255,198,92,.3); }
+.selo[data-faixa="baixo"] { color: var(--baixo); background: var(--baixo-fundo); border-color: rgba(150,163,184,.25); }
+.selo-liso { color: var(--tinta-2); background: rgba(255,255,255,.05); border-color: var(--borda); }
+.selo-liso::before { display: none; }
+.selo-liso[data-quente="true"] { color: var(--quente); background: var(--quente-fundo); border-color: rgba(255,138,107,.32); }
+
+.ficha h2 {
+  font-family: var(--display); font-weight: 800;
+  font-size: clamp(25px, 3vw, 36px); line-height: 1.08; letter-spacing: -.035em;
+  margin: 0 0 10px; text-wrap: balance;
+}
+.ficha-linha { color: var(--tinta-2); font-size: 15px; margin: 0 0 24px; }
+.ficha-linha b { color: var(--tinta); font-weight: 600; }
+.acoes { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 30px; }
+.botao {
+  display: inline-flex; align-items: center; gap: 8px;
+  height: 42px; padding: 0 20px; border-radius: 999px;
+  background: var(--azul); color: #05080f; border: 0;
+  font-size: 14.5px; font-weight: 600; text-decoration: none; cursor: pointer;
+  transition: filter .18s ease, transform .18s cubic-bezier(.16,1,.3,1);
+}
+.botao:hover { filter: brightness(1.12); transform: translateY(-1px); }
+.acoes select { height: 42px; border-radius: 999px; padding: 0 34px 0 16px; }
+
+.bloco { border-top: 1px solid var(--borda); padding: 22px 0 6px; }
+.bloco h3 {
+  font-family: var(--display); font-weight: 700; font-size: 11px;
+  letter-spacing: .12em; text-transform: uppercase; color: var(--tinta-3); margin: 0 0 14px;
+}
+.bloco p { margin: 0 0 14px; color: var(--tinta-2); font-size: 14.5px; line-height: 1.6; max-width: 66ch; }
+.marcas { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 16px; padding: 0; list-style: none; }
+.marcas li {
+  font-size: 13px; padding: 6px 13px; border-radius: 999px;
+  background: rgba(255,255,255,.05); border: 1px solid var(--borda); color: var(--tinta-2);
+}
+.barras { display: grid; gap: 11px; max-width: 470px; }
+.barra-linha { display: grid; grid-template-columns: 112px 1fr 46px; gap: 12px; align-items: center; font-size: 13px; }
+.barra-linha > span:first-child { color: var(--tinta-2); }
+.trilho { height: 7px; border-radius: 99px; background: rgba(255,255,255,.08); overflow: hidden; }
+.preenche { height: 100%; border-radius: 99px; background: linear-gradient(90deg, var(--azul), var(--azul-claro)); }
+.barra-valor { text-align: right; color: var(--tinta-3); font-size: 12.5px; }
+.barra-total {
+  display: flex; justify-content: space-between; align-items: baseline;
+  max-width: 470px; margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--borda);
+  font-size: 13px; color: var(--tinta-2);
+}
+.barra-total b { font-family: var(--display); font-size: 22px; font-weight: 800; color: var(--tinta); }
+
+.vizinhos { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.vizinhos button {
+  width: 100%; text-align: left; display: flex; align-items: center; gap: 13px;
+  padding: 11px 14px; border-radius: var(--raio-p);
+  background: rgba(255,255,255,.035); border: 1px solid var(--borda);
+  cursor: pointer; font-size: 13.5px; color: inherit; transition: border-color .18s, background .18s;
+}
+.vizinhos button:hover { border-color: var(--azul-borda); background: var(--azul-fundo); }
+.vizinhos time { color: var(--tinta-3); font-size: 12.5px; flex: none; width: 56px; font-family: var(--display); font-weight: 600; }
+.vizinhos .nome { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+.dica { margin-top: 28px; padding-top: 16px; border-top: 1px solid var(--borda); font-size: 12.5px; color: var(--tinta-3); line-height: 1.65; }
+.dica kbd {
+  font-family: var(--corpo); font-size: 11.5px; padding: 2px 6px;
+  border: 1px solid var(--borda-forte); border-bottom-width: 2px; border-radius: 5px;
+  background: rgba(255,255,255,.05); color: var(--tinta-2);
+}
+
+.vazio { display: grid; place-items: center; padding: 70px 30px; text-align: center; }
+.vazio div { max-width: 42ch; }
+.vazio h3 { font-family: var(--display); font-size: 18px; margin: 0 0 8px; color: var(--tinta-2); font-weight: 700; }
+.vazio p { margin: 0; font-size: 14px; color: var(--tinta-3); line-height: 1.6; }
+.esqueleto { height: 58px; border-bottom: 1px solid rgba(255,255,255,.05); background: rgba(255,255,255,.03); animation: pulsa 1.5s ease-in-out infinite; }
+.esqueleto:nth-child(2) { animation-delay: .12s; } .esqueleto:nth-child(3) { animation-delay: .24s; }
+@keyframes pulsa { 0%,100% { opacity: .45; } 50% { opacity: .95; } }
+
+.rodape { border-top: 1px solid var(--borda); padding: 30px 0 50px; color: var(--tinta-3); font-size: 12.5px; }
+.rodape p { margin: 0 0 9px; max-width: 78ch; line-height: 1.65; }
+
+@media (max-width: 900px) {
+  .area { grid-template-columns: 1fr; }
+  .lista { position: static; max-height: 60vh; }
+  .ficha-painel {
+    position: fixed; inset: 0; z-index: 70; border-radius: 0; border: 0;
+    background: var(--noite-2); overflow-y: auto;
+    transform: translateX(100%); transition: transform .3s cubic-bezier(.16,1,.3,1);
+  }
+  .ficha-painel[data-aberta="true"] { transform: none; }
+  .voltar {
+    display: flex; align-items: center; gap: 8px; position: sticky; top: 0; z-index: 3;
+    width: 100%; padding: 15px 18px; background: rgba(11,17,32,.95); backdrop-filter: blur(12px);
+    border: 0; border-bottom: 1px solid var(--borda); cursor: pointer;
+    font-size: 14px; color: var(--azul); font-weight: 600;
+  }
+  .ceu { min-height: auto; padding: 92px 0 56px; }
+  .carimbo { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  * { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+}
+</style>
+</head>
+<body>
+<!--
+IMPECCABLE DIRECTION CONTRACT
+THESIS: a agenda comercial vista do céu — recusa o painel administrativo cinza que a categoria sempre entrega para uma ferramenta interna.
+OWN-WORLD: noite #070b14, cartões de vidro com blur e raio 22px, azul #4d9fff como única cor de ação, verde e âmbar apenas como semântica de potencial, Archivo em peso 800 para números.
+STORY: ela chega pelo céu, lê quantas oportunidades tem em aberto, desce para a bancada e sai com o site do organizador na mão.
+FIRST VIEWPORT: céu escuro com rota traçada e avião voando na diagonal, manchete à esquerda e três cartões de vidro com o placar do dia embaixo.
+FORM: dossiê mestre-detalhe sob mundo noturno, índice 5 da lista ordenada, seed key radar01 (dealt 5, 2, 7).
+FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance.
+-->
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+  <g id="i-radar" stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="12" cy="12" r="8.6"/><circle cx="12" cy="12" r="4.2"/><path d="M12 12 18.4 6.8"/></g>
+  <g id="i-busca" stroke="currentColor" stroke-width="1.9" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="11" cy="11" r="6.2"/><path d="m19.6 19.6-4.2-4.2"/></g>
+  <g id="i-check" stroke="currentColor" stroke-width="3.2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m5 12.5 4.6 4.6L19 7.4"/></g>
+  <g id="i-externo" stroke="currentColor" stroke-width="1.9" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M13.5 4.5H19.5V10.5M19.5 4.5 11 13M18 14v4.5A1.5 1.5 0 0 1 16.5 20h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6H10"/></g>
+  <g id="i-esq" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M18 12H6M11 6.5 5.5 12 11 17.5"/></g>
+  <g id="i-baixo" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 5v13M6.5 12.5 12 18l5.5-5.5"/></g>
+</defs></svg>
+
+<nav class="topo-nav" id="nav">
+  <div class="env">
+    <h1 class="marca"><svg width="19" height="19" viewBox="0 0 24 24"><use href="#i-radar"/></svg>Radar de Eventos</h1>
+    <div class="nav-fim">
+      <span class="carimbo" id="carimbo"></span>
+      <a class="ir-bancada" href="#bancada">Ver a agenda
+        <svg width="14" height="14" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-baixo"/></svg></a>
+    </div>
+  </div>
+</nav>
+
+<header class="ceu" id="ceu">
+  <canvas class="estrelas" id="estrelas" aria-hidden="true"></canvas>
+  <svg class="rota" id="rota" aria-hidden="true" preserveAspectRatio="none">
+    <path id="caminho" class="rastro" d=""/>
+  </svg>
+  <svg class="aviao" id="aviao" viewBox="0 0 64 64" aria-hidden="true" fill="currentColor">
+    <path d="M32 3c2.5 0 4.2 2.9 4.5 8.3l.3 9.5 21.6 12.7c.9.5 1.4 1.5 1.4 2.6v3.3c0 1-.9 1.7-1.9 1.4L36.9 35l-.4 11.6 7 5.3c.6.5 1 1.2 1 2v2.3c0 .9-.8 1.5-1.7 1.3L32 55l-10.8 2.5c-.9.2-1.7-.4-1.7-1.3v-2.3c0-.8.4-1.5 1-2l7-5.3-.4-11.6-21 5.8c-1 .3-1.9-.4-1.9-1.4v-3.3c0-1.1.5-2.1 1.4-2.6l21.6-12.7.3-9.5C27.8 5.9 29.5 3 32 3Z"/>
+  </svg>
+
+  <div class="env chamada">
+    <span class="olho"><b id="olho-num">—</b> oportunidades abertas com prazo para vender</span>
+    <h2>Quem está trazendo o Brasil <em>para São Paulo</em></h2>
+    <p class="linha-fina">Feiras, congressos e convenções que enchem a cidade de gente de fora — ordenados pelo que ainda dá tempo de fechar.</p>
+    <div class="stats" id="stats"></div>
+  </div>
+</header>
+
+<main class="bancada env" id="bancada">
+  <div class="bancada-topo">
+    <div class="abas" role="tablist" aria-label="Fontes de oportunidade">
+      <button class="aba" id="aba-agenda" role="tab" aria-selected="true" aria-controls="area" data-aba="agenda">
+        Agenda das casas <span class="aba-num" id="num-agenda">—</span>
+      </button>
+      <button class="aba" id="aba-carteira" role="tab" aria-selected="false" aria-controls="area" data-aba="carteira">
+        Minha carteira <span class="aba-num" id="num-carteira">—</span>
+      </button>
+    </div>
+    <p id="aba-explica">Eventos raspados das agendas dos centros de convenções. Escolha um para abrir a ficha.</p>
+  </div>
+
+  <div class="filtros">
+    <div class="busca">
+      <svg width="15" height="15" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-busca"/></svg>
+      <input type="search" id="busca" placeholder="Buscar evento ou setor" aria-label="Buscar evento">
+    </div>
+    <select id="f-mes" aria-label="Filtrar por mês"><option value="">Todos os meses</option></select>
+    <select id="f-potencial" aria-label="Filtrar por potencial">
+      <option value="">Todo potencial</option><option value="alto">Alto</option>
+      <option value="medio">Médio</option><option value="baixo">Baixo</option>
+    </select>
+    <select id="f-tipo" aria-label="Filtrar por tipo"><option value="">Todos os tipos</option></select>
+    <select id="f-status" aria-label="Filtrar por situação">
+      <option value="">Qualquer situação</option><option value="novo">Sem contato</option>
+      <option value="contatado">Contatei</option><option value="negociando">Negociando</option>
+      <option value="fechado">Fechado</option><option value="descartado">Descartado</option>
+    </select>
+    <label class="marcador">
+      <input type="checkbox" id="f-tempo" checked>
+      <span class="caixa"><svg width="11" height="11" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-check"/></svg></span>
+      Só o que dá tempo
+    </label>
+    <button class="limpar" id="limpar" type="button" hidden>Limpar</button>
+  </div>
+
+  <div class="area">
+    <div class="painel lista" id="lista" role="listbox" aria-label="Eventos" tabindex="0">
+      <div class="esqueleto"></div><div class="esqueleto"></div><div class="esqueleto"></div>
+    </div>
+    <section class="painel ficha-painel" id="ficha-painel" aria-live="polite"></section>
+  </div>
+
+  <footer class="rodape">
+    <p id="fontes"></p>
+    <p>O potencial é estimado a partir do texto publicado por cada casa de eventos — porte, alcance, perfil do organizador e duração. Serve para ordenar a fila, não para decidir sozinho. As marcações de contato ficam salvas só neste navegador.</p>
+    <p>Ferramenta de trabalho não-oficial. Não é sistema da Azul e não contém dado interno da companhia.</p>
+  </footer>
+</main>
+
+<script>
+const MES_CURTO = ['jan','fev','mar','abr','mai','jun','jul','ago','set','out','nov','dez'];
+const MES_LONGO = ['Janeiro','Fevereiro','Março','Abril','Maio','Junho','Julho','Agosto','Setembro','Outubro','Novembro','Dezembro'];
+const SITUACOES = { novo:'Sem contato', contatado:'Contatei', negociando:'Negociando', fechado:'Fechado', descartado:'Descartado' };
+const CHAVE = 'radar-eventos:status';
+
+let dados = null, visiveis = [], selecionado = null, estados = {}, abaAtual = 'agenda';
+
+// A agenda vem das casas de evento e olha de 4 a 6 meses à frente; a carteira
+// vem da planilha de prospecção e olha de 12 a 18. São perguntas diferentes,
+// por isso duas listas e não uma só.
+const fonteAtual = () => (abaAtual === 'carteira' ? (dados.carteira || []) : dados.eventos);
+try { estados = JSON.parse(localStorage.getItem(CHAVE) || '{}'); } catch { estados = {}; }
+
+const $ = (s) => document.querySelector(s);
+const esc = (t) => String(t ?? '').replace(/[&<>"']/g, (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const dt = (iso) => new Date(iso + 'T00:00:00');
+const sit = (id) => estados[id] || 'novo';
+const suave = !matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+function prazo(d) {
+  if (d == null) return '';
+  if (d < 0) return 'já passou';
+  if (d === 0) return 'é hoje';
+  if (d === 1) return 'amanhã';
+  if (d < 30) return `faltam ${d} dias`;
+  const m = Math.round(d / 30);
+  return `faltam ${m} ${m === 1 ? 'mês' : 'meses'}`;
+}
+function intervalo(e) {
+  const a = dt(e.dataInicio), b = dt(e.dataFim);
+  const f = (d) => `${d.getDate()} ${MES_CURTO[d.getMonth()]}`;
+  return e.dataInicio === e.dataFim ? f(a) : `${a.getDate()}–${f(b)}`;
+}
+
+/* ---------- céu: estrelas e voo ---------- */
+function pintarEstrelas() {
+  const c = $('#estrelas'), ceu = $('#ceu');
+  if (!c || !ceu) return;
+  const r = ceu.getBoundingClientRect();
+  const dpr = Math.min(devicePixelRatio || 1, 2);
+  c.width = r.width * dpr; c.height = r.height * dpr;
+  c.style.width = r.width + 'px'; c.style.height = r.height + 'px';
+  const ctx = c.getContext('2d');
+  ctx.scale(dpr, dpr);
+  ctx.clearRect(0, 0, r.width, r.height);
+  const n = Math.round((r.width * r.height) / 9000);
+  for (let i = 0; i < n; i++) {
+    const x = Math.random() * r.width, y = Math.random() * r.height;
+    const raio = Math.random() * 1.25 + .25;
+    ctx.globalAlpha = Math.random() * .5 + .12;
+    ctx.fillStyle = Math.random() > .88 ? '#9cc8ff' : '#ffffff';
+    ctx.beginPath(); ctx.arc(x, y, raio, 0, Math.PI * 2); ctx.fill();
+  }
+}
+
+function traçarRota() {
+  const ceu = $('#ceu'), svg = $('#rota'), caminho = $('#caminho');
+  if (!ceu || !svg || !caminho) return;
+  const { width: L, height: A } = ceu.getBoundingClientRect();
+  svg.setAttribute('viewBox', `0 0 ${L} ${A}`);
+  // arco suave subindo da esquerda-baixa para a direita-alta
+  const d = `M ${-60} ${A * 0.82} C ${L * 0.28} ${A * 0.72}, ${L * 0.46} ${A * 0.16}, ${L + 60} ${A * 0.24}`;
+  caminho.setAttribute('d', d);
+  const total = caminho.getTotalLength();
+  caminho.style.strokeDasharray = `5 9`;
+  caminho.style.strokeDashoffset = '0';
+  return total;
+}
+
+let comprimentoRota = 0;
+function voar() {
+  const caminho = $('#caminho'), aviao = $('#aviao'), ceu = $('#ceu');
+  if (!caminho || !aviao || !ceu || !comprimentoRota) return;
+  const alturaCeu = ceu.offsetHeight;
+  const bruto = Math.max(0, Math.min(1, scrollY / Math.max(1, alturaCeu * 0.92)));
+  // Sem a folga inicial o avião nasce fora da tela e só aparece depois de rolar:
+  // ele precisa estar visível já no primeiro olhar, e a rolagem o leva embora.
+  const INICIO = 0.11;
+  const progresso = INICIO + bruto * (1 - INICIO);
+  const p = caminho.getPointAtLength(comprimentoRota * progresso);
+  const p2 = caminho.getPointAtLength(Math.min(comprimentoRota, comprimentoRota * progresso + 2));
+  const ang = Math.atan2(p2.y - p.y, p2.x - p.x) * 180 / Math.PI;
+  aviao.style.transform = `translate(${p.x}px, ${p.y}px) rotate(${ang + 90}deg)`;
+  aviao.style.opacity = progresso > .985 ? '0' : '1';
+  // o rastro se desenha atrás do avião
+  caminho.style.strokeDasharray = `${comprimentoRota * progresso} ${comprimentoRota}`;
+}
+
+function prepararCeu() {
+  pintarEstrelas();
+  comprimentoRota = traçarRota() || 0;
+  voar();
+}
+
+// O voo é lido da posição de rolagem a cada quadro, e não do evento 'scroll':
+// rolagem por âncora, por teclado ou programática nem sempre emite o evento,
+// e o avião congelava no meio do céu quando isso acontecia. O laço só roda
+// enquanto o céu está na tela, então não custa nada depois que ela desce.
+function atualizar() {
+  voar();
+  $('#nav').dataset.preso = String(scrollY > 12);
+}
+
+// Três gatilhos independentes porque nenhum é confiável sozinho: o evento
+// 'scroll' não dispara em rolagem programática ou por âncora em alguns
+// ambientes, e requestAnimationFrame não roda em aba sem composição. Juntos,
+// o avião nunca congela no meio do céu.
+let noAr = true;
+function laco() {
+  atualizar();
+  if (noAr && suave) requestAnimationFrame(laco);
+}
+if (suave) {
+  requestAnimationFrame(laco);
+  if ('IntersectionObserver' in window) {
+    new IntersectionObserver(([entrada]) => {
+      const antes = noAr;
+      noAr = entrada.isIntersecting;
+      if (noAr && !antes) requestAnimationFrame(laco);
+      else if (!noAr) atualizar();
+    }, { threshold: 0 }).observe($('#ceu'));
+  }
+}
+addEventListener('scroll', atualizar, { passive: true });
+addEventListener('resize', () => { prepararCeu(); atualizar(); });
+
+/* ---------- dados e interface ---------- */
+function filtrar() {
+  const termo = $('#busca').value.trim().toLowerCase();
+  const mes = $('#f-mes').value, pot = $('#f-potencial').value;
+  const tipo = $('#f-tipo').value, situacao = $('#f-status').value, tempo = $('#f-tempo').checked;
+  const naCarteira = abaAtual === 'carteira';
+  $('#limpar').hidden = !(termo || mes || pot || tipo || situacao || (!naCarteira && !tempo));
+
+  return fonteAtual().filter((e) => {
+    // Na carteira o filtro de prazo não se aplica: metade das oportunidades
+    // ainda não tem data divulgada, e são justamente as que ela prospecta.
+    if (!naCarteira && tempo && !e.acionavel) return false;
+    if (mes && (!e.dataInicio || e.dataInicio.slice(0, 7) !== mes)) return false;
+    if (pot && e.faixa !== pot) return false;
+    if (tipo && e.tipo !== tipo) return false;
+    if (situacao && sit(e.id) !== situacao) return false;
+    if (termo) {
+      const alvo = naCarteira
+        ? `${e.nome} ${e.objetivo} ${e.oportunidade} ${e.onde} ${e.contato} ${e.origem}`
+        : `${e.nome} ${e.descricao} ${e.tipo} ${(e.sinais||[]).join(' ')} ${e.local.nome}`;
+      if (!alvo.toLowerCase().includes(termo)) return false;
+    }
+    return true;
+  });
+}
+
+function desenharLista() {
+  visiveis = filtrar();
+  const lista = $('#lista');
+  const naCarteira = abaAtual === 'carteira';
+
+  if (!visiveis.length) {
+    const semArquivo = naCarteira && !dados.carteiraPresente;
+    lista.innerHTML = '<div class="vazio"><div>'
+      + (semArquivo
+        ? '<h3>Carteira não carregada</h3><p>A planilha de prospecção fica só na máquina de quem a mantém — '
+          + 'ela não é publicada junto com o site. Rode <code>scripts/planilha-para-csv.ps1</code> para gerar '
+          + '<code>dados/carteira.csv</code> e depois <code>npm run coletar</code>.</p>'
+        : '<h3>Nada com esses filtros</h3><p>Limpe a busca para ver a lista inteira.</p>')
+      + '</div></div>';
+    selecionado = null; desenharFicha(); return;
+  }
+
+  const rotulo = naCarteira
+    ? `${visiveis.length} ${visiveis.length === 1 ? 'oportunidade' : 'oportunidades'}`
+    : `${visiveis.length} ${visiveis.length === 1 ? 'evento' : 'eventos'}`;
+  let html = `<div class="lista-topo"><span>${rotulo}</span><span>Potencial</span></div>`;
+
+  let grupoAtual = '';
+  for (const e of visiveis) {
+    const k = e.dataInicio ? e.dataInicio.slice(0, 7) : 'sem-data';
+    if (k !== grupoAtual) {
+      grupoAtual = k;
+      if (k === 'sem-data') {
+        html += `<div class="grupo-mes">Data ainda não divulgada</div>`;
+      } else {
+        const [ano, m] = k.split('-');
+        html += `<div class="grupo-mes">${MES_LONGO[+m - 1]} ${ano}</div>`;
+      }
+    }
+    const s = sit(e.id);
+    const arquivado = s === 'fechado' || s === 'descartado';
+    const caixaData = e.dataInicio
+      ? `<span class="item-data"><b>${dt(e.dataInicio).getDate()}</b>${MES_CURTO[dt(e.dataInicio).getMonth()]}</span>`
+      : `<span class="item-data"><b>—</b>a definir</span>`;
+    const sub = e.dataInicio ? prazo(e.faltamDias) : (e.oportunidade || e.origem || 'sem data');
+    html += `<button class="item" role="option" data-id="${esc(e.id)}" data-arquivado="${arquivado}" aria-selected="${e.id === selecionado}">`
+      + caixaData
+      + `<span><span class="item-nome">${esc(e.nome)}</span>`
+      + `<span class="item-sub">${esc(String(sub).slice(0, 52))}${s !== 'novo' ? ' · ' + esc(SITUACOES[s]) : ''}</span></span>`
+      + `<span class="pontos" data-faixa="${e.faixa}">${e.score}</span></button>`;
+  }
+  lista.innerHTML = html;
+  if (!visiveis.some((e) => e.id === selecionado)) {
+    selecionado = visiveis[0].id;
+    lista.querySelector('.item')?.setAttribute('aria-selected', 'true');
+  }
+  desenharFicha();
+}
+
+function fichaCarteira(e, abrirNoMobile) {
+  const painel = $('#ficha-painel');
+  const s = sit(e.id);
+  const rotulo = e.faixa === 'alto' ? 'Alto potencial' : e.faixa === 'medio' ? 'Potencial médio' : 'Potencial baixo';
+
+  const contatos = [
+    ['Contato', e.contato ? esc(e.contato) : ''],
+    ['E-mail', e.email ? `<a href="mailto:${esc(e.email.split(/[;,\s]/)[0])}">${esc(e.email)}</a>` : ''],
+    ['Telefone', e.telefone ? `<a href="tel:${esc(e.telefone.replace(/[^\d+]/g, ''))}">${esc(e.telefone)}</a>` : ''],
+    ['Onde', e.onde ? esc(e.onde) : ''],
+    ['Valor', e.valorEstimado ? esc(e.valorEstimado) : ''],
+  ].filter(([, v]) => v);
+
+  const comps = (e.componentes || []).filter((c) => c.teto > 0);
+
+  painel.innerHTML = `<button class="voltar" type="button" id="voltar"><svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-esq"/></svg>Todas as oportunidades</button>`
+    + `<div class="ficha">`
+    + `<div class="selos"><span class="selo" data-faixa="${e.faixa}">${esc(rotulo)}</span>`
+      + (e.dataInicio
+          ? `<span class="selo selo-liso"${e.faltamDias <= 21 ? ' data-quente="true"' : ''}>${esc(prazo(e.faltamDias))}</span>`
+          : `<span class="sem-data">Data ainda não divulgada</span>`)
+      + `<span class="selo selo-liso">${esc(e.origem || 'Carteira')}</span></div>`
+    + `<h2>${esc(e.nome)}</h2>`
+    + `<p class="ficha-linha">${e.dataInicio ? `<b>${esc(intervalo(e))}</b>` : `<b>${esc(e.textoData || 'sem data')}</b>`}`
+      + `${e.onde ? ' · ' + esc(e.onde) : ''}</p>`
+    + (e.oportunidade ? `<div class="acoes"><span class="selo selo-liso" style="height:42px;padding:0 18px;font-size:14px">${esc(e.oportunidade)}</span></div>` : '')
+    + (contatos.length
+        ? `<div class="bloco"><h3>Quem procurar</h3><dl class="contatos">`
+          + contatos.map(([r, v]) => `<div class="contato-linha"><dt>${r}</dt><dd>${v}</dd></div>`).join('')
+          + `</dl><div class="aviso-privado">Estes contatos vêm da planilha de prospecção e ficam apenas nesta máquina: o arquivo não é publicado junto com o site.</div></div>`
+        : `<div class="bloco"><h3>Quem procurar</h3><p>A planilha não traz contato para esta oportunidade ainda.</p></div>`)
+    + (e.objetivo ? `<div class="bloco"><h3>Objetivo</h3><p>${esc(e.objetivo)}</p></div>` : '')
+    + (comps.length ? `<div class="bloco"><h3>Como o potencial foi calculado</h3><div class="barras">`
+        + comps.map((c) => `<div class="barra-linha"><span>${esc(c.rotulo)}</span>`
+          + `<span class="trilho"><span class="preenche" style="width:${Math.round((c.valor / c.teto) * 100)}%"></span></span>`
+          + `<span class="barra-valor">${c.valor}/${c.teto}</span></div>`).join('')
+        + `</div><div class="barra-total"><span>Potencial total</span><b>${e.score}</b></div>`
+        + `<p style="margin-top:14px;font-size:12.5px">Calculado a partir do objetivo e do tipo de oportunidade escritos na planilha.</p></div>` : '')
+    + `<div class="bloco"><h3>Situação do contato</h3><div class="acoes">`
+      + `<select id="situacao" aria-label="Situação do contato">`
+      + Object.entries(SITUACOES).map(([v, r]) => `<option value="${v}"${v === s ? ' selected' : ''}>${r}</option>`).join('')
+      + `</select></div></div>`
+    + `</div>`;
+
+  if (abrirNoMobile && matchMedia('(max-width: 900px)').matches) painel.dataset.aberta = 'true';
+  painel.scrollTop = 0;
+}
+
+function desenharFicha(abrirNoMobile = false) {
+  const painel = $('#ficha-painel');
+  const e = fonteAtual().find((x) => x.id === selecionado);
+  if (e && abaAtual === 'carteira') return fichaCarteira(e, abrirNoMobile);
+  if (!e) {
+    painel.innerHTML = '<div class="vazio"><div><h3>Nenhum evento selecionado</h3>'
+      + '<p>Escolha um evento na lista para ver a ficha completa.</p></div></div>';
+    return;
+  }
+  const s = sit(e.id);
+  const quente = e.faltamDias != null && e.faltamDias <= 21;
+  const rotulo = e.confianca === 'baixa' && e.faixa === 'baixo' ? 'Pouca informação publicada'
+    : e.faixa === 'alto' ? 'Alto potencial' : e.faixa === 'medio' ? 'Potencial médio' : 'Potencial baixo';
+
+  const comps = (e.componentes || []).filter((c) => c.teto > 0);
+  const barras = comps.length ? `<div class="bloco"><h3>Como o potencial foi calculado</h3><div class="barras">`
+    + comps.map((c) => `<div class="barra-linha"><span>${esc(c.rotulo)}</span>`
+      + `<span class="trilho"><span class="preenche" style="width:${Math.round((c.valor / c.teto) * 100)}%"></span></span>`
+      + `<span class="barra-valor">${c.valor}/${c.teto}</span></div>`).join('')
+    + `</div><div class="barra-total"><span>Potencial total</span><b>${e.score}</b></div></div>` : '';
+
+  const mesmoMes = dados.eventos
+    .filter((x) => x.id !== e.id && x.dataInicio.slice(0, 7) === e.dataInicio.slice(0, 7))
+    .sort((a, b) => b.score - a.score).slice(0, 4);
+  const vizinhos = mesmoMes.length ? `<div class="bloco"><h3>Outros em ${MES_LONGO[+e.dataInicio.slice(5,7) - 1].toLowerCase()}</h3>`
+    + `<ul class="vizinhos">` + mesmoMes.map((v) => `<li><button type="button" data-ir="${esc(v.id)}">`
+      + `<time>${esc(intervalo(v))}</time><span class="nome">${esc(v.nome)}</span>`
+      + `<span class="pontos" data-faixa="${v.faixa}">${v.score}</span></button></li>`).join('')
+    + `</ul></div>` : '';
+
+  painel.innerHTML = `<button class="voltar" type="button" id="voltar"><svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-esq"/></svg>Todos os eventos</button>`
+    + `<div class="ficha">`
+    + `<div class="selos"><span class="selo" data-faixa="${e.faixa}">${esc(rotulo)}</span>`
+      + `<span class="selo selo-liso"${quente ? ' data-quente="true"' : ''}>${esc(prazo(e.faltamDias))}</span>`
+      + `<span class="selo selo-liso">${esc(e.tipo)}</span></div>`
+    + `<h2>${esc(e.nome)}</h2>`
+    + `<p class="ficha-linha"><b>${esc(intervalo(e))}</b> · ${esc(e.local.nome)}, ${esc(e.local.cidade)}`
+      + `${e.diasDeEvento > 1 ? ` · ${e.diasDeEvento} dias` : ''}</p>`
+    + `<div class="acoes"><a class="botao" href="${esc(e.link)}" target="_blank" rel="noopener">Abrir site do organizador`
+      + `<svg width="15" height="15" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-externo"/></svg></a>`
+      + `<select id="situacao" aria-label="Situação do contato">`
+      + Object.entries(SITUACOES).map(([v, r]) => `<option value="${v}"${v === s ? ' selected' : ''}>${r}</option>`).join('')
+      + `</select></div>`
+    + ((e.sinais || []).length
+        ? `<div class="bloco"><h3>Por que ligar</h3><ul class="marcas">${e.sinais.map((x) => `<li>${esc(x)}</li>`).join('')}</ul>`
+          + (e.descricao ? `<p>${esc(e.descricao)}</p>` : '') + `</div>`
+        : (e.descricao ? `<div class="bloco"><h3>Sobre o evento</h3><p>${esc(e.descricao)}</p></div>`
+          : `<div class="bloco"><h3>Por que ligar</h3><p>A casa de eventos não publicou descrição, então a nota saiu apenas do nome. Vale abrir o site antes de descartar.</p></div>`))
+    + barras + vizinhos
+    + `<p class="dica">Use <kbd>↑</kbd> <kbd>↓</kbd> na lista e <kbd>Enter</kbd> para abrir o site do organizador.</p>`
+    + `</div>`;
+
+  if (abrirNoMobile && matchMedia('(max-width: 900px)').matches) painel.dataset.aberta = 'true';
+  painel.scrollTop = 0;
+}
+
+function trocarAba(nova) {
+  if (nova === abaAtual) return;
+  abaAtual = nova;
+  selecionado = null;
+  document.querySelectorAll('.aba').forEach((b) => b.setAttribute('aria-selected', String(b.dataset.aba === nova)));
+  $('#aba-explica').textContent = nova === 'carteira'
+    ? 'Oportunidades da planilha de prospecção, com o contato de quem procurar. Boa parte ainda não tem data divulgada — é o horizonte de 12 a 18 meses, que as agendas das casas ainda não publicaram.'
+    : 'Eventos raspados das agendas dos centros de convenções. Escolha um para abrir a ficha.';
+  // O filtro de prazo não faz sentido na carteira, onde metade não tem data.
+  $('#f-tempo').closest('.marcador').style.display = nova === 'carteira' ? 'none' : '';
+  montarFiltros();
+  desenharLista();
+}
+
+function selecionar(id, focarLista) {
+  selecionado = id;
+  document.querySelectorAll('.item').forEach((b) => b.setAttribute('aria-selected', String(b.dataset.id === id)));
+  const alvo = document.querySelector(`.item[data-id="${CSS.escape(id)}"]`);
+  if (alvo) { alvo.scrollIntoView({ block: 'nearest' }); if (focarLista) alvo.focus({ preventScroll: true }); }
+  desenharFicha(!focarLista);
+}
+function andar(passo) {
+  const i = visiveis.findIndex((e) => e.id === selecionado);
+  const prox = visiveis[Math.min(visiveis.length - 1, Math.max(0, i + passo))];
+  if (prox && prox.id !== selecionado) selecionar(prox.id, true);
+}
+
+function montarFiltros() {
+  const fonte = fonteAtual();
+  const mesEscolhido = $('#f-mes').value, tipoEscolhido = $('#f-tipo').value;
+
+  const meses = [...new Set(fonte.filter((e) => e.dataInicio).map((e) => e.dataInicio.slice(0, 7)))].sort();
+  $('#f-mes').innerHTML = '<option value="">Todos os meses</option>'
+    + meses.map((m) => { const [a, n] = m.split('-'); return `<option value="${m}">${MES_LONGO[+n - 1]} ${a}</option>`; }).join('');
+  if (meses.includes(mesEscolhido)) $('#f-mes').value = mesEscolhido;
+
+  const tipos = [...new Set(fonte.map((e) => e.tipo))].filter(Boolean).sort();
+  $('#f-tipo').innerHTML = '<option value="">Todos os tipos</option>'
+    + tipos.map((t) => `<option value="${esc(t)}">${esc(t)}</option>`).join('');
+  if (tipos.includes(tipoEscolhido)) $('#f-tipo').value = tipoEscolhido;
+
+  $('#num-agenda').textContent = dados.eventos.length;
+  $('#num-carteira').textContent = (dados.carteira || []).length;
+}
+
+function desenharPlacar() {
+  const abertas = dados.eventos.filter((e) => e.acionavel && e.faixa === 'alto' && sit(e.id) === 'novo').length;
+  const fechando = dados.eventos.filter((e) => e.faltamDias > 0 && e.faltamDias <= 21 && sit(e.id) === 'novo').length;
+  $('#olho-num').textContent = abertas;
+  $('#stats').innerHTML =
+      `<div class="stat" data-cor="alto"><b>${abertas}</b><span>de alto potencial, com prazo para prospectar</span></div>`
+    + `<div class="stat" data-cor="quente"><b>${fechando}</b><span>acontecem nas próximas 3 semanas</span></div>`
+    + `<div class="stat" data-cor="neutro"><b>${dados.eventos.length}</b><span>eventos na agenda completa</span></div>`;
+}
+
+function carimbo() {
+  const d = new Date(dados.atualizadoEm);
+  const ok = dados.fontes.filter((f) => !f.erro), falhas = dados.fontes.filter((f) => f.erro);
+  $('#carimbo').textContent = 'Atualizado ' + d.toLocaleDateString('pt-BR', { day: '2-digit', month: 'short' });
+  $('#fontes').innerHTML = 'Fontes lidas automaticamente: ' + ok.map((f) => esc(f.fonte)).join(', ') + '.'
+    + (falhas.length ? ' <strong>Falharam nesta coleta:</strong> ' + falhas.map((f) => esc(f.fonte)).join(', ') + '.' : '');
+}
+
+document.querySelectorAll('.aba').forEach((b) => {
+  b.addEventListener('click', () => trocarAba(b.dataset.aba));
+});
+
+$('#lista').addEventListener('click', (ev) => {
+  const item = ev.target.closest('.item');
+  if (item) selecionar(item.dataset.id, false);
+});
+$('#lista').addEventListener('keydown', (ev) => {
+  if (ev.key === 'ArrowDown') { ev.preventDefault(); andar(1); }
+  else if (ev.key === 'ArrowUp') { ev.preventDefault(); andar(-1); }
+  else if (ev.key === 'Enter') {
+    const e = fonteAtual().find((x) => x.id === selecionado);
+    if (e?.link) window.open(e.link, '_blank', 'noopener');
+  }
+});
+document.addEventListener('click', (ev) => {
+  const ir = ev.target.closest('[data-ir]');
+  if (ir) { selecionar(ir.dataset.ir, false); return; }
+  if (ev.target.closest('#voltar')) $('#ficha-painel').dataset.aberta = 'false';
+});
+document.addEventListener('change', (ev) => {
+  if (ev.target.id === 'situacao') {
+    estados[selecionado] = ev.target.value;
+    try { localStorage.setItem(CHAVE, JSON.stringify(estados)); } catch {}
+    desenharLista(); desenharPlacar();
+  }
+});
+['#busca','#f-mes','#f-potencial','#f-tipo','#f-status','#f-tempo'].forEach((s) => {
+  document.addEventListener('input', (ev) => { if (ev.target.matches(s)) desenharLista(); });
+});
+$('#limpar').addEventListener('click', () => {
+  $('#busca').value = ''; $('#f-mes').value = ''; $('#f-potencial').value = '';
+  $('#f-tipo').value = ''; $('#f-status').value = ''; $('#f-tempo').checked = true;
+  desenharLista();
+});
+
+prepararCeu();
+
+// A carteira mora num arquivo à parte que não é versionado: no GitHub Pages
+// ele simplesmente não existe, e a aba mostra a explicação em vez de dados.
+const carregarCarteira = () =>
+  fetch('dados/carteira.json', { cache: 'no-store' })
+    .then((r) => (r.ok ? r.json() : null))
+    .catch(() => null);
+
+Promise.all([
+  fetch('dados/eventos.json', { cache: 'no-store' })
+    .then((r) => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); }),
+  carregarCarteira(),
+])
+  .then(([base, cart]) => {
+    dados = { ...base, carteira: cart?.itens || [], carteiraPresente: Boolean(cart) };
+    carimbo(); desenharPlacar(); montarFiltros(); desenharLista(); prepararCeu();
+  })
+  .catch((err) => {
+    $('#lista').innerHTML = '';
+    $('#ficha-painel').innerHTML = '<div class="vazio"><div><h3>Não consegui carregar os eventos</h3>'
+      + '<p>O arquivo <code>dados/eventos.json</code> não foi encontrado. '
+      + 'Rode <code>npm run coletar</code> para gerá-lo. Detalhe: ' + esc(err.message) + '</p></div></div>';
+  });
+</script>
+</body>
+</html>

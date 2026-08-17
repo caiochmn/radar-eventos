@@ -1,0 +1,15 @@
+{
+  "name": "radar-eventos",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Radar de eventos corporativos com potencial de venda de assentos e fretamento",
+  "scripts": {
+    "coletar": "node scripts/coletar.mjs",
+    "servir": "node scripts/servidor.mjs",
+    "fonte": "node scripts/testar-fonte.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
