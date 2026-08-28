@@ -1,98 +1,33 @@
 {
-  "atualizadoEm": "2026-08-27T21:56:17.029Z",
-  "totalEventos": 76,
+  "atualizadoEm": "2026-08-28T10:09:56.567Z",
+  "totalEventos": 74,
   "fontes": [
     {
       "fonte": "Distrito Anhembi",
       "eventos": 0,
-      "ms": 4992,
+      "ms": 5051,
       "erro": null
     },
     {
       "fonte": "Expo Center Norte",
       "eventos": 24,
-      "ms": 938,
+      "ms": 1272,
       "erro": null
     },
     {
       "fonte": "Pro Magno Centro de Eventos",
-      "eventos": 23,
-      "ms": 3174,
+      "eventos": 22,
+      "ms": 2088,
       "erro": null
     },
     {
       "fonte": "São Paulo Expo",
       "eventos": 29,
-      "ms": 1646,
+      "ms": 1670,
       "erro": null
     }
   ],
   "eventos": [
-    {
-      "id": "expo-center-norte:plconnection|2026-08-25",
-      "nome": "PL CONNECTION",
-      "descricao": "O PL Connection é o principal evento totalmente dedicado ao Private Label na América Latina. Realizado em parceria entre a Amicci, que é referência no desenvolvimento de marcas próprias da América Latina, contando com mais de 235 clientes, e a Francal Feiras, que há mais de 50 anos realiza os maiores e mais importantes eventos comerciais e feiras da América Latina.",
-      "dataInicio": "2026-08-25",
-      "dataFim": "2026-08-26",
-      "textoData": "25 a 26 agosto",
-      "espaco": "Pavilhão",
-      "link": "https://www.expocenternorte.com.br/eventos/pl-connection",
-      "local": {
-        "nome": "Expo Center Norte",
-        "cidade": "São Paulo",
-        "uf": "SP"
-      },
-      "fonte": {
-        "id": "expo-center-norte",
-        "nome": "Expo Center Norte",
-        "url": "https://www.expocenternorte.com.br/eventos"
-      },
-      "fonteDominio": "expocenternorte.com.br",
-      "score": 78,
-      "faixa": "alto",
-      "confianca": "alta",
-      "tipo": "Evento",
-      "sinais": [
-        "Principal do setor",
-        "50ª edição",
-        "América Latina"
-      ],
-      "componentes": [
-        {
-          "rotulo": "Porte",
-          "valor": 38,
-          "teto": 45
-        },
-        {
-          "rotulo": "Alcance",
-          "valor": 25,
-          "teto": 25
-        },
-        {
-          "rotulo": "Organizador",
-          "valor": 0,
-          "teto": 28
-        },
-        {
-          "rotulo": "Tipo de evento",
-          "valor": 10,
-          "teto": 25
-        },
-        {
-          "rotulo": "Duração",
-          "valor": 5,
-          "teto": 8
-        }
-      ],
-      "porte": 38,
-      "alcance": 25,
-      "mercado": 0,
-      "publicoEstimado": null,
-      "diasDeEvento": 2,
-      "faltamDias": -2,
-      "janela": "passou",
-      "acionavel": false
-    },
     {
       "id": "expo-center-norte:thesmarteresouthamerica|2026-08-25",
       "nome": "The smarter E South America",
@@ -153,71 +88,8 @@
       "mercado": 0,
       "publicoEstimado": 58000,
       "diasDeEvento": 3,
-      "faltamDias": -2,
+      "faltamDias": -3,
       "janela": "passou",
-      "acionavel": false
-    },
-    {
-      "id": "pro-magno:encontrofarmarcas|2026-08-27",
-      "nome": "ENCONTRO FARMARCAS",
-      "descricao": "",
-      "dataInicio": "2026-08-27",
-      "dataFim": "2026-08-27",
-      "textoData": "27/Agosto/2026",
-      "espaco": "Pro Magno",
-      "link": "https://www.promagno.com.br/evento/encontro-farmarcas-4/",
-      "local": {
-        "nome": "Pro Magno Centro de Eventos",
-        "cidade": "São Paulo",
-        "uf": "SP"
-      },
-      "fonte": {
-        "id": "pro-magno",
-        "nome": "Pro Magno Centro de Eventos",
-        "url": "https://www.promagno.com.br/"
-      },
-      "fonteDominio": "promagno.com.br",
-      "score": 47,
-      "faixa": "medio",
-      "confianca": "baixa",
-      "tipo": "Encontro corporativo",
-      "sinais": [
-        "Convenção de rede"
-      ],
-      "componentes": [
-        {
-          "rotulo": "Porte",
-          "valor": 0,
-          "teto": 45
-        },
-        {
-          "rotulo": "Alcance",
-          "valor": 0,
-          "teto": 25
-        },
-        {
-          "rotulo": "Organizador",
-          "valor": 22,
-          "teto": 28
-        },
-        {
-          "rotulo": "Tipo de evento",
-          "valor": 25,
-          "teto": 25
-        },
-        {
-          "rotulo": "Duração",
-          "valor": 0,
-          "teto": 8
-        }
-      ],
-      "porte": 0,
-      "alcance": 0,
-      "mercado": 22,
-      "publicoEstimado": null,
-      "diasDeEvento": 1,
-      "faltamDias": 0,
-      "janela": "esta semana",
       "acionavel": false
     },
     {
@@ -251,7 +123,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 2,
+      "faltamDias": 1,
       "janela": "esta semana",
       "acionavel": false
     },
@@ -315,7 +187,7 @@
       "mercado": 24,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 7,
+      "faltamDias": 6,
       "janela": "esta semana",
       "acionavel": false
     },
@@ -376,8 +248,8 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 5,
-      "faltamDias": 8,
-      "janela": "em cima da hora",
+      "faltamDias": 7,
+      "janela": "esta semana",
       "acionavel": false
     },
     {
@@ -439,7 +311,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 12,
+      "faltamDias": 11,
       "janela": "em cima da hora",
       "acionavel": false
     },
@@ -502,7 +374,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 12,
+      "faltamDias": 11,
       "janela": "em cima da hora",
       "acionavel": false
     },
@@ -565,7 +437,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 4,
-      "faltamDias": 13,
+      "faltamDias": 12,
       "janela": "em cima da hora",
       "acionavel": false
     },
@@ -626,7 +498,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 15,
+      "faltamDias": 14,
       "janela": "em cima da hora",
       "acionavel": false
     },
@@ -690,7 +562,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 4,
-      "faltamDias": 19,
+      "faltamDias": 18,
       "janela": "em cima da hora",
       "acionavel": false
     },
@@ -753,7 +625,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 19,
+      "faltamDias": 18,
       "janela": "em cima da hora",
       "acionavel": false
     },
@@ -818,7 +690,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 4,
-      "faltamDias": 19,
+      "faltamDias": 18,
       "janela": "em cima da hora",
       "acionavel": false
     },
@@ -881,7 +753,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 20,
+      "faltamDias": 19,
       "janela": "em cima da hora",
       "acionavel": false
     },
@@ -944,7 +816,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 20,
+      "faltamDias": 19,
       "janela": "em cima da hora",
       "acionavel": false
     },
@@ -1007,7 +879,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 20,
+      "faltamDias": 19,
       "janela": "em cima da hora",
       "acionavel": false
     },
@@ -1073,7 +945,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 20,
+      "faltamDias": 19,
       "janela": "em cima da hora",
       "acionavel": false
     },
@@ -1136,7 +1008,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 21,
+      "faltamDias": 20,
       "janela": "em cima da hora",
       "acionavel": false
     },
@@ -1199,7 +1071,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 23,
+      "faltamDias": 22,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -1262,7 +1134,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 27,
+      "faltamDias": 26,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -1326,7 +1198,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 27,
+      "faltamDias": 26,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -1387,7 +1259,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 27,
+      "faltamDias": 26,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -1451,7 +1323,7 @@
       "mercado": 24,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 28,
+      "faltamDias": 27,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -1516,7 +1388,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 6,
-      "faltamDias": 28,
+      "faltamDias": 27,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -1551,7 +1423,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 30,
+      "faltamDias": 29,
       "janela": "agir agora",
       "acionavel": false
     },
@@ -1618,7 +1490,7 @@
       "mercado": 26,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 34,
+      "faltamDias": 33,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -1679,7 +1551,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 5,
-      "faltamDias": 34,
+      "faltamDias": 33,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -1742,7 +1614,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 35,
+      "faltamDias": 34,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -1805,7 +1677,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 40,
+      "faltamDias": 39,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -1868,7 +1740,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 40,
+      "faltamDias": 39,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -1931,7 +1803,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 40,
+      "faltamDias": 39,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -1995,7 +1867,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 4,
-      "faltamDias": 41,
+      "faltamDias": 40,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -2030,7 +1902,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 42,
+      "faltamDias": 41,
       "janela": "agir agora",
       "acionavel": false
     },
@@ -2065,7 +1937,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 44,
+      "faltamDias": 43,
       "janela": "agir agora",
       "acionavel": false
     },
@@ -2129,7 +2001,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 47,
+      "faltamDias": 46,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -2192,7 +2064,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 48,
+      "faltamDias": 47,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -2255,7 +2127,7 @@
       "mercado": 24,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 49,
+      "faltamDias": 48,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -2290,7 +2162,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 51,
+      "faltamDias": 50,
       "janela": "agir agora",
       "acionavel": false
     },
@@ -2354,7 +2226,7 @@
       "mercado": 26,
       "publicoEstimado": null,
       "diasDeEvento": 4,
-      "faltamDias": 53,
+      "faltamDias": 52,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -2415,7 +2287,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 54,
+      "faltamDias": 53,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -2482,7 +2354,7 @@
       "mercado": 26,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 54,
+      "faltamDias": 53,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -2543,7 +2415,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 54,
+      "faltamDias": 53,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -2604,7 +2476,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 4,
-      "faltamDias": 55,
+      "faltamDias": 54,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -2667,7 +2539,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 55,
+      "faltamDias": 54,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -2730,7 +2602,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 56,
+      "faltamDias": 55,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -2794,8 +2666,8 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 61,
-      "janela": "ideal",
+      "faltamDias": 60,
+      "janela": "agir agora",
       "acionavel": true
     },
     {
@@ -2859,8 +2731,8 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 61,
-      "janela": "ideal",
+      "faltamDias": 60,
+      "janela": "agir agora",
       "acionavel": true
     },
     {
@@ -2922,7 +2794,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 62,
+      "faltamDias": 61,
       "janela": "ideal",
       "acionavel": true
     },
@@ -2987,7 +2859,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 63,
+      "faltamDias": 62,
       "janela": "ideal",
       "acionavel": true
     },
@@ -3051,7 +2923,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 65,
+      "faltamDias": 64,
       "janela": "ideal",
       "acionavel": true
     },
@@ -3086,7 +2958,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 65,
+      "faltamDias": 64,
       "janela": "ideal",
       "acionavel": false
     },
@@ -3150,7 +3022,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 70,
+      "faltamDias": 69,
       "janela": "ideal",
       "acionavel": true
     },
@@ -3214,7 +3086,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 71,
+      "faltamDias": 70,
       "janela": "ideal",
       "acionavel": true
     },
@@ -3277,7 +3149,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 5,
-      "faltamDias": 74,
+      "faltamDias": 73,
       "janela": "ideal",
       "acionavel": true
     },
@@ -3343,7 +3215,7 @@
       "mercado": 26,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 76,
+      "faltamDias": 75,
       "janela": "ideal",
       "acionavel": true
     },
@@ -3404,7 +3276,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 78,
+      "faltamDias": 77,
       "janela": "ideal",
       "acionavel": true
     },
@@ -3467,7 +3339,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 79,
+      "faltamDias": 78,
       "janela": "ideal",
       "acionavel": true
     },
@@ -3502,7 +3374,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 79,
+      "faltamDias": 78,
       "janela": "ideal",
       "acionavel": false
     },
@@ -3563,7 +3435,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 80,
+      "faltamDias": 79,
       "janela": "ideal",
       "acionavel": true
     },
@@ -3624,7 +3496,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 82,
+      "faltamDias": 81,
       "janela": "ideal",
       "acionavel": true
     },
@@ -3659,7 +3531,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 84,
+      "faltamDias": 83,
       "janela": "ideal",
       "acionavel": false
     },
@@ -3722,7 +3594,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 85,
+      "faltamDias": 84,
       "janela": "ideal",
       "acionavel": true
     },
@@ -3785,7 +3657,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 85,
+      "faltamDias": 84,
       "janela": "ideal",
       "acionavel": true
     },
@@ -3849,7 +3721,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 85,
+      "faltamDias": 84,
       "janela": "ideal",
       "acionavel": true
     },
@@ -3913,7 +3785,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 85,
+      "faltamDias": 84,
       "janela": "ideal",
       "acionavel": true
     },
@@ -3977,7 +3849,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 85,
+      "faltamDias": 84,
       "janela": "ideal",
       "acionavel": true
     },
@@ -4012,7 +3884,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 86,
+      "faltamDias": 85,
       "janela": "ideal",
       "acionavel": false
     },
@@ -4073,7 +3945,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 86,
+      "faltamDias": 85,
       "janela": "ideal",
       "acionavel": true
     },
@@ -4138,7 +4010,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 89,
+      "faltamDias": 88,
       "janela": "ideal",
       "acionavel": true
     },
@@ -4203,7 +4075,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 89,
+      "faltamDias": 88,
       "janela": "ideal",
       "acionavel": true
     },
@@ -4266,7 +4138,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 90,
+      "faltamDias": 89,
       "janela": "ideal",
       "acionavel": true
     },
@@ -4329,7 +4201,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 4,
-      "faltamDias": 98,
+      "faltamDias": 97,
       "janela": "ideal",
       "acionavel": true
     },
@@ -4390,7 +4262,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 99,
+      "faltamDias": 98,
       "janela": "ideal",
       "acionavel": true
     },
@@ -4451,7 +4323,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 105,
+      "faltamDias": 104,
       "janela": "ideal",
       "acionavel": true
     },
@@ -4514,7 +4386,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 107,
+      "faltamDias": 106,
       "janela": "ideal",
       "acionavel": true
     },
@@ -4549,7 +4421,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 114,
+      "faltamDias": 113,
       "janela": "ideal",
       "acionavel": false
     }
