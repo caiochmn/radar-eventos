@@ -1,97 +1,33 @@
 {
-  "atualizadoEm": "2026-08-28T10:09:56.567Z",
+  "atualizadoEm": "2026-08-28T21:49:16.334Z",
   "totalEventos": 74,
   "fontes": [
     {
       "fonte": "Distrito Anhembi",
       "eventos": 0,
-      "ms": 5051,
+      "ms": 4801,
       "erro": null
     },
     {
       "fonte": "Expo Center Norte",
-      "eventos": 24,
-      "ms": 1272,
+      "eventos": 23,
+      "ms": 824,
       "erro": null
     },
     {
       "fonte": "Pro Magno Centro de Eventos",
       "eventos": 22,
-      "ms": 2088,
+      "ms": 1586,
       "erro": null
     },
     {
       "fonte": "São Paulo Expo",
       "eventos": 29,
-      "ms": 1670,
+      "ms": 6763,
       "erro": null
     }
   ],
   "eventos": [
-    {
-      "id": "expo-center-norte:thesmarteresouthamerica|2026-08-25",
-      "nome": "The smarter E South America",
-      "descricao": "A The smarter E South America é a maior exposição e conferência da América Latina dedicada à indústria solar. Reunindo mais de 680 expositores e esperando atrair mais de 58.000 visitantes, a feira serve como um ponto de encontro para profissionais do setor, incluindo fabricantes, fornecedores, distribuidores e prestadores de serviços.",
-      "dataInicio": "2026-08-25",
-      "dataFim": "2026-08-27",
-      "textoData": "25 a 27 agosto",
-      "espaco": "Pavilhão & Centro de Convenções",
-      "link": "https://www.expocenternorte.com.br/eventos/intersolar-2026",
-      "local": {
-        "nome": "Expo Center Norte",
-        "cidade": "São Paulo",
-        "uf": "SP"
-      },
-      "fonte": {
-        "id": "expo-center-norte",
-        "nome": "Expo Center Norte",
-        "url": "https://www.expocenternorte.com.br/eventos"
-      },
-      "fonteDominio": "expocenternorte.com.br",
-      "score": 99,
-      "faixa": "alto",
-      "confianca": "alta",
-      "tipo": "Congresso",
-      "sinais": [
-        "mais de 58.000 visitantes",
-        "América Latina"
-      ],
-      "componentes": [
-        {
-          "rotulo": "Porte",
-          "valor": 45,
-          "teto": 45
-        },
-        {
-          "rotulo": "Alcance",
-          "valor": 25,
-          "teto": 25
-        },
-        {
-          "rotulo": "Organizador",
-          "valor": 0,
-          "teto": 28
-        },
-        {
-          "rotulo": "Tipo de evento",
-          "valor": 24,
-          "teto": 25
-        },
-        {
-          "rotulo": "Duração",
-          "valor": 5,
-          "teto": 8
-        }
-      ],
-      "porte": 45,
-      "alcance": 25,
-      "mercado": 0,
-      "publicoEstimado": 58000,
-      "diasDeEvento": 3,
-      "faltamDias": -3,
-      "janela": "passou",
-      "acionavel": false
-    },
     {
       "id": "pro-magno:eventosocialprivado|2026-08-29",
       "nome": "EVENTO SOCIAL PRIVADO",
@@ -2961,6 +2897,67 @@
       "faltamDias": 64,
       "janela": "ideal",
       "acionavel": false
+    },
+    {
+      "id": "expo-center-norte:yiwufair|2026-11-04",
+      "nome": "Yiwu Fair 2026",
+      "descricao": "A Yiwu Fair 2026 reúne mais de 300 fabricantes e fornecedores chineses, conectando empresas brasileiras a um amplo portfólio de produtos e oportunidades de negócios. Importadores, distribuidores, varejistas, atacadistas e empreendedores poderão conhecer novidades, negociar diretamente com fabricantes e ampliar seus negócios.",
+      "dataInicio": "2026-11-04",
+      "dataFim": "2026-11-06",
+      "textoData": "04 a 06 novembro",
+      "espaco": "Pavilhão",
+      "link": "https://www.expocenternorte.com.br/eventos/yiwu-fair-2026",
+      "local": {
+        "nome": "Expo Center Norte",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "expo-center-norte",
+        "nome": "Expo Center Norte",
+        "url": "https://www.expocenternorte.com.br/eventos"
+      },
+      "fonteDominio": "expocenternorte.com.br",
+      "score": 27,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 68,
+      "janela": "ideal",
+      "acionavel": true
     },
     {
       "id": "expo-center-norte:trincacontabil|2026-11-05",
