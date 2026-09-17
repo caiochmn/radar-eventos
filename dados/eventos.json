@@ -1,29 +1,29 @@
 {
-  "atualizadoEm": "2026-09-17T03:57:44.944Z",
-  "totalEventos": 64,
+  "atualizadoEm": "2026-09-17T16:29:10.275Z",
+  "totalEventos": 65,
   "fontes": [
     {
       "fonte": "Distrito Anhembi",
       "eventos": 0,
-      "ms": 4950,
+      "ms": 4991,
       "erro": null
     },
     {
       "fonte": "Expo Center Norte",
-      "eventos": 23,
-      "ms": 1178,
+      "eventos": 24,
+      "ms": 1209,
       "erro": null
     },
     {
       "fonte": "Pro Magno Centro de Eventos",
       "eventos": 19,
-      "ms": 2351,
+      "ms": 2975,
       "erro": null
     },
     {
       "fonte": "São Paulo Expo",
       "eventos": 22,
-      "ms": 1635,
+      "ms": 1570,
       "erro": null
     }
   ],
@@ -1340,69 +1340,6 @@
       "acionavel": true
     },
     {
-      "id": "expo-center-norte:artmedexperience|2026-10-15",
-      "nome": "Artmed Experience 2026",
-      "descricao": "O Artmed Experience 2026 reúne alguns dos principais psicólogos do mundo para discutir \"o que diferencia terapeutas extraordinários\". São três dias de aprendizado prático, com simulações ao vivo comentadas pelos grandes mestres nacionais e internacionais.",
-      "dataInicio": "2026-10-15",
-      "dataFim": "2026-10-17",
-      "textoData": "15 a 17 outubro",
-      "espaco": "Pavilhão",
-      "link": "https://www.expocenternorte.com.br/eventos/artmed-experience-2026",
-      "local": {
-        "nome": "Expo Center Norte",
-        "cidade": "São Paulo",
-        "uf": "SP"
-      },
-      "fonte": {
-        "id": "expo-center-norte",
-        "nome": "Expo Center Norte",
-        "url": "https://www.expocenternorte.com.br/eventos"
-      },
-      "fonteDominio": "expocenternorte.com.br",
-      "score": 39,
-      "faixa": "medio",
-      "confianca": "alta",
-      "tipo": "Evento",
-      "sinais": [
-        "Grande empresa nacional"
-      ],
-      "componentes": [
-        {
-          "rotulo": "Porte",
-          "valor": 0,
-          "teto": 45
-        },
-        {
-          "rotulo": "Alcance",
-          "valor": 0,
-          "teto": 25
-        },
-        {
-          "rotulo": "Organizador",
-          "valor": 24,
-          "teto": 28
-        },
-        {
-          "rotulo": "Tipo de evento",
-          "valor": 10,
-          "teto": 25
-        },
-        {
-          "rotulo": "Duração",
-          "valor": 5,
-          "teto": 8
-        }
-      ],
-      "porte": 0,
-      "alcance": 0,
-      "mercado": 24,
-      "publicoEstimado": null,
-      "diasDeEvento": 3,
-      "faltamDias": 28,
-      "janela": "agir agora",
-      "acionavel": true
-    },
-    {
       "id": "expo-center-norte:expociee|2026-10-15",
       "nome": "EXPO CIEE 2026",
       "descricao": "A Expo CIEE 2026 é o maior evento jovem gratuito da América Latina, voltado à experiências, desenvolvimento, oportunidades e conexão dos jovens com o futuro. Mais do que um evento, é um ecossistema vivo onde o jovem deixa de apenas ouvir sobre o futuro e passa a experimentá-lo na prática.",
@@ -1460,6 +1397,69 @@
       ],
       "porte": 24,
       "alcance": 25,
+      "mercado": 24,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 28,
+      "janela": "agir agora",
+      "acionavel": true
+    },
+    {
+      "id": "expo-center-norte:artmedexperience|2026-10-15",
+      "nome": "Artmed Experience 2026",
+      "descricao": "O Artmed Experience 2026 reúne alguns dos principais psicólogos do mundo para discutir \"o que diferencia terapeutas extraordinários\". São três dias de aprendizado prático, com simulações ao vivo comentadas pelos grandes mestres nacionais e internacionais.",
+      "dataInicio": "2026-10-15",
+      "dataFim": "2026-10-17",
+      "textoData": "15 a 17 outubro",
+      "espaco": "Pavilhão",
+      "link": "https://www.expocenternorte.com.br/eventos/artmed-experience-2026",
+      "local": {
+        "nome": "Expo Center Norte",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "expo-center-norte",
+        "nome": "Expo Center Norte",
+        "url": "https://www.expocenternorte.com.br/eventos"
+      },
+      "fonteDominio": "expocenternorte.com.br",
+      "score": 39,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [
+        "Grande empresa nacional"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 24,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 0,
       "mercado": 24,
       "publicoEstimado": null,
       "diasDeEvento": 3,
@@ -2833,6 +2833,69 @@
       "publicoEstimado": null,
       "diasDeEvento": 2,
       "faltamDias": 59,
+      "janela": "agir agora",
+      "acionavel": true
+    },
+    {
+      "id": "expo-center-norte:cidadecsc|2026-11-16",
+      "nome": "Cidade CSC",
+      "descricao": "O Cidade CSC é a principal plataforma de Cidades Inteligentes na América Latina, envolvendo empresas, entidades, universidades e governos e tem por missão encontrar o DNA de inovação e melhorias que contribuem com a formação de cidades mais inteligentes e conectadas entre si, sejam elas pequenas, médias ou megacidades.",
+      "dataInicio": "2026-11-16",
+      "dataFim": "2026-11-18",
+      "textoData": "16 a 18 novembro",
+      "espaco": "Pavilhão",
+      "link": "https://www.expocenternorte.com.br/eventos/cidade-csc",
+      "local": {
+        "nome": "Expo Center Norte",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "expo-center-norte",
+        "nome": "Expo Center Norte",
+        "url": "https://www.expocenternorte.com.br/eventos"
+      },
+      "fonteDominio": "expocenternorte.com.br",
+      "score": 40,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [
+        "América Latina"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 25,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 25,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 60,
       "janela": "agir agora",
       "acionavel": true
     },
