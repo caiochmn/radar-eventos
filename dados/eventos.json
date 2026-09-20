@@ -1,29 +1,29 @@
 {
-  "atualizadoEm": "2026-09-20T03:57:20.813Z",
-  "totalEventos": 42,
+  "atualizadoEm": "2026-09-20T15:39:31.955Z",
+  "totalEventos": 60,
   "fontes": [
     {
       "fonte": "Distrito Anhembi",
       "eventos": 0,
-      "ms": 5001,
+      "ms": 4786,
       "erro": null
     },
     {
       "fonte": "Expo Center Norte",
       "eventos": 23,
-      "ms": 916,
+      "ms": 751,
       "erro": null
     },
     {
       "fonte": "Pro Magno Centro de Eventos",
-      "eventos": 0,
-      "ms": 1322,
+      "eventos": 18,
+      "ms": 1758,
       "erro": null
     },
     {
       "fonte": "São Paulo Expo",
       "eventos": 21,
-      "ms": 1733,
+      "ms": 1445,
       "erro": null
     }
   ],
@@ -219,6 +219,67 @@
       "acionavel": false
     },
     {
+      "id": "pro-magno:tdcsaopaulo|2026-09-23",
+      "nome": "TDC SÃO PAULO",
+      "descricao": "",
+      "dataInicio": "2026-09-23",
+      "dataFim": "2026-09-25",
+      "textoData": "23-25/Setembro/2026",
+      "espaco": "Pro Magno",
+      "link": "https://www.promagno.com.br/evento/tdc-sao-paulo-3/",
+      "local": {
+        "nome": "Pro Magno Centro de Eventos",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "pro-magno",
+        "nome": "Pro Magno Centro de Eventos",
+        "url": "https://www.promagno.com.br/"
+      },
+      "fonteDominio": "promagno.com.br",
+      "score": 15,
+      "faixa": "baixo",
+      "confianca": "baixa",
+      "tipo": "Evento",
+      "sinais": [],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 3,
+      "janela": "esta semana",
+      "acionavel": false
+    },
+    {
       "id": "sao-paulo-expo:mercadolivreexperience|2026-09-24",
       "nome": "MERCADO LIVRE EXPERIENCE",
       "descricao": "O Mercado Livre Experience 2026 acontece ao longo de dois dias, reunindo conteúdo ao vivo, feira de negócios e ativações de patrocinadores. Um encontro que conecta participantes do ecossistema da plataforma para troca de informações e oportunidades comerciais.",
@@ -348,6 +409,41 @@
       "acionavel": false
     },
     {
+      "id": "pro-magno:eventosocialprivado|2026-09-26",
+      "nome": "EVENTO SOCIAL PRIVADO",
+      "descricao": "",
+      "dataInicio": "2026-09-26",
+      "dataFim": "2026-09-26",
+      "textoData": "26/Setembro/2026",
+      "espaco": "Pro Magno",
+      "link": "https://www.promagno.com.br/evento/evento-social-privado-99/",
+      "local": {
+        "nome": "Pro Magno Centro de Eventos",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "pro-magno",
+        "nome": "Pro Magno Centro de Eventos",
+        "url": "https://www.promagno.com.br/"
+      },
+      "fonteDominio": "promagno.com.br",
+      "score": 0,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Social/privado",
+      "sinais": [],
+      "componentes": [],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 6,
+      "janela": "esta semana",
+      "acionavel": false
+    },
+    {
       "id": "expo-center-norte:abavexpo|2026-09-30",
       "nome": "ABAV Expo",
       "descricao": "A ABAV Expo, realizada pela ABAV Nacional - Associação Brasileira de Agências de Viagens - , é a maior feira de turismo da América Latina e a principal vitrine do agente de viagens, reunindo profissionais do setor de turismo do Brasil e do mundo em um ambiente estratégico para negócios, networking e capacitação.",
@@ -410,6 +506,67 @@
       "mercado": 26,
       "publicoEstimado": null,
       "diasDeEvento": 1,
+      "faltamDias": 10,
+      "janela": "em cima da hora",
+      "acionavel": false
+    },
+    {
+      "id": "pro-magno:cobexpo|2026-09-30",
+      "nome": "COB EXPO",
+      "descricao": "",
+      "dataInicio": "2026-09-30",
+      "dataFim": "2026-10-04",
+      "textoData": "30, Setembro -4, Outubro/2026",
+      "espaco": "Pro Magno",
+      "link": "https://www.promagno.com.br/evento/cob-expo-2/",
+      "local": {
+        "nome": "Pro Magno Centro de Eventos",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "pro-magno",
+        "nome": "Pro Magno Centro de Eventos",
+        "url": "https://www.promagno.com.br/"
+      },
+      "fonteDominio": "promagno.com.br",
+      "score": 30,
+      "faixa": "baixo",
+      "confianca": "baixa",
+      "tipo": "Feira",
+      "sinais": [],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 8,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 5,
       "faltamDias": 10,
       "janela": "em cima da hora",
       "acionavel": false
@@ -663,6 +820,76 @@
       "publicoEstimado": null,
       "diasDeEvento": 3,
       "faltamDias": 16,
+      "janela": "em cima da hora",
+      "acionavel": false
+    },
+    {
+      "id": "pro-magno:eventosocialprivado|2026-10-08",
+      "nome": "EVENTO SOCIAL PRIVADO",
+      "descricao": "",
+      "dataInicio": "2026-10-08",
+      "dataFim": "2026-10-08",
+      "textoData": "8/Outubro/2026",
+      "espaco": "Pro Magno",
+      "link": "https://www.promagno.com.br/evento/evento-social-privado-108/",
+      "local": {
+        "nome": "Pro Magno Centro de Eventos",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "pro-magno",
+        "nome": "Pro Magno Centro de Eventos",
+        "url": "https://www.promagno.com.br/"
+      },
+      "fonteDominio": "promagno.com.br",
+      "score": 0,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Social/privado",
+      "sinais": [],
+      "componentes": [],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 18,
+      "janela": "em cima da hora",
+      "acionavel": false
+    },
+    {
+      "id": "pro-magno:eventosocialprivado|2026-10-10",
+      "nome": "EVENTO SOCIAL PRIVADO",
+      "descricao": "",
+      "dataInicio": "2026-10-10",
+      "dataFim": "2026-10-10",
+      "textoData": "10/Outubro/2026",
+      "espaco": "Pro Magno",
+      "link": "https://www.promagno.com.br/evento/evento-social-privado-109/",
+      "local": {
+        "nome": "Pro Magno Centro de Eventos",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "pro-magno",
+        "nome": "Pro Magno Centro de Eventos",
+        "url": "https://www.promagno.com.br/"
+      },
+      "fonteDominio": "promagno.com.br",
+      "score": 0,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Social/privado",
+      "sinais": [],
+      "componentes": [],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 20,
       "janela": "em cima da hora",
       "acionavel": false
     },
@@ -922,6 +1149,41 @@
       "acionavel": true
     },
     {
+      "id": "pro-magno:eventosocialprivado|2026-10-17",
+      "nome": "EVENTO SOCIAL PRIVADO",
+      "descricao": "",
+      "dataInicio": "2026-10-17",
+      "dataFim": "2026-10-17",
+      "textoData": "17/Outubro/2026",
+      "espaco": "Pro Magno",
+      "link": "https://www.promagno.com.br/evento/evento-social-privado-110/",
+      "local": {
+        "nome": "Pro Magno Centro de Eventos",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "pro-magno",
+        "nome": "Pro Magno Centro de Eventos",
+        "url": "https://www.promagno.com.br/"
+      },
+      "fonteDominio": "promagno.com.br",
+      "score": 0,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Social/privado",
+      "sinais": [],
+      "componentes": [],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 27,
+      "janela": "agir agora",
+      "acionavel": false
+    },
+    {
       "id": "sao-paulo-expo:feiradoempreendedor|2026-10-19",
       "nome": "FEIRA DO EMPREENDEDOR",
       "descricao": "A Feira do Empreendedor, realizada pelo Sebrae, é voltada a quem deseja empreender, já possui um negócio ou busca informações e networking. O encontro reúne orientações, consultorias, produtos, serviços e soluções ligadas à gestão, inovação e desenvolvimento de negócios.",
@@ -1110,6 +1372,128 @@
       "publicoEstimado": null,
       "diasDeEvento": 3,
       "faltamDias": 30,
+      "janela": "agir agora",
+      "acionavel": true
+    },
+    {
+      "id": "pro-magno:grsafeiradefornecedores|2026-10-20",
+      "nome": "GRSA – FEIRA DE FORNECEDORES",
+      "descricao": "",
+      "dataInicio": "2026-10-20",
+      "dataFim": "2026-10-20",
+      "textoData": "20/Outubro/2026",
+      "espaco": "Pro Magno",
+      "link": "https://www.promagno.com.br/evento/grsa-feira-de-fornecedores/",
+      "local": {
+        "nome": "Pro Magno Centro de Eventos",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "pro-magno",
+        "nome": "Pro Magno Centro de Eventos",
+        "url": "https://www.promagno.com.br/"
+      },
+      "fonteDominio": "promagno.com.br",
+      "score": 22,
+      "faixa": "baixo",
+      "confianca": "baixa",
+      "tipo": "Feira",
+      "sinais": [],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 0,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 30,
+      "janela": "agir agora",
+      "acionavel": true
+    },
+    {
+      "id": "pro-magno:maacmedicaladvancedastheticscongress|2026-10-21",
+      "nome": "MAAC – MEDICAL ADVANCED ASTHETICS CONGRESS",
+      "descricao": "",
+      "dataInicio": "2026-10-21",
+      "dataFim": "2026-10-24",
+      "textoData": "21-24/Outubro/2026",
+      "espaco": "Pro Magno",
+      "link": "https://www.promagno.com.br/evento/maac-medical-advanced-asthetics-congress/",
+      "local": {
+        "nome": "Pro Magno Centro de Eventos",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "pro-magno",
+        "nome": "Pro Magno Centro de Eventos",
+        "url": "https://www.promagno.com.br/"
+      },
+      "fonteDominio": "promagno.com.br",
+      "score": 18,
+      "faixa": "baixo",
+      "confianca": "baixa",
+      "tipo": "Evento",
+      "sinais": [],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 8,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 4,
+      "faltamDias": 31,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -1561,6 +1945,41 @@
       "acionavel": true
     },
     {
+      "id": "pro-magno:eventosocialprivado|2026-10-31",
+      "nome": "EVENTO SOCIAL PRIVADO",
+      "descricao": "",
+      "dataInicio": "2026-10-31",
+      "dataFim": "2026-10-31",
+      "textoData": "31/Outubro/2026",
+      "espaco": "Pro Magno",
+      "link": "https://www.promagno.com.br/evento/evento-social-privado-121/",
+      "local": {
+        "nome": "Pro Magno Centro de Eventos",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "pro-magno",
+        "nome": "Pro Magno Centro de Eventos",
+        "url": "https://www.promagno.com.br/"
+      },
+      "fonteDominio": "promagno.com.br",
+      "score": 0,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Social/privado",
+      "sinais": [],
+      "componentes": [],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 41,
+      "janela": "agir agora",
+      "acionavel": false
+    },
+    {
       "id": "expo-center-norte:yiwufair|2026-11-04",
       "nome": "Yiwu Fair 2026",
       "descricao": "A Yiwu Fair 2026 reúne mais de 300 fabricantes e fornecedores chineses, conectando empresas brasileiras a um amplo portfólio de produtos e oportunidades de negócios. Importadores, distribuidores, varejistas, atacadistas e empreendedores poderão conhecer novidades, negociar diretamente com fabricantes e ampliar seus negócios.",
@@ -1879,6 +2298,67 @@
       "acionavel": true
     },
     {
+      "id": "pro-magno:congressobodyscience|2026-11-13",
+      "nome": "CONGRESSO BODYSCIENCE",
+      "descricao": "",
+      "dataInicio": "2026-11-13",
+      "dataFim": "2026-11-14",
+      "textoData": "13-14/Novembro/2026",
+      "espaco": "Pro Magno",
+      "link": "https://www.promagno.com.br/evento/congresso-bodyscience/",
+      "local": {
+        "nome": "Pro Magno Centro de Eventos",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "pro-magno",
+        "nome": "Pro Magno Centro de Eventos",
+        "url": "https://www.promagno.com.br/"
+      },
+      "fonteDominio": "promagno.com.br",
+      "score": 29,
+      "faixa": "baixo",
+      "confianca": "baixa",
+      "tipo": "Congresso",
+      "sinais": [],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 24,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 2,
+      "faltamDias": 54,
+      "janela": "agir agora",
+      "acionavel": true
+    },
+    {
       "id": "expo-center-norte:salaopaulistadecutelaria|2026-11-14",
       "nome": "Salão Paulista de Cutelaria 2026",
       "descricao": "O Salão Paulista investe na cutelaria artesanal e comercial, apresentando aos visitantes o melhor da indústria nacional e estrangeira. O salão traz opções para todos os gostos, das mais simples lâminas a preços acessíveis, até as sofisticadas, artísticas e colecionáveis. Também será possível conhecer e adquirir máquinas, ferramentas e demais suprimentos que envolvem a atividade da cutelaria.",
@@ -1940,6 +2420,41 @@
       "faltamDias": 55,
       "janela": "agir agora",
       "acionavel": true
+    },
+    {
+      "id": "pro-magno:eventosocialprivado|2026-11-14",
+      "nome": "EVENTO SOCIAL PRIVADO",
+      "descricao": "",
+      "dataInicio": "2026-11-14",
+      "dataFim": "2026-11-14",
+      "textoData": "14/Novembro/2026",
+      "espaco": "Pro Magno",
+      "link": "https://www.promagno.com.br/evento/evento-social-privado-112/",
+      "local": {
+        "nome": "Pro Magno Centro de Eventos",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "pro-magno",
+        "nome": "Pro Magno Centro de Eventos",
+        "url": "https://www.promagno.com.br/"
+      },
+      "fonteDominio": "promagno.com.br",
+      "score": 0,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Social/privado",
+      "sinais": [],
+      "componentes": [],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 55,
+      "janela": "agir agora",
+      "acionavel": false
     },
     {
       "id": "expo-center-norte:barberweek|2026-11-15",
@@ -2064,6 +2579,102 @@
       "faltamDias": 57,
       "janela": "agir agora",
       "acionavel": true
+    },
+    {
+      "id": "pro-magno:brazilinternationalapparelsourcingshowbias|2026-11-17",
+      "nome": "Brazil International Apparel Sourcing Show | BIAS",
+      "descricao": "",
+      "dataInicio": "2026-11-17",
+      "dataFim": "2026-11-19",
+      "textoData": "17-19/Novembro/2026",
+      "espaco": "Pro Magno",
+      "link": "https://www.promagno.com.br/evento/brazil-international-apparel-sourcing-show-bias/",
+      "local": {
+        "nome": "Pro Magno Centro de Eventos",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "pro-magno",
+        "nome": "Pro Magno Centro de Eventos",
+        "url": "https://www.promagno.com.br/"
+      },
+      "fonteDominio": "promagno.com.br",
+      "score": 27,
+      "faixa": "baixo",
+      "confianca": "baixa",
+      "tipo": "Feira",
+      "sinais": [],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 58,
+      "janela": "agir agora",
+      "acionavel": true
+    },
+    {
+      "id": "pro-magno:eventosocialprivado|2026-11-19",
+      "nome": "EVENTO SOCIAL PRIVADO",
+      "descricao": "",
+      "dataInicio": "2026-11-19",
+      "dataFim": "2026-11-19",
+      "textoData": "19/Novembro/2026",
+      "espaco": "Pro Magno",
+      "link": "https://www.promagno.com.br/evento/evento-social-privado-114/",
+      "local": {
+        "nome": "Pro Magno Centro de Eventos",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "pro-magno",
+        "nome": "Pro Magno Centro de Eventos",
+        "url": "https://www.promagno.com.br/"
+      },
+      "fonteDominio": "promagno.com.br",
+      "score": 0,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Social/privado",
+      "sinais": [],
+      "componentes": [],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 60,
+      "janela": "agir agora",
+      "acionavel": false
     },
     {
       "id": "expo-center-norte:msaexperience|2026-11-20",
@@ -2384,6 +2995,102 @@
       "acionavel": true
     },
     {
+      "id": "pro-magno:eventosocialprivado|2026-11-21",
+      "nome": "EVENTO SOCIAL PRIVADO",
+      "descricao": "",
+      "dataInicio": "2026-11-21",
+      "dataFim": "2026-11-21",
+      "textoData": "21/Novembro/2026",
+      "espaco": "Pro Magno",
+      "link": "https://www.promagno.com.br/evento/evento-social-privado-118/",
+      "local": {
+        "nome": "Pro Magno Centro de Eventos",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "pro-magno",
+        "nome": "Pro Magno Centro de Eventos",
+        "url": "https://www.promagno.com.br/"
+      },
+      "fonteDominio": "promagno.com.br",
+      "score": 0,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Social/privado",
+      "sinais": [],
+      "componentes": [],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 62,
+      "janela": "ideal",
+      "acionavel": false
+    },
+    {
+      "id": "pro-magno:eventocorporativoprivado|2026-11-21",
+      "nome": "EVENTO CORPORATIVO PRIVADO",
+      "descricao": "",
+      "dataInicio": "2026-11-21",
+      "dataFim": "2026-11-21",
+      "textoData": "21/Novembro/2026",
+      "espaco": "Pro Magno",
+      "link": "https://www.promagno.com.br/evento/evento-corporativo-privado-31/",
+      "local": {
+        "nome": "Pro Magno Centro de Eventos",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "pro-magno",
+        "nome": "Pro Magno Centro de Eventos",
+        "url": "https://www.promagno.com.br/"
+      },
+      "fonteDominio": "promagno.com.br",
+      "score": 10,
+      "faixa": "baixo",
+      "confianca": "baixa",
+      "tipo": "Evento",
+      "sinais": [],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 0,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 62,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
       "id": "sao-paulo-expo:conectaagro|2026-11-24",
       "nome": "CONECTA AGRO 2026",
       "descricao": "O Conecta Agro 2026 chega como um dos principais encontros do agronegócio brasileiro, promovendo a conexão entre inovação, tecnologia e negócios no campo. O evento reúne produtores, especialistas, empresas e lideranças do setor para debater tendências, compartilhar conhecimento e impulsionar o futuro do agro no Brasil e no mundo.",
@@ -2640,6 +3347,128 @@
       "acionavel": true
     },
     {
+      "id": "pro-magno:smartbusinesssummit|2026-12-04",
+      "nome": "SMART BUSINESS SUMMIT",
+      "descricao": "",
+      "dataInicio": "2026-12-04",
+      "dataFim": "2026-12-05",
+      "textoData": "4-5/Dezembro/2026",
+      "espaco": "Pro Magno",
+      "link": "https://www.promagno.com.br/evento/smart-business-summit/",
+      "local": {
+        "nome": "Pro Magno Centro de Eventos",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "pro-magno",
+        "nome": "Pro Magno Centro de Eventos",
+        "url": "https://www.promagno.com.br/"
+      },
+      "fonteDominio": "promagno.com.br",
+      "score": 29,
+      "faixa": "baixo",
+      "confianca": "baixa",
+      "tipo": "Congresso",
+      "sinais": [],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 24,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 2,
+      "faltamDias": 75,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "pro-magno:eventocorporativoprivado|2026-12-10",
+      "nome": "EVENTO CORPORATIVO PRIVADO",
+      "descricao": "",
+      "dataInicio": "2026-12-10",
+      "dataFim": "2026-12-10",
+      "textoData": "10/Dezembro/2026",
+      "espaco": "Pro Magno",
+      "link": "https://www.promagno.com.br/evento/evento-corporativo-privado-32/",
+      "local": {
+        "nome": "Pro Magno Centro de Eventos",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "pro-magno",
+        "nome": "Pro Magno Centro de Eventos",
+        "url": "https://www.promagno.com.br/"
+      },
+      "fonteDominio": "promagno.com.br",
+      "score": 10,
+      "faixa": "baixo",
+      "confianca": "baixa",
+      "tipo": "Evento",
+      "sinais": [],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 0,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 81,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
       "id": "sao-paulo-expo:mysticfair|2026-12-12",
       "nome": "MYSTIC FAIR",
       "descricao": "Espiritualidade e bem-estar se encontram na Mystic Fair, feira mística que reúne consultas, palestras gratuitas, oficinas e produtos esotéricos. Uma experiência voltada ao equilíbrio entre corpo e mente, com estandes especializados e atividades culturais.",
@@ -2701,6 +3530,41 @@
       "faltamDias": 83,
       "janela": "ideal",
       "acionavel": true
+    },
+    {
+      "id": "pro-magno:eventosocialprivado|2026-12-19",
+      "nome": "EVENTO SOCIAL PRIVADO",
+      "descricao": "",
+      "dataInicio": "2026-12-19",
+      "dataFim": "2026-12-19",
+      "textoData": "19/Dezembro/2026",
+      "espaco": "Pro Magno",
+      "link": "https://www.promagno.com.br/evento/evento-corporativo-privado-33/",
+      "local": {
+        "nome": "Pro Magno Centro de Eventos",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "pro-magno",
+        "nome": "Pro Magno Centro de Eventos",
+        "url": "https://www.promagno.com.br/"
+      },
+      "fonteDominio": "promagno.com.br",
+      "score": 0,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Social/privado",
+      "sinais": [],
+      "componentes": [],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 90,
+      "janela": "ideal",
+      "acionavel": false
     }
   ]
 }
