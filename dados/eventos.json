@@ -1,162 +1,33 @@
 {
-  "atualizadoEm": "2026-09-19T15:33:27.722Z",
-  "totalEventos": 44,
+  "atualizadoEm": "2026-09-20T03:57:20.813Z",
+  "totalEventos": 42,
   "fontes": [
     {
       "fonte": "Distrito Anhembi",
       "eventos": 0,
-      "ms": 4778,
+      "ms": 5001,
       "erro": null
     },
     {
       "fonte": "Expo Center Norte",
       "eventos": 23,
-      "ms": 898,
+      "ms": 916,
       "erro": null
     },
     {
       "fonte": "Pro Magno Centro de Eventos",
       "eventos": 0,
-      "ms": 1008,
+      "ms": 1322,
       "erro": null
     },
     {
       "fonte": "São Paulo Expo",
       "eventos": 21,
-      "ms": 1330,
+      "ms": 1733,
       "erro": null
     }
   ],
   "eventos": [
-    {
-      "id": "expo-center-norte:equipotel|2026-09-15",
-      "nome": "Equipotel",
-      "descricao": "Equipotel, o principal evento de hospitalidade da América Latina, que oferece excelentes oportunidades de negócios, melhor retorno sobre o investimento e acesso a compradores e influenciadores qualificados dos meios de hospedagem. Durante 4 dias é possível explorar as últimas tendências, expandir sua rede de contatos e encontrar oportunidades que vão impulsionar seus negócios. A Equipotel se conso",
-      "dataInicio": "2026-09-15",
-      "dataFim": "2026-09-18",
-      "textoData": "15 a 18 setembro",
-      "espaco": "Pavilhão",
-      "link": "https://www.expocenternorte.com.br/eventos/equipotel-",
-      "local": {
-        "nome": "Expo Center Norte",
-        "cidade": "São Paulo",
-        "uf": "SP"
-      },
-      "fonte": {
-        "id": "expo-center-norte",
-        "nome": "Expo Center Norte",
-        "url": "https://www.expocenternorte.com.br/eventos"
-      },
-      "fonteDominio": "expocenternorte.com.br",
-      "score": 63,
-      "faixa": "alto",
-      "confianca": "alta",
-      "tipo": "Evento",
-      "sinais": [
-        "Principal do setor",
-        "América Latina"
-      ],
-      "componentes": [
-        {
-          "rotulo": "Porte",
-          "valor": 20,
-          "teto": 45
-        },
-        {
-          "rotulo": "Alcance",
-          "valor": 25,
-          "teto": 25
-        },
-        {
-          "rotulo": "Organizador",
-          "valor": 0,
-          "teto": 28
-        },
-        {
-          "rotulo": "Tipo de evento",
-          "valor": 10,
-          "teto": 25
-        },
-        {
-          "rotulo": "Duração",
-          "valor": 8,
-          "teto": 8
-        }
-      ],
-      "porte": 20,
-      "alcance": 25,
-      "mercado": 0,
-      "publicoEstimado": null,
-      "diasDeEvento": 4,
-      "faltamDias": -4,
-      "janela": "passou",
-      "acionavel": false
-    },
-    {
-      "id": "expo-center-norte:expolux|2026-09-15",
-      "nome": "Expolux",
-      "descricao": "A Expolux é a principal feira internacional da indústria da iluminação da América Latina. É um evento focado no mercado de iluminação, tanto técnica quanto decorativa, que reúne expositores, profissionais, arquitetos, designers e outros interessados para apresentar novidades, promover negócios, compartilhar conhecimento e explorar tendências do setor.",
-      "dataInicio": "2026-09-15",
-      "dataFim": "2026-09-18",
-      "textoData": "15 a 18 setembro",
-      "espaco": "Pavilhão",
-      "link": "https://www.expocenternorte.com.br/eventos/expolux",
-      "local": {
-        "nome": "Expo Center Norte",
-        "cidade": "São Paulo",
-        "uf": "SP"
-      },
-      "fonte": {
-        "id": "expo-center-norte",
-        "nome": "Expo Center Norte",
-        "url": "https://www.expocenternorte.com.br/eventos"
-      },
-      "fonteDominio": "expocenternorte.com.br",
-      "score": 75,
-      "faixa": "alto",
-      "confianca": "alta",
-      "tipo": "Feira",
-      "sinais": [
-        "Principal do setor",
-        "América Latina",
-        "Internacional"
-      ],
-      "componentes": [
-        {
-          "rotulo": "Porte",
-          "valor": 20,
-          "teto": 45
-        },
-        {
-          "rotulo": "Alcance",
-          "valor": 25,
-          "teto": 25
-        },
-        {
-          "rotulo": "Organizador",
-          "valor": 0,
-          "teto": 28
-        },
-        {
-          "rotulo": "Tipo de evento",
-          "valor": 22,
-          "teto": 25
-        },
-        {
-          "rotulo": "Duração",
-          "valor": 8,
-          "teto": 8
-        }
-      ],
-      "porte": 20,
-      "alcance": 25,
-      "mercado": 0,
-      "publicoEstimado": null,
-      "diasDeEvento": 4,
-      "faltamDias": -4,
-      "janela": "passou",
-      "acionavel": false
-    },
     {
       "id": "expo-center-norte:ciproexpolab|2026-09-17",
       "nome": "CIPRO & EXPOLAB",
@@ -216,7 +87,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": -2,
+      "faltamDias": -3,
       "janela": "passou",
       "acionavel": false
     },
@@ -279,7 +150,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 4,
+      "faltamDias": 3,
       "janela": "esta semana",
       "acionavel": false
     },
@@ -343,7 +214,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 4,
+      "faltamDias": 3,
       "janela": "esta semana",
       "acionavel": false
     },
@@ -407,7 +278,7 @@
       "mercado": 24,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 5,
+      "faltamDias": 4,
       "janela": "esta semana",
       "acionavel": false
     },
@@ -472,7 +343,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 6,
-      "faltamDias": 5,
+      "faltamDias": 4,
       "janela": "esta semana",
       "acionavel": false
     },
@@ -539,7 +410,7 @@
       "mercado": 26,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 11,
+      "faltamDias": 10,
       "janela": "em cima da hora",
       "acionavel": false
     },
@@ -602,7 +473,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 12,
+      "faltamDias": 11,
       "janela": "em cima da hora",
       "acionavel": false
     },
@@ -665,7 +536,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 17,
+      "faltamDias": 16,
       "janela": "em cima da hora",
       "acionavel": false
     },
@@ -728,7 +599,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 17,
+      "faltamDias": 16,
       "janela": "em cima da hora",
       "acionavel": false
     },
@@ -791,7 +662,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 17,
+      "faltamDias": 16,
       "janela": "em cima da hora",
       "acionavel": false
     },
@@ -855,7 +726,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 24,
+      "faltamDias": 23,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -918,7 +789,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 25,
+      "faltamDias": 24,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -983,7 +854,7 @@
       "mercado": 24,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 26,
+      "faltamDias": 25,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -1046,7 +917,7 @@
       "mercado": 24,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 26,
+      "faltamDias": 25,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -1110,7 +981,7 @@
       "mercado": 26,
       "publicoEstimado": null,
       "diasDeEvento": 4,
-      "faltamDias": 30,
+      "faltamDias": 29,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -1171,7 +1042,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 31,
+      "faltamDias": 30,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -1238,7 +1109,7 @@
       "mercado": 26,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 31,
+      "faltamDias": 30,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -1301,7 +1172,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 32,
+      "faltamDias": 31,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -1364,7 +1235,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 33,
+      "faltamDias": 32,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -1428,7 +1299,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 38,
+      "faltamDias": 37,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -1493,7 +1364,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 38,
+      "faltamDias": 37,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -1556,7 +1427,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 39,
+      "faltamDias": 38,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -1621,7 +1492,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 40,
+      "faltamDias": 39,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -1685,7 +1556,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 42,
+      "faltamDias": 41,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -1746,7 +1617,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 46,
+      "faltamDias": 45,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -1810,7 +1681,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 47,
+      "faltamDias": 46,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -1874,7 +1745,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 48,
+      "faltamDias": 47,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -1937,7 +1808,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 5,
-      "faltamDias": 51,
+      "faltamDias": 50,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -2003,7 +1874,7 @@
       "mercado": 26,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 53,
+      "faltamDias": 52,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -2066,7 +1937,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 56,
+      "faltamDias": 55,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -2127,7 +1998,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 57,
+      "faltamDias": 56,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -2190,7 +2061,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 58,
+      "faltamDias": 57,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -2253,7 +2124,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 62,
+      "faltamDias": 61,
       "janela": "ideal",
       "acionavel": true
     },
@@ -2316,7 +2187,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 62,
+      "faltamDias": 61,
       "janela": "ideal",
       "acionavel": true
     },
@@ -2380,7 +2251,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 62,
+      "faltamDias": 61,
       "janela": "ideal",
       "acionavel": true
     },
@@ -2444,7 +2315,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 62,
+      "faltamDias": 61,
       "janela": "ideal",
       "acionavel": true
     },
@@ -2508,7 +2379,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 62,
+      "faltamDias": 61,
       "janela": "ideal",
       "acionavel": true
     },
@@ -2573,7 +2444,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 66,
+      "faltamDias": 65,
       "janela": "ideal",
       "acionavel": true
     },
@@ -2638,7 +2509,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 66,
+      "faltamDias": 65,
       "janela": "ideal",
       "acionavel": true
     },
@@ -2701,7 +2572,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 67,
+      "faltamDias": 66,
       "janela": "ideal",
       "acionavel": true
     },
@@ -2764,7 +2635,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 4,
-      "faltamDias": 75,
+      "faltamDias": 74,
       "janela": "ideal",
       "acionavel": true
     },
@@ -2827,7 +2698,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 84,
+      "faltamDias": 83,
       "janela": "ideal",
       "acionavel": true
     }
