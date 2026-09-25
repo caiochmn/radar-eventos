@@ -1,29 +1,29 @@
 {
-  "atualizadoEm": "2026-09-25T03:58:08.242Z",
-  "totalEventos": 57,
+  "atualizadoEm": "2026-09-25T16:48:16.669Z",
+  "totalEventos": 56,
   "fontes": [
     {
       "fonte": "Distrito Anhembi",
       "eventos": 0,
-      "ms": 4915,
+      "ms": 4836,
       "erro": null
     },
     {
       "fonte": "Expo Center Norte",
-      "eventos": 20,
-      "ms": 1186,
+      "eventos": 19,
+      "ms": 956,
       "erro": null
     },
     {
       "fonte": "Pro Magno Centro de Eventos",
       "eventos": 18,
-      "ms": 3259,
+      "ms": 1826,
       "erro": null
     },
     {
       "fonte": "São Paulo Expo",
       "eventos": 19,
-      "ms": 1890,
+      "ms": 1950,
       "erro": null
     }
   ],
@@ -87,70 +87,6 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": -2,
-      "janela": "passou",
-      "acionavel": false
-    },
-    {
-      "id": "expo-center-norte:incosmetics|2026-09-23",
-      "nome": "In Cosmetics",
-      "descricao": "A in-cosmetics Latin America é o principal evento de matérias-primas para cosméticos da America Latina. A feira conecta os principais fornecedores de matérias-primas, fragrâncias, equipamentos de laboratório, testes e soluções regulatórias do mundo todo com fabricantes de cosméticos da região, e oferece as melhores oportunidades de negócios e networking para toda a comunidade da indústria latino-a",
-      "dataInicio": "2026-09-23",
-      "dataFim": "2026-09-24",
-      "textoData": "23 a 24 setembro",
-      "espaco": "Pavilhão",
-      "link": "https://www.expocenternorte.com.br/eventos/in-cosmetics",
-      "local": {
-        "nome": "Expo Center Norte",
-        "cidade": "São Paulo",
-        "uf": "SP"
-      },
-      "fonte": {
-        "id": "expo-center-norte",
-        "nome": "Expo Center Norte",
-        "url": "https://www.expocenternorte.com.br/eventos"
-      },
-      "fonteDominio": "expocenternorte.com.br",
-      "score": 72,
-      "faixa": "alto",
-      "confianca": "alta",
-      "tipo": "Feira",
-      "sinais": [
-        "Principal do setor",
-        "América Latina"
-      ],
-      "componentes": [
-        {
-          "rotulo": "Porte",
-          "valor": 20,
-          "teto": 45
-        },
-        {
-          "rotulo": "Alcance",
-          "valor": 25,
-          "teto": 25
-        },
-        {
-          "rotulo": "Organizador",
-          "valor": 0,
-          "teto": 28
-        },
-        {
-          "rotulo": "Tipo de evento",
-          "valor": 22,
-          "teto": 25
-        },
-        {
-          "rotulo": "Duração",
-          "valor": 5,
-          "teto": 8
-        }
-      ],
-      "porte": 20,
-      "alcance": 25,
-      "mercado": 0,
-      "publicoEstimado": null,
-      "diasDeEvento": 2,
       "faltamDias": -2,
       "janela": "passou",
       "acionavel": false
