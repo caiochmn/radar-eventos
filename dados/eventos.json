@@ -1,29 +1,29 @@
 {
-  "atualizadoEm": "2026-10-21T03:45:44.160Z",
-  "totalEventos": 34,
+  "atualizadoEm": "2026-10-21T16:48:28.527Z",
+  "totalEventos": 35,
   "fontes": [
     {
       "fonte": "Distrito Anhembi",
       "eventos": 0,
-      "ms": 4809,
+      "ms": 5142,
       "erro": null
     },
     {
       "fonte": "Expo Center Norte",
-      "eventos": 16,
-      "ms": 978,
+      "eventos": 14,
+      "ms": 984,
       "erro": null
     },
     {
       "fonte": "Pro Magno Centro de Eventos",
       "eventos": 10,
-      "ms": 3152,
+      "ms": 3723,
       "erro": null
     },
     {
       "fonte": "São Paulo Expo",
       "eventos": 11,
-      "ms": 1607,
+      "ms": 1498,
       "erro": null
     }
   ],
@@ -1016,6 +1016,73 @@
       "faltamDias": 21,
       "janela": "em cima da hora",
       "acionavel": false
+    },
+    {
+      "id": "expo-center-norte:expocristasaopaulo|2026-11-12",
+      "nome": "EXPO CRISTÃ SÃO PAULO 2026",
+      "descricao": "A Expo Cristã é um ecossistema de conexão com a comunidade cristã, reconhecida mundialmente como a maior feira do segmento, com 26 anos de história. A plataforma oficial de lançamentos de produtos e serviços direcionados a este público, o evento atrai visitantes de todo o Brasil e do exterior. Durante os dias do evento, é promovido um ambiente de negócios que abrange diversos setores, incluindo",
+      "dataInicio": "2026-11-12",
+      "dataFim": "2026-11-15",
+      "textoData": "12 a 15 novembro",
+      "espaco": "Pavilhão",
+      "link": "https://www.expocenternorte.com.br/eventos/expo-crista",
+      "local": {
+        "nome": "Expo Center Norte",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "expo-center-norte",
+        "nome": "Expo Center Norte",
+        "url": "https://www.expocenternorte.com.br/eventos"
+      },
+      "fonteDominio": "expocenternorte.com.br",
+      "score": 97,
+      "faixa": "alto",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [
+        "Maior do segmento",
+        "26ª edição",
+        "Nacional",
+        "Internacional",
+        "Brasil"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 42,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 25,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 8,
+          "teto": 8
+        }
+      ],
+      "porte": 42,
+      "alcance": 25,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 4,
+      "faltamDias": 22,
+      "janela": "agir agora",
+      "acionavel": true
     },
     {
       "id": "pro-magno:congressobodyscience|2026-11-13",
