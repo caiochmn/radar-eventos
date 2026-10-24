@@ -1,161 +1,33 @@
 {
-  "atualizadoEm": "2026-10-23T16:40:03.724Z",
-  "totalEventos": 34,
+  "atualizadoEm": "2026-10-24T03:44:26.129Z",
+  "totalEventos": 32,
   "fontes": [
     {
       "fonte": "Distrito Anhembi",
       "eventos": 0,
-      "ms": 5181,
+      "ms": 4864,
       "erro": null
     },
     {
       "fonte": "Expo Center Norte",
-      "eventos": 14,
-      "ms": 925,
+      "eventos": 12,
+      "ms": 1661,
       "erro": null
     },
     {
       "fonte": "Pro Magno Centro de Eventos",
       "eventos": 10,
-      "ms": 3722,
+      "ms": 3756,
       "erro": null
     },
     {
       "fonte": "São Paulo Expo",
       "eventos": 10,
-      "ms": 1589,
+      "ms": 1952,
       "erro": null
     }
   ],
   "eventos": [
-    {
-      "id": "expo-center-norte:ecoexpo|2026-10-20",
-      "nome": "ECO Expo 2026",
-      "descricao": "A maior e mais completa Feira da América, totalmente dedicada à gestão de resíduos sólidos.",
-      "dataInicio": "2026-10-20",
-      "dataFim": "2026-10-22",
-      "textoData": "20 a 22 outubro",
-      "espaco": "Pavilhão",
-      "link": "https://www.expocenternorte.com.br/eventos/eco-expo-2026",
-      "local": {
-        "nome": "Expo Center Norte",
-        "cidade": "São Paulo",
-        "uf": "SP"
-      },
-      "fonte": {
-        "id": "expo-center-norte",
-        "nome": "Expo Center Norte",
-        "url": "https://www.expocenternorte.com.br/eventos"
-      },
-      "fonteDominio": "expocenternorte.com.br",
-      "score": 27,
-      "faixa": "baixo",
-      "confianca": "alta",
-      "tipo": "Feira",
-      "sinais": [],
-      "componentes": [
-        {
-          "rotulo": "Porte",
-          "valor": 0,
-          "teto": 45
-        },
-        {
-          "rotulo": "Alcance",
-          "valor": 0,
-          "teto": 25
-        },
-        {
-          "rotulo": "Organizador",
-          "valor": 0,
-          "teto": 28
-        },
-        {
-          "rotulo": "Tipo de evento",
-          "valor": 22,
-          "teto": 25
-        },
-        {
-          "rotulo": "Duração",
-          "valor": 5,
-          "teto": 8
-        }
-      ],
-      "porte": 0,
-      "alcance": 0,
-      "mercado": 0,
-      "publicoEstimado": null,
-      "diasDeEvento": 3,
-      "faltamDias": -3,
-      "janela": "passou",
-      "acionavel": false
-    },
-    {
-      "id": "expo-center-norte:fenasan|2026-10-20",
-      "nome": "Fenasan 2026",
-      "descricao": "A Feira Nacional de Saneamento e Meio Ambiente – Fenasan e o 37º Encontro Técnico AESabesp (de 22 a 24 de outubro, nos pavilhões Verde e Vermelho, no Expo Center Norte, em São Paulo), o maior evento de saneamento da América Latina, será ainda maior em 2026! A realização é da AESabesp – Associação dos Engenheiros da Sabesp.",
-      "dataInicio": "2026-10-20",
-      "dataFim": "2026-10-22",
-      "textoData": "20 a 22 outubro",
-      "espaco": "Pavilhão & Centro de Convenções",
-      "link": "https://www.expocenternorte.com.br/eventos/fenasan-2026",
-      "local": {
-        "nome": "Expo Center Norte",
-        "cidade": "São Paulo",
-        "uf": "SP"
-      },
-      "fonte": {
-        "id": "expo-center-norte",
-        "nome": "Expo Center Norte",
-        "url": "https://www.expocenternorte.com.br/eventos"
-      },
-      "fonteDominio": "expocenternorte.com.br",
-      "score": 100,
-      "faixa": "alto",
-      "confianca": "alta",
-      "tipo": "Feira",
-      "sinais": [
-        "Maior do segmento",
-        "37ª edição",
-        "América Latina",
-        "Nacional",
-        "Entidade nacional"
-      ],
-      "componentes": [
-        {
-          "rotulo": "Porte",
-          "valor": 45,
-          "teto": 45
-        },
-        {
-          "rotulo": "Alcance",
-          "valor": 25,
-          "teto": 25
-        },
-        {
-          "rotulo": "Organizador",
-          "valor": 26,
-          "teto": 28
-        },
-        {
-          "rotulo": "Tipo de evento",
-          "valor": 22,
-          "teto": 25
-        },
-        {
-          "rotulo": "Duração",
-          "valor": 5,
-          "teto": 8
-        }
-      ],
-      "porte": 45,
-      "alcance": 25,
-      "mercado": 26,
-      "publicoEstimado": null,
-      "diasDeEvento": 3,
-      "faltamDias": -3,
-      "janela": "passou",
-      "acionavel": false
-    },
     {
       "id": "pro-magno:maacmedicaladvancedastheticscongress|2026-10-21",
       "nome": "MAAC – MEDICAL ADVANCED ASTHETICS CONGRESS",
@@ -213,7 +85,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 4,
-      "faltamDias": -2,
+      "faltamDias": -3,
       "janela": "passou",
       "acionavel": false
     },
@@ -276,7 +148,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": -1,
+      "faltamDias": -2,
       "janela": "passou",
       "acionavel": false
     },
@@ -340,7 +212,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 4,
+      "faltamDias": 3,
       "janela": "esta semana",
       "acionavel": false
     },
@@ -405,7 +277,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 4,
+      "faltamDias": 3,
       "janela": "esta semana",
       "acionavel": false
     },
@@ -468,7 +340,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 5,
+      "faltamDias": 4,
       "janela": "esta semana",
       "acionavel": false
     },
@@ -533,7 +405,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 6,
+      "faltamDias": 5,
       "janela": "esta semana",
       "acionavel": false
     },
@@ -597,8 +469,8 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 8,
-      "janela": "em cima da hora",
+      "faltamDias": 7,
+      "janela": "esta semana",
       "acionavel": false
     },
     {
@@ -632,8 +504,8 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 8,
-      "janela": "em cima da hora",
+      "faltamDias": 7,
+      "janela": "esta semana",
       "acionavel": false
     },
     {
@@ -693,7 +565,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 12,
+      "faltamDias": 11,
       "janela": "em cima da hora",
       "acionavel": false
     },
@@ -757,7 +629,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 13,
+      "faltamDias": 12,
       "janela": "em cima da hora",
       "acionavel": false
     },
@@ -821,7 +693,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 14,
+      "faltamDias": 13,
       "janela": "em cima da hora",
       "acionavel": false
     },
@@ -884,7 +756,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 5,
-      "faltamDias": 17,
+      "faltamDias": 16,
       "janela": "em cima da hora",
       "acionavel": false
     },
@@ -950,7 +822,7 @@
       "mercado": 26,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 19,
+      "faltamDias": 18,
       "janela": "em cima da hora",
       "acionavel": false
     },
@@ -1017,7 +889,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 4,
-      "faltamDias": 20,
+      "faltamDias": 19,
       "janela": "em cima da hora",
       "acionavel": false
     },
@@ -1078,7 +950,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 21,
+      "faltamDias": 20,
       "janela": "em cima da hora",
       "acionavel": false
     },
@@ -1141,9 +1013,9 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 22,
-      "janela": "agir agora",
-      "acionavel": true
+      "faltamDias": 21,
+      "janela": "em cima da hora",
+      "acionavel": false
     },
     {
       "id": "pro-magno:eventosocialprivado|2026-11-14",
@@ -1176,8 +1048,8 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 22,
-      "janela": "agir agora",
+      "faltamDias": 21,
+      "janela": "em cima da hora",
       "acionavel": false
     },
     {
@@ -1237,7 +1109,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 23,
+      "faltamDias": 22,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -1300,7 +1172,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 24,
+      "faltamDias": 23,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -1361,7 +1233,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 25,
+      "faltamDias": 24,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -1396,7 +1268,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 27,
+      "faltamDias": 26,
       "janela": "agir agora",
       "acionavel": false
     },
@@ -1459,7 +1331,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 28,
+      "faltamDias": 27,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -1522,7 +1394,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 28,
+      "faltamDias": 27,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -1586,7 +1458,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 28,
+      "faltamDias": 27,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -1650,7 +1522,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 28,
+      "faltamDias": 27,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -1685,7 +1557,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 29,
+      "faltamDias": 28,
       "janela": "agir agora",
       "acionavel": false
     },
@@ -1746,7 +1618,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 29,
+      "faltamDias": 28,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -1809,7 +1681,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 33,
+      "faltamDias": 32,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -1872,7 +1744,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 4,
-      "faltamDias": 41,
+      "faltamDias": 40,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -1933,7 +1805,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 48,
+      "faltamDias": 47,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -1996,7 +1868,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 50,
+      "faltamDias": 49,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -2031,7 +1903,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 57,
+      "faltamDias": 56,
       "janela": "agir agora",
       "acionavel": false
     }
