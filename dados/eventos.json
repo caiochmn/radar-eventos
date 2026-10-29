@@ -1,96 +1,33 @@
 {
-  "atualizadoEm": "2026-10-28T18:01:06.976Z",
-  "totalEventos": 28,
+  "atualizadoEm": "2026-10-29T04:51:13.432Z",
+  "totalEventos": 18,
   "fontes": [
     {
       "fonte": "Distrito Anhembi",
       "eventos": 0,
-      "ms": 5455,
+      "ms": 4943,
       "erro": null
     },
     {
       "fonte": "Expo Center Norte",
       "eventos": 11,
-      "ms": 1783,
+      "ms": 1062,
       "erro": null
     },
     {
       "fonte": "Pro Magno Centro de Eventos",
-      "eventos": 9,
-      "ms": 3342,
+      "eventos": 0,
+      "ms": 1008,
       "erro": null
     },
     {
       "fonte": "São Paulo Expo",
-      "eventos": 8,
-      "ms": 2171,
+      "eventos": 7,
+      "ms": 6450,
       "erro": null
     }
   ],
   "eventos": [
-    {
-      "id": "sao-paulo-expo:expoabla|2026-10-28",
-      "nome": "EXPO ABLA",
-      "descricao": "Expo Abla apresenta novidades, serviços e tecnologias voltadas à locação de veículos, com exposição de soluções e troca de experiências entre empresas e especialistas. A programação inclui conteúdos e iniciativas que acompanham as transformações da mobilidade.",
-      "dataInicio": "2026-10-28",
-      "dataFim": "2026-10-29",
-      "textoData": "28 - 29 out",
-      "espaco": "Pavilhões",
-      "link": "https://expoabla.com/?occurrence=2026-10-28",
-      "local": {
-        "nome": "São Paulo Expo",
-        "cidade": "São Paulo",
-        "uf": "SP"
-      },
-      "fonte": {
-        "id": "sao-paulo-expo",
-        "nome": "São Paulo Expo",
-        "url": "https://www.saopauloexpo.com.br/pt/agenda-de-eventos/"
-      },
-      "fonteDominio": "saopauloexpo.com.br",
-      "score": 43,
-      "faixa": "medio",
-      "confianca": "alta",
-      "tipo": "Feira",
-      "sinais": [
-        "Site próprio"
-      ],
-      "componentes": [
-        {
-          "rotulo": "Porte",
-          "valor": 16,
-          "teto": 45
-        },
-        {
-          "rotulo": "Alcance",
-          "valor": 0,
-          "teto": 25
-        },
-        {
-          "rotulo": "Organizador",
-          "valor": 0,
-          "teto": 28
-        },
-        {
-          "rotulo": "Tipo de evento",
-          "valor": 22,
-          "teto": 25
-        },
-        {
-          "rotulo": "Duração",
-          "valor": 5,
-          "teto": 8
-        }
-      ],
-      "porte": 16,
-      "alcance": 0,
-      "mercado": 0,
-      "publicoEstimado": null,
-      "diasDeEvento": 2,
-      "faltamDias": 0,
-      "janela": "esta semana",
-      "acionavel": false
-    },
     {
       "id": "sao-paulo-expo:g4valley|2026-10-29",
       "nome": "G4 VALLEY 2026",
@@ -152,7 +89,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 1,
+      "faltamDias": 0,
       "janela": "esta semana",
       "acionavel": false
     },
@@ -216,42 +153,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 3,
-      "janela": "esta semana",
-      "acionavel": false
-    },
-    {
-      "id": "pro-magno:eventosocialprivado|2026-10-31",
-      "nome": "EVENTO SOCIAL PRIVADO",
-      "descricao": "",
-      "dataInicio": "2026-10-31",
-      "dataFim": "2026-10-31",
-      "textoData": "31/Outubro/2026",
-      "espaco": "Pro Magno",
-      "link": "https://www.promagno.com.br/evento/evento-social-privado-121/",
-      "local": {
-        "nome": "Pro Magno Centro de Eventos",
-        "cidade": "São Paulo",
-        "uf": "SP"
-      },
-      "fonte": {
-        "id": "pro-magno",
-        "nome": "Pro Magno Centro de Eventos",
-        "url": "https://www.promagno.com.br/"
-      },
-      "fonteDominio": "promagno.com.br",
-      "score": 0,
-      "faixa": "baixo",
-      "confianca": "alta",
-      "tipo": "Social/privado",
-      "sinais": [],
-      "componentes": [],
-      "porte": 0,
-      "alcance": 0,
-      "mercado": 0,
-      "publicoEstimado": null,
-      "diasDeEvento": 1,
-      "faltamDias": 3,
+      "faltamDias": 2,
       "janela": "esta semana",
       "acionavel": false
     },
@@ -312,7 +214,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 7,
+      "faltamDias": 6,
       "janela": "esta semana",
       "acionavel": false
     },
@@ -376,8 +278,8 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 8,
-      "janela": "em cima da hora",
+      "faltamDias": 7,
+      "janela": "esta semana",
       "acionavel": false
     },
     {
@@ -440,7 +342,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 9,
+      "faltamDias": 8,
       "janela": "em cima da hora",
       "acionavel": false
     },
@@ -503,7 +405,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 5,
-      "faltamDias": 12,
+      "faltamDias": 11,
       "janela": "em cima da hora",
       "acionavel": false
     },
@@ -569,7 +471,7 @@
       "mercado": 26,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 14,
+      "faltamDias": 13,
       "janela": "em cima da hora",
       "acionavel": false
     },
@@ -636,68 +538,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 4,
-      "faltamDias": 15,
-      "janela": "em cima da hora",
-      "acionavel": false
-    },
-    {
-      "id": "pro-magno:congressobodyscience|2026-11-13",
-      "nome": "CONGRESSO BODYSCIENCE",
-      "descricao": "",
-      "dataInicio": "2026-11-13",
-      "dataFim": "2026-11-14",
-      "textoData": "13-14/Novembro/2026",
-      "espaco": "Pro Magno",
-      "link": "https://www.promagno.com.br/evento/congresso-bodyscience/",
-      "local": {
-        "nome": "Pro Magno Centro de Eventos",
-        "cidade": "São Paulo",
-        "uf": "SP"
-      },
-      "fonte": {
-        "id": "pro-magno",
-        "nome": "Pro Magno Centro de Eventos",
-        "url": "https://www.promagno.com.br/"
-      },
-      "fonteDominio": "promagno.com.br",
-      "score": 29,
-      "faixa": "baixo",
-      "confianca": "baixa",
-      "tipo": "Congresso",
-      "sinais": [],
-      "componentes": [
-        {
-          "rotulo": "Porte",
-          "valor": 0,
-          "teto": 45
-        },
-        {
-          "rotulo": "Alcance",
-          "valor": 0,
-          "teto": 25
-        },
-        {
-          "rotulo": "Organizador",
-          "valor": 0,
-          "teto": 28
-        },
-        {
-          "rotulo": "Tipo de evento",
-          "valor": 24,
-          "teto": 25
-        },
-        {
-          "rotulo": "Duração",
-          "valor": 5,
-          "teto": 8
-        }
-      ],
-      "porte": 0,
-      "alcance": 0,
-      "mercado": 0,
-      "publicoEstimado": null,
-      "diasDeEvento": 2,
-      "faltamDias": 16,
+      "faltamDias": 14,
       "janela": "em cima da hora",
       "acionavel": false
     },
@@ -760,42 +601,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 17,
-      "janela": "em cima da hora",
-      "acionavel": false
-    },
-    {
-      "id": "pro-magno:eventosocialprivado|2026-11-14",
-      "nome": "EVENTO SOCIAL PRIVADO",
-      "descricao": "",
-      "dataInicio": "2026-11-14",
-      "dataFim": "2026-11-14",
-      "textoData": "14/Novembro/2026",
-      "espaco": "Pro Magno",
-      "link": "https://www.promagno.com.br/evento/evento-social-privado-112/",
-      "local": {
-        "nome": "Pro Magno Centro de Eventos",
-        "cidade": "São Paulo",
-        "uf": "SP"
-      },
-      "fonte": {
-        "id": "pro-magno",
-        "nome": "Pro Magno Centro de Eventos",
-        "url": "https://www.promagno.com.br/"
-      },
-      "fonteDominio": "promagno.com.br",
-      "score": 0,
-      "faixa": "baixo",
-      "confianca": "alta",
-      "tipo": "Social/privado",
-      "sinais": [],
-      "componentes": [],
-      "porte": 0,
-      "alcance": 0,
-      "mercado": 0,
-      "publicoEstimado": null,
-      "diasDeEvento": 1,
-      "faltamDias": 17,
+      "faltamDias": 16,
       "janela": "em cima da hora",
       "acionavel": false
     },
@@ -856,7 +662,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 18,
+      "faltamDias": 17,
       "janela": "em cima da hora",
       "acionavel": false
     },
@@ -919,43 +725,8 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 19,
+      "faltamDias": 18,
       "janela": "em cima da hora",
-      "acionavel": false
-    },
-    {
-      "id": "pro-magno:eventosocialprivado|2026-11-19",
-      "nome": "EVENTO SOCIAL PRIVADO",
-      "descricao": "",
-      "dataInicio": "2026-11-19",
-      "dataFim": "2026-11-19",
-      "textoData": "19/Novembro/2026",
-      "espaco": "Pro Magno",
-      "link": "https://www.promagno.com.br/evento/evento-social-privado-114/",
-      "local": {
-        "nome": "Pro Magno Centro de Eventos",
-        "cidade": "São Paulo",
-        "uf": "SP"
-      },
-      "fonte": {
-        "id": "pro-magno",
-        "nome": "Pro Magno Centro de Eventos",
-        "url": "https://www.promagno.com.br/"
-      },
-      "fonteDominio": "promagno.com.br",
-      "score": 0,
-      "faixa": "baixo",
-      "confianca": "alta",
-      "tipo": "Social/privado",
-      "sinais": [],
-      "componentes": [],
-      "porte": 0,
-      "alcance": 0,
-      "mercado": 0,
-      "publicoEstimado": null,
-      "diasDeEvento": 1,
-      "faltamDias": 22,
-      "janela": "agir agora",
       "acionavel": false
     },
     {
@@ -1017,7 +788,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 23,
+      "faltamDias": 22,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -1080,7 +851,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 23,
+      "faltamDias": 22,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -1144,7 +915,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 23,
+      "faltamDias": 22,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -1208,103 +979,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 23,
-      "janela": "agir agora",
-      "acionavel": true
-    },
-    {
-      "id": "pro-magno:eventosocialprivado|2026-11-21",
-      "nome": "EVENTO SOCIAL PRIVADO",
-      "descricao": "",
-      "dataInicio": "2026-11-21",
-      "dataFim": "2026-11-21",
-      "textoData": "21/Novembro/2026",
-      "espaco": "Pro Magno",
-      "link": "https://www.promagno.com.br/evento/evento-social-privado-118/",
-      "local": {
-        "nome": "Pro Magno Centro de Eventos",
-        "cidade": "São Paulo",
-        "uf": "SP"
-      },
-      "fonte": {
-        "id": "pro-magno",
-        "nome": "Pro Magno Centro de Eventos",
-        "url": "https://www.promagno.com.br/"
-      },
-      "fonteDominio": "promagno.com.br",
-      "score": 0,
-      "faixa": "baixo",
-      "confianca": "alta",
-      "tipo": "Social/privado",
-      "sinais": [],
-      "componentes": [],
-      "porte": 0,
-      "alcance": 0,
-      "mercado": 0,
-      "publicoEstimado": null,
-      "diasDeEvento": 1,
-      "faltamDias": 24,
-      "janela": "agir agora",
-      "acionavel": false
-    },
-    {
-      "id": "pro-magno:eventocorporativoprivado|2026-11-21",
-      "nome": "EVENTO CORPORATIVO PRIVADO",
-      "descricao": "",
-      "dataInicio": "2026-11-21",
-      "dataFim": "2026-11-21",
-      "textoData": "21/Novembro/2026",
-      "espaco": "Pro Magno",
-      "link": "https://www.promagno.com.br/evento/evento-corporativo-privado-31/",
-      "local": {
-        "nome": "Pro Magno Centro de Eventos",
-        "cidade": "São Paulo",
-        "uf": "SP"
-      },
-      "fonte": {
-        "id": "pro-magno",
-        "nome": "Pro Magno Centro de Eventos",
-        "url": "https://www.promagno.com.br/"
-      },
-      "fonteDominio": "promagno.com.br",
-      "score": 10,
-      "faixa": "baixo",
-      "confianca": "baixa",
-      "tipo": "Evento",
-      "sinais": [],
-      "componentes": [
-        {
-          "rotulo": "Porte",
-          "valor": 0,
-          "teto": 45
-        },
-        {
-          "rotulo": "Alcance",
-          "valor": 0,
-          "teto": 25
-        },
-        {
-          "rotulo": "Organizador",
-          "valor": 0,
-          "teto": 28
-        },
-        {
-          "rotulo": "Tipo de evento",
-          "valor": 10,
-          "teto": 25
-        },
-        {
-          "rotulo": "Duração",
-          "valor": 0,
-          "teto": 8
-        }
-      ],
-      "porte": 0,
-      "alcance": 0,
-      "mercado": 0,
-      "publicoEstimado": null,
-      "diasDeEvento": 1,
-      "faltamDias": 24,
+      "faltamDias": 22,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -1367,68 +1042,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 28,
-      "janela": "agir agora",
-      "acionavel": true
-    },
-    {
-      "id": "pro-magno:expotea|2026-11-27",
-      "nome": "EXPO TEA",
-      "descricao": "",
-      "dataInicio": "2026-11-27",
-      "dataFim": "2026-11-29",
-      "textoData": "27-29/Novembro/2026",
-      "espaco": "Pro Magno",
-      "link": "https://www.promagno.com.br/evento/expo-tea/",
-      "local": {
-        "nome": "Pro Magno Centro de Eventos",
-        "cidade": "São Paulo",
-        "uf": "SP"
-      },
-      "fonte": {
-        "id": "pro-magno",
-        "nome": "Pro Magno Centro de Eventos",
-        "url": "https://www.promagno.com.br/"
-      },
-      "fonteDominio": "promagno.com.br",
-      "score": 27,
-      "faixa": "baixo",
-      "confianca": "baixa",
-      "tipo": "Feira",
-      "sinais": [],
-      "componentes": [
-        {
-          "rotulo": "Porte",
-          "valor": 0,
-          "teto": 45
-        },
-        {
-          "rotulo": "Alcance",
-          "valor": 0,
-          "teto": 25
-        },
-        {
-          "rotulo": "Organizador",
-          "valor": 0,
-          "teto": 28
-        },
-        {
-          "rotulo": "Tipo de evento",
-          "valor": 22,
-          "teto": 25
-        },
-        {
-          "rotulo": "Duração",
-          "valor": 5,
-          "teto": 8
-        }
-      ],
-      "porte": 0,
-      "alcance": 0,
-      "mercado": 0,
-      "publicoEstimado": null,
-      "diasDeEvento": 3,
-      "faltamDias": 30,
+      "faltamDias": 27,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -1491,68 +1105,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 4,
-      "faltamDias": 36,
-      "janela": "agir agora",
-      "acionavel": true
-    },
-    {
-      "id": "pro-magno:eventocorporativoprivado|2026-12-10",
-      "nome": "EVENTO CORPORATIVO PRIVADO",
-      "descricao": "",
-      "dataInicio": "2026-12-10",
-      "dataFim": "2026-12-10",
-      "textoData": "10/Dezembro/2026",
-      "espaco": "Pro Magno",
-      "link": "https://www.promagno.com.br/evento/evento-corporativo-privado-32/",
-      "local": {
-        "nome": "Pro Magno Centro de Eventos",
-        "cidade": "São Paulo",
-        "uf": "SP"
-      },
-      "fonte": {
-        "id": "pro-magno",
-        "nome": "Pro Magno Centro de Eventos",
-        "url": "https://www.promagno.com.br/"
-      },
-      "fonteDominio": "promagno.com.br",
-      "score": 10,
-      "faixa": "baixo",
-      "confianca": "baixa",
-      "tipo": "Evento",
-      "sinais": [],
-      "componentes": [
-        {
-          "rotulo": "Porte",
-          "valor": 0,
-          "teto": 45
-        },
-        {
-          "rotulo": "Alcance",
-          "valor": 0,
-          "teto": 25
-        },
-        {
-          "rotulo": "Organizador",
-          "valor": 0,
-          "teto": 28
-        },
-        {
-          "rotulo": "Tipo de evento",
-          "valor": 10,
-          "teto": 25
-        },
-        {
-          "rotulo": "Duração",
-          "valor": 0,
-          "teto": 8
-        }
-      ],
-      "porte": 0,
-      "alcance": 0,
-      "mercado": 0,
-      "publicoEstimado": null,
-      "diasDeEvento": 1,
-      "faltamDias": 43,
+      "faltamDias": 35,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -1615,44 +1168,9 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 45,
+      "faltamDias": 44,
       "janela": "agir agora",
       "acionavel": true
-    },
-    {
-      "id": "pro-magno:eventosocialprivado|2026-12-19",
-      "nome": "EVENTO SOCIAL PRIVADO",
-      "descricao": "",
-      "dataInicio": "2026-12-19",
-      "dataFim": "2026-12-19",
-      "textoData": "19/Dezembro/2026",
-      "espaco": "Pro Magno",
-      "link": "https://www.promagno.com.br/evento/evento-corporativo-privado-33/",
-      "local": {
-        "nome": "Pro Magno Centro de Eventos",
-        "cidade": "São Paulo",
-        "uf": "SP"
-      },
-      "fonte": {
-        "id": "pro-magno",
-        "nome": "Pro Magno Centro de Eventos",
-        "url": "https://www.promagno.com.br/"
-      },
-      "fonteDominio": "promagno.com.br",
-      "score": 0,
-      "faixa": "baixo",
-      "confianca": "alta",
-      "tipo": "Social/privado",
-      "sinais": [],
-      "componentes": [],
-      "porte": 0,
-      "alcance": 0,
-      "mercado": 0,
-      "publicoEstimado": null,
-      "diasDeEvento": 1,
-      "faltamDias": 52,
-      "janela": "agir agora",
-      "acionavel": false
     }
   ]
 }
