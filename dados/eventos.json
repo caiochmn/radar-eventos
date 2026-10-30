@@ -1,29 +1,29 @@
 {
-  "atualizadoEm": "2026-10-30T04:51:23.969Z",
+  "atualizadoEm": "2026-10-30T17:49:07.804Z",
   "totalEventos": 26,
   "fontes": [
     {
       "fonte": "Distrito Anhembi",
       "eventos": 0,
-      "ms": 4845,
+      "ms": 5002,
       "erro": null
     },
     {
       "fonte": "Expo Center Norte",
       "eventos": 11,
-      "ms": 1118,
+      "ms": 1280,
       "erro": null
     },
     {
       "fonte": "Pro Magno Centro de Eventos",
       "eventos": 9,
-      "ms": 3052,
+      "ms": 5039,
       "erro": null
     },
     {
       "fonte": "São Paulo Expo",
       "eventos": 6,
-      "ms": 1313,
+      "ms": 1394,
       "erro": null
     }
   ],
