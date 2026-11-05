@@ -1,29 +1,29 @@
 {
-  "atualizadoEm": "2026-11-04T19:29:31.351Z",
+  "atualizadoEm": "2026-11-05T05:40:06.370Z",
   "totalEventos": 24,
   "fontes": [
     {
       "fonte": "Distrito Anhembi",
       "eventos": 0,
-      "ms": 4930,
+      "ms": 4990,
       "erro": null
     },
     {
       "fonte": "Expo Center Norte",
       "eventos": 10,
-      "ms": 2508,
+      "ms": 982,
       "erro": null
     },
     {
       "fonte": "Pro Magno Centro de Eventos",
       "eventos": 8,
-      "ms": 2403,
+      "ms": 5075,
       "erro": null
     },
     {
       "fonte": "São Paulo Expo",
       "eventos": 6,
-      "ms": 1486,
+      "ms": 1710,
       "erro": null
     }
   ],
@@ -85,8 +85,8 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 0,
-      "janela": "esta semana",
+      "faltamDias": -1,
+      "janela": "passou",
       "acionavel": false
     },
     {
@@ -149,7 +149,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 1,
+      "faltamDias": 0,
       "janela": "esta semana",
       "acionavel": false
     },
@@ -213,7 +213,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 2,
+      "faltamDias": 1,
       "janela": "esta semana",
       "acionavel": false
     },
@@ -276,7 +276,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 5,
-      "faltamDias": 5,
+      "faltamDias": 4,
       "janela": "esta semana",
       "acionavel": false
     },
@@ -342,7 +342,7 @@
       "mercado": 26,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 7,
+      "faltamDias": 6,
       "janela": "esta semana",
       "acionavel": false
     },
@@ -409,8 +409,8 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 4,
-      "faltamDias": 8,
-      "janela": "em cima da hora",
+      "faltamDias": 7,
+      "janela": "esta semana",
       "acionavel": false
     },
     {
@@ -470,7 +470,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 9,
+      "faltamDias": 8,
       "janela": "em cima da hora",
       "acionavel": false
     },
@@ -533,7 +533,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 10,
+      "faltamDias": 9,
       "janela": "em cima da hora",
       "acionavel": false
     },
@@ -568,7 +568,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 10,
+      "faltamDias": 9,
       "janela": "em cima da hora",
       "acionavel": false
     },
@@ -629,7 +629,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 11,
+      "faltamDias": 10,
       "janela": "em cima da hora",
       "acionavel": false
     },
@@ -692,7 +692,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 12,
+      "faltamDias": 11,
       "janela": "em cima da hora",
       "acionavel": false
     },
@@ -727,7 +727,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 15,
+      "faltamDias": 14,
       "janela": "em cima da hora",
       "acionavel": false
     },
@@ -790,7 +790,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 16,
+      "faltamDias": 15,
       "janela": "em cima da hora",
       "acionavel": false
     },
@@ -853,7 +853,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 16,
+      "faltamDias": 15,
       "janela": "em cima da hora",
       "acionavel": false
     },
@@ -917,7 +917,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 16,
+      "faltamDias": 15,
       "janela": "em cima da hora",
       "acionavel": false
     },
@@ -981,7 +981,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 16,
+      "faltamDias": 15,
       "janela": "em cima da hora",
       "acionavel": false
     },
@@ -1016,7 +1016,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 17,
+      "faltamDias": 16,
       "janela": "em cima da hora",
       "acionavel": false
     },
@@ -1077,7 +1077,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 17,
+      "faltamDias": 16,
       "janela": "em cima da hora",
       "acionavel": false
     },
@@ -1140,7 +1140,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 21,
+      "faltamDias": 20,
       "janela": "em cima da hora",
       "acionavel": false
     },
@@ -1201,7 +1201,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 23,
+      "faltamDias": 22,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -1264,7 +1264,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 4,
-      "faltamDias": 29,
+      "faltamDias": 28,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -1325,7 +1325,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 36,
+      "faltamDias": 35,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -1388,7 +1388,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 38,
+      "faltamDias": 37,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -1423,7 +1423,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 45,
+      "faltamDias": 44,
       "janela": "agir agora",
       "acionavel": false
     }
