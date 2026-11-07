@@ -1,29 +1,29 @@
 {
-  "atualizadoEm": "2026-11-06T19:00:45.037Z",
-  "totalEventos": 55,
+  "atualizadoEm": "2026-11-07T05:05:56.362Z",
+  "totalEventos": 54,
   "fontes": [
     {
       "fonte": "Distrito Anhembi",
       "eventos": 0,
-      "ms": 4825,
+      "ms": 4950,
       "erro": null
     },
     {
       "fonte": "Expo Center Norte",
       "eventos": 10,
-      "ms": 308,
+      "ms": 868,
       "erro": null
     },
     {
       "fonte": "Pro Magno Centro de Eventos",
-      "eventos": 39,
-      "ms": 1904,
+      "eventos": 44,
+      "ms": 3147,
       "erro": null
     },
     {
       "fonte": "São Paulo Expo",
-      "eventos": 6,
-      "ms": 1156,
+      "eventos": 0,
+      "ms": 5745,
       "erro": null
     }
   ],
@@ -85,7 +85,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": -2,
+      "faltamDias": -3,
       "janela": "passou",
       "acionavel": false
     },
@@ -149,7 +149,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": -1,
+      "faltamDias": -2,
       "janela": "passou",
       "acionavel": false
     },
@@ -213,71 +213,8 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 0,
-      "janela": "esta semana",
-      "acionavel": false
-    },
-    {
-      "id": "sao-paulo-expo:fenatran|2026-11-09",
-      "nome": "FENATRAN",
-      "descricao": "Transporte rodoviário de cargas é o foco da FENATRAN, que reúne fabricantes de caminhões, implementos e empresas de toda a cadeia logística. Soluções em tecnologia, intralogística e distribuição urbana ganham espaço, além de experiências práticas como test-drives de veículos do setor.",
-      "dataInicio": "2026-11-09",
-      "dataFim": "2026-11-13",
-      "textoData": "09 - 13 nov",
-      "espaco": "Pavilhões",
-      "link": "https://www.fenatran.com.br/?occurrence=2026-11-09",
-      "local": {
-        "nome": "São Paulo Expo",
-        "cidade": "São Paulo",
-        "uf": "SP"
-      },
-      "fonte": {
-        "id": "sao-paulo-expo",
-        "nome": "São Paulo Expo",
-        "url": "https://www.saopauloexpo.com.br/pt/agenda-de-eventos/"
-      },
-      "fonteDominio": "saopauloexpo.com.br",
-      "score": 34,
-      "faixa": "baixo",
-      "confianca": "alta",
-      "tipo": "Evento",
-      "sinais": [
-        "Site próprio"
-      ],
-      "componentes": [
-        {
-          "rotulo": "Porte",
-          "valor": 16,
-          "teto": 45
-        },
-        {
-          "rotulo": "Alcance",
-          "valor": 0,
-          "teto": 25
-        },
-        {
-          "rotulo": "Organizador",
-          "valor": 0,
-          "teto": 28
-        },
-        {
-          "rotulo": "Tipo de evento",
-          "valor": 10,
-          "teto": 25
-        },
-        {
-          "rotulo": "Duração",
-          "valor": 8,
-          "teto": 8
-        }
-      ],
-      "porte": 16,
-      "alcance": 0,
-      "mercado": 0,
-      "publicoEstimado": null,
-      "diasDeEvento": 5,
-      "faltamDias": 3,
-      "janela": "esta semana",
+      "faltamDias": -1,
+      "janela": "passou",
       "acionavel": false
     },
     {
@@ -342,7 +279,7 @@
       "mercado": 26,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 5,
+      "faltamDias": 4,
       "janela": "esta semana",
       "acionavel": false
     },
@@ -409,7 +346,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 4,
-      "faltamDias": 6,
+      "faltamDias": 5,
       "janela": "esta semana",
       "acionavel": false
     },
@@ -470,7 +407,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 7,
+      "faltamDias": 6,
       "janela": "esta semana",
       "acionavel": false
     },
@@ -533,8 +470,8 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 8,
-      "janela": "em cima da hora",
+      "faltamDias": 7,
+      "janela": "esta semana",
       "acionavel": false
     },
     {
@@ -568,8 +505,8 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 8,
-      "janela": "em cima da hora",
+      "faltamDias": 7,
+      "janela": "esta semana",
       "acionavel": false
     },
     {
@@ -629,7 +566,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 9,
+      "faltamDias": 8,
       "janela": "em cima da hora",
       "acionavel": false
     },
@@ -692,7 +629,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 10,
+      "faltamDias": 9,
       "janela": "em cima da hora",
       "acionavel": false
     },
@@ -727,7 +664,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 13,
+      "faltamDias": 12,
       "janela": "em cima da hora",
       "acionavel": false
     },
@@ -790,7 +727,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 14,
+      "faltamDias": 13,
       "janela": "em cima da hora",
       "acionavel": false
     },
@@ -853,135 +790,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 14,
-      "janela": "em cima da hora",
-      "acionavel": false
-    },
-    {
-      "id": "sao-paulo-expo:dunamiscon|2026-11-20",
-      "nome": "DUNAMIS CON",
-      "descricao": "Música, reflexão e espiritualidade se encontram em uma conferência que reúne jovens cristãos de diferentes regiões do Brasil. A proposta integra fé, cultura jovem e impacto social, criando um espaço de conexão, troca de experiências e networking comunitário.",
-      "dataInicio": "2026-11-20",
-      "dataFim": "2026-11-21",
-      "textoData": "20 - 21 nov",
-      "espaco": "Pavilhões",
-      "link": "https://www.e-inscricao.com/dunamismovement/dnmscon26?occurrence=2026-11-20",
-      "local": {
-        "nome": "São Paulo Expo",
-        "cidade": "São Paulo",
-        "uf": "SP"
-      },
-      "fonte": {
-        "id": "sao-paulo-expo",
-        "nome": "São Paulo Expo",
-        "url": "https://www.saopauloexpo.com.br/pt/agenda-de-eventos/"
-      },
-      "fonteDominio": "saopauloexpo.com.br",
-      "score": 59,
-      "faixa": "medio",
-      "confianca": "alta",
-      "tipo": "Congresso",
-      "sinais": [
-        "Site próprio",
-        "Brasil"
-      ],
-      "componentes": [
-        {
-          "rotulo": "Porte",
-          "valor": 16,
-          "teto": 45
-        },
-        {
-          "rotulo": "Alcance",
-          "valor": 14,
-          "teto": 25
-        },
-        {
-          "rotulo": "Organizador",
-          "valor": 0,
-          "teto": 28
-        },
-        {
-          "rotulo": "Tipo de evento",
-          "valor": 24,
-          "teto": 25
-        },
-        {
-          "rotulo": "Duração",
-          "valor": 5,
-          "teto": 8
-        }
-      ],
-      "porte": 16,
-      "alcance": 14,
-      "mercado": 0,
-      "publicoEstimado": null,
-      "diasDeEvento": 2,
-      "faltamDias": 14,
-      "janela": "em cima da hora",
-      "acionavel": false
-    },
-    {
-      "id": "sao-paulo-expo:expocannabisbrasil|2026-11-20",
-      "nome": "EXPOCANNABIS BRASIL",
-      "descricao": "Expocannabis Brasil traz uma programação que integra ciência, negócios e cultura, com palestras, exposições e experiências sobre o universo da cannabis. O evento apresenta avanços, aplicações e debates que ampliam o entendimento sobre o tema no país.",
-      "dataInicio": "2026-11-20",
-      "dataFim": "2026-11-22",
-      "textoData": "20 - 22 nov",
-      "espaco": "Pavilhões",
-      "link": "https://expocannabisbrasil.com/?occurrence=2026-11-20",
-      "local": {
-        "nome": "São Paulo Expo",
-        "cidade": "São Paulo",
-        "uf": "SP"
-      },
-      "fonte": {
-        "id": "sao-paulo-expo",
-        "nome": "São Paulo Expo",
-        "url": "https://www.saopauloexpo.com.br/pt/agenda-de-eventos/"
-      },
-      "fonteDominio": "saopauloexpo.com.br",
-      "score": 45,
-      "faixa": "medio",
-      "confianca": "alta",
-      "tipo": "Evento",
-      "sinais": [
-        "Site próprio",
-        "Brasil"
-      ],
-      "componentes": [
-        {
-          "rotulo": "Porte",
-          "valor": 16,
-          "teto": 45
-        },
-        {
-          "rotulo": "Alcance",
-          "valor": 14,
-          "teto": 25
-        },
-        {
-          "rotulo": "Organizador",
-          "valor": 0,
-          "teto": 28
-        },
-        {
-          "rotulo": "Tipo de evento",
-          "valor": 10,
-          "teto": 25
-        },
-        {
-          "rotulo": "Duração",
-          "valor": 5,
-          "teto": 8
-        }
-      ],
-      "porte": 16,
-      "alcance": 14,
-      "mercado": 0,
-      "publicoEstimado": null,
-      "diasDeEvento": 3,
-      "faltamDias": 14,
+      "faltamDias": 13,
       "janela": "em cima da hora",
       "acionavel": false
     },
@@ -1016,7 +825,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 15,
+      "faltamDias": 14,
       "janela": "em cima da hora",
       "acionavel": false
     },
@@ -1077,70 +886,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 15,
-      "janela": "em cima da hora",
-      "acionavel": false
-    },
-    {
-      "id": "sao-paulo-expo:emob|2026-11-25",
-      "nome": "E-MOB",
-      "descricao": "Mobilidade elétrica e cidades inteligentes são os temas centrais do E-MOB 2026, que reúne veículos elétricos, infraestrutura de recarga e soluções para o ambiente urbano. O encontro conecta empresas, especialistas e gestores para discutir tendências e aplicações que impactam a mobilidade nas cidades.",
-      "dataInicio": "2026-11-25",
-      "dataFim": "2026-11-27",
-      "textoData": "25 - 27 nov",
-      "espaco": "Pavilhões",
-      "link": "https://salaoemob.com.br/?occurrence=2026-11-25",
-      "local": {
-        "nome": "São Paulo Expo",
-        "cidade": "São Paulo",
-        "uf": "SP"
-      },
-      "fonte": {
-        "id": "sao-paulo-expo",
-        "nome": "São Paulo Expo",
-        "url": "https://www.saopauloexpo.com.br/pt/agenda-de-eventos/"
-      },
-      "fonteDominio": "saopauloexpo.com.br",
-      "score": 31,
-      "faixa": "baixo",
-      "confianca": "alta",
-      "tipo": "Evento",
-      "sinais": [
-        "Site próprio"
-      ],
-      "componentes": [
-        {
-          "rotulo": "Porte",
-          "valor": 16,
-          "teto": 45
-        },
-        {
-          "rotulo": "Alcance",
-          "valor": 0,
-          "teto": 25
-        },
-        {
-          "rotulo": "Organizador",
-          "valor": 0,
-          "teto": 28
-        },
-        {
-          "rotulo": "Tipo de evento",
-          "valor": 10,
-          "teto": 25
-        },
-        {
-          "rotulo": "Duração",
-          "valor": 5,
-          "teto": 8
-        }
-      ],
-      "porte": 16,
-      "alcance": 0,
-      "mercado": 0,
-      "publicoEstimado": null,
-      "diasDeEvento": 3,
-      "faltamDias": 19,
+      "faltamDias": 14,
       "janela": "em cima da hora",
       "acionavel": false
     },
@@ -1201,72 +947,9 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 21,
+      "faltamDias": 20,
       "janela": "em cima da hora",
       "acionavel": false
-    },
-    {
-      "id": "sao-paulo-expo:ccxp|2026-12-03",
-      "nome": "CCXP",
-      "descricao": "A CCXP – Comic Con Experience é o maior festival de cultura pop do mundo, reunindo fãs de cinema, séries, quadrinhos, games e streaming em uma experiência imersiva. O evento traz painéis com grandes nomes da indústria, lançamentos exclusivos, ativações de marcas e uma programação intensa que celebra o entretenimento em todas as suas formas.",
-      "dataInicio": "2026-12-03",
-      "dataFim": "2026-12-06",
-      "textoData": "03 - 06 dez",
-      "espaco": "Pavilhões",
-      "link": "https://ccxp.com.br/?occurrence=2026-12-03",
-      "local": {
-        "nome": "São Paulo Expo",
-        "cidade": "São Paulo",
-        "uf": "SP"
-      },
-      "fonte": {
-        "id": "sao-paulo-expo",
-        "nome": "São Paulo Expo",
-        "url": "https://www.saopauloexpo.com.br/pt/agenda-de-eventos/"
-      },
-      "fonteDominio": "saopauloexpo.com.br",
-      "score": 34,
-      "faixa": "baixo",
-      "confianca": "alta",
-      "tipo": "Evento",
-      "sinais": [
-        "Site próprio"
-      ],
-      "componentes": [
-        {
-          "rotulo": "Porte",
-          "valor": 16,
-          "teto": 45
-        },
-        {
-          "rotulo": "Alcance",
-          "valor": 0,
-          "teto": 25
-        },
-        {
-          "rotulo": "Organizador",
-          "valor": 0,
-          "teto": 28
-        },
-        {
-          "rotulo": "Tipo de evento",
-          "valor": 10,
-          "teto": 25
-        },
-        {
-          "rotulo": "Duração",
-          "valor": 8,
-          "teto": 8
-        }
-      ],
-      "porte": 16,
-      "alcance": 0,
-      "mercado": 0,
-      "publicoEstimado": null,
-      "diasDeEvento": 4,
-      "faltamDias": 27,
-      "janela": "agir agora",
-      "acionavel": true
     },
     {
       "id": "pro-magno:eventocorporativoprivado|2026-12-10",
@@ -1325,70 +1008,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 34,
-      "janela": "agir agora",
-      "acionavel": true
-    },
-    {
-      "id": "sao-paulo-expo:mysticfair|2026-12-12",
-      "nome": "MYSTIC FAIR",
-      "descricao": "Espiritualidade e bem-estar se encontram na Mystic Fair, feira mística que reúne consultas, palestras gratuitas, oficinas e produtos esotéricos. Uma experiência voltada ao equilíbrio entre corpo e mente, com estandes especializados e atividades culturais.",
-      "dataInicio": "2026-12-12",
-      "dataFim": "2026-12-13",
-      "textoData": "12 - 13 dez",
-      "espaco": "Pavilhões",
-      "link": "https://www.mysticfair.com.br/?occurrence=2026-12-12",
-      "local": {
-        "nome": "São Paulo Expo",
-        "cidade": "São Paulo",
-        "uf": "SP"
-      },
-      "fonte": {
-        "id": "sao-paulo-expo",
-        "nome": "São Paulo Expo",
-        "url": "https://www.saopauloexpo.com.br/pt/agenda-de-eventos/"
-      },
-      "fonteDominio": "saopauloexpo.com.br",
-      "score": 43,
-      "faixa": "medio",
-      "confianca": "alta",
-      "tipo": "Feira",
-      "sinais": [
-        "Site próprio"
-      ],
-      "componentes": [
-        {
-          "rotulo": "Porte",
-          "valor": 16,
-          "teto": 45
-        },
-        {
-          "rotulo": "Alcance",
-          "valor": 0,
-          "teto": 25
-        },
-        {
-          "rotulo": "Organizador",
-          "valor": 0,
-          "teto": 28
-        },
-        {
-          "rotulo": "Tipo de evento",
-          "valor": 22,
-          "teto": 25
-        },
-        {
-          "rotulo": "Duração",
-          "valor": 5,
-          "teto": 8
-        }
-      ],
-      "porte": 16,
-      "alcance": 0,
-      "mercado": 0,
-      "publicoEstimado": null,
-      "diasDeEvento": 2,
-      "faltamDias": 36,
+      "faltamDias": 33,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -1423,7 +1043,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 43,
+      "faltamDias": 42,
       "janela": "agir agora",
       "acionavel": false
     },
@@ -1458,7 +1078,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 62,
+      "faltamDias": 61,
       "janela": "ideal",
       "acionavel": false
     },
@@ -1493,7 +1113,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 64,
+      "faltamDias": 63,
       "janela": "ideal",
       "acionavel": false
     },
@@ -1528,7 +1148,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 76,
+      "faltamDias": 75,
       "janela": "ideal",
       "acionavel": false
     },
@@ -1563,7 +1183,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 77,
+      "faltamDias": 76,
       "janela": "ideal",
       "acionavel": false
     },
@@ -1598,7 +1218,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 78,
+      "faltamDias": 77,
       "janela": "ideal",
       "acionavel": false
     },
@@ -1633,7 +1253,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 84,
+      "faltamDias": 83,
       "janela": "ideal",
       "acionavel": false
     },
@@ -1668,7 +1288,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 98,
+      "faltamDias": 97,
       "janela": "ideal",
       "acionavel": false
     },
@@ -1703,7 +1323,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 99,
+      "faltamDias": 98,
       "janela": "ideal",
       "acionavel": false
     },
@@ -1738,7 +1358,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 104,
+      "faltamDias": 103,
       "janela": "ideal",
       "acionavel": false
     },
@@ -1773,7 +1393,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 105,
+      "faltamDias": 104,
       "janela": "ideal",
       "acionavel": false
     },
@@ -1808,7 +1428,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 106,
+      "faltamDias": 105,
       "janela": "ideal",
       "acionavel": false
     },
@@ -1869,7 +1489,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 115,
+      "faltamDias": 114,
       "janela": "ideal",
       "acionavel": true
     },
@@ -1904,7 +1524,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 119,
+      "faltamDias": 118,
       "janela": "ideal",
       "acionavel": false
     },
@@ -1939,7 +1559,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 120,
+      "faltamDias": 119,
       "janela": "ideal",
       "acionavel": false
     },
@@ -2000,7 +1620,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 124,
+      "faltamDias": 123,
       "janela": "ideal",
       "acionavel": true
     },
@@ -2035,7 +1655,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 126,
+      "faltamDias": 125,
       "janela": "ideal",
       "acionavel": false
     },
@@ -2070,7 +1690,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 127,
+      "faltamDias": 126,
       "janela": "ideal",
       "acionavel": false
     },
@@ -2134,7 +1754,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 133,
+      "faltamDias": 132,
       "janela": "ideal",
       "acionavel": true
     },
@@ -2169,7 +1789,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 141,
+      "faltamDias": 140,
       "janela": "ideal",
       "acionavel": false
     },
@@ -2230,7 +1850,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 145,
+      "faltamDias": 144,
       "janela": "ideal",
       "acionavel": true
     },
@@ -2265,7 +1885,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 148,
+      "faltamDias": 147,
       "janela": "ideal",
       "acionavel": false
     },
@@ -2326,7 +1946,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 152,
+      "faltamDias": 151,
       "janela": "ideal",
       "acionavel": true
     },
@@ -2361,7 +1981,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 155,
+      "faltamDias": 154,
       "janela": "ideal",
       "acionavel": false
     },
@@ -2422,7 +2042,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 161,
+      "faltamDias": 160,
       "janela": "ideal",
       "acionavel": true
     },
@@ -2457,7 +2077,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 175,
+      "faltamDias": 174,
       "janela": "ideal",
       "acionavel": false
     },
@@ -2492,7 +2112,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 176,
+      "faltamDias": 175,
       "janela": "ideal",
       "acionavel": false
     },
@@ -2527,7 +2147,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 182,
+      "faltamDias": 181,
       "janela": "planejamento",
       "acionavel": false
     },
@@ -2562,7 +2182,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 183,
+      "faltamDias": 182,
       "janela": "planejamento",
       "acionavel": false
     },
@@ -2623,7 +2243,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 187,
+      "faltamDias": 186,
       "janela": "planejamento",
       "acionavel": true
     },
@@ -2658,7 +2278,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 190,
+      "faltamDias": 189,
       "janela": "planejamento",
       "acionavel": false
     },
@@ -2719,7 +2339,315 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 193,
+      "faltamDias": 192,
+      "janela": "planejamento",
+      "acionavel": true
+    },
+    {
+      "id": "pro-magno:congressoaligner|2027-05-21",
+      "nome": "CONGRESSO ALIGNER",
+      "descricao": "",
+      "dataInicio": "2027-05-21",
+      "dataFim": "2027-05-22",
+      "textoData": "21-22/Maio/2027",
+      "espaco": "Pro Magno",
+      "link": "https://www.promagno.com.br/evento/congresso-aligner-3/",
+      "local": {
+        "nome": "Pro Magno Centro de Eventos",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "pro-magno",
+        "nome": "Pro Magno Centro de Eventos",
+        "url": "https://www.promagno.com.br/"
+      },
+      "fonteDominio": "promagno.com.br",
+      "score": 29,
+      "faixa": "baixo",
+      "confianca": "baixa",
+      "tipo": "Congresso",
+      "sinais": [],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 24,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 2,
+      "faltamDias": 195,
+      "janela": "planejamento",
+      "acionavel": true
+    },
+    {
+      "id": "pro-magno:expomilhas|2027-05-22",
+      "nome": "EXPOMILHAS",
+      "descricao": "",
+      "dataInicio": "2027-05-22",
+      "dataFim": "2027-05-22",
+      "textoData": "22/Maio/2027",
+      "espaco": "Pro Magno",
+      "link": "https://www.promagno.com.br/evento/expomilhas-2/",
+      "local": {
+        "nome": "Pro Magno Centro de Eventos",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "pro-magno",
+        "nome": "Pro Magno Centro de Eventos",
+        "url": "https://www.promagno.com.br/"
+      },
+      "fonteDominio": "promagno.com.br",
+      "score": 10,
+      "faixa": "baixo",
+      "confianca": "baixa",
+      "tipo": "Evento",
+      "sinais": [],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 0,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 196,
+      "janela": "planejamento",
+      "acionavel": true
+    },
+    {
+      "id": "pro-magno:expoelevador|2027-06-01",
+      "nome": "EXPO ELEVADOR",
+      "descricao": "",
+      "dataInicio": "2027-06-01",
+      "dataFim": "2027-06-03",
+      "textoData": "1-3/Junho/2027",
+      "espaco": "Pro Magno",
+      "link": "https://www.promagno.com.br/evento/expo-elevador-2/",
+      "local": {
+        "nome": "Pro Magno Centro de Eventos",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "pro-magno",
+        "nome": "Pro Magno Centro de Eventos",
+        "url": "https://www.promagno.com.br/"
+      },
+      "fonteDominio": "promagno.com.br",
+      "score": 27,
+      "faixa": "baixo",
+      "confianca": "baixa",
+      "tipo": "Feira",
+      "sinais": [],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 206,
+      "janela": "planejamento",
+      "acionavel": true
+    },
+    {
+      "id": "pro-magno:cbtd|2027-06-14",
+      "nome": "CBTD",
+      "descricao": "",
+      "dataInicio": "2027-06-14",
+      "dataFim": "2027-06-16",
+      "textoData": "14-16/Junho/2027",
+      "espaco": "Pro Magno",
+      "link": "https://www.promagno.com.br/evento/cbtd/",
+      "local": {
+        "nome": "Pro Magno Centro de Eventos",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "pro-magno",
+        "nome": "Pro Magno Centro de Eventos",
+        "url": "https://www.promagno.com.br/"
+      },
+      "fonteDominio": "promagno.com.br",
+      "score": 15,
+      "faixa": "baixo",
+      "confianca": "baixa",
+      "tipo": "Evento",
+      "sinais": [],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 219,
+      "janela": "planejamento",
+      "acionavel": true
+    },
+    {
+      "id": "pro-magno:14congressointernacionaldecompliance|2027-06-22",
+      "nome": "14º CONGRESSO INTERNACIONAL DE COMPLIANCE",
+      "descricao": "",
+      "dataInicio": "2027-06-22",
+      "dataFim": "2027-06-24",
+      "textoData": "22-24/Junho/2027",
+      "espaco": "Pro Magno",
+      "link": "https://www.promagno.com.br/evento/14o-congresso-internacional-de-compliance/",
+      "local": {
+        "nome": "Pro Magno Centro de Eventos",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "pro-magno",
+        "nome": "Pro Magno Centro de Eventos",
+        "url": "https://www.promagno.com.br/"
+      },
+      "fonteDominio": "promagno.com.br",
+      "score": 65,
+      "faixa": "alto",
+      "confianca": "baixa",
+      "tipo": "Congresso",
+      "sinais": [
+        "14ª edição",
+        "Internacional"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 12,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 24,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 24,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 12,
+      "alcance": 24,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 227,
       "janela": "planejamento",
       "acionavel": true
     }
