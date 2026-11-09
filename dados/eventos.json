@@ -1,33 +1,96 @@
 {
-  "atualizadoEm": "2026-11-09T05:10:10.363Z",
-  "totalEventos": 51,
+  "atualizadoEm": "2026-11-09T22:01:42.996Z",
+  "totalEventos": 66,
   "fontes": [
     {
       "fonte": "Distrito Anhembi",
       "eventos": 0,
-      "ms": 5222,
+      "ms": 5026,
       "erro": null
     },
     {
       "fonte": "Expo Center Norte",
       "eventos": 10,
-      "ms": 990,
+      "ms": 1082,
       "erro": null
     },
     {
       "fonte": "Pro Magno Centro de Eventos",
-      "eventos": 44,
-      "ms": 4355,
+      "eventos": 53,
+      "ms": 2166,
       "erro": null
     },
     {
       "fonte": "São Paulo Expo",
-      "eventos": 0,
-      "ms": 5516,
+      "eventos": 6,
+      "ms": 1429,
       "erro": null
     }
   ],
   "eventos": [
+    {
+      "id": "sao-paulo-expo:fenatran|2026-11-09",
+      "nome": "FENATRAN",
+      "descricao": "Transporte rodoviário de cargas é o foco da FENATRAN, que reúne fabricantes de caminhões, implementos e empresas de toda a cadeia logística. Soluções em tecnologia, intralogística e distribuição urbana ganham espaço, além de experiências práticas como test-drives de veículos do setor.",
+      "dataInicio": "2026-11-09",
+      "dataFim": "2026-11-13",
+      "textoData": "09 - 13 nov",
+      "espaco": "Pavilhões",
+      "link": "https://www.fenatran.com.br/?occurrence=2026-11-09",
+      "local": {
+        "nome": "São Paulo Expo",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "sao-paulo-expo",
+        "nome": "São Paulo Expo",
+        "url": "https://www.saopauloexpo.com.br/pt/agenda-de-eventos/"
+      },
+      "fonteDominio": "saopauloexpo.com.br",
+      "score": 34,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [
+        "Site próprio"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 16,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 8,
+          "teto": 8
+        }
+      ],
+      "porte": 16,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 5,
+      "faltamDias": 0,
+      "janela": "esta semana",
+      "acionavel": false
+    },
     {
       "id": "expo-center-norte:15congressointernacionalfenauto|2026-11-11",
       "nome": "15º CONGRESSO INTERNACIONAL FENAUTO",
@@ -606,6 +669,134 @@
       "acionavel": false
     },
     {
+      "id": "sao-paulo-expo:dunamiscon|2026-11-20",
+      "nome": "DUNAMIS CON",
+      "descricao": "Música, reflexão e espiritualidade se encontram em uma conferência que reúne jovens cristãos de diferentes regiões do Brasil. A proposta integra fé, cultura jovem e impacto social, criando um espaço de conexão, troca de experiências e networking comunitário.",
+      "dataInicio": "2026-11-20",
+      "dataFim": "2026-11-21",
+      "textoData": "20 - 21 nov",
+      "espaco": "Pavilhões",
+      "link": "https://www.e-inscricao.com/dunamismovement/dnmscon26?occurrence=2026-11-20",
+      "local": {
+        "nome": "São Paulo Expo",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "sao-paulo-expo",
+        "nome": "São Paulo Expo",
+        "url": "https://www.saopauloexpo.com.br/pt/agenda-de-eventos/"
+      },
+      "fonteDominio": "saopauloexpo.com.br",
+      "score": 59,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Congresso",
+      "sinais": [
+        "Site próprio",
+        "Brasil"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 16,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 14,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 24,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 16,
+      "alcance": 14,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 2,
+      "faltamDias": 11,
+      "janela": "em cima da hora",
+      "acionavel": false
+    },
+    {
+      "id": "sao-paulo-expo:expocannabisbrasil|2026-11-20",
+      "nome": "EXPOCANNABIS BRASIL",
+      "descricao": "Expocannabis Brasil traz uma programação que integra ciência, negócios e cultura, com palestras, exposições e experiências sobre o universo da cannabis. O evento apresenta avanços, aplicações e debates que ampliam o entendimento sobre o tema no país.",
+      "dataInicio": "2026-11-20",
+      "dataFim": "2026-11-22",
+      "textoData": "20 - 22 nov",
+      "espaco": "Pavilhões",
+      "link": "https://expocannabisbrasil.com/?occurrence=2026-11-20",
+      "local": {
+        "nome": "São Paulo Expo",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "sao-paulo-expo",
+        "nome": "São Paulo Expo",
+        "url": "https://www.saopauloexpo.com.br/pt/agenda-de-eventos/"
+      },
+      "fonteDominio": "saopauloexpo.com.br",
+      "score": 45,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [
+        "Site próprio",
+        "Brasil"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 16,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 14,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 16,
+      "alcance": 14,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 11,
+      "janela": "em cima da hora",
+      "acionavel": false
+    },
+    {
       "id": "pro-magno:eventosocialprivado|2026-11-21",
       "nome": "EVENTO SOCIAL PRIVADO",
       "descricao": "",
@@ -702,6 +893,69 @@
       "acionavel": false
     },
     {
+      "id": "sao-paulo-expo:emob|2026-11-25",
+      "nome": "E-MOB",
+      "descricao": "Mobilidade elétrica e cidades inteligentes são os temas centrais do E-MOB 2026, que reúne veículos elétricos, infraestrutura de recarga e soluções para o ambiente urbano. O encontro conecta empresas, especialistas e gestores para discutir tendências e aplicações que impactam a mobilidade nas cidades.",
+      "dataInicio": "2026-11-25",
+      "dataFim": "2026-11-27",
+      "textoData": "25 - 27 nov",
+      "espaco": "Pavilhões",
+      "link": "https://salaoemob.com.br/?occurrence=2026-11-25",
+      "local": {
+        "nome": "São Paulo Expo",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "sao-paulo-expo",
+        "nome": "São Paulo Expo",
+        "url": "https://www.saopauloexpo.com.br/pt/agenda-de-eventos/"
+      },
+      "fonteDominio": "saopauloexpo.com.br",
+      "score": 31,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [
+        "Site próprio"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 16,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 16,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 16,
+      "janela": "em cima da hora",
+      "acionavel": false
+    },
+    {
       "id": "pro-magno:expotea|2026-11-27",
       "nome": "EXPO TEA",
       "descricao": "",
@@ -763,6 +1017,69 @@
       "acionavel": false
     },
     {
+      "id": "sao-paulo-expo:ccxp|2026-12-03",
+      "nome": "CCXP",
+      "descricao": "A CCXP – Comic Con Experience é o maior festival de cultura pop do mundo, reunindo fãs de cinema, séries, quadrinhos, games e streaming em uma experiência imersiva. O evento traz painéis com grandes nomes da indústria, lançamentos exclusivos, ativações de marcas e uma programação intensa que celebra o entretenimento em todas as suas formas.",
+      "dataInicio": "2026-12-03",
+      "dataFim": "2026-12-06",
+      "textoData": "03 - 06 dez",
+      "espaco": "Pavilhões",
+      "link": "https://ccxp.com.br/?occurrence=2026-12-03",
+      "local": {
+        "nome": "São Paulo Expo",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "sao-paulo-expo",
+        "nome": "São Paulo Expo",
+        "url": "https://www.saopauloexpo.com.br/pt/agenda-de-eventos/"
+      },
+      "fonteDominio": "saopauloexpo.com.br",
+      "score": 34,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [
+        "Site próprio"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 16,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 8,
+          "teto": 8
+        }
+      ],
+      "porte": 16,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 4,
+      "faltamDias": 24,
+      "janela": "agir agora",
+      "acionavel": true
+    },
+    {
       "id": "pro-magno:eventocorporativoprivado|2026-12-10",
       "nome": "EVENTO CORPORATIVO PRIVADO",
       "descricao": "",
@@ -820,6 +1137,69 @@
       "publicoEstimado": null,
       "diasDeEvento": 1,
       "faltamDias": 31,
+      "janela": "agir agora",
+      "acionavel": true
+    },
+    {
+      "id": "sao-paulo-expo:mysticfair|2026-12-12",
+      "nome": "MYSTIC FAIR",
+      "descricao": "Espiritualidade e bem-estar se encontram na Mystic Fair, feira mística que reúne consultas, palestras gratuitas, oficinas e produtos esotéricos. Uma experiência voltada ao equilíbrio entre corpo e mente, com estandes especializados e atividades culturais.",
+      "dataInicio": "2026-12-12",
+      "dataFim": "2026-12-13",
+      "textoData": "12 - 13 dez",
+      "espaco": "Pavilhões",
+      "link": "https://www.mysticfair.com.br/?occurrence=2026-12-12",
+      "local": {
+        "nome": "São Paulo Expo",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "sao-paulo-expo",
+        "nome": "São Paulo Expo",
+        "url": "https://www.saopauloexpo.com.br/pt/agenda-de-eventos/"
+      },
+      "fonteDominio": "saopauloexpo.com.br",
+      "score": 43,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [
+        "Site próprio"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 16,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 16,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 2,
+      "faltamDias": 33,
       "janela": "agir agora",
       "acionavel": true
     },
@@ -2461,6 +2841,375 @@
       "faltamDias": 225,
       "janela": "planejamento",
       "acionavel": true
+    },
+    {
+      "id": "pro-magno:inspiramais|2027-08-03",
+      "nome": "INSPIRAMAIS",
+      "descricao": "",
+      "dataInicio": "2027-08-03",
+      "dataFim": "2027-08-04",
+      "textoData": "3-4/Agosto/2027",
+      "espaco": "Pro Magno",
+      "link": "https://www.promagno.com.br/evento/inspiramais-2/",
+      "local": {
+        "nome": "Pro Magno Centro de Eventos",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "pro-magno",
+        "nome": "Pro Magno Centro de Eventos",
+        "url": "https://www.promagno.com.br/"
+      },
+      "fonteDominio": "promagno.com.br",
+      "score": 15,
+      "faixa": "baixo",
+      "confianca": "baixa",
+      "tipo": "Evento",
+      "sinais": [],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 2,
+      "faltamDias": 267,
+      "janela": "planejamento",
+      "acionavel": true
+    },
+    {
+      "id": "pro-magno:eventosocialprivado|2027-10-16",
+      "nome": "EVENTO SOCIAL PRIVADO",
+      "descricao": "",
+      "dataInicio": "2027-10-16",
+      "dataFim": "2027-10-16",
+      "textoData": "16/Outubro/2027",
+      "espaco": "Pro Magno",
+      "link": "https://www.promagno.com.br/evento/evento-social-privado-156/",
+      "local": {
+        "nome": "Pro Magno Centro de Eventos",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "pro-magno",
+        "nome": "Pro Magno Centro de Eventos",
+        "url": "https://www.promagno.com.br/"
+      },
+      "fonteDominio": "promagno.com.br",
+      "score": 0,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Social/privado",
+      "sinais": [],
+      "componentes": [],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 341,
+      "janela": "planejamento",
+      "acionavel": false
+    },
+    {
+      "id": "pro-magno:sefe1212seminariodeengenhariadefundacoesespeciaisegeotecnia|2027-10-26",
+      "nome": "SEFE 12 (12º Seminário de Engenharia de Fundações Especiais e Geotecnia)",
+      "descricao": "",
+      "dataInicio": "2027-10-26",
+      "dataFim": "2027-10-28",
+      "textoData": "26-28/Outubro/2027",
+      "espaco": "Pro Magno",
+      "link": "https://www.promagno.com.br/evento/sefe-12-12o-seminario-de-engenharia-de-fundacoes-especiais-e-geotecnia/",
+      "local": {
+        "nome": "Pro Magno Centro de Eventos",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "pro-magno",
+        "nome": "Pro Magno Centro de Eventos",
+        "url": "https://www.promagno.com.br/"
+      },
+      "fonteDominio": "promagno.com.br",
+      "score": 27,
+      "faixa": "baixo",
+      "confianca": "baixa",
+      "tipo": "Evento",
+      "sinais": [
+        "12ª edição"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 12,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 12,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 351,
+      "janela": "planejamento",
+      "acionavel": true
+    },
+    {
+      "id": "pro-magno:eventosocialprivado|2027-11-11",
+      "nome": "EVENTO SOCIAL PRIVADO",
+      "descricao": "",
+      "dataInicio": "2027-11-11",
+      "dataFim": "2027-11-11",
+      "textoData": "11/Novembro/2027",
+      "espaco": "Pro Magno",
+      "link": "https://www.promagno.com.br/evento/evento-social-privado-157/",
+      "local": {
+        "nome": "Pro Magno Centro de Eventos",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "pro-magno",
+        "nome": "Pro Magno Centro de Eventos",
+        "url": "https://www.promagno.com.br/"
+      },
+      "fonteDominio": "promagno.com.br",
+      "score": 0,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Social/privado",
+      "sinais": [],
+      "componentes": [],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 367,
+      "janela": "planejamento",
+      "acionavel": false
+    },
+    {
+      "id": "pro-magno:eventosocialprivado|2027-11-13",
+      "nome": "EVENTO SOCIAL PRIVADO",
+      "descricao": "",
+      "dataInicio": "2027-11-13",
+      "dataFim": "2027-11-13",
+      "textoData": "13/Novembro/2027",
+      "espaco": "Pro Magno",
+      "link": "https://www.promagno.com.br/evento/evento-social-privado-158/",
+      "local": {
+        "nome": "Pro Magno Centro de Eventos",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "pro-magno",
+        "nome": "Pro Magno Centro de Eventos",
+        "url": "https://www.promagno.com.br/"
+      },
+      "fonteDominio": "promagno.com.br",
+      "score": 0,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Social/privado",
+      "sinais": [],
+      "componentes": [],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 369,
+      "janela": "planejamento",
+      "acionavel": false
+    },
+    {
+      "id": "pro-magno:eventosocialprivado|2027-11-18",
+      "nome": "EVENTO SOCIAL PRIVADO",
+      "descricao": "",
+      "dataInicio": "2027-11-18",
+      "dataFim": "2027-11-18",
+      "textoData": "18/Novembro/2027",
+      "espaco": "Pro Magno",
+      "link": "https://www.promagno.com.br/evento/evento-social-privado-159/",
+      "local": {
+        "nome": "Pro Magno Centro de Eventos",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "pro-magno",
+        "nome": "Pro Magno Centro de Eventos",
+        "url": "https://www.promagno.com.br/"
+      },
+      "fonteDominio": "promagno.com.br",
+      "score": 0,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Social/privado",
+      "sinais": [],
+      "componentes": [],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 374,
+      "janela": "planejamento",
+      "acionavel": false
+    },
+    {
+      "id": "pro-magno:eventosocialprivado|2027-11-20",
+      "nome": "EVENTO SOCIAL PRIVADO",
+      "descricao": "",
+      "dataInicio": "2027-11-20",
+      "dataFim": "2027-11-20",
+      "textoData": "20/Novembro/2027",
+      "espaco": "Pro Magno",
+      "link": "https://www.promagno.com.br/evento/evento-social-privado-160/",
+      "local": {
+        "nome": "Pro Magno Centro de Eventos",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "pro-magno",
+        "nome": "Pro Magno Centro de Eventos",
+        "url": "https://www.promagno.com.br/"
+      },
+      "fonteDominio": "promagno.com.br",
+      "score": 0,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Social/privado",
+      "sinais": [],
+      "componentes": [],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 376,
+      "janela": "planejamento",
+      "acionavel": false
+    },
+    {
+      "id": "pro-magno:eventosocialprivado|2027-12-16",
+      "nome": "EVENTO SOCIAL PRIVADO",
+      "descricao": "",
+      "dataInicio": "2027-12-16",
+      "dataFim": "2027-12-16",
+      "textoData": "16/Dezembro/2027",
+      "espaco": "Pro Magno",
+      "link": "https://www.promagno.com.br/evento/evento-social-privado-161/",
+      "local": {
+        "nome": "Pro Magno Centro de Eventos",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "pro-magno",
+        "nome": "Pro Magno Centro de Eventos",
+        "url": "https://www.promagno.com.br/"
+      },
+      "fonteDominio": "promagno.com.br",
+      "score": 0,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Social/privado",
+      "sinais": [],
+      "componentes": [],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 402,
+      "janela": "planejamento",
+      "acionavel": false
+    },
+    {
+      "id": "pro-magno:eventosocialprivado|2027-12-18",
+      "nome": "EVENTO SOCIAL PRIVADO",
+      "descricao": "",
+      "dataInicio": "2027-12-18",
+      "dataFim": "2027-12-18",
+      "textoData": "18/Dezembro/2027",
+      "espaco": "Pro Magno",
+      "link": "https://www.promagno.com.br/evento/evento-social-privado-162/",
+      "local": {
+        "nome": "Pro Magno Centro de Eventos",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "pro-magno",
+        "nome": "Pro Magno Centro de Eventos",
+        "url": "https://www.promagno.com.br/"
+      },
+      "fonteDominio": "promagno.com.br",
+      "score": 0,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Social/privado",
+      "sinais": [],
+      "componentes": [],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 404,
+      "janela": "planejamento",
+      "acionavel": false
     }
   ]
 }
