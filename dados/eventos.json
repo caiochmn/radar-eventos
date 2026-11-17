@@ -1,94 +1,33 @@
 {
-  "atualizadoEm": "2026-11-17T07:01:10.597Z",
-  "totalEventos": 60,
+  "atualizadoEm": "2026-11-17T20:36:07.788Z",
+  "totalEventos": 59,
   "fontes": [
     {
       "fonte": "Distrito Anhembi",
       "eventos": 0,
-      "ms": 4886,
-      "erro": null
+      "ms": 49875,
+      "erro": "fetch failed"
     },
     {
       "fonte": "Expo Center Norte",
-      "eventos": 7,
-      "ms": 933,
+      "eventos": 3,
+      "ms": 300,
       "erro": null
     },
     {
       "fonte": "Pro Magno Centro de Eventos",
       "eventos": 51,
-      "ms": 5671,
+      "ms": 1714,
       "erro": null
     },
     {
       "fonte": "São Paulo Expo",
       "eventos": 5,
-      "ms": 1657,
+      "ms": 6861,
       "erro": null
     }
   ],
   "eventos": [
-    {
-      "id": "expo-center-norte:barberweek|2026-11-15",
-      "nome": "Barber Week",
-      "descricao": "Um ambiente dinâmico e interativo, onde 200 expositores apresentarão as últimas inovações, produtos e serviços do setor. É a oportunidade perfeita para conhecer de perto as novidades, negociar as melhores condições, trocar ideias, acessar promoções e expandir sua rede de contatos.",
-      "dataInicio": "2026-11-15",
-      "dataFim": "2026-11-16",
-      "textoData": "15 a 16 novembro",
-      "espaco": "Pavilhão",
-      "link": "https://www.expocenternorte.com.br/eventos/barberweek",
-      "local": {
-        "nome": "Expo Center Norte",
-        "cidade": "São Paulo",
-        "uf": "SP"
-      },
-      "fonte": {
-        "id": "expo-center-norte",
-        "nome": "Expo Center Norte",
-        "url": "https://www.expocenternorte.com.br/eventos"
-      },
-      "fonteDominio": "expocenternorte.com.br",
-      "score": 25,
-      "faixa": "baixo",
-      "confianca": "alta",
-      "tipo": "Semana setorial",
-      "sinais": [],
-      "componentes": [
-        {
-          "rotulo": "Porte",
-          "valor": 0,
-          "teto": 45
-        },
-        {
-          "rotulo": "Alcance",
-          "valor": 0,
-          "teto": 25
-        },
-        {
-          "rotulo": "Organizador",
-          "valor": 0,
-          "teto": 28
-        },
-        {
-          "rotulo": "Tipo de evento",
-          "valor": 20,
-          "teto": 25
-        },
-        {
-          "rotulo": "Duração",
-          "valor": 5,
-          "teto": 8
-        }
-      ],
-      "porte": 0,
-      "alcance": 0,
-      "mercado": 0,
-      "publicoEstimado": null,
-      "diasDeEvento": 2,
-      "faltamDias": -2,
-      "janela": "passou",
-      "acionavel": false
-    },
     {
       "id": "expo-center-norte:cidadecsc|2026-11-16",
       "nome": "Cidade CSC",
