@@ -1,29 +1,29 @@
 {
-  "atualizadoEm": "2026-11-18T06:25:25.575Z",
-  "totalEventos": 59,
+  "atualizadoEm": "2026-11-18T20:07:43.653Z",
+  "totalEventos": 60,
   "fontes": [
     {
       "fonte": "Distrito Anhembi",
       "eventos": 0,
-      "ms": 4885,
+      "ms": 5030,
       "erro": null
     },
     {
       "fonte": "Expo Center Norte",
-      "eventos": 3,
-      "ms": 797,
+      "eventos": 4,
+      "ms": 918,
       "erro": null
     },
     {
       "fonte": "Pro Magno Centro de Eventos",
       "eventos": 51,
-      "ms": 3941,
+      "ms": 3496,
       "erro": null
     },
     {
       "fonte": "São Paulo Expo",
       "eventos": 5,
-      "ms": 1799,
+      "ms": 1384,
       "erro": null
     }
   ],
@@ -660,6 +660,69 @@
       "publicoEstimado": null,
       "diasDeEvento": 4,
       "faltamDias": 15,
+      "janela": "em cima da hora",
+      "acionavel": false
+    },
+    {
+      "id": "expo-center-norte:marketplacetradeshow|2026-12-05",
+      "nome": "Marketplace Trade Show 2026",
+      "descricao": "O Marketplace Trade Show é a 1ª Feira de Comércio Digital, Inovação e Negócios Brasil–China. O evento reúne importadores, distribuidores chineses, marcas, fornecedores, sellers, afiliados, dropshippers e empreendedores em um ambiente voltado à geração de negócios, networking e compartilhamento de conhecimento. Durante dois dias, os visitantes terão acesso à exposição de produtos, palestras, oportu",
+      "dataInicio": "2026-12-05",
+      "dataFim": "2026-12-06",
+      "textoData": "05 a 06 dezembro",
+      "espaco": "Centro de Convenções",
+      "link": "https://www.expocenternorte.com.br/eventos/marketplace-trade-show",
+      "local": {
+        "nome": "Expo Center Norte",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "expo-center-norte",
+        "nome": "Expo Center Norte",
+        "url": "https://www.expocenternorte.com.br/eventos"
+      },
+      "fonteDominio": "expocenternorte.com.br",
+      "score": 47,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [
+        "Brasil"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 6,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 14,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 6,
+      "alcance": 14,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 2,
+      "faltamDias": 17,
       "janela": "em cima da hora",
       "acionavel": false
     },
