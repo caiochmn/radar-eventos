@@ -1,29 +1,29 @@
 {
-  "atualizadoEm": "2026-11-20T19:43:29.330Z",
-  "totalEventos": 58,
+  "atualizadoEm": "2026-11-21T06:03:36.504Z",
+  "totalEventos": 56,
   "fontes": [
     {
       "fonte": "Distrito Anhembi",
       "eventos": 0,
-      "ms": 4780,
+      "ms": 4983,
       "erro": null
     },
     {
       "fonte": "Expo Center Norte",
       "eventos": 4,
-      "ms": 733,
+      "ms": 1034,
       "erro": null
     },
     {
       "fonte": "Pro Magno Centro de Eventos",
       "eventos": 50,
-      "ms": 3277,
+      "ms": 2803,
       "erro": null
     },
     {
       "fonte": "São Paulo Expo",
-      "eventos": 5,
-      "ms": 1325,
+      "eventos": 3,
+      "ms": 1781,
       "erro": null
     }
   ],
@@ -87,8 +87,8 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 0,
-      "janela": "esta semana",
+      "faltamDias": -1,
+      "janela": "passou",
       "acionavel": false
     },
     {
@@ -150,136 +150,8 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 0,
-      "janela": "esta semana",
-      "acionavel": false
-    },
-    {
-      "id": "sao-paulo-expo:dunamiscon|2026-11-20",
-      "nome": "DUNAMIS CON",
-      "descricao": "Música, reflexão e espiritualidade se encontram em uma conferência que reúne jovens cristãos de diferentes regiões do Brasil. A proposta integra fé, cultura jovem e impacto social, criando um espaço de conexão, troca de experiências e networking comunitário.",
-      "dataInicio": "2026-11-20",
-      "dataFim": "2026-11-21",
-      "textoData": "20 - 21 nov",
-      "espaco": "Pavilhões",
-      "link": "https://www.e-inscricao.com/dunamismovement/dnmscon26?occurrence=2026-11-20",
-      "local": {
-        "nome": "São Paulo Expo",
-        "cidade": "São Paulo",
-        "uf": "SP"
-      },
-      "fonte": {
-        "id": "sao-paulo-expo",
-        "nome": "São Paulo Expo",
-        "url": "https://www.saopauloexpo.com.br/pt/agenda-de-eventos/"
-      },
-      "fonteDominio": "saopauloexpo.com.br",
-      "score": 59,
-      "faixa": "medio",
-      "confianca": "alta",
-      "tipo": "Congresso",
-      "sinais": [
-        "Site próprio",
-        "Brasil"
-      ],
-      "componentes": [
-        {
-          "rotulo": "Porte",
-          "valor": 16,
-          "teto": 45
-        },
-        {
-          "rotulo": "Alcance",
-          "valor": 14,
-          "teto": 25
-        },
-        {
-          "rotulo": "Organizador",
-          "valor": 0,
-          "teto": 28
-        },
-        {
-          "rotulo": "Tipo de evento",
-          "valor": 24,
-          "teto": 25
-        },
-        {
-          "rotulo": "Duração",
-          "valor": 5,
-          "teto": 8
-        }
-      ],
-      "porte": 16,
-      "alcance": 14,
-      "mercado": 0,
-      "publicoEstimado": null,
-      "diasDeEvento": 2,
-      "faltamDias": 0,
-      "janela": "esta semana",
-      "acionavel": false
-    },
-    {
-      "id": "sao-paulo-expo:expocannabisbrasil|2026-11-20",
-      "nome": "EXPOCANNABIS BRASIL",
-      "descricao": "Expocannabis Brasil traz uma programação que integra ciência, negócios e cultura, com palestras, exposições e experiências sobre o universo da cannabis. O evento apresenta avanços, aplicações e debates que ampliam o entendimento sobre o tema no país.",
-      "dataInicio": "2026-11-20",
-      "dataFim": "2026-11-22",
-      "textoData": "20 - 22 nov",
-      "espaco": "Pavilhões",
-      "link": "https://expocannabisbrasil.com/?occurrence=2026-11-20",
-      "local": {
-        "nome": "São Paulo Expo",
-        "cidade": "São Paulo",
-        "uf": "SP"
-      },
-      "fonte": {
-        "id": "sao-paulo-expo",
-        "nome": "São Paulo Expo",
-        "url": "https://www.saopauloexpo.com.br/pt/agenda-de-eventos/"
-      },
-      "fonteDominio": "saopauloexpo.com.br",
-      "score": 45,
-      "faixa": "medio",
-      "confianca": "alta",
-      "tipo": "Evento",
-      "sinais": [
-        "Site próprio",
-        "Brasil"
-      ],
-      "componentes": [
-        {
-          "rotulo": "Porte",
-          "valor": 16,
-          "teto": 45
-        },
-        {
-          "rotulo": "Alcance",
-          "valor": 14,
-          "teto": 25
-        },
-        {
-          "rotulo": "Organizador",
-          "valor": 0,
-          "teto": 28
-        },
-        {
-          "rotulo": "Tipo de evento",
-          "valor": 10,
-          "teto": 25
-        },
-        {
-          "rotulo": "Duração",
-          "valor": 5,
-          "teto": 8
-        }
-      ],
-      "porte": 16,
-      "alcance": 14,
-      "mercado": 0,
-      "publicoEstimado": null,
-      "diasDeEvento": 3,
-      "faltamDias": 0,
-      "janela": "esta semana",
+      "faltamDias": -1,
+      "janela": "passou",
       "acionavel": false
     },
     {
@@ -313,7 +185,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 1,
+      "faltamDias": 0,
       "janela": "esta semana",
       "acionavel": false
     },
@@ -374,7 +246,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 1,
+      "faltamDias": 0,
       "janela": "esta semana",
       "acionavel": false
     },
@@ -437,7 +309,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 5,
+      "faltamDias": 4,
       "janela": "esta semana",
       "acionavel": false
     },
@@ -498,7 +370,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 7,
+      "faltamDias": 6,
       "janela": "esta semana",
       "acionavel": false
     },
@@ -561,7 +433,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 4,
-      "faltamDias": 13,
+      "faltamDias": 12,
       "janela": "em cima da hora",
       "acionavel": false
     },
@@ -624,7 +496,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 15,
+      "faltamDias": 14,
       "janela": "em cima da hora",
       "acionavel": false
     },
@@ -685,7 +557,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 20,
+      "faltamDias": 19,
       "janela": "em cima da hora",
       "acionavel": false
     },
@@ -748,9 +620,9 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 22,
-      "janela": "agir agora",
-      "acionavel": true
+      "faltamDias": 21,
+      "janela": "em cima da hora",
+      "acionavel": false
     },
     {
       "id": "pro-magno:eventosocialprivado|2026-12-19",
@@ -783,7 +655,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 29,
+      "faltamDias": 28,
       "janela": "agir agora",
       "acionavel": false
     },
@@ -818,7 +690,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 48,
+      "faltamDias": 47,
       "janela": "agir agora",
       "acionavel": false
     },
@@ -853,7 +725,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 50,
+      "faltamDias": 49,
       "janela": "agir agora",
       "acionavel": false
     },
@@ -888,7 +760,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 62,
+      "faltamDias": 61,
       "janela": "ideal",
       "acionavel": false
     },
@@ -923,7 +795,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 63,
+      "faltamDias": 62,
       "janela": "ideal",
       "acionavel": false
     },
@@ -958,7 +830,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 64,
+      "faltamDias": 63,
       "janela": "ideal",
       "acionavel": false
     },
@@ -993,7 +865,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 70,
+      "faltamDias": 69,
       "janela": "ideal",
       "acionavel": false
     },
@@ -1028,7 +900,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 84,
+      "faltamDias": 83,
       "janela": "ideal",
       "acionavel": false
     },
@@ -1063,7 +935,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 85,
+      "faltamDias": 84,
       "janela": "ideal",
       "acionavel": false
     },
@@ -1098,7 +970,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 90,
+      "faltamDias": 89,
       "janela": "ideal",
       "acionavel": false
     },
@@ -1133,7 +1005,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 91,
+      "faltamDias": 90,
       "janela": "ideal",
       "acionavel": false
     },
@@ -1168,7 +1040,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 92,
+      "faltamDias": 91,
       "janela": "ideal",
       "acionavel": false
     },
@@ -1229,7 +1101,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 101,
+      "faltamDias": 100,
       "janela": "ideal",
       "acionavel": true
     },
@@ -1264,7 +1136,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 105,
+      "faltamDias": 104,
       "janela": "ideal",
       "acionavel": false
     },
@@ -1299,7 +1171,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 106,
+      "faltamDias": 105,
       "janela": "ideal",
       "acionavel": false
     },
@@ -1360,7 +1232,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 110,
+      "faltamDias": 109,
       "janela": "ideal",
       "acionavel": true
     },
@@ -1395,7 +1267,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 112,
+      "faltamDias": 111,
       "janela": "ideal",
       "acionavel": false
     },
@@ -1430,7 +1302,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 113,
+      "faltamDias": 112,
       "janela": "ideal",
       "acionavel": false
     },
@@ -1494,7 +1366,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 119,
+      "faltamDias": 118,
       "janela": "ideal",
       "acionavel": true
     },
@@ -1529,7 +1401,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 127,
+      "faltamDias": 126,
       "janela": "ideal",
       "acionavel": false
     },
@@ -1590,7 +1462,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 131,
+      "faltamDias": 130,
       "janela": "ideal",
       "acionavel": true
     },
@@ -1625,7 +1497,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 134,
+      "faltamDias": 133,
       "janela": "ideal",
       "acionavel": false
     },
@@ -1686,7 +1558,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 138,
+      "faltamDias": 137,
       "janela": "ideal",
       "acionavel": true
     },
@@ -1721,7 +1593,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 141,
+      "faltamDias": 140,
       "janela": "ideal",
       "acionavel": false
     },
@@ -1782,7 +1654,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 147,
+      "faltamDias": 146,
       "janela": "ideal",
       "acionavel": true
     },
@@ -1817,7 +1689,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 161,
+      "faltamDias": 160,
       "janela": "ideal",
       "acionavel": false
     },
@@ -1852,7 +1724,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 162,
+      "faltamDias": 161,
       "janela": "ideal",
       "acionavel": false
     },
@@ -1887,7 +1759,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 168,
+      "faltamDias": 167,
       "janela": "ideal",
       "acionavel": false
     },
@@ -1922,7 +1794,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 169,
+      "faltamDias": 168,
       "janela": "ideal",
       "acionavel": false
     },
@@ -1983,7 +1855,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 173,
+      "faltamDias": 172,
       "janela": "ideal",
       "acionavel": true
     },
@@ -2018,7 +1890,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 176,
+      "faltamDias": 175,
       "janela": "ideal",
       "acionavel": false
     },
@@ -2079,7 +1951,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 179,
+      "faltamDias": 178,
       "janela": "ideal",
       "acionavel": true
     },
@@ -2140,7 +2012,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 182,
+      "faltamDias": 181,
       "janela": "planejamento",
       "acionavel": true
     },
@@ -2201,7 +2073,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 183,
+      "faltamDias": 182,
       "janela": "planejamento",
       "acionavel": true
     },
@@ -2262,7 +2134,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 193,
+      "faltamDias": 192,
       "janela": "planejamento",
       "acionavel": true
     },
@@ -2323,7 +2195,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 206,
+      "faltamDias": 205,
       "janela": "planejamento",
       "acionavel": true
     },
@@ -2387,7 +2259,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 214,
+      "faltamDias": 213,
       "janela": "planejamento",
       "acionavel": true
     },
@@ -2448,7 +2320,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 256,
+      "faltamDias": 255,
       "janela": "planejamento",
       "acionavel": true
     },
@@ -2483,7 +2355,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 330,
+      "faltamDias": 329,
       "janela": "planejamento",
       "acionavel": false
     },
@@ -2546,7 +2418,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 340,
+      "faltamDias": 339,
       "janela": "planejamento",
       "acionavel": true
     },
@@ -2581,7 +2453,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 356,
+      "faltamDias": 355,
       "janela": "planejamento",
       "acionavel": false
     },
@@ -2616,7 +2488,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 358,
+      "faltamDias": 357,
       "janela": "planejamento",
       "acionavel": false
     },
@@ -2651,7 +2523,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 363,
+      "faltamDias": 362,
       "janela": "planejamento",
       "acionavel": false
     },
@@ -2686,7 +2558,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 365,
+      "faltamDias": 364,
       "janela": "planejamento",
       "acionavel": false
     },
@@ -2721,7 +2593,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 391,
+      "faltamDias": 390,
       "janela": "planejamento",
       "acionavel": false
     },
@@ -2756,7 +2628,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 393,
+      "faltamDias": 392,
       "janela": "planejamento",
       "acionavel": false
     }
