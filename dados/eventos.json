@@ -1,29 +1,29 @@
 {
-  "atualizadoEm": "2026-11-22T19:11:09.897Z",
+  "atualizadoEm": "2026-11-23T06:22:35.526Z",
   "totalEventos": 54,
   "fontes": [
     {
       "fonte": "Distrito Anhembi",
       "eventos": 0,
-      "ms": 4814,
+      "ms": 4789,
       "erro": null
     },
     {
       "fonte": "Expo Center Norte",
       "eventos": 4,
-      "ms": 454,
+      "ms": 604,
       "erro": null
     },
     {
       "fonte": "Pro Magno Centro de Eventos",
       "eventos": 48,
-      "ms": 3289,
+      "ms": 2493,
       "erro": null
     },
     {
       "fonte": "São Paulo Expo",
       "eventos": 3,
-      "ms": 1292,
+      "ms": 1252,
       "erro": null
     }
   ],
@@ -87,7 +87,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": -2,
+      "faltamDias": -3,
       "janela": "passou",
       "acionavel": false
     },
@@ -150,7 +150,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": -2,
+      "faltamDias": -3,
       "janela": "passou",
       "acionavel": false
     },
@@ -213,7 +213,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 3,
+      "faltamDias": 2,
       "janela": "esta semana",
       "acionavel": false
     },
@@ -274,7 +274,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 5,
+      "faltamDias": 4,
       "janela": "esta semana",
       "acionavel": false
     },
@@ -337,7 +337,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 4,
-      "faltamDias": 11,
+      "faltamDias": 10,
       "janela": "em cima da hora",
       "acionavel": false
     },
@@ -400,7 +400,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 13,
+      "faltamDias": 12,
       "janela": "em cima da hora",
       "acionavel": false
     },
@@ -461,7 +461,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 18,
+      "faltamDias": 17,
       "janela": "em cima da hora",
       "acionavel": false
     },
@@ -524,7 +524,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 20,
+      "faltamDias": 19,
       "janela": "em cima da hora",
       "acionavel": false
     },
@@ -559,7 +559,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 27,
+      "faltamDias": 26,
       "janela": "agir agora",
       "acionavel": false
     },
@@ -594,7 +594,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 46,
+      "faltamDias": 45,
       "janela": "agir agora",
       "acionavel": false
     },
@@ -629,7 +629,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 48,
+      "faltamDias": 47,
       "janela": "agir agora",
       "acionavel": false
     },
@@ -664,7 +664,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 60,
+      "faltamDias": 59,
       "janela": "agir agora",
       "acionavel": false
     },
@@ -699,8 +699,8 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 61,
-      "janela": "ideal",
+      "faltamDias": 60,
+      "janela": "agir agora",
       "acionavel": false
     },
     {
@@ -734,7 +734,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 62,
+      "faltamDias": 61,
       "janela": "ideal",
       "acionavel": false
     },
@@ -769,7 +769,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 68,
+      "faltamDias": 67,
       "janela": "ideal",
       "acionavel": false
     },
@@ -804,7 +804,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 82,
+      "faltamDias": 81,
       "janela": "ideal",
       "acionavel": false
     },
@@ -839,7 +839,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 83,
+      "faltamDias": 82,
       "janela": "ideal",
       "acionavel": false
     },
@@ -874,7 +874,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 88,
+      "faltamDias": 87,
       "janela": "ideal",
       "acionavel": false
     },
@@ -909,7 +909,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 89,
+      "faltamDias": 88,
       "janela": "ideal",
       "acionavel": false
     },
@@ -944,7 +944,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 90,
+      "faltamDias": 89,
       "janela": "ideal",
       "acionavel": false
     },
@@ -1005,7 +1005,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 99,
+      "faltamDias": 98,
       "janela": "ideal",
       "acionavel": true
     },
@@ -1040,7 +1040,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 103,
+      "faltamDias": 102,
       "janela": "ideal",
       "acionavel": false
     },
@@ -1075,7 +1075,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 104,
+      "faltamDias": 103,
       "janela": "ideal",
       "acionavel": false
     },
@@ -1136,7 +1136,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 108,
+      "faltamDias": 107,
       "janela": "ideal",
       "acionavel": true
     },
@@ -1171,7 +1171,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 110,
+      "faltamDias": 109,
       "janela": "ideal",
       "acionavel": false
     },
@@ -1206,7 +1206,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 111,
+      "faltamDias": 110,
       "janela": "ideal",
       "acionavel": false
     },
@@ -1270,7 +1270,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 117,
+      "faltamDias": 116,
       "janela": "ideal",
       "acionavel": true
     },
@@ -1305,7 +1305,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 125,
+      "faltamDias": 124,
       "janela": "ideal",
       "acionavel": false
     },
@@ -1366,7 +1366,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 129,
+      "faltamDias": 128,
       "janela": "ideal",
       "acionavel": true
     },
@@ -1401,7 +1401,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 132,
+      "faltamDias": 131,
       "janela": "ideal",
       "acionavel": false
     },
@@ -1462,7 +1462,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 136,
+      "faltamDias": 135,
       "janela": "ideal",
       "acionavel": true
     },
@@ -1497,7 +1497,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 139,
+      "faltamDias": 138,
       "janela": "ideal",
       "acionavel": false
     },
@@ -1558,7 +1558,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 145,
+      "faltamDias": 144,
       "janela": "ideal",
       "acionavel": true
     },
@@ -1593,7 +1593,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 159,
+      "faltamDias": 158,
       "janela": "ideal",
       "acionavel": false
     },
@@ -1628,7 +1628,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 160,
+      "faltamDias": 159,
       "janela": "ideal",
       "acionavel": false
     },
@@ -1663,7 +1663,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 166,
+      "faltamDias": 165,
       "janela": "ideal",
       "acionavel": false
     },
@@ -1698,7 +1698,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 167,
+      "faltamDias": 166,
       "janela": "ideal",
       "acionavel": false
     },
@@ -1759,7 +1759,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 171,
+      "faltamDias": 170,
       "janela": "ideal",
       "acionavel": true
     },
@@ -1794,7 +1794,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 174,
+      "faltamDias": 173,
       "janela": "ideal",
       "acionavel": false
     },
@@ -1855,7 +1855,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 177,
+      "faltamDias": 176,
       "janela": "ideal",
       "acionavel": true
     },
@@ -1916,7 +1916,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 180,
+      "faltamDias": 179,
       "janela": "ideal",
       "acionavel": true
     },
@@ -1977,8 +1977,8 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 181,
-      "janela": "planejamento",
+      "faltamDias": 180,
+      "janela": "ideal",
       "acionavel": true
     },
     {
@@ -2038,7 +2038,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 191,
+      "faltamDias": 190,
       "janela": "planejamento",
       "acionavel": true
     },
@@ -2099,7 +2099,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 204,
+      "faltamDias": 203,
       "janela": "planejamento",
       "acionavel": true
     },
@@ -2163,7 +2163,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 212,
+      "faltamDias": 211,
       "janela": "planejamento",
       "acionavel": true
     },
@@ -2224,7 +2224,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 2,
-      "faltamDias": 254,
+      "faltamDias": 253,
       "janela": "planejamento",
       "acionavel": true
     },
@@ -2259,7 +2259,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 328,
+      "faltamDias": 327,
       "janela": "planejamento",
       "acionavel": false
     },
@@ -2322,7 +2322,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 3,
-      "faltamDias": 338,
+      "faltamDias": 337,
       "janela": "planejamento",
       "acionavel": true
     },
@@ -2357,7 +2357,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 354,
+      "faltamDias": 353,
       "janela": "planejamento",
       "acionavel": false
     },
@@ -2392,7 +2392,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 356,
+      "faltamDias": 355,
       "janela": "planejamento",
       "acionavel": false
     },
@@ -2427,7 +2427,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 361,
+      "faltamDias": 360,
       "janela": "planejamento",
       "acionavel": false
     },
@@ -2462,7 +2462,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 363,
+      "faltamDias": 362,
       "janela": "planejamento",
       "acionavel": false
     },
@@ -2497,7 +2497,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 389,
+      "faltamDias": 388,
       "janela": "planejamento",
       "acionavel": false
     },
@@ -2532,7 +2532,7 @@
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
-      "faltamDias": 391,
+      "faltamDias": 390,
       "janela": "planejamento",
       "acionavel": false
     }
