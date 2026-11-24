@@ -32,7 +32,8 @@ o mesmo pavilhão. A ferramenta precisa separar as duas.
 ## Decisões já tomadas
 
 - **Fonte:** raspagem automática de agendas de centros de convenções.
-  Hoje: Expo Center Norte, São Paulo Expo, Distrito Anhembi, Pro Magno.
+  Hoje: Expo Center Norte, São Paulo Expo, Distrito Anhembi, Pro Magno,
+  Transamerica Expo Center e o catálogo EventsEye (feiras em 22 cidades).
 - **Hospedagem:** GitHub Pages, no GitHub pessoal do Caio. Não é sistema
   oficial da Azul — é ferramenta de trabalho não-oficial.
 - **Consequência técnica:** site estático. O scraper roda por GitHub Actions
@@ -66,5 +67,4 @@ existe para quando ela já respondeu a primeira pergunta e quer planejar.
 
 - Login, multiusuário, permissões.
 - Dados de passageiro, tarifa ou malha da Azul.
-- Fontes fora de São Paulo (nenhuma agenda raspável encontrada até agora).
 - CRM completo. A marcação de contato é um lembrete pessoal, não um funil.

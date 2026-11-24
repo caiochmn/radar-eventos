@@ -14,9 +14,10 @@ import { aplicarSinais } from './sinais.mjs';
 
 const ALCANCE = [
   [/am[ée]rica latina|latin[- ]?america|sul[- ]?americ/i, 30, 'América Latina'],
-  [/\bnacional\b|todo o (pa[íi]s|brasil)|de todo o brasil|brasileir[oa]\b/i, 26, 'Nacional'],
-  [/\binternacional\b|\bmundial\b|\bglobal\b|do exterior/i, 24, 'Internacional'],
-  [/\bbrasil\b/i, 14, 'Brasil'],
+  // As alternativas em inglês são as mesmas regras: o EventsEye publica nessa língua.
+  [/\bnacional\b|todo o (pa[íi]s|brasil)|de todo o brasil|brasileir[oa]\b|\bnational\b|\bbrazilian\b/i, 26, 'Nacional'],
+  [/\binternacional\b|\bmundial\b|\bglobal\b|do exterior|\binternational\b|\bworldwide\b/i, 24, 'Internacional'],
+  [/\bbrasil\b|\bbrazil\b/i, 14, 'Brasil'],
 ];
 
 // "Show" em nome de evento brasileiro quase sempre quer dizer trade show
@@ -90,8 +91,8 @@ export function pontuar(evento, hoje = new Date()) {
       : 8;
   } else {
     // Sem número declarado, infere porte por indícios indiretos.
-    if (/maior (feira|evento|encontro|congresso|exposi)/i.test(texto)) { porte += 24; sinais.push('Maior do segmento'); }
-    else if (/principal (evento|encontro|feira|congresso)/i.test(texto)) { porte += 20; sinais.push('Principal do setor'); }
+    if (/maior (feira|evento|encontro|congresso|exposi)|\b(largest|biggest) (trade ?show|fair|event|exhibition|congress|meeting)/i.test(texto)) { porte += 24; sinais.push('Maior do segmento'); }
+    else if (/principal (evento|encontro|feira|congresso)|\bleading (trade ?show|fair|event|exhibition|congress|meeting)/i.test(texto)) { porte += 20; sinais.push('Principal do setor'); }
 
     // Evento com muitas edições é consolidado, logo grande e recorrente.
     const ed = texto.match(/\b(\d{1,3})\s*[°ºªa]\s*(edi[çc][ãa]o|congresso|feira|encontro)?/i)

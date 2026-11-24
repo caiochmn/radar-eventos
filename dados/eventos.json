@@ -1,35 +1,47 @@
 {
-  "atualizadoEm": "2026-11-24T18:37:16.118Z",
-  "totalEventos": 62,
+  "atualizadoEm": "2026-11-24T20:05:19.976Z",
+  "totalEventos": 137,
   "fontes": [
     {
       "id": "distrito-anhembi",
       "fonte": "Distrito Anhembi",
       "eventos": 10,
-      "ms": 5192,
-      "erro": "Nenhum evento lido (site bloqueou a coleta ou mudou de layout)",
-      "reaproveitados": 10,
-      "desatualizadaDesde": "2026-11-24T18:27:08.332Z"
+      "ms": 1644,
+      "erro": null
+    },
+    {
+      "id": "eventseye",
+      "fonte": "EventsEye (feiras no Brasil)",
+      "eventos": 88,
+      "ms": 25274,
+      "erro": null
     },
     {
       "id": "expo-center-norte",
       "fonte": "Expo Center Norte",
       "eventos": 4,
-      "ms": 1198,
+      "ms": 1183,
       "erro": null
     },
     {
       "id": "pro-magno",
       "fonte": "Pro Magno Centro de Eventos",
       "eventos": 48,
-      "ms": 3963,
+      "ms": 1859,
       "erro": null
     },
     {
       "id": "sao-paulo-expo",
       "fonte": "São Paulo Expo",
       "eventos": 3,
-      "ms": 1457,
+      "ms": 1818,
+      "erro": null
+    },
+    {
+      "id": "transamerica-expo",
+      "fonte": "Transamerica Expo Center",
+      "eventos": 2,
+      "ms": 452,
       "erro": null
     }
   ],
@@ -51,7 +63,8 @@
       "fonte": {
         "id": "distrito-anhembi",
         "nome": "Distrito Anhembi",
-        "url": "https://distritoanhembi.com.br/agenda/"
+        "url": "https://distritoanhembi.com.br/agenda/",
+        "agregador": false
       },
       "fonteDominio": "distritoanhembi.com.br",
       "score": 79,
@@ -116,7 +129,8 @@
       "fonte": {
         "id": "sao-paulo-expo",
         "nome": "São Paulo Expo",
-        "url": "https://www.saopauloexpo.com.br/pt/agenda-de-eventos/"
+        "url": "https://www.saopauloexpo.com.br/pt/agenda-de-eventos/",
+        "agregador": false
       },
       "fonteDominio": "saopauloexpo.com.br",
       "score": 31,
@@ -179,7 +193,8 @@
       "fonte": {
         "id": "distrito-anhembi",
         "nome": "Distrito Anhembi",
-        "url": "https://distritoanhembi.com.br/agenda/"
+        "url": "https://distritoanhembi.com.br/agenda/",
+        "agregador": false
       },
       "fonteDominio": "distritoanhembi.com.br",
       "score": 15,
@@ -240,7 +255,8 @@
       "fonte": {
         "id": "pro-magno",
         "nome": "Pro Magno Centro de Eventos",
-        "url": "https://www.promagno.com.br/"
+        "url": "https://www.promagno.com.br/",
+        "agregador": false
       },
       "fonteDominio": "promagno.com.br",
       "score": 27,
@@ -301,7 +317,8 @@
       "fonte": {
         "id": "distrito-anhembi",
         "nome": "Distrito Anhembi",
-        "url": "https://distritoanhembi.com.br/agenda/"
+        "url": "https://distritoanhembi.com.br/agenda/",
+        "agregador": false
       },
       "fonteDominio": "distritoanhembi.com.br",
       "score": 72,
@@ -350,6 +367,71 @@
       "acionavel": false
     },
     {
+      "id": "transamerica-expo:bgex|2026-11-28",
+      "nome": "BGEX 2026",
+      "descricao": "Congresso de Harmonização Orofacial promovido pela Escola da Bel, reunindo especialistas para demonstrações clínicas ao vivo, atualização de técnicas estéticas avançadas e debates sobre gestão de clínicas.",
+      "dataInicio": "2026-11-28",
+      "dataFim": "2026-11-29",
+      "textoData": "28 A 29 NOV",
+      "espaco": "Transamerica Expo Center",
+      "link": "https://escoladabel.com/bgex-2",
+      "local": {
+        "nome": "Transamerica Expo Center",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "transamerica-expo",
+        "nome": "Transamerica Expo Center",
+        "url": "https://www.transamericaexpo.com.br/agenda",
+        "agregador": false
+      },
+      "fonteDominio": "transamericaexpo.com.br",
+      "score": 63,
+      "faixa": "alto",
+      "confianca": "alta",
+      "tipo": "Congresso",
+      "sinais": [
+        "Site próprio",
+        "Grande empresa nacional"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 10,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 24,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 24,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 10,
+      "alcance": 0,
+      "mercado": 24,
+      "publicoEstimado": null,
+      "diasDeEvento": 2,
+      "faltamDias": 4,
+      "janela": "esta semana",
+      "acionavel": false
+    },
+    {
       "id": "distrito-anhembi:apasconecta|2026-12-01",
       "nome": "APAS CONECTA 2026",
       "descricao": "Um dia para trocar experiências, ampliar networking, conhecer novas tendências e criar oportunidades que impulsionam o futuro do setor.",
@@ -366,7 +448,8 @@
       "fonte": {
         "id": "distrito-anhembi",
         "nome": "Distrito Anhembi",
-        "url": "https://distritoanhembi.com.br/agenda/"
+        "url": "https://distritoanhembi.com.br/agenda/",
+        "agregador": false
       },
       "fonteDominio": "distritoanhembi.com.br",
       "score": 10,
@@ -427,7 +510,8 @@
       "fonte": {
         "id": "sao-paulo-expo",
         "nome": "São Paulo Expo",
-        "url": "https://www.saopauloexpo.com.br/pt/agenda-de-eventos/"
+        "url": "https://www.saopauloexpo.com.br/pt/agenda-de-eventos/",
+        "agregador": false
       },
       "fonteDominio": "saopauloexpo.com.br",
       "score": 34,
@@ -490,7 +574,8 @@
       "fonte": {
         "id": "distrito-anhembi",
         "nome": "Distrito Anhembi",
-        "url": "https://distritoanhembi.com.br/agenda/"
+        "url": "https://distritoanhembi.com.br/agenda/",
+        "agregador": false
       },
       "fonteDominio": "distritoanhembi.com.br",
       "score": 16,
@@ -551,7 +636,8 @@
       "fonte": {
         "id": "expo-center-norte",
         "nome": "Expo Center Norte",
-        "url": "https://www.expocenternorte.com.br/eventos"
+        "url": "https://www.expocenternorte.com.br/eventos",
+        "agregador": false
       },
       "fonteDominio": "expocenternorte.com.br",
       "score": 47,
@@ -598,6 +684,70 @@
       "acionavel": false
     },
     {
+      "id": "transamerica-expo:firstclassexperience|2026-12-05",
+      "nome": "FIRST CLASS EXPERIENCE",
+      "descricao": "Imersão corporativa promovida pela AJA Educação, voltada ao desenvolvimento de negócios, posicionamento estratégico de mercado, vendas e gestão comercial para profissionais e gestores de clínicas estéticas.",
+      "dataInicio": "2026-12-05",
+      "dataFim": "2026-12-06",
+      "textoData": "05 A 06 DEZ",
+      "espaco": "Transamerica Expo Center",
+      "link": "https://firstclass.ajacomosejafosse.com.br/",
+      "local": {
+        "nome": "Transamerica Expo Center",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "transamerica-expo",
+        "nome": "Transamerica Expo Center",
+        "url": "https://www.transamericaexpo.com.br/agenda",
+        "agregador": false
+      },
+      "fonteDominio": "transamericaexpo.com.br",
+      "score": 25,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [
+        "Site próprio"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 10,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 10,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 2,
+      "faltamDias": 11,
+      "janela": "em cima da hora",
+      "acionavel": false
+    },
+    {
       "id": "distrito-anhembi:feiraoautoshow|2026-12-06",
       "nome": "FEIRÃO AUTOSHOW",
       "descricao": "De volta ao Distrito Anhembi: o Feirão AutoShow retoma suas origens em grande estilo!",
@@ -614,7 +764,8 @@
       "fonte": {
         "id": "distrito-anhembi",
         "nome": "Distrito Anhembi",
-        "url": "https://distritoanhembi.com.br/agenda/"
+        "url": "https://distritoanhembi.com.br/agenda/",
+        "agregador": false
       },
       "fonteDominio": "distritoanhembi.com.br",
       "score": 10,
@@ -659,6 +810,71 @@
       "acionavel": false
     },
     {
+      "id": "eventseye:vegfest|2026-12-10",
+      "nome": "VEGFEST",
+      "descricao": "One of the largest Vegan events in the Americas, with the goal is to remove animals from our food system and other human uses. Under the auspices of the Brazilian Vegetarian Society (SVB)",
+      "dataInicio": "2026-12-10",
+      "dataFim": "2026-12-13",
+      "textoData": "12/10/2026 4 days",
+      "espaco": "Expo Center Norte",
+      "link": "https://www.eventseye.com/fairs/f-vegfest-32258-1.html",
+      "local": {
+        "nome": "Expo Center Norte",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "periodicidade": "once a year",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 43,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [
+        "Nacional"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 25,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 8,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 25,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 4,
+      "faltamDias": 16,
+      "janela": "em cima da hora",
+      "acionavel": false
+    },
+    {
       "id": "pro-magno:eventocorporativoprivado|2026-12-10",
       "nome": "EVENTO CORPORATIVO PRIVADO",
       "descricao": "",
@@ -675,7 +891,8 @@
       "fonte": {
         "id": "pro-magno",
         "nome": "Pro Magno Centro de Eventos",
-        "url": "https://www.promagno.com.br/"
+        "url": "https://www.promagno.com.br/",
+        "agregador": false
       },
       "fonteDominio": "promagno.com.br",
       "score": 10,
@@ -736,7 +953,8 @@
       "fonte": {
         "id": "distrito-anhembi",
         "nome": "Distrito Anhembi",
-        "url": "https://distritoanhembi.com.br/agenda/"
+        "url": "https://distritoanhembi.com.br/agenda/",
+        "agregador": false
       },
       "fonteDominio": "distritoanhembi.com.br",
       "score": 10,
@@ -797,7 +1015,8 @@
       "fonte": {
         "id": "sao-paulo-expo",
         "nome": "São Paulo Expo",
-        "url": "https://www.saopauloexpo.com.br/pt/agenda-de-eventos/"
+        "url": "https://www.saopauloexpo.com.br/pt/agenda-de-eventos/",
+        "agregador": false
       },
       "fonteDominio": "saopauloexpo.com.br",
       "score": 43,
@@ -860,7 +1079,8 @@
       "fonte": {
         "id": "distrito-anhembi",
         "nome": "Distrito Anhembi",
-        "url": "https://distritoanhembi.com.br/agenda/"
+        "url": "https://distritoanhembi.com.br/agenda/",
+        "agregador": false
       },
       "fonteDominio": "distritoanhembi.com.br",
       "score": 10,
@@ -921,7 +1141,8 @@
       "fonte": {
         "id": "distrito-anhembi",
         "nome": "Distrito Anhembi",
-        "url": "https://distritoanhembi.com.br/agenda/"
+        "url": "https://distritoanhembi.com.br/agenda/",
+        "agregador": false
       },
       "fonteDominio": "distritoanhembi.com.br",
       "score": 10,
@@ -982,7 +1203,8 @@
       "fonte": {
         "id": "pro-magno",
         "nome": "Pro Magno Centro de Eventos",
-        "url": "https://www.promagno.com.br/"
+        "url": "https://www.promagno.com.br/",
+        "agregador": false
       },
       "fonteDominio": "promagno.com.br",
       "score": 0,
@@ -1017,7 +1239,8 @@
       "fonte": {
         "id": "distrito-anhembi",
         "nome": "Distrito Anhembi",
-        "url": "https://distritoanhembi.com.br/agenda/"
+        "url": "https://distritoanhembi.com.br/agenda/",
+        "agregador": false
       },
       "fonteDominio": "distritoanhembi.com.br",
       "score": 10,
@@ -1078,7 +1301,8 @@
       "fonte": {
         "id": "pro-magno",
         "nome": "Pro Magno Centro de Eventos",
-        "url": "https://www.promagno.com.br/"
+        "url": "https://www.promagno.com.br/",
+        "agregador": false
       },
       "fonteDominio": "promagno.com.br",
       "score": 0,
@@ -1113,7 +1337,8 @@
       "fonte": {
         "id": "pro-magno",
         "nome": "Pro Magno Centro de Eventos",
-        "url": "https://www.promagno.com.br/"
+        "url": "https://www.promagno.com.br/",
+        "agregador": false
       },
       "fonteDominio": "promagno.com.br",
       "score": 0,
@@ -1148,7 +1373,8 @@
       "fonte": {
         "id": "pro-magno",
         "nome": "Pro Magno Centro de Eventos",
-        "url": "https://www.promagno.com.br/"
+        "url": "https://www.promagno.com.br/",
+        "agregador": false
       },
       "fonteDominio": "promagno.com.br",
       "score": 0,
@@ -1183,7 +1409,8 @@
       "fonte": {
         "id": "pro-magno",
         "nome": "Pro Magno Centro de Eventos",
-        "url": "https://www.promagno.com.br/"
+        "url": "https://www.promagno.com.br/",
+        "agregador": false
       },
       "fonteDominio": "promagno.com.br",
       "score": 0,
@@ -1218,7 +1445,8 @@
       "fonte": {
         "id": "pro-magno",
         "nome": "Pro Magno Centro de Eventos",
-        "url": "https://www.promagno.com.br/"
+        "url": "https://www.promagno.com.br/",
+        "agregador": false
       },
       "fonteDominio": "promagno.com.br",
       "score": 0,
@@ -1237,6 +1465,74 @@
       "acionavel": false
     },
     {
+      "id": "eventseye:abimad|2027-01-26",
+      "nome": "ABIMAD",
+      "descricao": "Brazilian Contemporary Home Furnishings Exhibition. ABIMAD is the leading high-end furniture and accessories fair in Latin America. The fair holds two annual editions showcasing the best of Brazilian design and the main international trends",
+      "dataInicio": "2027-01-26",
+      "dataFim": "2027-01-29",
+      "textoData": "01/26/2027 4 days",
+      "espaco": "São Paulo Expo Exhibition & Convention Center",
+      "link": "https://www.eventseye.com/fairs/f-abimad-13314-1.html",
+      "local": {
+        "nome": "São Paulo Expo Exhibition & Convention Center",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "periodicidade": "twice a year",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 81,
+      "faixa": "alto",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [
+        "América Latina",
+        "Nacional",
+        "Internacional",
+        "Entidade nacional"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 25,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 26,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 8,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 25,
+      "mercado": 26,
+      "publicoEstimado": null,
+      "diasDeEvento": 4,
+      "faltamDias": 63,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
       "id": "pro-magno:eventosocialprivado|2027-01-29",
       "nome": "EVENTO SOCIAL PRIVADO",
       "descricao": "",
@@ -1253,7 +1549,8 @@
       "fonte": {
         "id": "pro-magno",
         "nome": "Pro Magno Centro de Eventos",
-        "url": "https://www.promagno.com.br/"
+        "url": "https://www.promagno.com.br/",
+        "agregador": false
       },
       "fonteDominio": "promagno.com.br",
       "score": 0,
@@ -1288,7 +1585,8 @@
       "fonte": {
         "id": "pro-magno",
         "nome": "Pro Magno Centro de Eventos",
-        "url": "https://www.promagno.com.br/"
+        "url": "https://www.promagno.com.br/",
+        "agregador": false
       },
       "fonteDominio": "promagno.com.br",
       "score": 0,
@@ -1323,7 +1621,8 @@
       "fonte": {
         "id": "pro-magno",
         "nome": "Pro Magno Centro de Eventos",
-        "url": "https://www.promagno.com.br/"
+        "url": "https://www.promagno.com.br/",
+        "agregador": false
       },
       "fonteDominio": "promagno.com.br",
       "score": 0,
@@ -1342,6 +1641,137 @@
       "acionavel": false
     },
     {
+      "id": "eventseye:homegifttextil|2027-02-14",
+      "nome": "HOME & GIFT & TÊXTIL",
+      "descricao": "The most comprehensive decoration & homeware exhibition in Latin America. ABUP launches the best of independent Brazilian design, and presents a complete panorama of trends for the decoration, tableware, home utilities, and textile markets",
+      "dataInicio": "2027-02-14",
+      "dataFim": "2027-02-17",
+      "textoData": "02/14/2027 4 days",
+      "espaco": "Parque Anhembi",
+      "link": "https://www.eventseye.com/fairs/f-home-gift-textil-27633-1.html",
+      "local": {
+        "nome": "Parque Anhembi",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "periodicidade": "once a year",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 43,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [
+        "América Latina",
+        "Nacional"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 25,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 8,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 25,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 4,
+      "faltamDias": 82,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "eventseye:mrolatinamerica|2027-02-17",
+      "nome": "MRO LATIN AMERICA",
+      "descricao": "MRO Latin America gathers the airline supply chain to network, learn and define the commercial aviation maintenance industry. Conference and Exhibition",
+      "dataInicio": "2027-02-17",
+      "dataFim": "2027-02-18",
+      "textoData": "02/17/2027 2 days",
+      "espaco": "?",
+      "link": "https://www.eventseye.com/fairs/f-mro-latin-america-32904-1.html",
+      "local": {
+        "nome": "?",
+        "cidade": "Rio de Janeiro",
+        "uf": "RJ"
+      },
+      "periodicidade": "once a year",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 54,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Congresso",
+      "sinais": [
+        "América Latina"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 25,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 24,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 25,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 2,
+      "faltamDias": 85,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
       "id": "pro-magno:eventosocialprivado|2027-02-18",
       "nome": "EVENTO SOCIAL PRIVADO",
       "descricao": "",
@@ -1358,7 +1788,8 @@
       "fonte": {
         "id": "pro-magno",
         "nome": "Pro Magno Centro de Eventos",
-        "url": "https://www.promagno.com.br/"
+        "url": "https://www.promagno.com.br/",
+        "agregador": false
       },
       "fonteDominio": "promagno.com.br",
       "score": 0,
@@ -1393,7 +1824,8 @@
       "fonte": {
         "id": "pro-magno",
         "nome": "Pro Magno Centro de Eventos",
-        "url": "https://www.promagno.com.br/"
+        "url": "https://www.promagno.com.br/",
+        "agregador": false
       },
       "fonteDominio": "promagno.com.br",
       "score": 0,
@@ -1428,7 +1860,8 @@
       "fonte": {
         "id": "pro-magno",
         "nome": "Pro Magno Centro de Eventos",
-        "url": "https://www.promagno.com.br/"
+        "url": "https://www.promagno.com.br/",
+        "agregador": false
       },
       "fonteDominio": "promagno.com.br",
       "score": 0,
@@ -1447,6 +1880,399 @@
       "acionavel": false
     },
     {
+      "id": "eventseye:exporevestir|2027-02-22",
+      "nome": "EXPO REVESTIR",
+      "descricao": "Expo Revestir is the epicenter of the world of construction coatings and finishes in Latin America and one of the most significant in the world. A total immersion in trends, technology, and business networking",
+      "dataInicio": "2027-02-22",
+      "dataFim": "2027-02-26",
+      "textoData": "02/22/2027 5 days",
+      "espaco": "São Paulo Expo Exhibition & Convention Center",
+      "link": "https://www.eventseye.com/fairs/f-expo-revestir-2582-1.html",
+      "local": {
+        "nome": "São Paulo Expo Exhibition & Convention Center",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "periodicidade": "once a year",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 55,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [
+        "América Latina"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 25,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 8,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 25,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 5,
+      "faltamDias": 90,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "eventseye:accessmbasaopaulo|2027-02-27",
+      "nome": "ACCESS MBA - SÃO PAULO",
+      "descricao": "ACCESS MBA is a communication campaign specifically designed to better inform prospective students of existing MBA opportunities. ACCESS MBA is a series of events organised around the world",
+      "dataInicio": "2027-02-27",
+      "dataFim": "2027-02-27",
+      "textoData": "02/27/2027 1 day",
+      "espaco": "Renaissance São Paulo Hotel",
+      "link": "https://www.eventseye.com/fairs/f-access-mba-sao-paulo-14531-1.html",
+      "local": {
+        "nome": "Renaissance São Paulo Hotel",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "periodicidade": "twice a year",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 10,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 0,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 95,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "eventseye:efnexpofranquiasnordeste|2027-03-01",
+      "nome": "EFN - EXPO FRANQUIAS NORDESTE",
+      "descricao": "EFN - EXPO FRANQUIAS NORDESTE is the official Franchise Fair of the North and Northeast of Brazil for entrepreneurs, franchise professionals, suppliers, franchisees, consultants... Opportunities for networking and business expansion",
+      "dataInicio": "2027-03-01",
+      "dataFim": "2027-03-01",
+      "textoData": "March 2027 (?)",
+      "espaco": "Shopping RioMar",
+      "link": "https://www.eventseye.com/fairs/f-efn-expo-franquias-nordeste-27632-1.html",
+      "local": {
+        "nome": "Shopping RioMar",
+        "cidade": "Recife",
+        "uf": "PE"
+      },
+      "dataAproximada": true,
+      "periodicidade": "once a year",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 58,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [
+        "Brasil",
+        "Rede de franquias"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 14,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 22,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 0,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 14,
+      "mercado": 22,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 97,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "eventseye:accessmasterssaopaulo|2027-03-01",
+      "nome": "ACCESS MASTERS - SAO PAULO",
+      "descricao": "Access Masters events introduce you to admissions representatives of top Masters programmes from around the world. Find out more about graduate studies in Business, Management, Marketing, Finance... during personalised meetings and small group talks",
+      "dataInicio": "2027-03-01",
+      "dataFim": "2027-03-01",
+      "textoData": "March 2027 (?)",
+      "espaco": "Renaissance São Paulo Hotel",
+      "link": "https://www.eventseye.com/fairs/f-access-masters-sao-paulo-30940-1.html",
+      "local": {
+        "nome": "Renaissance São Paulo Hotel",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "dataAproximada": true,
+      "periodicidade": "twice a year",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 10,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 0,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 97,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "eventseye:autocombrasil|2027-03-01",
+      "nome": "AUTOCOM BRASIL",
+      "descricao": "International Retail Automation Fair. Autocom is the most important Automation Event in Latin America. For many years, it has been gathering the main Technology Suppliers Sales Channels and Retailers",
+      "dataInicio": "2027-03-01",
+      "dataFim": "2027-03-01",
+      "textoData": "March 2027 (?)",
+      "espaco": "Expo Center Norte",
+      "link": "https://www.eventseye.com/fairs/f-autocom-brasil-28047-1.html",
+      "local": {
+        "nome": "Expo Center Norte",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "dataAproximada": true,
+      "periodicidade": "once a year",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 47,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [
+        "América Latina",
+        "Internacional",
+        "Brasil"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 25,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 0,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 25,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 97,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "eventseye:fespabrasil|2027-03-01",
+      "nome": "FESPA BRASIL",
+      "descricao": "Wide format print exhibition. FESPA BRASIL is the event for the wide format print industry; providing an international platform to demonstrate & see the latest equipment & consumables in digital printing, screen printing, industrial & garment decoration",
+      "dataInicio": "2027-03-01",
+      "dataFim": "2027-03-04",
+      "textoData": "03/01/2027 4 days",
+      "espaco": "Expo Center Norte",
+      "link": "https://www.eventseye.com/fairs/f-fespa-brasil-21471-1.html",
+      "local": {
+        "nome": "Expo Center Norte",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "periodicidade": "every 2 years",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 42,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [
+        "Internacional",
+        "Brasil"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 24,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 8,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 24,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 4,
+      "faltamDias": 97,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
       "id": "pro-magno:rentalfairbyimersaoparalocadoras|2027-03-01",
       "nome": "RENTAL FAIR BY 7ª EDIÇÃO IMERSÃO PARA LOCADORAS",
       "descricao": "",
@@ -1463,7 +2289,8 @@
       "fonte": {
         "id": "pro-magno",
         "nome": "Pro Magno Centro de Eventos",
-        "url": "https://www.promagno.com.br/"
+        "url": "https://www.promagno.com.br/",
+        "agregador": false
       },
       "fonteDominio": "promagno.com.br",
       "score": 33,
@@ -1508,6 +2335,134 @@
       "acionavel": true
     },
     {
+      "id": "eventseye:marmomacbrazilvitoriastonefair|2027-03-02",
+      "nome": "MARMOMAC BRAZIL - VITÓRIA STONE FAIR",
+      "descricao": "Marmomac Brazil is the largest natural stone exhibition in the Americas. It offers a vast panorama of design, durability and new applications of natural stones",
+      "dataInicio": "2027-03-02",
+      "dataFim": "2027-03-04",
+      "textoData": "03/02/2027 3 days",
+      "espaco": "?",
+      "link": "https://www.eventseye.com/fairs/f-marmomac-brazil-vitoria-stone-fair-8685-1.html",
+      "local": {
+        "nome": "?",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "periodicidade": "once a year",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 41,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [
+        "Brasil"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 14,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 14,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 98,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "eventseye:workshoppsrcanalenergia|2027-03-03",
+      "nome": "WORKSHOP PSR/CANAL ENERGIA",
+      "descricao": "The PSR/CanalEnergia workshop offers in-depth analyses and discussions on technical topics in the fields of generation, transmission, distribution and marketing of electrical energy, which will shape the future of the sector",
+      "dataInicio": "2027-03-03",
+      "dataFim": "2027-03-03",
+      "textoData": "03/03/2027 1 day",
+      "espaco": "Windsor Barra Hotel",
+      "link": "https://www.eventseye.com/fairs/f-workshop-psr-canal-energia-32913-1.html",
+      "local": {
+        "nome": "Windsor Barra Hotel",
+        "cidade": "Rio de Janeiro",
+        "uf": "RJ"
+      },
+      "periodicidade": "once a year",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 10,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 0,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 99,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
       "id": "pro-magno:eventosocialprivado|2027-03-05",
       "nome": "EVENTO SOCIAL PRIVADO",
       "descricao": "",
@@ -1524,7 +2479,8 @@
       "fonte": {
         "id": "pro-magno",
         "nome": "Pro Magno Centro de Eventos",
-        "url": "https://www.promagno.com.br/"
+        "url": "https://www.promagno.com.br/",
+        "agregador": false
       },
       "fonteDominio": "promagno.com.br",
       "score": 0,
@@ -1559,7 +2515,8 @@
       "fonte": {
         "id": "pro-magno",
         "nome": "Pro Magno Centro de Eventos",
-        "url": "https://www.promagno.com.br/"
+        "url": "https://www.promagno.com.br/",
+        "agregador": false
       },
       "fonteDominio": "promagno.com.br",
       "score": 0,
@@ -1578,6 +2535,71 @@
       "acionavel": false
     },
     {
+      "id": "eventseye:fimec|2027-03-09",
+      "nome": "FIMEC",
+      "descricao": "International Fair of Leather, Chemicals, Components and Accessories for Footwear, Machines and Equipments for Footwear and Tanneries",
+      "dataInicio": "2027-03-09",
+      "dataFim": "2027-03-11",
+      "textoData": "03/09/2027 3 days",
+      "espaco": "Fenac Exhibition grounds",
+      "link": "https://www.eventseye.com/fairs/f-fimec-6468-1.html",
+      "local": {
+        "nome": "Fenac Exhibition grounds",
+        "cidade": "Novo Hamburgo",
+        "uf": "RS"
+      },
+      "periodicidade": "once a year",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 51,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [
+        "Internacional"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 24,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 24,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 105,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
       "id": "pro-magno:startserhleadershipfestival|2027-03-10",
       "nome": "STARTSE RH LEADERSHIP FESTIVAL",
       "descricao": "",
@@ -1594,7 +2616,8 @@
       "fonte": {
         "id": "pro-magno",
         "nome": "Pro Magno Centro de Eventos",
-        "url": "https://www.promagno.com.br/"
+        "url": "https://www.promagno.com.br/",
+        "agregador": false
       },
       "fonteDominio": "promagno.com.br",
       "score": 15,
@@ -1655,7 +2678,8 @@
       "fonte": {
         "id": "pro-magno",
         "nome": "Pro Magno Centro de Eventos",
-        "url": "https://www.promagno.com.br/"
+        "url": "https://www.promagno.com.br/",
+        "agregador": false
       },
       "fonteDominio": "promagno.com.br",
       "score": 0,
@@ -1690,7 +2714,8 @@
       "fonte": {
         "id": "pro-magno",
         "nome": "Pro Magno Centro de Eventos",
-        "url": "https://www.promagno.com.br/"
+        "url": "https://www.promagno.com.br/",
+        "agregador": false
       },
       "fonteDominio": "promagno.com.br",
       "score": 0,
@@ -1709,6 +2734,332 @@
       "acionavel": false
     },
     {
+      "id": "eventseye:rnmprodadadenegociosdamodapernambucana|2027-03-15",
+      "nome": "RNMP - RODADA DE NEGÓCIOS DA MODA PERNAMBUCANA",
+      "descricao": "RNMP is a commercial event held with the sole purpose of identifying profitable opportunities between buyers and exhibitors",
+      "dataInicio": "2027-03-15",
+      "dataFim": "2027-03-17",
+      "textoData": "03/15/2027 3 days",
+      "espaco": "Polo Caruaru",
+      "link": "https://www.eventseye.com/fairs/f-rnmp-rodada-de-negocios-da-moda-pernambucana-27629-1.html",
+      "local": {
+        "nome": "Polo Caruaru",
+        "cidade": "Caruaru",
+        "uf": "PE"
+      },
+      "periodicidade": "twice a year",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 15,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 111,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "eventseye:plasticobrasil|2027-03-15",
+      "nome": "PLÁSTICO BRASIL",
+      "descricao": "The Plástico Brasil Fair brings together innovative technologies and the main launches aimed at plastic transformers, civil construction, food and beverages, automobiles, perfumery, hygiene and cleaning and much more",
+      "dataInicio": "2027-03-15",
+      "dataFim": "2027-03-19",
+      "textoData": "03/15/2027 5 days",
+      "espaco": "São Paulo Expo Exhibition & Convention Center",
+      "link": "https://www.eventseye.com/fairs/f-plastico-brasil-23597-1.html",
+      "local": {
+        "nome": "São Paulo Expo Exhibition & Convention Center",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "periodicidade": "every 2 years",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 44,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [
+        "Brasil"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 14,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 8,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 14,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 5,
+      "faltamDias": 111,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "eventseye:gitexailatam|2027-03-16",
+      "nome": "GITEX AI LATAM",
+      "descricao": "GITEX AI LATAM is the largest & most international Cross-industry AI, Tech & Statrup event in Brazil, hosting a large network of relationships globally with public & private sectors in the internationl digital economy",
+      "dataInicio": "2027-03-16",
+      "dataFim": "2027-03-17",
+      "textoData": "03/16/2027 2 days",
+      "espaco": "Parque Anhembi",
+      "link": "https://www.eventseye.com/fairs/f-gitex-ai-latam-33853-1.html",
+      "local": {
+        "nome": "Parque Anhembi",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "periodicidade": "once a year",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 39,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [
+        "Internacional",
+        "Brasil"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 24,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 24,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 2,
+      "faltamDias": 112,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "eventseye:zakworldoffacadesbrazilsaopaulo|2027-03-16",
+      "nome": "ZAK WORLD OF FAÇADES - BRAZIL - SAO PAULO",
+      "descricao": "Zak World of Façades is an International conference series on façade design & engineering",
+      "dataInicio": "2027-03-16",
+      "dataFim": "2027-03-16",
+      "textoData": "03/16/2027 1 day",
+      "espaco": "?",
+      "link": "https://www.eventseye.com/fairs/f-zak-world-of-facades-brazil-sao-paulo-30797-1.html",
+      "local": {
+        "nome": "?",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "periodicidade": "every 2 years",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 48,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Congresso",
+      "sinais": [
+        "Internacional",
+        "Brasil"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 24,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 24,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 0,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 24,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 112,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "eventseye:lollapaloozabrazil|2027-03-19",
+      "nome": "LOLLAPALOOZA - BRAZIL",
+      "descricao": "Lollapalooza is a music festival born in the United States and held in several countries, bringing together international artists each year across a multi-genre lineup on multiple stages",
+      "dataInicio": "2027-03-19",
+      "dataFim": "2027-03-21",
+      "textoData": "03/19/2027 3 days",
+      "espaco": "Autódromo de Interlagos",
+      "link": "https://www.eventseye.com/fairs/f-lollapalooza-brazil-34442-1.html",
+      "local": {
+        "nome": "Autódromo de Interlagos",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "periodicidade": "once a year",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 39,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [
+        "Internacional",
+        "Brasil"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 24,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 24,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 115,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
       "id": "pro-magno:10congressobrasileirodeharmonizacaofacialsbti|2027-03-19",
       "nome": "10º CONGRESSO BRASILEIRO DE HARMONIZAÇÃO FACIAL – SBTI",
       "descricao": "",
@@ -1725,7 +3076,8 @@
       "fonte": {
         "id": "pro-magno",
         "nome": "Pro Magno Centro de Eventos",
-        "url": "https://www.promagno.com.br/"
+        "url": "https://www.promagno.com.br/",
+        "agregador": false
       },
       "fonteDominio": "promagno.com.br",
       "score": 66,
@@ -1773,6 +3125,69 @@
       "acionavel": true
     },
     {
+      "id": "eventseye:expoagroafubra|2027-03-22",
+      "nome": "EXPOAGRO AFUBRA",
+      "descricao": "Agricultural Fair. Agricultural machinery, equipment and tools, demonstrative crops, agricultural inputs, animal shows, forums, lectures and technical meetings, agro-industries. renewable energies...",
+      "dataInicio": "2027-03-22",
+      "dataFim": "2027-03-25",
+      "textoData": "03/22/2027 4 days",
+      "espaco": "Parque de exposições, Rio Pardo",
+      "link": "https://www.eventseye.com/fairs/f-expoagro-afubra-27630-1.html",
+      "local": {
+        "nome": "Parque de exposições, Rio Pardo",
+        "cidade": "Rio Pardo",
+        "uf": "RS"
+      },
+      "periodicidade": "once a year",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 32,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Congresso",
+      "sinais": [],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 24,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 8,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 4,
+      "faltamDias": 118,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
       "id": "pro-magno:eventosocialprivado|2027-03-27",
       "nome": "EVENTO SOCIAL PRIVADO",
       "descricao": "",
@@ -1789,7 +3204,8 @@
       "fonte": {
         "id": "pro-magno",
         "nome": "Pro Magno Centro de Eventos",
-        "url": "https://www.promagno.com.br/"
+        "url": "https://www.promagno.com.br/",
+        "agregador": false
       },
       "fonteDominio": "promagno.com.br",
       "score": 0,
@@ -1824,7 +3240,8 @@
       "fonte": {
         "id": "pro-magno",
         "nome": "Pro Magno Centro de Eventos",
-        "url": "https://www.promagno.com.br/"
+        "url": "https://www.promagno.com.br/",
+        "agregador": false
       },
       "fonteDominio": "promagno.com.br",
       "score": 29,
@@ -1869,6 +3286,141 @@
       "acionavel": true
     },
     {
+      "id": "eventseye:laad|2027-04-01",
+      "nome": "LAAD",
+      "descricao": "Defence and Security International Exhibition. LAAD Defence & Security brings together Brazilian and international companies specialized in supplying equipment, services and technology to the Armed Forces, Police and Special Forces, Security Services",
+      "dataInicio": "2027-04-01",
+      "dataFim": "2027-04-01",
+      "textoData": "April 2027 (?)",
+      "espaco": "RioCentro - Exhibition & Convention Center",
+      "link": "https://www.eventseye.com/fairs/f-laad-8600-1.html",
+      "local": {
+        "nome": "RioCentro - Exhibition & Convention Center",
+        "cidade": "Rio de Janeiro",
+        "uf": "RJ"
+      },
+      "dataAproximada": true,
+      "periodicidade": "every 2 years",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 35,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [
+        "Nacional",
+        "Internacional"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 25,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 0,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 25,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 128,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "eventseye:expoabioptica|2027-04-01",
+      "nome": "EXPO ABIOPTICA",
+      "descricao": "Expo Abióptica is one of the largest events in the Optical & Eyewear sector in Latin America. It gathers the representatives of the global optics industry to present the full range of new products, innovations and trends to market professionals",
+      "dataInicio": "2027-04-01",
+      "dataFim": "2027-04-01",
+      "textoData": "April 2027 (?)",
+      "espaco": "Expo Center Norte",
+      "link": "https://www.eventseye.com/fairs/f-expo-abioptica-17263-1.html",
+      "local": {
+        "nome": "Expo Center Norte",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "dataAproximada": true,
+      "periodicidade": "once a year",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 71,
+      "faixa": "alto",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [
+        "Maior do segmento",
+        "América Latina",
+        "Internacional"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 24,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 25,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 0,
+          "teto": 8
+        }
+      ],
+      "porte": 24,
+      "alcance": 25,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 128,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
       "id": "pro-magno:eventosocialprivado|2027-04-03",
       "nome": "EVENTO SOCIAL PRIVADO",
       "descricao": "",
@@ -1885,7 +3437,8 @@
       "fonte": {
         "id": "pro-magno",
         "nome": "Pro Magno Centro de Eventos",
-        "url": "https://www.promagno.com.br/"
+        "url": "https://www.promagno.com.br/",
+        "agregador": false
       },
       "fonteDominio": "promagno.com.br",
       "score": 0,
@@ -1904,6 +3457,265 @@
       "acionavel": false
     },
     {
+      "id": "eventseye:abrin|2027-04-04",
+      "nome": "ABRIN",
+      "descricao": "Latin America’s biggest Toys industry event. Toys, Dolls, Collectible, Sports, Boad Games...",
+      "dataInicio": "2027-04-04",
+      "dataFim": "2027-04-07",
+      "textoData": "04/04/2027 4 days",
+      "espaco": "Expo Center Norte",
+      "link": "https://www.eventseye.com/fairs/f-abrin-28042-1.html",
+      "local": {
+        "nome": "Expo Center Norte",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "periodicidade": "once a year",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 43,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [
+        "América Latina"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 25,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 8,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 25,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 4,
+      "faltamDias": 131,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "eventseye:feicon|2027-04-06",
+      "nome": "FEICON",
+      "descricao": "The largest gathering of the construction and architecture community in Latin America. FEICON offers high quality technical content and inspires thousands of professionals from all links in construction and architecture chain",
+      "dataInicio": "2027-04-06",
+      "dataFim": "2027-04-09",
+      "textoData": "04/06/2027 4 days",
+      "espaco": "São Paulo Expo Exhibition & Convention Center",
+      "link": "https://www.eventseye.com/fairs/f-feicon-3113-1.html",
+      "local": {
+        "nome": "São Paulo Expo Exhibition & Convention Center",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "periodicidade": "once a year",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 43,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [
+        "América Latina"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 25,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 8,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 25,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 4,
+      "faltamDias": 133,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "eventseye:fruitattractionsaopaulo|2027-04-06",
+      "nome": "FRUIT ATTRACTION SÃO PAULO",
+      "descricao": "'Fruit Attraction São Paulo' is consolidating its position as the leading international trade fair for the fruit and vegetable market in the Southern hemisphere, alternating with 'Fruit Attraction Madrid', the leading event in the Northern hemisphere",
+      "dataInicio": "2027-04-06",
+      "dataFim": "2027-04-08",
+      "textoData": "04/06/2027 3 days",
+      "espaco": "Expo Center Norte",
+      "link": "https://www.eventseye.com/fairs/f-fruit-attraction-sao-paulo-33459-1.html",
+      "local": {
+        "nome": "Expo Center Norte",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "periodicidade": "once a year",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 71,
+      "faixa": "alto",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [
+        "Principal do setor",
+        "Internacional"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 20,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 24,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 20,
+      "alcance": 24,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 133,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "eventseye:privatelabel|2027-04-06",
+      "nome": "PRIVATE LABEL",
+      "descricao": "Exclusively geared to the market of Private Brands and Outsourcing, Private Label offers companies operating in different segments – industries, wholesalers, distributors, retailers and service providers – a rich space to meet potential customers",
+      "dataInicio": "2027-04-06",
+      "dataFim": "2027-04-08",
+      "textoData": "04/06/2027 3 days",
+      "espaco": "Parque Anhembi",
+      "link": "https://www.eventseye.com/fairs/f-private-label-25517-1.html",
+      "local": {
+        "nome": "Parque Anhembi",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "periodicidade": "once a year",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 15,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 133,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
       "id": "pro-magno:tradeconnection|2027-04-07",
       "nome": "TRADE CONNECTION",
       "descricao": "",
@@ -1920,7 +3732,8 @@
       "fonte": {
         "id": "pro-magno",
         "nome": "Pro Magno Centro de Eventos",
-        "url": "https://www.promagno.com.br/"
+        "url": "https://www.promagno.com.br/",
+        "agregador": false
       },
       "fonteDominio": "promagno.com.br",
       "score": 10,
@@ -1981,7 +3794,8 @@
       "fonte": {
         "id": "pro-magno",
         "nome": "Pro Magno Centro de Eventos",
-        "url": "https://www.promagno.com.br/"
+        "url": "https://www.promagno.com.br/",
+        "agregador": false
       },
       "fonteDominio": "promagno.com.br",
       "score": 0,
@@ -2000,6 +3814,266 @@
       "acionavel": false
     },
     {
+      "id": "eventseye:intermodalsouthamerica|2027-04-13",
+      "nome": "INTERMODAL SOUTH AMERICA",
+      "descricao": "The most visited logistics event in South America and a leader in presenting innovations, technologies, products, and services for the logistics, intralogistics, technology, cargo transportation, and foreign trade sectors",
+      "dataInicio": "2027-04-13",
+      "dataFim": "2027-04-15",
+      "textoData": "04/13/2027 3 days",
+      "espaco": "Parque Anhembi",
+      "link": "https://www.eventseye.com/fairs/f-intermodal-south-america-4376-1.html",
+      "local": {
+        "nome": "Parque Anhembi",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "periodicidade": "once a year",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 15,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 140,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "eventseye:worldtravelmarketlatinamerica|2027-04-13",
+      "nome": "WORLD TRAVEL MARKET LATIN AMERICA",
+      "descricao": "BtoB event presenting destinations and industry sectors to Latin America & International travel professionals. At World Market Travel gain immediate competitive advantage for your business & stay abreast with the latest developments in the industry",
+      "dataInicio": "2027-04-13",
+      "dataFim": "2027-04-15",
+      "textoData": "04/13/2027 3 days",
+      "espaco": "Expo Center Norte",
+      "link": "https://www.eventseye.com/fairs/f-world-travel-market-latin-america-19200-1.html",
+      "local": {
+        "nome": "Expo Center Norte",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "periodicidade": "once a year",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 40,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [
+        "América Latina",
+        "Internacional"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 25,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 25,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 140,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "eventseye:wtmlatinamerica|2027-04-13",
+      "nome": "WTM LATIN AMERICA",
+      "descricao": "The leading global event for the Latin American travel industry. By visiting WTM Latin America you will have the opportunity to meet, network and conduct business with exhibitors from across the globe all under one roof",
+      "dataInicio": "2027-04-13",
+      "dataFim": "2027-04-15",
+      "textoData": "04/13/2027 3 days",
+      "espaco": "Expo Center Norte",
+      "link": "https://www.eventseye.com/fairs/f-wtm-latin-america-30508-1.html",
+      "local": {
+        "nome": "Expo Center Norte",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "periodicidade": "once a year",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 40,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [
+        "América Latina",
+        "Internacional"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 25,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 25,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 140,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "eventseye:energysolutionsshow|2027-04-14",
+      "nome": "ENERGY SOLUTIONS SHOW",
+      "descricao": "Electric Power Generation Exhibition in Brazil. Production, transport, distribution, energy efficiency, free market, production and storage. Expo, conferences, workshops",
+      "dataInicio": "2027-04-14",
+      "dataFim": "2027-04-15",
+      "textoData": "04/14/2027 2 days",
+      "espaco": "Parque Anhembi",
+      "link": "https://www.eventseye.com/fairs/f-energy-solutions-show-27330-1.html",
+      "local": {
+        "nome": "Parque Anhembi",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "periodicidade": "once a year",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 43,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Congresso",
+      "sinais": [
+        "Brasil"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 14,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 24,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 14,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 2,
+      "faltamDias": 141,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
       "id": "pro-magno:protagon|2027-04-16",
       "nome": "PROTAGON",
       "descricao": "",
@@ -2016,7 +4090,8 @@
       "fonte": {
         "id": "pro-magno",
         "nome": "Pro Magno Centro de Eventos",
-        "url": "https://www.promagno.com.br/"
+        "url": "https://www.promagno.com.br/",
+        "agregador": false
       },
       "fonteDominio": "promagno.com.br",
       "score": 15,
@@ -2061,6 +4136,398 @@
       "acionavel": true
     },
     {
+      "id": "eventseye:automec|2027-04-20",
+      "nome": "AUTOMEC",
+      "descricao": "Automec is the leading event in Latin America in the Replacement and Repair sectors for light, heavy and commercial vehicles",
+      "dataInicio": "2027-04-20",
+      "dataFim": "2027-04-24",
+      "textoData": "04/20/2027 5 days",
+      "espaco": "São Paulo Expo Exhibition & Convention Center",
+      "link": "https://www.eventseye.com/fairs/f-automec-12274-1.html",
+      "local": {
+        "nome": "São Paulo Expo Exhibition & Convention Center",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "periodicidade": "every 2 years",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 63,
+      "faixa": "alto",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [
+        "Principal do setor",
+        "América Latina"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 20,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 25,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 8,
+          "teto": 8
+        }
+      ],
+      "porte": 20,
+      "alcance": 25,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 5,
+      "faltamDias": 147,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "eventseye:gamescomlatam|2027-04-22",
+      "nome": "GAMESCOM LATAM",
+      "descricao": "Gamescom LatAm is the largest business hub for the gaming industry in Latin America. It is also the largest independent games festival in the region, one of the largest in the world",
+      "dataInicio": "2027-04-22",
+      "dataFim": "2027-04-25",
+      "textoData": "04/22/2027 4 days",
+      "espaco": "São Paulo Expo Exhibition & Convention Center",
+      "link": "https://www.eventseye.com/fairs/f-gamescom-latam-30906-1.html",
+      "local": {
+        "nome": "São Paulo Expo Exhibition & Convention Center",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "periodicidade": "once a year",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 43,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [
+        "América Latina"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 25,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 8,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 25,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 4,
+      "faltamDias": 149,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "eventseye:agrishow|2027-04-26",
+      "nome": "AGRISHOW",
+      "descricao": "Agrishow is the biggest and most important agricultural technology trade show in Brazil and one of the largest in the world",
+      "dataInicio": "2027-04-26",
+      "dataFim": "2027-04-30",
+      "textoData": "04/26/2027 5 days",
+      "espaco": "Parque Permanente de Exposições",
+      "link": "https://www.eventseye.com/fairs/f-agrishow-46-1.html",
+      "local": {
+        "nome": "Parque Permanente de Exposições",
+        "cidade": "Ribeirão Preto",
+        "uf": "SP"
+      },
+      "periodicidade": "once a year",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 44,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [
+        "Brasil"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 14,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 8,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 14,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 5,
+      "faltamDias": 153,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "eventseye:tecnotextilbrasil|2027-04-27",
+      "nome": "TECNOTÊXTIL BRASIL",
+      "descricao": "Tecnotêxtil Brasil is a center of opportunities for doing business and updating knowledge, bringing together in one place the latest technologies, machinery, equipment and textile raw materials",
+      "dataInicio": "2027-04-27",
+      "dataFim": "2027-04-30",
+      "textoData": "04/27/2027 4 days",
+      "espaco": "FIDAM (Feira Industrial de Americana)",
+      "link": "https://www.eventseye.com/fairs/f-tecnotextil-brasil-28640-1.html",
+      "local": {
+        "nome": "FIDAM (Feira Industrial de Americana)",
+        "cidade": "Americana",
+        "uf": "SP"
+      },
+      "periodicidade": "every 2 years",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 32,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [
+        "Brasil"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 14,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 8,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 14,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 4,
+      "faltamDias": 154,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "eventseye:intersolarsummitbrasilnordeste|2027-04-28",
+      "nome": "INTERSOLAR SUMMIT BRASIL NORDESTE",
+      "descricao": "'Intersolar Summit Brasil Nordeste' addresses leading local and international experts on solar power and renewable energy in the region",
+      "dataInicio": "2027-04-28",
+      "dataFim": "2027-04-29",
+      "textoData": "04/28/2027 2 days",
+      "espaco": "Centro de Eventos do Ceará",
+      "link": "https://www.eventseye.com/fairs/f-intersolar-summit-brasil-nordeste-14076-1.html",
+      "local": {
+        "nome": "Centro de Eventos do Ceará",
+        "cidade": "Fortaleza",
+        "uf": "CE"
+      },
+      "periodicidade": "once a year",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 53,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Congresso",
+      "sinais": [
+        "Internacional",
+        "Brasil"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 24,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 24,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 24,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 2,
+      "faltamDias": 155,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "eventseye:tomorrowlandbrazil|2027-04-30",
+      "nome": "TOMORROWLAND BRAZIL",
+      "descricao": "Since 2005, Tomorrowland has grown from a small gathering, into one of the world’s most iconic music festivals. Driven by passion, creativity, and connection, it brings together People of Tomorrow from across the globe to share unforgettable moments",
+      "dataInicio": "2027-04-30",
+      "dataFim": "2027-05-02",
+      "textoData": "04/30/2027 3 days",
+      "espaco": "Parque Maeda",
+      "link": "https://www.eventseye.com/fairs/f-tomorrowland-brazil-34444-1.html",
+      "local": {
+        "nome": "Parque Maeda",
+        "cidade": "Itu",
+        "uf": "SP"
+      },
+      "periodicidade": "once a year",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 29,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [
+        "Brasil"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 14,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 14,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 157,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
       "id": "pro-magno:eventosocialprivado|2027-04-30",
       "nome": "EVENTO SOCIAL PRIVADO",
       "descricao": "",
@@ -2077,7 +4544,8 @@
       "fonte": {
         "id": "pro-magno",
         "nome": "Pro Magno Centro de Eventos",
-        "url": "https://www.promagno.com.br/"
+        "url": "https://www.promagno.com.br/",
+        "agregador": false
       },
       "fonteDominio": "promagno.com.br",
       "score": 0,
@@ -2096,6 +4564,202 @@
       "acionavel": false
     },
     {
+      "id": "eventseye:fenahabit|2027-05-01",
+      "nome": "FENAHABIT",
+      "descricao": "Construction, Architecture, Engineering Fair. Products and services for housing and real estate",
+      "dataInicio": "2027-05-01",
+      "dataFim": "2027-05-01",
+      "textoData": "May 2027 (?)",
+      "espaco": "Parque Vila Germanica",
+      "link": "https://www.eventseye.com/fairs/f-fenahabit-27652-1.html",
+      "local": {
+        "nome": "Parque Vila Germanica",
+        "cidade": "Blumenau",
+        "uf": "SC"
+      },
+      "dataAproximada": true,
+      "periodicidade": "once a year",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 22,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 0,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 158,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "eventseye:seminariodegasnatural|2027-05-01",
+      "nome": "SEMINÁRIO DE GÁS NATURAL",
+      "descricao": "Held every two years, the Natural Gas Seminar is establishing itself as one of the most relevant forums for discussions on the priority topics in the natural gas sector agenda in Brazil",
+      "dataInicio": "2027-05-01",
+      "dataFim": "2027-05-01",
+      "textoData": "May 2027 (?)",
+      "espaco": "Fairmont Hotel, Rio de Janeiro - Copacabana",
+      "link": "https://www.eventseye.com/fairs/f-seminario-de-gas-natural-32725-1.html",
+      "local": {
+        "nome": "Fairmont Hotel, Rio de Janeiro - Copacabana",
+        "cidade": "Rio de Janeiro",
+        "uf": "RJ"
+      },
+      "dataAproximada": true,
+      "periodicidade": "every 2 years",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 38,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Congresso",
+      "sinais": [
+        "Brasil"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 14,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 24,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 0,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 14,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 158,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "eventseye:febratextilbrazil|2027-05-01",
+      "nome": "FEBRATÊXTIL BRAZIL",
+      "descricao": "FebraTêxtil is Brazil’s Premier Textile & Apparel Sourcing Event. The essential B2B meeting point where the entire supply chain meets in one place. Discover leading suppliers of knits, fabrics and textile accessories from Brazil",
+      "dataInicio": "2027-05-01",
+      "dataFim": "2027-05-01",
+      "textoData": "May 2027 (?)",
+      "espaco": "Expo Center Norte",
+      "link": "https://www.eventseye.com/fairs/f-febratextil-brazil-33841-1.html",
+      "local": {
+        "nome": "Expo Center Norte",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "dataAproximada": true,
+      "periodicidade": "once a year",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 24,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [
+        "Brasil"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 14,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 0,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 14,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 158,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
       "id": "pro-magno:eventosocialprivado|2027-05-01",
       "nome": "EVENTO SOCIAL PRIVADO",
       "descricao": "",
@@ -2112,7 +4776,8 @@
       "fonte": {
         "id": "pro-magno",
         "nome": "Pro Magno Centro de Eventos",
-        "url": "https://www.promagno.com.br/"
+        "url": "https://www.promagno.com.br/",
+        "agregador": false
       },
       "fonteDominio": "promagno.com.br",
       "score": 0,
@@ -2131,6 +4796,205 @@
       "acionavel": false
     },
     {
+      "id": "eventseye:iltmlatinamerica|2027-05-03",
+      "nome": "ILTM LATIN AMERICA",
+      "descricao": "International Luxury Travel & Tourism Expo in Brazil and Latin America",
+      "dataInicio": "2027-05-03",
+      "dataFim": "2027-05-06",
+      "textoData": "05/03/2027 4 days",
+      "espaco": "Ibirapuera Park",
+      "link": "https://www.eventseye.com/fairs/f-iltm-latin-america-23512-1.html",
+      "local": {
+        "nome": "Ibirapuera Park",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "periodicidade": "once a year",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 55,
+      "faixa": "medio",
+      "confianca": "media",
+      "tipo": "Feira",
+      "sinais": [
+        "América Latina",
+        "Internacional",
+        "Brasil"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 25,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 8,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 25,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 4,
+      "faltamDias": 160,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "eventseye:bettbrazileducar|2027-05-04",
+      "nome": "BETT BRAZIL - EDUCAR",
+      "descricao": "International conference & exhibition for education, learning technologies & Information and Communications Technologies",
+      "dataInicio": "2027-05-04",
+      "dataFim": "2027-05-07",
+      "textoData": "05/04/2027 4 days",
+      "espaco": "Transamérica Expo Center",
+      "link": "https://www.eventseye.com/fairs/f-bett-brazil-educar-20769-1.html",
+      "local": {
+        "nome": "Transamérica Expo Center",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "periodicidade": "once a year",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 56,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Congresso",
+      "sinais": [
+        "Internacional",
+        "Brasil"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 24,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 24,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 8,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 24,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 4,
+      "faltamDias": 161,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "eventseye:expomafe|2027-05-04",
+      "nome": "EXPOMAFE",
+      "descricao": "International Machine Tools and Automation Industrial Exhibition. The greatest and most anticipated fair in the Metal-Mechanical sector in Latin America",
+      "dataInicio": "2027-05-04",
+      "dataFim": "2027-05-08",
+      "textoData": "05/04/2027 5 days",
+      "espaco": "São Paulo Expo Exhibition & Convention Center",
+      "link": "https://www.eventseye.com/fairs/f-expomafe-23598-1.html",
+      "local": {
+        "nome": "São Paulo Expo Exhibition & Convention Center",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "periodicidade": "every 2 years",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 55,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [
+        "América Latina",
+        "Internacional"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 25,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 8,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 25,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 5,
+      "faltamDias": 161,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
       "id": "pro-magno:eventosocialprivado|2027-05-07",
       "nome": "EVENTO SOCIAL PRIVADO",
       "descricao": "",
@@ -2147,7 +5011,8 @@
       "fonte": {
         "id": "pro-magno",
         "nome": "Pro Magno Centro de Eventos",
-        "url": "https://www.promagno.com.br/"
+        "url": "https://www.promagno.com.br/",
+        "agregador": false
       },
       "fonteDominio": "promagno.com.br",
       "score": 0,
@@ -2182,7 +5047,8 @@
       "fonte": {
         "id": "pro-magno",
         "nome": "Pro Magno Centro de Eventos",
-        "url": "https://www.promagno.com.br/"
+        "url": "https://www.promagno.com.br/",
+        "agregador": false
       },
       "fonteDominio": "promagno.com.br",
       "score": 0,
@@ -2217,7 +5083,8 @@
       "fonte": {
         "id": "pro-magno",
         "nome": "Pro Magno Centro de Eventos",
-        "url": "https://www.promagno.com.br/"
+        "url": "https://www.promagno.com.br/",
+        "agregador": false
       },
       "fonteDominio": "promagno.com.br",
       "score": 15,
@@ -2278,7 +5145,8 @@
       "fonte": {
         "id": "pro-magno",
         "nome": "Pro Magno Centro de Eventos",
-        "url": "https://www.promagno.com.br/"
+        "url": "https://www.promagno.com.br/",
+        "agregador": false
       },
       "fonteDominio": "promagno.com.br",
       "score": 0,
@@ -2297,6 +5165,267 @@
       "acionavel": false
     },
     {
+      "id": "eventseye:apasshow|2027-05-17",
+      "nome": "APAS SHOW",
+      "descricao": "Congress and trade fair for supermarkets. Food, Beverages, Beauty, Health, Hygiene, Groceries, Perishables, Frozen, Dairy, Pet Stores, Supplies and Packaging, Automation and Technology, Services...",
+      "dataInicio": "2027-05-17",
+      "dataFim": "2027-05-20",
+      "textoData": "05/17/2027 4 days",
+      "espaco": "Expo Center Norte",
+      "link": "https://www.eventseye.com/fairs/f-apas-show-27649-1.html",
+      "local": {
+        "nome": "Expo Center Norte",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "periodicidade": "once a year",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 30,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 8,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 4,
+      "faltamDias": 174,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "eventseye:fispalcafe|2027-05-18",
+      "nome": "FISPAL CAFÉ",
+      "descricao": "International Coffee Fair in Brazil. As part of Fispal Food Service, the biggest event in the food service and ice cream sector in Brazil",
+      "dataInicio": "2027-05-18",
+      "dataFim": "2027-05-21",
+      "textoData": "05/18/2027 4 days",
+      "espaco": "Expo Center Norte",
+      "link": "https://www.eventseye.com/fairs/f-fispal-cafe-16122-1.html",
+      "local": {
+        "nome": "Expo Center Norte",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "periodicidade": "once a year",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 78,
+      "faixa": "alto",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [
+        "Maior do segmento",
+        "Internacional",
+        "Brasil"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 24,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 24,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 8,
+          "teto": 8
+        }
+      ],
+      "porte": 24,
+      "alcance": 24,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 4,
+      "faltamDias": 175,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "eventseye:fispalfoodservicefispalsorvetes|2027-05-18",
+      "nome": "FISPAL FOOD SERVICE - FISPAL SORVETES",
+      "descricao": "Fispal Food Service is one of the largest meeting point in the food service sector in Latin America",
+      "dataInicio": "2027-05-18",
+      "dataFim": "2027-05-21",
+      "textoData": "05/18/2027 4 days",
+      "espaco": "Expo Center Norte",
+      "link": "https://www.eventseye.com/fairs/f-fispal-food-service-fispal-sorvetes-14662-1.html",
+      "local": {
+        "nome": "Expo Center Norte",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "periodicidade": "once a year",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 67,
+      "faixa": "alto",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [
+        "Maior do segmento",
+        "América Latina"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 24,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 25,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 8,
+          "teto": 8
+        }
+      ],
+      "porte": 24,
+      "alcance": 25,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 4,
+      "faltamDias": 175,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "eventseye:hospitalar|2027-05-18",
+      "nome": "HOSPITALAR",
+      "descricao": "International Fair for Products, Equipment and Services for Hospitals, Health Clinics and Laboratories",
+      "dataInicio": "2027-05-18",
+      "dataFim": "2027-05-21",
+      "textoData": "05/18/2027 4 days",
+      "espaco": "São Paulo Expo Exhibition & Convention Center",
+      "link": "https://www.eventseye.com/fairs/f-hospitalar-1242-1.html",
+      "local": {
+        "nome": "São Paulo Expo Exhibition & Convention Center",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "periodicidade": "once a year",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 54,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [
+        "Internacional"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 24,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 8,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 24,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 4,
+      "faltamDias": 175,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
       "id": "pro-magno:flexolabelsexperience|2027-05-18",
       "nome": "FLEXO & LABELS EXPERIENCE",
       "descricao": "",
@@ -2313,7 +5442,8 @@
       "fonte": {
         "id": "pro-magno",
         "nome": "Pro Magno Centro de Eventos",
-        "url": "https://www.promagno.com.br/"
+        "url": "https://www.promagno.com.br/",
+        "agregador": false
       },
       "fonteDominio": "promagno.com.br",
       "score": 15,
@@ -2374,7 +5504,8 @@
       "fonte": {
         "id": "pro-magno",
         "nome": "Pro Magno Centro de Eventos",
-        "url": "https://www.promagno.com.br/"
+        "url": "https://www.promagno.com.br/",
+        "agregador": false
       },
       "fonteDominio": "promagno.com.br",
       "score": 29,
@@ -2435,7 +5566,8 @@
       "fonte": {
         "id": "pro-magno",
         "nome": "Pro Magno Centro de Eventos",
-        "url": "https://www.promagno.com.br/"
+        "url": "https://www.promagno.com.br/",
+        "agregador": false
       },
       "fonteDominio": "promagno.com.br",
       "score": 10,
@@ -2480,6 +5612,136 @@
       "acionavel": true
     },
     {
+      "id": "eventseye:conferenciaintercontinentaldeflexografia|2027-06-01",
+      "nome": "CONFERÊNCIA INTERCONTINENTAL DE FLEXOGRAFIA",
+      "descricao": "International Conference of Flexography. The event provides processors with solutions to challenging requirements related to quality, sustainability and short delivery times",
+      "dataInicio": "2027-06-01",
+      "dataFim": "2027-06-01",
+      "textoData": "June 2027 (?)",
+      "espaco": "Clube Hebraica SP",
+      "link": "https://www.eventseye.com/fairs/f-conferencia-intercontinental-de-flexografia-15433-1.html",
+      "local": {
+        "nome": "Clube Hebraica SP",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "dataAproximada": true,
+      "periodicidade": "every 2 years",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 48,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Congresso",
+      "sinais": [
+        "Internacional"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 24,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 24,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 0,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 24,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 189,
+      "janela": "planejamento",
+      "acionavel": true
+    },
+    {
+      "id": "eventseye:fispaltecnologianordeste|2027-06-01",
+      "nome": "FISPAL TECNOLOGIA NORDESTE",
+      "descricao": "Packaging, Processing and Logistics Trade Show for the Food and Beverage Industries",
+      "dataInicio": "2027-06-01",
+      "dataFim": "2027-06-01",
+      "textoData": "June 2027 (?)",
+      "espaco": "São Paulo Expo Exhibition & Convention Center",
+      "link": "https://www.eventseye.com/fairs/f-fispal-tecnologia-nordeste-16124-1.html",
+      "local": {
+        "nome": "São Paulo Expo Exhibition & Convention Center",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "dataAproximada": true,
+      "periodicidade": "once a year",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 22,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 0,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 189,
+      "janela": "planejamento",
+      "acionavel": true
+    },
+    {
       "id": "pro-magno:expoelevador|2027-06-01",
       "nome": "EXPO ELEVADOR",
       "descricao": "",
@@ -2496,7 +5758,8 @@
       "fonte": {
         "id": "pro-magno",
         "nome": "Pro Magno Centro de Eventos",
-        "url": "https://www.promagno.com.br/"
+        "url": "https://www.promagno.com.br/",
+        "agregador": false
       },
       "fonteDominio": "promagno.com.br",
       "score": 27,
@@ -2541,6 +5804,73 @@
       "acionavel": true
     },
     {
+      "id": "eventseye:exposec|2027-06-08",
+      "nome": "EXPOSEC",
+      "descricao": "Exposec - International Security Fair is the only event in Brazil to bring together the latest technologies, products and services for the Security sector, in addition to attracting national & international buyers from the entire production chain",
+      "dataInicio": "2027-06-08",
+      "dataFim": "2027-06-10",
+      "textoData": "06/08/2027 3 days",
+      "espaco": "São Paulo Expo Exhibition & Convention Center",
+      "link": "https://www.eventseye.com/fairs/f-exposec-17350-1.html",
+      "local": {
+        "nome": "São Paulo Expo Exhibition & Convention Center",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "periodicidade": "once a year",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 52,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [
+        "Nacional",
+        "Internacional",
+        "Brasil"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 25,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 25,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 196,
+      "janela": "planejamento",
+      "acionavel": true
+    },
+    {
       "id": "pro-magno:cbtd|2027-06-14",
       "nome": "CBTD",
       "descricao": "",
@@ -2557,7 +5887,8 @@
       "fonte": {
         "id": "pro-magno",
         "nome": "Pro Magno Centro de Eventos",
-        "url": "https://www.promagno.com.br/"
+        "url": "https://www.promagno.com.br/",
+        "agregador": false
       },
       "fonteDominio": "promagno.com.br",
       "score": 15,
@@ -2602,6 +5933,138 @@
       "acionavel": true
     },
     {
+      "id": "eventseye:enase|2027-06-16",
+      "nome": "ENASE",
+      "descricao": "ENASE is one of the largest events in the electricity sector and the energy transition in Brazil, distinguished by the quality and variety of the topics covered, as well as the excellence of its speakers",
+      "dataInicio": "2027-06-16",
+      "dataFim": "2027-06-17",
+      "textoData": "06/16/2027 2 days",
+      "espaco": "Hotel Windsor Oceânico - RJ",
+      "link": "https://www.eventseye.com/fairs/f-enase-32846-1.html",
+      "local": {
+        "nome": "Hotel Windsor Oceânico - RJ",
+        "cidade": "Rio de Janeiro",
+        "uf": "RJ"
+      },
+      "periodicidade": "once a year",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 53,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [
+        "Maior do segmento",
+        "Brasil"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 24,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 14,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 24,
+      "alcance": 14,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 2,
+      "faltamDias": 204,
+      "janela": "planejamento",
+      "acionavel": true
+    },
+    {
+      "id": "eventseye:expovitisbrasil|2027-06-18",
+      "nome": "EXPOVITIS BRASIL",
+      "descricao": "National Fair of Viticulture, Oenology and Wine Tourism of Brazil. Tasting with the best wines in the country, wine tourism and lectures...",
+      "dataInicio": "2027-06-18",
+      "dataFim": "2027-06-20",
+      "textoData": "06/18/2027 3 days",
+      "espaco": "Centro de Eventos e Convenções Brasil",
+      "link": "https://www.eventseye.com/fairs/f-expovitis-brasil-3646-1.html",
+      "local": {
+        "nome": "Centro de Eventos e Convenções Brasil",
+        "cidade": "Brasília",
+        "uf": "DF"
+      },
+      "periodicidade": "once a year",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 52,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [
+        "Nacional",
+        "Brasil"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 25,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 25,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 206,
+      "janela": "planejamento",
+      "acionavel": true
+    },
+    {
       "id": "pro-magno:14congressointernacionaldecompliance|2027-06-22",
       "nome": "14º CONGRESSO INTERNACIONAL DE COMPLIANCE",
       "descricao": "",
@@ -2618,7 +6081,8 @@
       "fonte": {
         "id": "pro-magno",
         "nome": "Pro Magno Centro de Eventos",
-        "url": "https://www.promagno.com.br/"
+        "url": "https://www.promagno.com.br/",
+        "agregador": false
       },
       "fonteDominio": "promagno.com.br",
       "score": 65,
@@ -2666,6 +6130,202 @@
       "acionavel": true
     },
     {
+      "id": "eventseye:intermachbrasil|2027-07-13",
+      "nome": "INTERMACH BRASIL",
+      "descricao": "International Fair and Congress of Technology, Machines, Equipment, Automation and Services for Metal-Mechanical Industries",
+      "dataInicio": "2027-07-13",
+      "dataFim": "2027-07-16",
+      "textoData": "07/13/2027 4 days",
+      "espaco": "Complexo Expoville",
+      "link": "https://www.eventseye.com/fairs/f-intermach-brasil-25854-1.html",
+      "local": {
+        "nome": "Complexo Expoville",
+        "cidade": "Joinville",
+        "uf": "SC"
+      },
+      "periodicidade": "every 2 years",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 54,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [
+        "Internacional",
+        "Brasil"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 24,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 8,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 24,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 4,
+      "faltamDias": 231,
+      "janela": "planejamento",
+      "acionavel": true
+    },
+    {
+      "id": "eventseye:embalanordeste|2027-08-03",
+      "nome": "EMBALA NORDESTE",
+      "descricao": "Trad show exclusively dedicated to the packaging, plastic and printing industries in the North and Northeast regions of Brazil",
+      "dataInicio": "2027-08-03",
+      "dataFim": "2027-08-04",
+      "textoData": "08/03/2027 2 days",
+      "espaco": "Centro de Eventos do Ceará",
+      "link": "https://www.eventseye.com/fairs/f-embala-nordeste-27163-1.html",
+      "local": {
+        "nome": "Centro de Eventos do Ceará",
+        "cidade": "Fortaleza",
+        "uf": "CE"
+      },
+      "periodicidade": "every 2 years",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 41,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [
+        "Brasil"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 14,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 14,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 2,
+      "faltamDias": 252,
+      "janela": "planejamento",
+      "acionavel": true
+    },
+    {
+      "id": "eventseye:sbfsaudebusinessforum|2027-08-03",
+      "nome": "SBF - SAÚDE BUSINESS FÓRUM",
+      "descricao": "The \"SAÚDE BUSINESS FÓRUM\" is the meeting place for CEOs, presidents, and directors of Brazil's leading hospitals, operators, and laboratories. Achieve quality networking, strengthen relationships, and generate business opportunities",
+      "dataInicio": "2027-08-03",
+      "dataFim": "2027-08-06",
+      "textoData": "08/03/2027 4 days",
+      "espaco": "Hotel Grand Premium Brisa, Salvador - Bahia",
+      "link": "https://www.eventseye.com/fairs/f-sbf-saude-business-forum-32866-1.html",
+      "local": {
+        "nome": "Hotel Grand Premium Brisa, Salvador - Bahia",
+        "cidade": "Salvador",
+        "uf": "BA"
+      },
+      "periodicidade": "once a year",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 46,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Congresso",
+      "sinais": [
+        "Brasil"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 14,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 24,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 8,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 14,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 4,
+      "faltamDias": 252,
+      "janela": "planejamento",
+      "acionavel": true
+    },
+    {
       "id": "pro-magno:inspiramais|2027-08-03",
       "nome": "INSPIRAMAIS",
       "descricao": "",
@@ -2682,7 +6342,8 @@
       "fonte": {
         "id": "pro-magno",
         "nome": "Pro Magno Centro de Eventos",
-        "url": "https://www.promagno.com.br/"
+        "url": "https://www.promagno.com.br/",
+        "agregador": false
       },
       "fonteDominio": "promagno.com.br",
       "score": 15,
@@ -2727,6 +6388,654 @@
       "acionavel": true
     },
     {
+      "id": "eventseye:maquintexsignsnorthnortheast|2027-08-05",
+      "nome": "MAQUINTEX + SIGNS - NORTH & NORTHEAST",
+      "descricao": "Maquintex & Signs are the meeting point for innovation and knowledge for the textile and visual communication industries in the region",
+      "dataInicio": "2027-08-05",
+      "dataFim": "2027-08-07",
+      "textoData": "08/05/2027 3 days",
+      "espaco": "Centro de Eventos do Ceará",
+      "link": "https://www.eventseye.com/fairs/f-maquintex-signs-north-northeast-28639-1.html",
+      "local": {
+        "nome": "Centro de Eventos do Ceará",
+        "cidade": "Fortaleza",
+        "uf": "CE"
+      },
+      "periodicidade": "every 2 years",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 15,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 254,
+      "janela": "planejamento",
+      "acionavel": true
+    },
+    {
+      "id": "eventseye:mecshow|2027-08-05",
+      "nome": "MEC SHOW",
+      "descricao": "Industrial fair in Espírito Santo, one of the Brazil's largest machinery and equipment platform, attracting technology, innovation, Services and investment, with a large area dedicated to the oil, gas, and energy sector",
+      "dataInicio": "2027-08-05",
+      "dataFim": "2027-08-07",
+      "textoData": "08/05/2027 3 days",
+      "espaco": "Carapina Centro de Eventos",
+      "link": "https://www.eventseye.com/fairs/f-mec-show-21178-1.html",
+      "local": {
+        "nome": "Carapina Centro de Eventos",
+        "cidade": "Serra",
+        "uf": "ES"
+      },
+      "periodicidade": "once a year",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 41,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [
+        "Brasil"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 14,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 14,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 254,
+      "janela": "planejamento",
+      "acionavel": true
+    },
+    {
+      "id": "eventseye:fimmabrasil|2027-08-09",
+      "nome": "FIMMA BRASIL",
+      "descricao": "International trade showfor suppliers of the wood and furniture production chain",
+      "dataInicio": "2027-08-09",
+      "dataFim": "2027-08-12",
+      "textoData": "08/09/2027 4 days",
+      "espaco": "Fundaparque",
+      "link": "https://www.eventseye.com/fairs/f-fimma-brasil-27636-1.html",
+      "local": {
+        "nome": "Fundaparque",
+        "cidade": "Bento Gonçalves",
+        "uf": "RS"
+      },
+      "periodicidade": "every 2 years",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 42,
+      "faixa": "medio",
+      "confianca": "media",
+      "tipo": "Evento",
+      "sinais": [
+        "Internacional",
+        "Brasil"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 24,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 8,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 24,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 4,
+      "faltamDias": 258,
+      "janela": "planejamento",
+      "acionavel": true
+    },
+    {
+      "id": "eventseye:hortigranjeiros|2027-08-10",
+      "nome": "HORTIGRANJEIROS",
+      "descricao": "A show for horticulture, floriculture, agriculture, livestock, crafts, pets… It promotes innovation and integration between producers and the community in order to stimulate regional development",
+      "dataInicio": "2027-08-10",
+      "dataFim": "2027-08-15",
+      "textoData": "08/10/2027 6 days",
+      "espaco": "Parque Municipal de Exposições Alfredo Leandro Carlson",
+      "link": "https://www.eventseye.com/fairs/f-hortigranjeiros-27658-1.html",
+      "local": {
+        "nome": "Parque Municipal de Exposições Alfredo Leandro Carlson",
+        "cidade": "Santa Rosa",
+        "uf": "RS"
+      },
+      "periodicidade": "every 2 years",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 30,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 8,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 6,
+      "faltamDias": 259,
+      "janela": "planejamento",
+      "acionavel": true
+    },
+    {
+      "id": "eventseye:fenasucroagrocana|2027-08-10",
+      "nome": "FENASUCRO & AGROCANA",
+      "descricao": "International Trade Fair of the Sugar and Alcohol Industry - International Trade Fair - Business and Technology Trade Fair of Sugarcane Agriculture",
+      "dataInicio": "2027-08-10",
+      "dataFim": "2027-08-13",
+      "textoData": "08/10/2027 4 days",
+      "espaco": "Centro de Eventos Zanini",
+      "link": "https://www.eventseye.com/fairs/f-fenasucro-agrocana-14333-1.html",
+      "local": {
+        "nome": "Centro de Eventos Zanini",
+        "cidade": "Sertãozinho",
+        "uf": "SP"
+      },
+      "periodicidade": "once a year",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 54,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [
+        "Internacional"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 24,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 8,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 24,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 4,
+      "faltamDias": 259,
+      "janela": "planejamento",
+      "acionavel": true
+    },
+    {
+      "id": "eventseye:navalshore|2027-08-17",
+      "nome": "NAVALSHORE",
+      "descricao": "Navalshore is the platform for finding innovations and connecting with the South American maritime community. The meeting point for the naval industry that brings together national and international shipowners, shipyards, manufacturers and suppliers",
+      "dataInicio": "2027-08-17",
+      "dataFim": "2027-08-19",
+      "textoData": "08/17/2027 3 days",
+      "espaco": "RioCentro - Exhibition & Convention Center",
+      "link": "https://www.eventseye.com/fairs/f-navalshore-19569-1.html",
+      "local": {
+        "nome": "RioCentro - Exhibition & Convention Center",
+        "cidade": "Rio de Janeiro",
+        "uf": "RJ"
+      },
+      "periodicidade": "once a year",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 40,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [
+        "Nacional",
+        "Internacional"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 25,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 25,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 266,
+      "janela": "planejamento",
+      "acionavel": true
+    },
+    {
+      "id": "eventseye:bienaldolivrorio|2027-09-03",
+      "nome": "BIENAL DO LIVRO RIO",
+      "descricao": "The Rio Book Biennale, at the center of the Brazilian cultural scene, is high on the list of the world's biggest literary events",
+      "dataInicio": "2027-09-03",
+      "dataFim": "2027-09-12",
+      "textoData": "09/03/2027 10 days",
+      "espaco": "RioCentro - Exhibition & Convention Center",
+      "link": "https://www.eventseye.com/fairs/f-bienal-do-livro-rio-21874-1.html",
+      "local": {
+        "nome": "RioCentro - Exhibition & Convention Center",
+        "cidade": "Rio de Janeiro",
+        "uf": "RJ"
+      },
+      "periodicidade": "every 2 years",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 43,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [
+        "Nacional"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 25,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 8,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 25,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 10,
+      "faltamDias": 283,
+      "janela": "planejamento",
+      "acionavel": true
+    },
+    {
+      "id": "eventseye:metalurgia|2027-09-21",
+      "nome": "METALURGIA",
+      "descricao": "International Fair and Congress on Technology for Foundry, Steel Mills, Forging, Aluminum and Services",
+      "dataInicio": "2027-09-21",
+      "dataFim": "2027-09-24",
+      "textoData": "09/21/2027 4 days",
+      "espaco": "Complexo Expoville",
+      "link": "https://www.eventseye.com/fairs/f-metalurgia-25853-1.html",
+      "local": {
+        "nome": "Complexo Expoville",
+        "cidade": "Joinville",
+        "uf": "SC"
+      },
+      "periodicidade": "every 2 years",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 54,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [
+        "Internacional"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 24,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 8,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 24,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 4,
+      "faltamDias": 301,
+      "janela": "planejamento",
+      "acionavel": true
+    },
+    {
+      "id": "eventseye:expovetro|2027-09-22",
+      "nome": "EXPOVETRO",
+      "descricao": "Glass Machines and Accessories Brazilian Fair, showcasing the most innovative offerings for the window and glass industry",
+      "dataInicio": "2027-09-22",
+      "dataFim": "2027-09-24",
+      "textoData": "09/22/2027 3 days",
+      "espaco": "CentroSul - Centro de Convenções de Florianópolis",
+      "link": "https://www.eventseye.com/fairs/f-expovetro-18735-1.html",
+      "local": {
+        "nome": "CentroSul - Centro de Convenções de Florianópolis",
+        "cidade": "Florianópolis",
+        "uf": "SC"
+      },
+      "periodicidade": "every 2 years",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 58,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [
+        "Nacional"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 6,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 25,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 6,
+      "alcance": 25,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 302,
+      "janela": "planejamento",
+      "acionavel": true
+    },
+    {
+      "id": "eventseye:saievetro|2027-09-22",
+      "nome": "SAIE VETRO",
+      "descricao": "SAIE VETRO is the major Brazilian exhibition for the frames (windows) and glass industry. News, technical solutions, new companies",
+      "dataInicio": "2027-09-22",
+      "dataFim": "2027-09-24",
+      "textoData": "09/22/2027 3 days",
+      "espaco": "CentroSul - Centro de Convenções de Florianópolis",
+      "link": "https://www.eventseye.com/fairs/f-saie-vetro-18736-1.html",
+      "local": {
+        "nome": "CentroSul - Centro de Convenções de Florianópolis",
+        "cidade": "Florianópolis",
+        "uf": "SC"
+      },
+      "periodicidade": "every 2 years",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 46,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [
+        "Nacional"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 6,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 25,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 6,
+      "alcance": 25,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 302,
+      "janela": "planejamento",
+      "acionavel": true
+    },
+    {
       "id": "pro-magno:eventosocialprivado|2027-10-16",
       "nome": "EVENTO SOCIAL PRIVADO",
       "descricao": "",
@@ -2743,7 +7052,8 @@
       "fonte": {
         "id": "pro-magno",
         "nome": "Pro Magno Centro de Eventos",
-        "url": "https://www.promagno.com.br/"
+        "url": "https://www.promagno.com.br/",
+        "agregador": false
       },
       "fonteDominio": "promagno.com.br",
       "score": 0,
@@ -2762,6 +7072,201 @@
       "acionavel": false
     },
     {
+      "id": "eventseye:otcbrasil|2027-10-19",
+      "nome": "OTC BRASIL",
+      "descricao": "OTC Asia is where energy professionals meet to exchange ideas and opinions to advance scientific and technical knowledge for offshore resources and environmental matters",
+      "dataInicio": "2027-10-19",
+      "dataFim": "2027-10-21",
+      "textoData": "10/19/2027 3 days",
+      "espaco": "SulAmerica Business Center",
+      "link": "https://www.eventseye.com/fairs/f-otc-brasil-14665-1.html",
+      "local": {
+        "nome": "SulAmerica Business Center",
+        "cidade": "Rio de Janeiro",
+        "uf": "RJ"
+      },
+      "periodicidade": "every 2 years",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 29,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [
+        "Brasil"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 14,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 14,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 329,
+      "janela": "planejamento",
+      "acionavel": true
+    },
+    {
+      "id": "eventseye:otcbrazilconference|2027-10-19",
+      "nome": "OTC BRAZIL CONFERENCE",
+      "descricao": "OTC Brazil Conference gather offshore professionals from many countries around the world to share ideas and innovations, discuss, debate, and build consensus around the most pressing topics facing the energy sector",
+      "dataInicio": "2027-10-19",
+      "dataFim": "2027-10-21",
+      "textoData": "10/19/2027 3 days",
+      "espaco": "ExpoMag Convention Center",
+      "link": "https://www.eventseye.com/fairs/f-otc-brazil-conference-12679-1.html",
+      "local": {
+        "nome": "ExpoMag Convention Center",
+        "cidade": "Rio de Janeiro",
+        "uf": "RJ"
+      },
+      "periodicidade": "every 2 years",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 43,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Congresso",
+      "sinais": [
+        "Brasil"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 14,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 24,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 14,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 329,
+      "janela": "planejamento",
+      "acionavel": true
+    },
+    {
+      "id": "eventseye:hospitalmed|2027-10-20",
+      "nome": "HOSPITALMED",
+      "descricao": "Trade show for products, equipment, services, technologies and services for hospitals, laboratories, pharmacies, clinics, healthcare professionals... for Northeast Brazil",
+      "dataInicio": "2027-10-20",
+      "dataFim": "2027-10-22",
+      "textoData": "10/20/2027 3 days",
+      "espaco": "Centro de Convenções de Pernambuco",
+      "link": "https://www.eventseye.com/fairs/f-hospitalmed-27665-1.html",
+      "local": {
+        "nome": "Centro de Convenções de Pernambuco",
+        "cidade": "Olinda",
+        "uf": "PE"
+      },
+      "periodicidade": "once a year",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 47,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [
+        "Brasil"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 6,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 14,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 6,
+      "alcance": 14,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 330,
+      "janela": "planejamento",
+      "acionavel": true
+    },
+    {
       "id": "pro-magno:sefe1212seminariodeengenhariadefundacoesespeciaisegeotecnia|2027-10-26",
       "nome": "SEFE 12 (12º Seminário de Engenharia de Fundações Especiais e Geotecnia)",
       "descricao": "",
@@ -2778,7 +7283,8 @@
       "fonte": {
         "id": "pro-magno",
         "nome": "Pro Magno Centro de Eventos",
-        "url": "https://www.promagno.com.br/"
+        "url": "https://www.promagno.com.br/",
+        "agregador": false
       },
       "fonteDominio": "promagno.com.br",
       "score": 27,
@@ -2841,7 +7347,8 @@
       "fonte": {
         "id": "pro-magno",
         "nome": "Pro Magno Centro de Eventos",
-        "url": "https://www.promagno.com.br/"
+        "url": "https://www.promagno.com.br/",
+        "agregador": false
       },
       "fonteDominio": "promagno.com.br",
       "score": 0,
@@ -2876,7 +7383,8 @@
       "fonte": {
         "id": "pro-magno",
         "nome": "Pro Magno Centro de Eventos",
-        "url": "https://www.promagno.com.br/"
+        "url": "https://www.promagno.com.br/",
+        "agregador": false
       },
       "fonteDominio": "promagno.com.br",
       "score": 0,
@@ -2911,7 +7419,8 @@
       "fonte": {
         "id": "pro-magno",
         "nome": "Pro Magno Centro de Eventos",
-        "url": "https://www.promagno.com.br/"
+        "url": "https://www.promagno.com.br/",
+        "agregador": false
       },
       "fonteDominio": "promagno.com.br",
       "score": 0,
@@ -2946,7 +7455,8 @@
       "fonte": {
         "id": "pro-magno",
         "nome": "Pro Magno Centro de Eventos",
-        "url": "https://www.promagno.com.br/"
+        "url": "https://www.promagno.com.br/",
+        "agregador": false
       },
       "fonteDominio": "promagno.com.br",
       "score": 0,
@@ -2981,7 +7491,8 @@
       "fonte": {
         "id": "pro-magno",
         "nome": "Pro Magno Centro de Eventos",
-        "url": "https://www.promagno.com.br/"
+        "url": "https://www.promagno.com.br/",
+        "agregador": false
       },
       "fonteDominio": "promagno.com.br",
       "score": 0,
@@ -3016,7 +7527,8 @@
       "fonte": {
         "id": "pro-magno",
         "nome": "Pro Magno Centro de Eventos",
-        "url": "https://www.promagno.com.br/"
+        "url": "https://www.promagno.com.br/",
+        "agregador": false
       },
       "fonteDominio": "promagno.com.br",
       "score": 0,
@@ -3033,6 +7545,458 @@
       "faltamDias": 389,
       "janela": "planejamento",
       "acionavel": false
+    },
+    {
+      "id": "eventseye:mercoagro|2028-03-14",
+      "nome": "MERCOAGRO",
+      "descricao": "International Meat and Milk Industry Trade Show. MERCOAGRO showcases newest trends in segments like ingredients & additives, packaging, refrigeration, industrial automation, logistics, equipment & supplies, sewage treatment, sanitation, services",
+      "dataInicio": "2028-03-14",
+      "dataFim": "2028-03-16",
+      "textoData": "03/14/2028 3 days",
+      "espaco": "Parque de Exposições Tancredo Neves (Efapi)",
+      "link": "https://www.eventseye.com/fairs/f-mercoagro-16128-1.html",
+      "local": {
+        "nome": "Parque de Exposições Tancredo Neves (Efapi)",
+        "cidade": "Chapecó",
+        "uf": "SC"
+      },
+      "periodicidade": "every 2 years",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 51,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [
+        "Internacional"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 24,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 24,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 476,
+      "janela": "planejamento",
+      "acionavel": true
+    },
+    {
+      "id": "eventseye:envasebrasil|2028-04-01",
+      "nome": "ENVASE BRASIL",
+      "descricao": "Envase Brasil is a complete fair, created to facilitate the generation of new business among the main suppliers of technology, products and services in the Latin American packaging sector",
+      "dataInicio": "2028-04-01",
+      "dataFim": "2028-04-01",
+      "textoData": "April 2028 (?)",
+      "espaco": "Fundaparque",
+      "link": "https://www.eventseye.com/fairs/f-envase-brasil-22542-1.html",
+      "local": {
+        "nome": "Fundaparque",
+        "cidade": "Bento Gonçalves",
+        "uf": "RS"
+      },
+      "dataAproximada": true,
+      "periodicidade": "every 2 years",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 47,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [
+        "América Latina",
+        "Brasil"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 25,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 0,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 25,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 494,
+      "janela": "planejamento",
+      "acionavel": true
+    },
+    {
+      "id": "eventseye:feicap|2028-04-01",
+      "nome": "FEICAP",
+      "descricao": "Industrial, Commercial and Agricultural Exhibition. Commerce, industry, services, agriculture, entertainment, culture and leisure",
+      "dataInicio": "2028-04-01",
+      "dataFim": "2028-04-01",
+      "textoData": "April 2028 (?)",
+      "espaco": "Egon Júlio Goelzer Exhibition Park",
+      "link": "https://www.eventseye.com/fairs/f-feicap-27635-1.html",
+      "local": {
+        "nome": "Egon Júlio Goelzer Exhibition Park",
+        "cidade": "Três Passos",
+        "uf": "RS"
+      },
+      "dataAproximada": true,
+      "periodicidade": "every 2 years",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 10,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 0,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 494,
+      "janela": "planejamento",
+      "acionavel": true
+    },
+    {
+      "id": "eventseye:agrestetex|2028-04-04",
+      "nome": "AGRESTE TEX",
+      "descricao": "Trade fair for players in the textile and clothing market, AGRESTE TEX is considered the main textile and clothing fair in the Agreste region of Pernambuco",
+      "dataInicio": "2028-04-04",
+      "dataFim": "2028-04-07",
+      "textoData": "04/04/2028 4 days",
+      "espaco": "Polo Caruaru",
+      "link": "https://www.eventseye.com/fairs/f-agreste-tex-27664-1.html",
+      "local": {
+        "nome": "Polo Caruaru",
+        "cidade": "Caruaru",
+        "uf": "PE"
+      },
+      "periodicidade": "every 2 years",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 30,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 8,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 4,
+      "faltamDias": 497,
+      "janela": "planejamento",
+      "acionavel": true
+    },
+    {
+      "id": "eventseye:fenasoja|2028-04-29",
+      "nome": "FENASOJA",
+      "descricao": "National Soybean Fair, dedicated to companies related to the soybean production chain and others",
+      "dataInicio": "2028-04-29",
+      "dataFim": "2028-05-07",
+      "textoData": "04/29/2028 9 days",
+      "espaco": "Parque Municipal de Exposições Alfredo Leandro Carlson",
+      "link": "https://www.eventseye.com/fairs/f-fenasoja-27651-1.html",
+      "local": {
+        "nome": "Parque Municipal de Exposições Alfredo Leandro Carlson",
+        "cidade": "Santa Rosa",
+        "uf": "RS"
+      },
+      "periodicidade": "every 2 years",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 55,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [
+        "Nacional"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 25,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 8,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 25,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 9,
+      "faltamDias": 522,
+      "janela": "planejamento",
+      "acionavel": true
+    },
+    {
+      "id": "eventseye:interplast|2028-08-01",
+      "nome": "INTERPLAST",
+      "descricao": "Trade Fair and Congress of Plastic Technology Integration. INTERPLAST brings together the entire production chain of plastic articles, from raw materials to finished products",
+      "dataInicio": "2028-08-01",
+      "dataFim": "2028-08-04",
+      "textoData": "08/01/2028 4 days",
+      "espaco": "Complexo Expoville",
+      "link": "https://www.eventseye.com/fairs/f-interplast-25856-1.html",
+      "local": {
+        "nome": "Complexo Expoville",
+        "cidade": "Joinville",
+        "uf": "SC"
+      },
+      "periodicidade": "every 2 years",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 30,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 8,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 4,
+      "faltamDias": 616,
+      "janela": "planejamento",
+      "acionavel": true
+    },
+    {
+      "id": "eventseye:febratex|2028-08-22",
+      "nome": "FEBRATEX",
+      "descricao": "South America's largest fair for the textile industry. Sewing & cutting machines, trims, labels, finishing, processing, yarns, industrial automation, computers, looms & raw materials, applied chemistry, defined chemistry, primary & secondary spinning...",
+      "dataInicio": "2028-08-22",
+      "dataFim": "2028-08-25",
+      "textoData": "08/22/2028 4 days",
+      "espaco": "Parque Vila Germanica",
+      "link": "https://www.eventseye.com/fairs/f-febratex-27634-1.html",
+      "local": {
+        "nome": "Parque Vila Germanica",
+        "cidade": "Blumenau",
+        "uf": "SC"
+      },
+      "periodicidade": "every 2 years",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 54,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [
+        "Maior do segmento"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 24,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 8,
+          "teto": 8
+        }
+      ],
+      "porte": 24,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 4,
+      "faltamDias": 637,
+      "janela": "planejamento",
+      "acionavel": true
     }
   ]
 }

@@ -60,8 +60,11 @@ for (const arquivo of arquivos) {
         textoData: e.textoData || '',
         espaco: e.espaco || '',
         link: e.link || mod.meta.url,
-        local: { nome: mod.meta.nome, cidade: mod.meta.cidade, uf: mod.meta.uf },
-        fonte: { id: mod.meta.id, nome: mod.meta.nome, url: mod.meta.url },
+        // Fonte de uma casa só traz o local do meta; o agregador traz um por evento.
+        local: e.local || { nome: mod.meta.nome, cidade: mod.meta.cidade, uf: mod.meta.uf },
+        ...(e.dataAproximada ? { dataAproximada: true } : {}),
+        ...(e.periodicidade ? { periodicidade: e.periodicidade } : {}),
+        fonte: { id: mod.meta.id, nome: mod.meta.nome, url: mod.meta.url, agregador: Boolean(mod.meta.agregador) },
         fonteDominio: new URL(mod.meta.url).hostname.replace(/^www\./, ''),
       }));
     // Nenhuma das casas fica um mês inteiro sem evento futuro: zero é sinal de
@@ -81,17 +84,32 @@ for (const arquivo of arquivos) {
 const hoje = new Date();
 const limite = new Date(hoje.getTime() - 864e5).toISOString().slice(0, 10);
 
-// Deduplica: o mesmo evento pode aparecer em mais de uma casa de eventos.
-const porChave = new Map();
+// Deduplica: o mesmo evento pode aparecer em mais de uma fonte — em especial
+// na casa de eventos e no EventsEye. Mesma data de início e um nome contido no
+// outro ("CCXP" e "CCXP 2026") contam como o mesmo evento. Fica a versão da
+// casa (português, link do organizador); a do agregador só empresta a
+// descrição quando a casa não publicou nenhuma.
+const nomeChave = (n) => chaveEvento(n, '').slice(0, -1);
+const mesmos = (a, b) => {
+  if (a.dataInicio !== b.dataInicio) return false;
+  const x = nomeChave(a.nome), y = nomeChave(b.nome);
+  return x.length >= 4 && y.length >= 4 && (x.startsWith(y) || y.startsWith(x));
+};
+const melhor = (a, b) => {
+  if (a.fonte.agregador !== b.fonte.agregador) return a.fonte.agregador ? b : a;
+  return (a.descricao?.length || 0) >= (b.descricao?.length || 0) ? a : b;
+};
+const unicos = [];
 for (const e of todos) {
-  const k = chaveEvento(e.nome, e.dataInicio);
-  const existente = porChave.get(k);
-  if (!existente || (e.descricao?.length || 0) > (existente.descricao?.length || 0)) {
-    porChave.set(k, e);
-  }
+  const i = unicos.findIndex((u) => mesmos(u, e));
+  if (i < 0) { unicos.push(e); continue; }
+  const vence = melhor(unicos[i], e), perde = vence === e ? unicos[i] : e;
+  unicos[i] = vence.descricao ? vence : { ...vence, descricao: perde.descricao };
 }
+const duplicados = todos.length - unicos.length;
+if (duplicados) console.log(`(${duplicados} eventos repetidos entre fontes foram unidos)`);
 
-const eventos = [...porChave.values()]
+const eventos = unicos
   .filter((e) => e.dataFim >= limite)
   .map((e) => ({ ...e, ...pontuar(e, hoje) }))
   .sort((a, b) => a.dataInicio.localeCompare(b.dataInicio));

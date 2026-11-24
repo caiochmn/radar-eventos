@@ -57,6 +57,13 @@ navegador bloqueia a leitura do JSON em `file://`.
 | Expo Center Norte | São Paulo | Página de eventos, agrupada por mês |
 | Distrito Anhembi | São Paulo | Endpoint do calendário |
 | Pro Magno | São Paulo | Lista de próximos eventos da home |
+| Transamerica Expo Center | São Paulo | Página de agenda, agrupada por mês |
+| EventsEye | 22 cidades do Brasil | Catálogo internacional de feiras, uma página por cidade. Publica com 6 a 12 meses de antecedência; textos em inglês |
+
+Quando o mesmo evento aparece no site da casa e no EventsEye (mesma data e
+nome contido um no outro), fica a versão da casa, em português e com o link
+do organizador. Feiras do EventsEye sem dia divulgado entram no dia 1º do mês
+e a interface mostra "dia a confirmar".
 
 Riocentro e Fenac foram testados e descartados: publicam o nome do evento mas
 não a data, nem na listagem nem na página interna, então não dá para saber
@@ -118,9 +125,14 @@ linha lá muda o ranking sem mexer no motor.
 
 ## Limitações que valem saber
 
-- **Só São Paulo por enquanto.** Foram testadas agendas de Curitiba, Belo
-  Horizonte, Recife, Salvador, Fortaleza, Joinville e Novo Hamburgo; nenhuma
-  publica dados legíveis por máquina. Vale revisitar de tempos em tempos.
+- **Fora de São Paulo, só feiras.** As outras cidades vêm do EventsEye, que
+  cataloga feiras de negócios; congressos e convenções corporativas dessas
+  cidades não aparecem. As agendas próprias de Curitiba, BH, Recife, Salvador,
+  Fortaleza, Joinville e Novo Hamburgo não publicam dados legíveis por máquina.
+- **Fontes testadas e descartadas** (nov/2026): Feiras do Brasil (calendário
+  só para assinantes), 10times e Visite São Paulo (bloqueiam coleta),
+  Eventbrite e Sympla (eventos pequenos demais), UBRAFE, Expo Barra Funda e
+  WTC (sem agenda pública legível).
 - **O potencial é uma estimativa** a partir do texto que cada casa publica.
   Um evento enorme com descrição ruim vai pontuar baixo. Serve para ordenar a
   fila, não para decidir sozinho.
