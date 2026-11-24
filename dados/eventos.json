@@ -1,33 +1,102 @@
 {
-  "atualizadoEm": "2026-11-24T08:55:39.228Z",
-  "totalEventos": 52,
+  "atualizadoEm": "2026-11-24T18:27:08.332Z",
+  "totalEventos": 62,
   "fontes": [
     {
+      "id": "distrito-anhembi",
       "fonte": "Distrito Anhembi",
-      "eventos": 0,
-      "ms": 4801,
+      "eventos": 10,
+      "ms": 1443,
       "erro": null
     },
     {
+      "id": "expo-center-norte",
       "fonte": "Expo Center Norte",
       "eventos": 4,
-      "ms": 428,
+      "ms": 1205,
       "erro": null
     },
     {
+      "id": "pro-magno",
       "fonte": "Pro Magno Centro de Eventos",
       "eventos": 48,
-      "ms": 2006,
+      "ms": 1214,
       "erro": null
     },
     {
+      "id": "sao-paulo-expo",
       "fonte": "São Paulo Expo",
       "eventos": 3,
-      "ms": 1168,
+      "ms": 2222,
       "erro": null
     }
   ],
   "eventos": [
+    {
+      "id": "distrito-anhembi:xicbpecongressobrasileirodepromotoresdeeventos|2026-11-25",
+      "nome": "XI CBPE – CONGRESSO BRASILEIRO DE PROMOTORES DE EVENTOS",
+      "descricao": "O maior encontro de promotores, produtores e fornecedores de entretenimento e eventos do Brasil, com congresso, feira e negócios",
+      "dataInicio": "2026-11-25",
+      "dataFim": "2026-11-26",
+      "textoData": "25 - 26 nov",
+      "espaco": "Distrito Anhembi",
+      "link": "https://distritoanhembi.com.br/events/congresso-brasileiro-de-promotores-de-eventos/",
+      "local": {
+        "nome": "Distrito Anhembi",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "distrito-anhembi",
+        "nome": "Distrito Anhembi",
+        "url": "https://distritoanhembi.com.br/agenda/"
+      },
+      "fonteDominio": "distritoanhembi.com.br",
+      "score": 79,
+      "faixa": "alto",
+      "confianca": "alta",
+      "tipo": "Encontro corporativo",
+      "sinais": [
+        "Maior do segmento",
+        "Nacional",
+        "Brasil"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 24,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 25,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 25,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 24,
+      "alcance": 25,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 2,
+      "faltamDias": 1,
+      "janela": "esta semana",
+      "acionavel": false
+    },
     {
       "id": "sao-paulo-expo:emob|2026-11-25",
       "nome": "E-MOB",
@@ -92,6 +161,67 @@
       "acionavel": false
     },
     {
+      "id": "distrito-anhembi:metodocis|2026-11-26",
+      "nome": "MÉTODO CIS",
+      "descricao": "Imersão de três dias em inteligência emocional e desenvolvimento humano, baseada no método Coaching Integral Sistêmico.",
+      "dataInicio": "2026-11-26",
+      "dataFim": "2026-11-28",
+      "textoData": "26 - 28 nov",
+      "espaco": "Distrito Anhembi",
+      "link": "https://distritoanhembi.com.br/events/metodo-cis-3/",
+      "local": {
+        "nome": "Distrito Anhembi",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "distrito-anhembi",
+        "nome": "Distrito Anhembi",
+        "url": "https://distritoanhembi.com.br/agenda/"
+      },
+      "fonteDominio": "distritoanhembi.com.br",
+      "score": 15,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 2,
+      "janela": "esta semana",
+      "acionavel": false
+    },
+    {
       "id": "pro-magno:expotea|2026-11-27",
       "nome": "EXPO TEA",
       "descricao": "",
@@ -149,6 +279,132 @@
       "publicoEstimado": null,
       "diasDeEvento": 3,
       "faltamDias": 3,
+      "janela": "esta semana",
+      "acionavel": false
+    },
+    {
+      "id": "distrito-anhembi:skyfitsummit|2026-11-28",
+      "nome": "SKYFIT SUMMIT 2026",
+      "descricao": "A convenção anual da rede de academias Skyfit reúne franqueados de todo o Brasil para alinhar resultados e metas para 2027.",
+      "dataInicio": "2026-11-28",
+      "dataFim": "2026-11-28",
+      "textoData": "28 nov",
+      "espaco": "Distrito Anhembi",
+      "link": "https://distritoanhembi.com.br/events/skyfit-summit-2026/",
+      "local": {
+        "nome": "Distrito Anhembi",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "distrito-anhembi",
+        "nome": "Distrito Anhembi",
+        "url": "https://distritoanhembi.com.br/agenda/"
+      },
+      "fonteDominio": "distritoanhembi.com.br",
+      "score": 72,
+      "faixa": "alto",
+      "confianca": "alta",
+      "tipo": "Encontro corporativo",
+      "sinais": [
+        "Nacional",
+        "Brasil",
+        "Convenção de rede"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 25,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 22,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 25,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 0,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 25,
+      "mercado": 22,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 4,
+      "janela": "esta semana",
+      "acionavel": false
+    },
+    {
+      "id": "distrito-anhembi:apasconecta|2026-12-01",
+      "nome": "APAS CONECTA 2026",
+      "descricao": "Um dia para trocar experiências, ampliar networking, conhecer novas tendências e criar oportunidades que impulsionam o futuro do setor.",
+      "dataInicio": "2026-12-01",
+      "dataFim": "2026-12-01",
+      "textoData": "01 dez",
+      "espaco": "Distrito Anhembi",
+      "link": "https://distritoanhembi.com.br/events/apas-conecta-2026/",
+      "local": {
+        "nome": "Distrito Anhembi",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "distrito-anhembi",
+        "nome": "Distrito Anhembi",
+        "url": "https://distritoanhembi.com.br/agenda/"
+      },
+      "fonteDominio": "distritoanhembi.com.br",
+      "score": 10,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 0,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 7,
       "janela": "esta semana",
       "acionavel": false
     },
@@ -216,6 +472,67 @@
       "acionavel": false
     },
     {
+      "id": "distrito-anhembi:4maratonaultraskate6horas|2026-12-05",
+      "nome": "4ª MARATONA / ULTRASKATE 6 HORAS",
+      "descricao": "Seis horas de desafio no Sambódromo, com skate e patins à prova em velocidade, estratégia, técnica e determinação.",
+      "dataInicio": "2026-12-05",
+      "dataFim": "2026-12-05",
+      "textoData": "05 dez",
+      "espaco": "Distrito Anhembi",
+      "link": "https://distritoanhembi.com.br/events/4a-maratona-ultraskate-6-horas/",
+      "local": {
+        "nome": "Distrito Anhembi",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "distrito-anhembi",
+        "nome": "Distrito Anhembi",
+        "url": "https://distritoanhembi.com.br/agenda/"
+      },
+      "fonteDominio": "distritoanhembi.com.br",
+      "score": 16,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 6,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 0,
+          "teto": 8
+        }
+      ],
+      "porte": 6,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 11,
+      "janela": "em cima da hora",
+      "acionavel": false
+    },
+    {
       "id": "expo-center-norte:marketplacetradeshow|2026-12-05",
       "nome": "Marketplace Trade Show 2026",
       "descricao": "O Marketplace Trade Show é a 1ª Feira de Comércio Digital, Inovação e Negócios Brasil–China. O evento reúne importadores, distribuidores chineses, marcas, fornecedores, sellers, afiliados, dropshippers e empreendedores em um ambiente voltado à geração de negócios, networking e compartilhamento de conhecimento. Durante dois dias, os visitantes terão acesso à exposição de produtos, palestras, oportu",
@@ -279,6 +596,67 @@
       "acionavel": false
     },
     {
+      "id": "distrito-anhembi:feiraoautoshow|2026-12-06",
+      "nome": "FEIRÃO AUTOSHOW",
+      "descricao": "De volta ao Distrito Anhembi: o Feirão AutoShow retoma suas origens em grande estilo!",
+      "dataInicio": "2026-12-06",
+      "dataFim": "2026-12-06",
+      "textoData": "06 dez",
+      "espaco": "Distrito Anhembi",
+      "link": "https://distritoanhembi.com.br/events/feirao-autoshow-294/",
+      "local": {
+        "nome": "Distrito Anhembi",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "distrito-anhembi",
+        "nome": "Distrito Anhembi",
+        "url": "https://distritoanhembi.com.br/agenda/"
+      },
+      "fonteDominio": "distritoanhembi.com.br",
+      "score": 10,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 0,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 12,
+      "janela": "em cima da hora",
+      "acionavel": false
+    },
+    {
       "id": "pro-magno:eventocorporativoprivado|2026-12-10",
       "nome": "EVENTO CORPORATIVO PRIVADO",
       "descricao": "",
@@ -336,6 +714,67 @@
       "publicoEstimado": null,
       "diasDeEvento": 1,
       "faltamDias": 16,
+      "janela": "em cima da hora",
+      "acionavel": false
+    },
+    {
+      "id": "distrito-anhembi:gooldfestival|2026-12-12",
+      "nome": "GOOLD FESTIVAL 2026",
+      "descricao": "O evento oficial do Goold Club Cosméticos reúne influenciadores digitais e parceiros da marca para um dia de lançamentos, conexões e premiações.",
+      "dataInicio": "2026-12-12",
+      "dataFim": "2026-12-12",
+      "textoData": "12 dez",
+      "espaco": "Distrito Anhembi",
+      "link": "https://distritoanhembi.com.br/events/goold-festival/",
+      "local": {
+        "nome": "Distrito Anhembi",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "distrito-anhembi",
+        "nome": "Distrito Anhembi",
+        "url": "https://distritoanhembi.com.br/agenda/"
+      },
+      "fonteDominio": "distritoanhembi.com.br",
+      "score": 10,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 0,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 18,
       "janela": "em cima da hora",
       "acionavel": false
     },
@@ -403,6 +842,128 @@
       "acionavel": false
     },
     {
+      "id": "distrito-anhembi:feiraoautoshow|2026-12-13",
+      "nome": "FEIRÃO AUTOSHOW",
+      "descricao": "De volta ao Distrito Anhembi: o Feirão AutoShow retoma suas origens em grande estilo!",
+      "dataInicio": "2026-12-13",
+      "dataFim": "2026-12-13",
+      "textoData": "13 dez",
+      "espaco": "Distrito Anhembi",
+      "link": "https://distritoanhembi.com.br/events/feirao-autoshow-294-133/",
+      "local": {
+        "nome": "Distrito Anhembi",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "distrito-anhembi",
+        "nome": "Distrito Anhembi",
+        "url": "https://distritoanhembi.com.br/agenda/"
+      },
+      "fonteDominio": "distritoanhembi.com.br",
+      "score": 10,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 0,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 19,
+      "janela": "em cima da hora",
+      "acionavel": false
+    },
+    {
+      "id": "distrito-anhembi:ensaiotecnicocarnaval|2026-12-19",
+      "nome": "ENSAIO TÉCNICO CARNAVAL 2027",
+      "descricao": "Os preparativos do Carnaval 2027 começam no Sambódromo, com as 32 escolas de samba da Liga-SP e entrada gratuita.",
+      "dataInicio": "2026-12-19",
+      "dataFim": "2026-12-19",
+      "textoData": "19 dez",
+      "espaco": "Distrito Anhembi",
+      "link": "https://distritoanhembi.com.br/events/ensaio-tecnico-carnaval-2027/",
+      "local": {
+        "nome": "Distrito Anhembi",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "distrito-anhembi",
+        "nome": "Distrito Anhembi",
+        "url": "https://distritoanhembi.com.br/agenda/"
+      },
+      "fonteDominio": "distritoanhembi.com.br",
+      "score": 10,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 0,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 25,
+      "janela": "agir agora",
+      "acionavel": true
+    },
+    {
       "id": "pro-magno:eventosocialprivado|2026-12-19",
       "nome": "EVENTO SOCIAL PRIVADO",
       "descricao": "",
@@ -436,6 +997,67 @@
       "faltamDias": 25,
       "janela": "agir agora",
       "acionavel": false
+    },
+    {
+      "id": "distrito-anhembi:feiraoautoshow|2026-12-20",
+      "nome": "FEIRÃO AUTOSHOW",
+      "descricao": "De volta ao Distrito Anhembi: o Feirão AutoShow retoma suas origens em grande estilo!",
+      "dataInicio": "2026-12-20",
+      "dataFim": "2026-12-20",
+      "textoData": "20 dez",
+      "espaco": "Distrito Anhembi",
+      "link": "https://distritoanhembi.com.br/events/feirao-autoshow-294-133-842/",
+      "local": {
+        "nome": "Distrito Anhembi",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "distrito-anhembi",
+        "nome": "Distrito Anhembi",
+        "url": "https://distritoanhembi.com.br/agenda/"
+      },
+      "fonteDominio": "distritoanhembi.com.br",
+      "score": 10,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Evento",
+      "sinais": [],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 10,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 0,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 1,
+      "faltamDias": 26,
+      "janela": "agir agora",
+      "acionavel": true
     },
     {
       "id": "pro-magno:eventosocialprivado|2027-01-07",

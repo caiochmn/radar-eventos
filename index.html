@@ -5,6 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Radar de Eventos</title>
 <meta name="description" content="Eventos corporativos que trazem público de fora para São Paulo, priorizados por potencial de venda de assentos e fretamento.">
+<meta property="og:title" content="Radar de Eventos">
+<meta property="og:description" content="Feiras, congressos e convenções que trazem gente de fora para São Paulo, ordenados por potencial de venda. Atualiza sozinho duas vezes por dia.">
+<meta name="theme-color" content="#070b14">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='6' fill='%23070b14'/%3E%3Cg stroke='%234d9fff' stroke-width='1.9' fill='none' stroke-linecap='round'%3E%3Ccircle cx='12' cy='12' r='7.4'/%3E%3Ccircle cx='12' cy='12' r='3.4'/%3E%3Cpath d='M12 12 17.4 7.6'/%3E%3C/g%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
@@ -69,8 +73,7 @@ button, select, input { font: inherit; color: inherit; }
 /* ================= céu ================= */
 .ceu {
   position: relative;
-  min-height: 92vh;
-  padding: 96px 0 72px;
+  padding: 108px 0 44px;
   display: flex; flex-direction: column; justify-content: center;
   overflow: hidden;
   isolation: isolate;
@@ -121,7 +124,8 @@ button, select, input { font: inherit; color: inherit; }
 }
 .ir-bancada:hover { filter: brightness(1.12); }
 
-.chamada { max-width: 760px; }
+.chamada { display: grid; gap: 30px; }
+.chamada-texto { max-width: 760px; }
 .olho {
   display: inline-flex; align-items: center; gap: 8px;
   font-size: 12.5px; letter-spacing: .04em; color: var(--azul-claro);
@@ -132,27 +136,73 @@ button, select, input { font: inherit; color: inherit; }
 .olho b { font-weight: 600; color: var(--tinta); }
 .ceu h2 {
   font-family: var(--display); font-weight: 800;
-  font-size: clamp(38px, 6.6vw, 78px); line-height: .98; letter-spacing: -.045em;
-  margin: 0 0 20px; text-wrap: balance; max-width: 15ch;
+  font-size: clamp(34px, 4.8vw, 58px); line-height: 1; letter-spacing: -.045em;
+  margin: 0 0 14px; text-wrap: balance; max-width: 18ch;
 }
 .ceu h2 em { font-style: normal; color: var(--azul); }
-.ceu .linha-fina { margin: 0 0 36px; color: var(--tinta-2); font-size: 17px; max-width: 54ch; }
+.ceu .linha-fina { margin: 0; color: var(--tinta-2); font-size: 16.5px; max-width: 58ch; }
 
-.stats { display: flex; gap: 12px; flex-wrap: wrap; }
-.stat {
-  flex: 1 1 190px; min-width: 170px;
-  padding: 18px 20px; border-radius: var(--raio);
-  background: var(--vidro); border: 1px solid var(--borda);
-  backdrop-filter: blur(18px);
-}
-.stat b {
-  display: block; font-family: var(--display); font-weight: 800;
-  font-size: 38px; line-height: 1; letter-spacing: -.04em; margin-bottom: 7px;
-}
+/* placar compacto: três números numa linha só, sem roubar a primeira tela */
+.stats { display: flex; gap: 8px 22px; flex-wrap: wrap; margin-top: 18px; font-size: 13.5px; color: var(--tinta-2); }
+.stat { display: inline-flex; align-items: baseline; gap: 7px; }
+.stat b { font-family: var(--display); font-weight: 800; font-size: 20px; letter-spacing: -.03em; }
 .stat[data-cor="alto"] b { color: var(--alto); }
 .stat[data-cor="quente"] b { color: var(--quente); }
 .stat[data-cor="neutro"] b { color: var(--tinta); }
-.stat span { font-size: 13.5px; color: var(--tinta-2); }
+
+/* "para quem ligar hoje" — a resposta da primeira pergunta, sem rolar */
+.hoje-topo { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin-bottom: 12px; }
+.hoje-topo h3 {
+  margin: 0; font-family: var(--display); font-weight: 700; font-size: 12px;
+  letter-spacing: .12em; text-transform: uppercase; color: var(--azul-claro);
+}
+.hoje-topo span { font-size: 12.5px; color: var(--tinta-3); }
+.hoje { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+@media (max-width: 980px) { .hoje { grid-template-columns: 1fr; } }
+.cartao {
+  position: relative; display: grid; grid-template-columns: 54px 1fr; gap: 6px 14px; align-content: start;
+  text-align: left; padding: 18px 18px 16px; border-radius: var(--raio); cursor: pointer; color: inherit;
+  background: var(--vidro); border: 1px solid var(--borda); backdrop-filter: blur(18px);
+  transition: border-color .2s ease, background .2s ease, transform .2s cubic-bezier(.16,1,.3,1);
+}
+.cartao:hover { border-color: var(--azul-borda); background: var(--vidro-forte); transform: translateY(-2px); }
+.cartao-data {
+  grid-row: span 2; align-self: start; text-align: center; padding: 7px 0 6px; border-radius: 12px;
+  background: rgba(255,255,255,.06); border: 1px solid var(--borda);
+  font-family: var(--display); font-size: 11px; font-weight: 700; text-transform: uppercase; color: var(--tinta-3); line-height: 1.15;
+}
+.cartao-data b { display: block; font-size: 22px; font-weight: 800; color: var(--tinta); letter-spacing: -.03em; }
+.cartao-nome {
+  font-family: var(--display); font-weight: 700; font-size: 16px; line-height: 1.22; letter-spacing: -.015em;
+  padding-right: 46px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+}
+.cartao-sub { font-size: 12.5px; color: var(--tinta-3); }
+.cartao .pontos { position: absolute; top: 16px; right: 16px; }
+.cartao-sinais { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+.cartao-sinais span {
+  font-size: 11.5px; padding: 3px 9px; border-radius: 999px;
+  background: rgba(255,255,255,.05); border: 1px solid var(--borda); color: var(--tinta-2);
+}
+.hoje-vazio { padding: 18px 20px; border-radius: var(--raio); border: 1px dashed var(--borda-forte); color: var(--tinta-2); font-size: 14px; }
+
+/* aviso de atualização que chega sem precisar de F5 */
+.toast {
+  position: fixed; left: 50%; bottom: 24px; z-index: 90; transform: translate(-50%, 140%);
+  display: flex; align-items: center; gap: 10px; padding: 11px 18px; border-radius: 999px;
+  background: #13203a; border: 1px solid var(--azul-borda); color: var(--tinta); font-size: 13.5px;
+  box-shadow: 0 12px 40px rgba(0,0,0,.5); transition: transform .35s cubic-bezier(.16,1,.3,1);
+}
+.toast[data-visivel="true"] { transform: translate(-50%, 0); }
+.toast::before { content: ''; width: 8px; height: 8px; border-radius: 50%; background: var(--alto); }
+.botao-sec {
+  display: inline-flex; align-items: center; gap: 8px; height: 42px; padding: 0 18px; border-radius: 999px;
+  background: rgba(255,255,255,.05); border: 1px solid var(--borda); color: var(--tinta);
+  font-size: 14px; font-weight: 500; cursor: pointer; transition: border-color .18s, background .18s;
+}
+.botao-sec:hover { border-color: var(--azul-borda); background: var(--azul-fundo); }
+.fonte-estado { display: inline-flex; align-items: center; gap: 6px; margin-right: 14px; white-space: nowrap; }
+.fonte-estado::before { content: ''; width: 7px; height: 7px; border-radius: 50%; background: var(--alto); }
+.fonte-estado[data-ok="false"]::before { background: var(--medio); }
 
 /* ================= bancada ================= */
 .bancada { position: relative; z-index: 2; padding-bottom: 80px; }
@@ -398,7 +448,7 @@ select option { background: #0d1424; color: var(--tinta); }
     border: 0; border-bottom: 1px solid var(--borda); cursor: pointer;
     font-size: 14px; color: var(--azul); font-weight: 600;
   }
-  .ceu { min-height: auto; padding: 92px 0 56px; }
+  .ceu { padding: 88px 0 36px; }
   .carimbo { display: none; }
 }
 @media (prefers-reduced-motion: reduce) {
@@ -454,10 +504,19 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
   </svg>
 
   <div class="env chamada">
-    <span class="olho"><b id="olho-num">—</b> oportunidades abertas com prazo para vender</span>
-    <h2>Quem está trazendo o Brasil <em>para São Paulo</em></h2>
-    <p class="linha-fina">Feiras, congressos e convenções que enchem a cidade de gente de fora — ordenados pelo que ainda dá tempo de fechar.</p>
-    <div class="stats" id="stats"></div>
+    <div class="chamada-texto">
+      <span class="olho"><b id="olho-num">—</b> oportunidades abertas com prazo para vender</span>
+      <h2>Quem está trazendo o Brasil <em>para São Paulo</em></h2>
+      <p class="linha-fina">Feiras, congressos e convenções que enchem a cidade de gente de fora, ordenados pelo que ainda dá tempo de fechar.</p>
+      <div class="stats" id="stats"></div>
+    </div>
+    <section aria-labelledby="hoje-titulo">
+      <div class="hoje-topo">
+        <h3 id="hoje-titulo">Para quem ligar hoje</h3>
+        <span>Maior potencial, ainda sem contato e com mais de 3 semanas para vender</span>
+      </div>
+      <div class="hoje" id="hoje"></div>
+    </section>
   </div>
 </header>
 
@@ -467,7 +526,7 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
       <button class="aba" id="aba-agenda" role="tab" aria-selected="true" aria-controls="area" data-aba="agenda">
         Agenda das casas <span class="aba-num" id="num-agenda">—</span>
       </button>
-      <button class="aba" id="aba-carteira" role="tab" aria-selected="false" aria-controls="area" data-aba="carteira">
+      <button class="aba" id="aba-carteira" role="tab" aria-selected="false" aria-controls="area" data-aba="carteira" hidden>
         Minha carteira <span class="aba-num" id="num-carteira">—</span>
       </button>
     </div>
@@ -511,6 +570,7 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
     <p>Ferramenta de trabalho não-oficial. Não é sistema da Azul e não contém dado interno da companhia.</p>
   </footer>
 </main>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
 
 <script>
 const MES_CURTO = ['jan','fev','mar','abr','mai','jun','jul','ago','set','out','nov','dez'];
@@ -545,6 +605,37 @@ function intervalo(e) {
   const a = dt(e.dataInicio), b = dt(e.dataFim);
   const f = (d) => `${d.getDate()} ${MES_CURTO[d.getMonth()]}`;
   return e.dataInicio === e.dataFim ? f(a) : `${a.getDate()}–${f(b)}`;
+}
+
+// O prazo é recalculado aqui, com a data de quem abre a página: o JSON traz o
+// "faltam X dias" do momento da coleta, que envelhece se a coleta atrasar.
+// A regra de "acionável" é a mesma de scripts/lib/score.mjs.
+function recalcularPrazos(lista) {
+  const hoje = new Date(); hoje.setHours(0, 0, 0, 0);
+  for (const e of lista) {
+    if (!e.dataInicio) continue;
+    e.faltamDias = Math.round((dt(e.dataInicio) - hoje) / 864e5);
+    e.acionavel = e.faltamDias > 21 && e.tipo !== 'Social/privado';
+  }
+  return lista.filter((e) => !e.dataFim || dt(e.dataFim) >= hoje);
+}
+
+function haQuanto(iso) {
+  const min = Math.round((Date.now() - new Date(iso)) / 6e4);
+  if (min < 2) return 'agora há pouco';
+  if (min < 60) return `há ${min} min`;
+  const h = Math.round(min / 60);
+  if (h < 24) return `há ${h} h`;
+  const d = Math.round(h / 24);
+  return `há ${d} ${d === 1 ? 'dia' : 'dias'}`;
+}
+
+let tempoToast;
+function avisar(texto) {
+  const t = $('#toast');
+  t.textContent = texto; t.dataset.visivel = 'true';
+  clearTimeout(tempoToast);
+  tempoToast = setTimeout(() => { t.dataset.visivel = 'false'; }, 3200);
 }
 
 /* ---------- céu: estrelas e voo ---------- */
@@ -807,6 +898,7 @@ function desenharFicha(abrirNoMobile = false) {
       + `${e.diasDeEvento > 1 ? ` · ${e.diasDeEvento} dias` : ''}</p>`
     + `<div class="acoes"><a class="botao" href="${esc(e.link)}" target="_blank" rel="noopener">Abrir site do organizador`
       + `<svg width="15" height="15" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-externo"/></svg></a>`
+      + `<button class="botao-sec" type="button" id="copiar">Copiar link deste evento</button>`
       + `<select id="situacao" aria-label="Situação do contato">`
       + Object.entries(SITUACOES).map(([v, r]) => `<option value="${v}"${v === s ? ' selected' : ''}>${r}</option>`).join('')
       + `</select></div>`
@@ -870,20 +962,52 @@ function montarFiltros() {
 
 function desenharPlacar() {
   const abertas = dados.eventos.filter((e) => e.acionavel && e.faixa === 'alto' && sit(e.id) === 'novo').length;
-  const fechando = dados.eventos.filter((e) => e.faltamDias > 0 && e.faltamDias <= 21 && sit(e.id) === 'novo').length;
+  const fechando = dados.eventos.filter((e) => e.faltamDias >= 0 && e.faltamDias <= 21 && sit(e.id) === 'novo').length;
   $('#olho-num').textContent = abertas;
   $('#stats').innerHTML =
-      `<div class="stat" data-cor="alto"><b>${abertas}</b><span>de alto potencial, com prazo para prospectar</span></div>`
-    + `<div class="stat" data-cor="quente"><b>${fechando}</b><span>acontecem nas próximas 3 semanas</span></div>`
-    + `<div class="stat" data-cor="neutro"><b>${dados.eventos.length}</b><span>eventos na agenda completa</span></div>`;
+      `<span class="stat" data-cor="alto"><b>${abertas}</b> de alto potencial com prazo</span>`
+    + `<span class="stat" data-cor="quente"><b>${fechando}</b> nas próximas 3 semanas</span>`
+    + `<span class="stat" data-cor="neutro"><b>${dados.eventos.length}</b> na agenda completa</span>`;
+
+  // Mesma ordem de prioridade que ela usaria: maior nota primeiro, só o que
+  // ainda dá tempo de vender e que ninguém marcou como contatado.
+  const fila = dados.eventos
+    .filter((e) => e.acionavel && sit(e.id) === 'novo' && e.score > 0)
+    .sort((a, b) => b.score - a.score || a.faltamDias - b.faltamDias)
+    .slice(0, 3);
+  $('#hoje').innerHTML = fila.length
+    ? fila.map((e) => {
+        const d = dt(e.dataInicio);
+        const sinais = (e.sinais || []).slice(0, 3);
+        return `<button class="cartao" type="button" data-ir="${esc(e.id)}" data-rolar="true">`
+          + `<span class="cartao-data"><b>${d.getDate()}</b>${MES_CURTO[d.getMonth()]}</span>`
+          + `<span class="cartao-nome">${esc(e.nome)}</span>`
+          + `<span class="cartao-sub">${esc(prazo(e.faltamDias))} · ${esc(e.tipo)} · ${esc(e.local.nome)}</span>`
+          + `<span class="pontos" data-faixa="${e.faixa}" title="Potencial ${e.score} de 100">${e.score}</span>`
+          + (sinais.length ? `<span class="cartao-sinais">${sinais.map((s) => `<span>${esc(s)}</span>`).join('')}</span>` : '')
+          + `</button>`;
+      }).join('')
+    : `<div class="hoje-vazio">Tudo que tinha prazo já foi marcado como contatado. Veja a agenda completa abaixo para planejar os próximos meses.</div>`;
 }
 
 function carimbo() {
   const d = new Date(dados.atualizadoEm);
-  const ok = dados.fontes.filter((f) => !f.erro), falhas = dados.fontes.filter((f) => f.erro);
-  $('#carimbo').textContent = 'Atualizado ' + d.toLocaleDateString('pt-BR', { day: '2-digit', month: 'short' });
-  $('#fontes').innerHTML = 'Fontes lidas automaticamente: ' + ok.map((f) => esc(f.fonte)).join(', ') + '.'
-    + (falhas.length ? ' <strong>Falharam nesta coleta:</strong> ' + falhas.map((f) => esc(f.fonte)).join(', ') + '.' : '');
+  const hora = d.toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit' });
+  const dia = d.toDateString() === new Date().toDateString() ? 'hoje'
+    : d.toLocaleDateString('pt-BR', { day: '2-digit', month: 'short' });
+  $('#carimbo').textContent = `Atualizado ${dia} às ${hora} · ${haQuanto(dados.atualizadoEm)}`;
+  $('#carimbo').title = 'A agenda é coletada automaticamente duas vezes por dia. A página busca a versão nova sozinha.';
+
+  const estado = dados.fontes.map((f) => {
+    if (!f.erro) return `<span class="fonte-estado">${esc(f.fonte)} · ${f.eventos}</span>`;
+    const desde = f.desatualizadaDesde
+      ? ` (dados de ${new Date(f.desatualizadaDesde).toLocaleDateString('pt-BR', { day: '2-digit', month: 'short' })})`
+      : ' (sem dados)';
+    return `<span class="fonte-estado" data-ok="false" title="${esc(f.erro)}">${esc(f.fonte)} · ${f.eventos}${desde}</span>`;
+  }).join('');
+  const falhas = dados.fontes.filter((f) => f.erro).length;
+  $('#fontes').innerHTML = `<strong>Fontes da última coleta:</strong> ${estado}`
+    + (falhas ? '<br>Fonte em amarelo não respondeu à coleta automática: os eventos dela são da última leitura que funcionou.' : '');
 }
 
 document.querySelectorAll('.aba').forEach((b) => {
@@ -904,8 +1028,21 @@ $('#lista').addEventListener('keydown', (ev) => {
 });
 document.addEventListener('click', (ev) => {
   const ir = ev.target.closest('[data-ir]');
-  if (ir) { selecionar(ir.dataset.ir, false); return; }
+  if (ir) {
+    if (ir.dataset.rolar && abaAtual !== 'agenda') trocarAba('agenda');
+    // Um cartão do topo aponta para um evento que o filtro atual pode esconder.
+    if (ir.dataset.rolar && !visiveis.some((e) => e.id === ir.dataset.ir)) $('#limpar').click();
+    selecionar(ir.dataset.ir, false);
+    if (ir.dataset.rolar && !matchMedia('(max-width: 900px)').matches) $('#bancada').scrollIntoView({ behavior: suave ? 'smooth' : 'auto' });
+    return;
+  }
   if (ev.target.closest('#voltar')) $('#ficha-painel').dataset.aberta = 'false';
+  if (ev.target.closest('#copiar')) {
+    const url = location.href.split('#')[0] + '#evento=' + encodeURIComponent(selecionado);
+    (navigator.clipboard ? navigator.clipboard.writeText(url) : Promise.reject())
+      .then(() => avisar('Link copiado — quem abrir cai direto neste evento'))
+      .catch(() => prompt('Copie o link:', url));
+  }
 });
 document.addEventListener('change', (ev) => {
   if (ev.target.id === 'situacao') {
@@ -932,21 +1069,65 @@ const carregarCarteira = () =>
     .then((r) => (r.ok ? r.json() : null))
     .catch(() => null);
 
-Promise.all([
-  fetch('dados/eventos.json', { cache: 'no-store' })
-    .then((r) => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); }),
-  carregarCarteira(),
-])
-  .then(([base, cart]) => {
-    dados = { ...base, carteira: cart?.itens || [], carteiraPresente: Boolean(cart) };
-    carimbo(); desenharPlacar(); montarFiltros(); desenharLista(); prepararCeu();
-  })
+const buscarEventos = () =>
+  fetch('dados/eventos.json?t=' + Date.now(), { cache: 'no-store' })
+    .then((r) => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); });
+
+function aplicar(base, cart) {
+  dados = {
+    ...base,
+    eventos: recalcularPrazos(base.eventos),
+    carteira: recalcularPrazos(cart?.itens || []),
+    carteiraPresente: Boolean(cart),
+  };
+  // Fora da máquina de quem mantém a planilha a carteira não existe: a aba
+  // só apareceria vazia, com instrução técnica, para quem não tem o que fazer com ela.
+  $('#aba-carteira').hidden = !dados.carteiraPresente;
+  carimbo(); desenharPlacar(); montarFiltros(); desenharLista();
+}
+
+// Link compartilhado (#evento=...) abre direto na ficha daquele evento.
+function abrirDoLink() {
+  const m = location.hash.match(/evento=([^&]+)/);
+  const id = m && decodeURIComponent(m[1]);
+  if (!id || !dados.eventos.some((e) => e.id === id)) return;
+  $('#f-tempo').checked = false; desenharLista();
+  selecionar(id, false);
+  if (!matchMedia('(max-width: 900px)').matches) $('#bancada').scrollIntoView();
+}
+
+Promise.all([buscarEventos(), carregarCarteira()])
+  .then(([base, cart]) => { aplicar(base, cart); prepararCeu(); abrirDoLink(); })
   .catch((err) => {
     $('#lista').innerHTML = '';
+    $('#hoje').innerHTML = '';
     $('#ficha-painel').innerHTML = '<div class="vazio"><div><h3>Não consegui carregar os eventos</h3>'
-      + '<p>O arquivo <code>dados/eventos.json</code> não foi encontrado. '
-      + 'Rode <code>npm run coletar</code> para gerá-lo. Detalhe: ' + esc(err.message) + '</p></div></div>';
+      + '<p>Tente recarregar a página em alguns minutos. Detalhe: ' + esc(err.message) + '</p></div></div>';
   });
+
+// Sem precisar de F5: a cada 10 minutos, e sempre que a aba volta a ficar
+// visível, a página confere se saiu coleta nova e se redesenha sozinha.
+let ultimaChecagem = Date.now();
+async function checarNovidade() {
+  if (!dados) return;
+  ultimaChecagem = Date.now();
+  try {
+    const base = await buscarEventos();
+    if (base.atualizadoEm !== dados.atualizadoEm) {
+      const antes = dados.eventos.length;
+      aplicar(base, dados.carteiraPresente ? { itens: dados.carteira } : null);
+      const dif = dados.eventos.length - antes;
+      avisar('Agenda atualizada' + (dif > 0 ? ` · ${dif} ${dif === 1 ? 'evento novo' : 'eventos novos'}` : ''));
+    } else {
+      carimbo(); // só o "há X min" anda
+    }
+  } catch {}
+}
+setInterval(checarNovidade, 10 * 60 * 1000);
+document.addEventListener('visibilitychange', () => {
+  if (document.visibilityState === 'visible' && Date.now() - ultimaChecagem > 60 * 1000) checarNovidade();
+});
+addEventListener('hashchange', () => dados && abrirDoLink());
 </script>
 </body>
 </html>

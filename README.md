@@ -126,8 +126,10 @@ linha lá muda o ranking sem mexer no motor.
   fila, não para decidir sozinho.
 - **As marcações de contato ficam no navegador** de quem usa (localStorage).
   Não sincronizam entre pessoas nem entre computadores.
-- **Se um site mudar de layout**, aquela fonte para de trazer eventos. O
-  rodapé do site avisa quais fontes falharam na última coleta.
+- **Se um site mudar de layout ou bloquear a coleta**, a fonte fica com os
+  eventos da última leitura que funcionou e o rodapé mostra em amarelo desde
+  quando. O Distrito Anhembi bloqueia o servidor do GitHub (Cloudflare): para
+  atualizá-lo, rode `npm run coletar` na sua máquina e faça push.
 
 ## Aviso
 

@@ -1,4 +1,4 @@
-import { writeFile, mkdir, readdir } from 'node:fs/promises';
+import { writeFile, mkdir, readdir, readFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 import { pontuar } from './lib/score.mjs';
@@ -19,8 +19,30 @@ function chaveEvento(nome, dataInicio) {
 
 const arquivos = (await readdir(join(aqui, 'fontes'))).filter((f) => f.endsWith('.mjs'));
 
+// A coleta anterior serve de reserva: quando uma casa bloqueia o servidor do
+// GitHub (o Distrito Anhembi fica atrás do Cloudflare e devolve vazio para IP
+// de datacenter), a fonte não some da agenda — fica com os eventos da última
+// coleta boa e o rodapé avisa desde quando ela não atualiza.
+let anterior = null;
+try {
+  anterior = JSON.parse(await readFile(join(raiz, 'dados', 'eventos.json'), 'utf8'));
+} catch {}
+
 const todos = [];
 const relatorio = [];
+
+function reaproveitar(meta, motivo, t0) {
+  const velhos = (anterior?.eventos || []).filter((e) => e.fonte?.id === meta.id);
+  const antes = (anterior?.fontes || []).find((f) => f.id === meta.id || f.fonte === meta.nome);
+  const desde = antes?.desatualizadaDesde || (antes && !antes.erro && antes.eventos > 0 ? anterior.atualizadoEm : null);
+  todos.push(...velhos.map(({ score, faixa, confianca, tipo, sinais, componentes, porte, alcance, mercado,
+    publicoEstimado, diasDeEvento, faltamDias, janela, acionavel, ...bruto }) => bruto));
+  relatorio.push({
+    id: meta.id, fonte: meta.nome, eventos: velhos.length, ms: Date.now() - t0,
+    erro: motivo, reaproveitados: velhos.length, desatualizadaDesde: velhos.length ? desde : null,
+  });
+  console.error(`✗ ${meta.nome}: ${motivo}${velhos.length ? ` — mantidos ${velhos.length} da coleta anterior` : ''}`);
+}
 
 for (const arquivo of arquivos) {
   const mod = await import(`./fontes/${arquivo}`);
@@ -42,12 +64,17 @@ for (const arquivo of arquivos) {
         fonte: { id: mod.meta.id, nome: mod.meta.nome, url: mod.meta.url },
         fonteDominio: new URL(mod.meta.url).hostname.replace(/^www\./, ''),
       }));
+    // Nenhuma das casas fica um mês inteiro sem evento futuro: zero é sinal de
+    // bloqueio ou de layout novo, não de agenda vazia.
+    if (!normalizados.length) {
+      reaproveitar(mod.meta, 'Nenhum evento lido (site bloqueou a coleta ou mudou de layout)', t0);
+      continue;
+    }
     todos.push(...normalizados);
-    relatorio.push({ fonte: mod.meta.nome, eventos: normalizados.length, ms: Date.now() - t0, erro: null });
+    relatorio.push({ id: mod.meta.id, fonte: mod.meta.nome, eventos: normalizados.length, ms: Date.now() - t0, erro: null });
     console.log(`✓ ${mod.meta.nome}: ${normalizados.length} eventos (${Date.now() - t0}ms)`);
   } catch (e) {
-    relatorio.push({ fonte: mod.meta.nome, eventos: 0, ms: Date.now() - t0, erro: String(e.message || e) });
-    console.error(`✗ ${mod.meta.nome}: ${e.message}`);
+    reaproveitar(mod.meta, String(e.message || e), t0);
   }
 }
 
