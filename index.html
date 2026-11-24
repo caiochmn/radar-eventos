@@ -363,6 +363,34 @@ select {
   .carimbo { display: none; }
 }
 @media (max-width: 520px) { .pilula-preta { height: 40px; padding: 0 14px; font-size: 12.5px; } }
+
+/* ---------- movimento ----------
+   Três padrões, medidos na referência: entrada ao rolar (sobe 28px e aparece,
+   600ms, em cascata de 100–300ms), texto de botão que rola para cima no
+   hover (200ms) e números que contam até o valor. Só ligam quando o sistema
+   não pede movimento reduzido: a classe .js-movimento é posta pelo script. */
+.js-movimento [data-revelar] {
+  opacity: 0; transform: translateY(28px);
+  transition: opacity .6s ease, transform .6s ease; transition-delay: var(--atraso, 0ms);
+}
+.js-movimento [data-revelar="direita"] { transform: translate(-32px, 20px); }
+.js-movimento [data-revelar="esquerda"] { transform: translate(32px, 20px); }
+.js-movimento [data-revelar].visivel { opacity: 1; transform: none; }
+
+/* post-its "caem" na mesa um de cada vez e param na inclinação de cada um */
+@keyframes cair { from { opacity: 0; transform: translateY(-46px) rotate(0deg) scale(.92); } }
+.js-movimento .nota { animation: cair .6s cubic-bezier(.2,.9,.3,1.25) backwards; }
+.js-movimento .nota:nth-child(2) { animation-delay: .1s; }
+.js-movimento .nota:nth-child(3) { animation-delay: .2s; }
+.js-movimento .nota:nth-child(4) { animation-delay: .3s; }
+
+/* texto que rola: o rótulo sobe e uma cópia idêntica entra por baixo */
+.rola { display: inline-block; overflow: hidden; height: 1.25em; line-height: 1.25em; vertical-align: middle; }
+.rola > span { display: block; transition: transform .2s ease; }
+.rola > span::after { content: attr(data-t); display: block; }
+/* o span tem duas linhas (original + cópia): subir metade mostra a cópia */
+a:hover .rola > span, button:hover .rola > span { transform: translateY(-50%); }
+
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   * { animation-duration: .01ms !important; transition-duration: .01ms !important; }
@@ -391,7 +419,7 @@ select {
     <h1 class="marca"><span class="marca-icone"><svg width="18" height="18" viewBox="0 0 24 24"><use href="#i-radar"/></svg></span>radar de<br>eventos</h1>
     <div class="nav-fim">
       <span class="carimbo" id="carimbo"></span>
-      <a class="pilula-preta" href="#bancada">Ver agenda <svg width="15" height="15" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-seta"/></svg></a>
+      <a class="pilula-preta" href="#bancada" aria-label="Ver agenda"><span class="rola" aria-hidden="true"><span data-t="Ver agenda">Ver agenda</span></span> <svg width="15" height="15" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-seta"/></svg></a>
     </div>
   </div>
 </nav>
@@ -399,9 +427,9 @@ select {
 <header class="abertura env">
   <div class="abertura-grade">
     <div>
-      <h2>Quem vai fazer <em>o Brasil viajar</em></h2>
-      <p class="linha-fina">Feiras, congressos e convenções que tiram gente de casa e colocam dentro de um avião, ordenados pelo que ainda dá tempo de vender.</p>
-      <span class="rabisco" id="rabisco">lido sozinho, duas vezes por dia ✈</span>
+      <h2 data-revelar>Quem vai fazer <em>o Brasil viajar</em></h2>
+      <p class="linha-fina" data-revelar style="--atraso:100ms">Feiras, congressos e convenções que tiram gente de casa e colocam dentro de um avião, ordenados pelo que ainda dá tempo de vender.</p>
+      <span class="rabisco" id="rabisco" data-revelar style="--atraso:300ms">lido sozinho, duas vezes por dia ✈</span>
     </div>
     <div class="notas" id="notas" aria-label="Resumo da agenda"></div>
   </div>
@@ -410,17 +438,17 @@ select {
 <section class="hoje-bloco" aria-labelledby="hoje-titulo">
   <div class="env">
     <div class="hoje-topo">
-      <h3 id="hoje-titulo">Para quem <em>ligar hoje</em></h3>
-      <p>Os de maior potencial, ainda sem contato e com mais de 3 semanas para vender. Clique para abrir a ficha.</p>
+      <h3 id="hoje-titulo" data-revelar="direita">Para quem <em>ligar hoje</em></h3>
+      <p data-revelar="esquerda" style="--atraso:100ms">Os de maior potencial, ainda sem contato e com mais de 3 semanas para vender. Clique para abrir a ficha.</p>
     </div>
-    <div class="hoje" id="hoje"></div>
+    <div class="hoje" id="hoje" data-revelar style="--atraso:200ms"></div>
   </div>
 </section>
 
 <main class="bancada" id="bancada">
   <div class="env">
     <div class="bancada-topo">
-      <div>
+      <div data-revelar>
         <h3>A agenda completa</h3>
         <p id="aba-explica">Eventos lidos das agendas dos centros de convenções e do catálogo internacional de feiras. Escolha um para abrir a ficha.</p>
       </div>
@@ -545,6 +573,38 @@ function avisar(texto) {
 }
 
 addEventListener('scroll', () => { $('#nav').dataset.preso = String(scrollY > 12); }, { passive: true });
+
+/* ---------- movimento ---------- */
+const comMovimento = suave && 'IntersectionObserver' in window;
+if (comMovimento) document.documentElement.classList.add('js-movimento');
+
+// Entrada ao rolar: cada bloco marcado com data-revelar aparece uma vez, ao
+// entrar 12% na tela, e não some mais quando sai.
+if (comMovimento) {
+  const revelador = new IntersectionObserver((entradas) => {
+    for (const en of entradas) if (en.isIntersecting) { en.target.classList.add('visivel'); revelador.unobserve(en.target); }
+  }, { threshold: .12 });
+  document.querySelectorAll('[data-revelar]').forEach((el) => revelador.observe(el));
+}
+
+// Número que conta do zero até o valor, desacelerando no fim.
+function contar(el, alvo, atraso = 0) {
+  if (!comMovimento || !alvo) { el.textContent = alvo; return; }
+  el.textContent = '0';
+  const dur = 900;
+  setTimeout(() => {
+    const t0 = performance.now();
+    const passo = (t) => {
+      const p = Math.min(1, (t - t0) / dur);
+      el.textContent = Math.round(alvo * (1 - Math.pow(1 - p, 3)));
+      if (p < 1) requestAnimationFrame(passo);
+    };
+    requestAnimationFrame(passo);
+  }, atraso);
+}
+
+// Rótulo de botão com a cópia que entra por baixo no hover.
+const rolante = (texto) => `<span class="rola" aria-hidden="true"><span data-t="${esc(texto)}">${esc(texto)}</span></span>`;
 
 /* ---------- dados e interface ---------- */
 function filtrar() {
@@ -714,7 +774,7 @@ function desenharFicha(abrirNoMobile = false) {
       + `<span class="selo selo-borda">${esc(e.tipo)}</span></div>`
     + `<h2>${esc(e.nome)}</h2>`
     + `<p class="ficha-linha"><b>${esc(intervalo(e))}</b> · ${local}${e.diasDeEvento > 1 && !e.dataAproximada ? ` · ${e.diasDeEvento} dias` : ''}</p>`
-    + `<div class="acoes"><a class="botao" href="${esc(e.link)}" target="_blank" rel="noopener">${e.fonte?.agregador ? 'Ver no catálogo' : 'Site do organizador'}`
+    + `<div class="acoes"><a class="botao" href="${esc(e.link)}" target="_blank" rel="noopener" aria-label="${e.fonte?.agregador ? 'Ver no catálogo' : 'Site do organizador'}">${rolante(e.fonte?.agregador ? 'Ver no catálogo' : 'Site do organizador')}`
       + `<svg width="15" height="15" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-externo"/></svg></a>`
       + `<button class="botao-sec" type="button" id="copiar">Copiar link</button>`
       + seletorSituacao(s) + `</div>`
@@ -788,11 +848,23 @@ function desenharPlacar() {
   const abertas = dados.eventos.filter((e) => e.acionavel && e.faixa === 'alto' && sit(e.id) === 'novo').length;
   const fechando = dados.eventos.filter((e) => e.faltamDias >= 0 && e.faltamDias <= 21 && sit(e.id) === 'novo').length;
   const cidades = new Set(dados.eventos.map(cidadeDe).filter(Boolean)).size;
-  $('#notas').innerHTML =
-      `<div class="nota"><b>${abertas}</b><span>de alto potencial com prazo para vender</span></div>`
-    + `<div class="nota"><b>${fechando}</b><span>acontecem nas próximas 3 semanas</span></div>`
-    + `<div class="nota"><b>${dados.eventos.length}</b><span>eventos na agenda</span></div>`
-    + `<div class="nota"><b>${cidades}</b><span>${cidades === 1 ? 'cidade' : 'cidades'} no radar</span></div>`;
+  const notas = [
+    [abertas, 'de alto potencial com prazo para vender'],
+    [fechando, 'acontecem nas próximas 3 semanas'],
+    [dados.eventos.length, 'eventos na agenda'],
+    [cidades, `${cidades === 1 ? 'cidade' : 'cidades'} no radar`],
+  ];
+  // As notas são montadas uma vez só (a animação de cair e a contagem
+  // acontecem na chegada); depois, só os números trocam.
+  if (!$('#notas').children.length) {
+    $('#notas').innerHTML = notas.map(([n, t]) => `<div class="nota"><b>${n}</b><span>${t}</span></div>`).join('');
+    document.querySelectorAll('.nota b').forEach((b, i) => contar(b, notas[i][0], 150 + i * 100));
+  } else {
+    document.querySelectorAll('.nota').forEach((el, i) => {
+      el.querySelector('b').textContent = notas[i][0];
+      el.querySelector('span').textContent = notas[i][1];
+    });
+  }
 
   // Mesma ordem de prioridade que ela usaria: maior nota primeiro, só o que
   // ainda dá tempo de vender e que ninguém marcou como contatado.
