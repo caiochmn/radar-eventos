@@ -1,47 +1,49 @@
 {
-  "atualizadoEm": "2026-11-24T20:05:19.976Z",
+  "atualizadoEm": "2026-11-24T20:12:16.236Z",
   "totalEventos": 137,
   "fontes": [
     {
       "id": "distrito-anhembi",
       "fonte": "Distrito Anhembi",
       "eventos": 10,
-      "ms": 1644,
-      "erro": null
+      "ms": 5032,
+      "erro": "Nenhum evento lido (site bloqueou a coleta ou mudou de layout)",
+      "reaproveitados": 10,
+      "desatualizadaDesde": "2026-11-24T20:05:19.976Z"
     },
     {
       "id": "eventseye",
       "fonte": "EventsEye (feiras no Brasil)",
       "eventos": 88,
-      "ms": 25274,
+      "ms": 19342,
       "erro": null
     },
     {
       "id": "expo-center-norte",
       "fonte": "Expo Center Norte",
       "eventos": 4,
-      "ms": 1183,
+      "ms": 928,
       "erro": null
     },
     {
       "id": "pro-magno",
       "fonte": "Pro Magno Centro de Eventos",
       "eventos": 48,
-      "ms": 1859,
+      "ms": 3854,
       "erro": null
     },
     {
       "id": "sao-paulo-expo",
       "fonte": "São Paulo Expo",
       "eventos": 3,
-      "ms": 1818,
+      "ms": 2105,
       "erro": null
     },
     {
       "id": "transamerica-expo",
       "fonte": "Transamerica Expo Center",
       "eventos": 2,
-      "ms": 452,
+      "ms": 1535,
       "erro": null
     }
   ],
