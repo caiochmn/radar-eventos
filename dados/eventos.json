@@ -1,33 +1,35 @@
 {
-  "atualizadoEm": "2026-11-24T18:27:08.332Z",
+  "atualizadoEm": "2026-11-24T18:37:16.118Z",
   "totalEventos": 62,
   "fontes": [
     {
       "id": "distrito-anhembi",
       "fonte": "Distrito Anhembi",
       "eventos": 10,
-      "ms": 1443,
-      "erro": null
+      "ms": 5192,
+      "erro": "Nenhum evento lido (site bloqueou a coleta ou mudou de layout)",
+      "reaproveitados": 10,
+      "desatualizadaDesde": "2026-11-24T18:27:08.332Z"
     },
     {
       "id": "expo-center-norte",
       "fonte": "Expo Center Norte",
       "eventos": 4,
-      "ms": 1205,
+      "ms": 1198,
       "erro": null
     },
     {
       "id": "pro-magno",
       "fonte": "Pro Magno Centro de Eventos",
       "eventos": 48,
-      "ms": 1214,
+      "ms": 3963,
       "erro": null
     },
     {
       "id": "sao-paulo-expo",
       "fonte": "São Paulo Expo",
       "eventos": 3,
-      "ms": 2222,
+      "ms": 1457,
       "erro": null
     }
   ],
