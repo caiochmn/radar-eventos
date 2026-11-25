@@ -1,12 +1,12 @@
 {
-  "atualizadoEm": "2026-11-25T07:31:35.675Z",
+  "atualizadoEm": "2026-11-25T21:16:25.400Z",
   "totalEventos": 137,
   "fontes": [
     {
       "id": "distrito-anhembi",
       "fonte": "Distrito Anhembi",
       "eventos": 10,
-      "ms": 4964,
+      "ms": 4893,
       "erro": "Nenhum evento lido (site bloqueou a coleta ou mudou de layout)",
       "reaproveitados": 10,
       "desatualizadaDesde": "2026-11-24T20:05:19.976Z"
@@ -15,35 +15,35 @@
       "id": "eventseye",
       "fonte": "EventsEye (feiras no Brasil)",
       "eventos": 88,
-      "ms": 21511,
+      "ms": 19544,
       "erro": null
     },
     {
       "id": "expo-center-norte",
       "fonte": "Expo Center Norte",
       "eventos": 4,
-      "ms": 997,
+      "ms": 515,
       "erro": null
     },
     {
       "id": "pro-magno",
       "fonte": "Pro Magno Centro de Eventos",
       "eventos": 48,
-      "ms": 2942,
+      "ms": 3062,
       "erro": null
     },
     {
       "id": "sao-paulo-expo",
       "fonte": "São Paulo Expo",
       "eventos": 3,
-      "ms": 1370,
+      "ms": 1636,
       "erro": null
     },
     {
       "id": "transamerica-expo",
       "fonte": "Transamerica Expo Center",
       "eventos": 2,
-      "ms": 1331,
+      "ms": 1293,
       "erro": null
     }
   ],
@@ -2082,7 +2082,7 @@
       "descricao": "Access Masters events introduce you to admissions representatives of top Masters programmes from around the world. Find out more about graduate studies in Business, Management, Marketing, Finance... during personalised meetings and small group talks",
       "dataInicio": "2027-03-01",
       "dataFim": "2027-03-01",
-      "textoData": "March 2027 (?)",
+      "textoData": "03/01/2027 1 day",
       "espaco": "Renaissance São Paulo Hotel",
       "link": "https://www.eventseye.com/fairs/f-access-masters-sao-paulo-30940-1.html",
       "local": {
@@ -2090,7 +2090,6 @@
         "cidade": "São Paulo",
         "uf": "SP"
       },
-      "dataAproximada": true,
       "periodicidade": "twice a year",
       "fonte": {
         "id": "eventseye",
@@ -2133,74 +2132,6 @@
       ],
       "porte": 0,
       "alcance": 0,
-      "mercado": 0,
-      "publicoEstimado": null,
-      "diasDeEvento": 1,
-      "faltamDias": 96,
-      "janela": "ideal",
-      "acionavel": true
-    },
-    {
-      "id": "eventseye:autocombrasil|2027-03-01",
-      "nome": "AUTOCOM BRASIL",
-      "descricao": "International Retail Automation Fair. Autocom is the most important Automation Event in Latin America. For many years, it has been gathering the main Technology Suppliers Sales Channels and Retailers",
-      "dataInicio": "2027-03-01",
-      "dataFim": "2027-03-01",
-      "textoData": "March 2027 (?)",
-      "espaco": "Expo Center Norte",
-      "link": "https://www.eventseye.com/fairs/f-autocom-brasil-28047-1.html",
-      "local": {
-        "nome": "Expo Center Norte",
-        "cidade": "São Paulo",
-        "uf": "SP"
-      },
-      "dataAproximada": true,
-      "periodicidade": "once a year",
-      "fonte": {
-        "id": "eventseye",
-        "nome": "EventsEye (feiras no Brasil)",
-        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
-        "agregador": true
-      },
-      "fonteDominio": "eventseye.com",
-      "score": 47,
-      "faixa": "medio",
-      "confianca": "alta",
-      "tipo": "Feira",
-      "sinais": [
-        "América Latina",
-        "Internacional",
-        "Brasil"
-      ],
-      "componentes": [
-        {
-          "rotulo": "Porte",
-          "valor": 0,
-          "teto": 45
-        },
-        {
-          "rotulo": "Alcance",
-          "valor": 25,
-          "teto": 25
-        },
-        {
-          "rotulo": "Organizador",
-          "valor": 0,
-          "teto": 28
-        },
-        {
-          "rotulo": "Tipo de evento",
-          "valor": 22,
-          "teto": 25
-        },
-        {
-          "rotulo": "Duração",
-          "valor": 0,
-          "teto": 8
-        }
-      ],
-      "porte": 0,
-      "alcance": 25,
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 1,
@@ -3224,6 +3155,73 @@
       "faltamDias": 122,
       "janela": "ideal",
       "acionavel": false
+    },
+    {
+      "id": "eventseye:autocombrasil|2027-03-30",
+      "nome": "AUTOCOM BRASIL",
+      "descricao": "International Retail Automation Fair. Autocom is the most important Automation Event in Latin America. For many years, it has been gathering the main Technology Suppliers Sales Channels and Retailers",
+      "dataInicio": "2027-03-30",
+      "dataFim": "2027-04-01",
+      "textoData": "03/30/2027 3 days",
+      "espaco": "Expo Center Norte",
+      "link": "https://www.eventseye.com/fairs/f-autocom-brasil-28047-1.html",
+      "local": {
+        "nome": "Expo Center Norte",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "periodicidade": "once a year",
+      "fonte": {
+        "id": "eventseye",
+        "nome": "EventsEye (feiras no Brasil)",
+        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
+        "agregador": true
+      },
+      "fonteDominio": "eventseye.com",
+      "score": 52,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [
+        "América Latina",
+        "Internacional",
+        "Brasil"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 25,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 25,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 125,
+      "janela": "ideal",
+      "acionavel": true
     },
     {
       "id": "pro-magno:congressodegestaoeducacionalparalideresgeduc|2027-03-31",
