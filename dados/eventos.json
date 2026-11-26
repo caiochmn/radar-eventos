@@ -1,12 +1,12 @@
 {
-  "atualizadoEm": "2026-11-26T07:20:49.982Z",
-  "totalEventos": 136,
+  "atualizadoEm": "2026-11-26T21:04:36.449Z",
+  "totalEventos": 138,
   "fontes": [
     {
       "id": "distrito-anhembi",
       "fonte": "Distrito Anhembi",
       "eventos": 10,
-      "ms": 4925,
+      "ms": 4895,
       "erro": "Nenhum evento lido (site bloqueou a coleta ou mudou de layout)",
       "reaproveitados": 10,
       "desatualizadaDesde": "2026-11-24T20:05:19.976Z"
@@ -15,35 +15,35 @@
       "id": "eventseye",
       "fonte": "EventsEye (feiras no Brasil)",
       "eventos": 88,
-      "ms": 21475,
+      "ms": 21165,
       "erro": null
     },
     {
       "id": "expo-center-norte",
       "fonte": "Expo Center Norte",
-      "eventos": 4,
-      "ms": 1058,
+      "eventos": 6,
+      "ms": 1619,
       "erro": null
     },
     {
       "id": "pro-magno",
       "fonte": "Pro Magno Centro de Eventos",
       "eventos": 48,
-      "ms": 3693,
+      "ms": 2818,
       "erro": null
     },
     {
       "id": "sao-paulo-expo",
       "fonte": "São Paulo Expo",
       "eventos": 2,
-      "ms": 1525,
+      "ms": 1422,
       "erro": null
     },
     {
       "id": "transamerica-expo",
       "fonte": "Transamerica Expo Center",
       "eventos": 2,
-      "ms": 1650,
+      "ms": 1664,
       "erro": null
     }
   ],
@@ -1471,6 +1471,71 @@
       "acionavel": true
     },
     {
+      "id": "expo-center-norte:44ciospcongressointernacionaldeodontologiadesaopaulo|2027-01-27",
+      "nome": "44º CIOSP – CONGRESSO INTERNACIONAL DE ODONTOLOGIA DE SÃO PAULO",
+      "descricao": "O Congresso Internacional de Odontologia de São Paulo (CIOSP), um dos maiores congressos de Odontologia do mundo, chega a sua 44ª edição e põe em prática pilares importantes na formação dos profissionais da área, com grandes nomes do setor e marcas do mercado apresentando tecnologia de ponta, excelência científica e experiências transformadoras, conectando profissionais com o futuro.",
+      "dataInicio": "2027-01-27",
+      "dataFim": "2027-01-30",
+      "textoData": "27 a 30 janeiro",
+      "espaco": "Pavilhão",
+      "link": "https://www.expocenternorte.com.br/eventos/44o-ciosp-congresso-internacional-de-odontologia-de-sao-paulo",
+      "local": {
+        "nome": "Expo Center Norte",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "expo-center-norte",
+        "nome": "Expo Center Norte",
+        "url": "https://www.expocenternorte.com.br/eventos",
+        "agregador": false
+      },
+      "fonteDominio": "expocenternorte.com.br",
+      "score": 74,
+      "faixa": "alto",
+      "confianca": "alta",
+      "tipo": "Congresso",
+      "sinais": [
+        "44ª edição",
+        "Internacional"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 18,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 24,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 24,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 8,
+          "teto": 8
+        }
+      ],
+      "porte": 18,
+      "alcance": 24,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 4,
+      "faltamDias": 62,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
       "id": "pro-magno:eventosocialprivado|2027-01-29",
       "nome": "EVENTO SOCIAL PRIVADO",
       "descricao": "",
@@ -2859,6 +2924,71 @@
       "publicoEstimado": null,
       "diasDeEvento": 1,
       "faltamDias": 110,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "expo-center-norte:1feirabrasileiradepesquisaclinicadaamericalatina|2027-03-18",
+      "nome": "1ª Feira Brasileira de Pesquisa Clínica da América Latina",
+      "descricao": "A 1ª Feira Brasileira de Pesquisa Clínica da América Latina, promovida pela SBPPC, reúne profissionais, empresas e instituições do setor para fomentar a inovação, o conhecimento científico, o networking e novas oportunidades de negócios. Com foco em Saúde Única, o evento integra ciência, ética, tecnologia e regulação para fortalecer o futuro da Pesquisa Clínica.",
+      "dataInicio": "2027-03-18",
+      "dataFim": "2027-03-20",
+      "textoData": "18 a 20 março",
+      "espaco": "Pavilhão",
+      "link": "https://www.expocenternorte.com.br/eventos/1a-feira-brasileira-de-pesquisa-clinica-da-america-latina",
+      "local": {
+        "nome": "Expo Center Norte",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "expo-center-norte",
+        "nome": "Expo Center Norte",
+        "url": "https://www.expocenternorte.com.br/eventos",
+        "agregador": false
+      },
+      "fonteDominio": "expocenternorte.com.br",
+      "score": 52,
+      "faixa": "medio",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [
+        "América Latina",
+        "Nacional"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 0,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 25,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 5,
+          "teto": 8
+        }
+      ],
+      "porte": 0,
+      "alcance": 25,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 3,
+      "faltamDias": 112,
       "janela": "ideal",
       "acionavel": true
     },
