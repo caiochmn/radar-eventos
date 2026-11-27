@@ -1,12 +1,12 @@
 {
-  "atualizadoEm": "2026-11-27T07:17:27.313Z",
-  "totalEventos": 138,
+  "atualizadoEm": "2026-11-27T20:49:03.731Z",
+  "totalEventos": 140,
   "fontes": [
     {
       "id": "distrito-anhembi",
       "fonte": "Distrito Anhembi",
       "eventos": 10,
-      "ms": 4800,
+      "ms": 4919,
       "erro": "Nenhum evento lido (site bloqueou a coleta ou mudou de layout)",
       "reaproveitados": 10,
       "desatualizadaDesde": "2026-11-24T20:05:19.976Z"
@@ -15,35 +15,35 @@
       "id": "eventseye",
       "fonte": "EventsEye (feiras no Brasil)",
       "eventos": 88,
-      "ms": 20149,
+      "ms": 19959,
       "erro": null
     },
     {
       "id": "expo-center-norte",
       "fonte": "Expo Center Norte",
-      "eventos": 6,
-      "ms": 757,
+      "eventos": 3,
+      "ms": 1115,
       "erro": null
     },
     {
       "id": "pro-magno",
       "fonte": "Pro Magno Centro de Eventos",
       "eventos": 48,
-      "ms": 1819,
+      "ms": 2320,
       "erro": null
     },
     {
       "id": "sao-paulo-expo",
       "fonte": "São Paulo Expo",
-      "eventos": 2,
-      "ms": 6564,
+      "eventos": 6,
+      "ms": 1429,
       "erro": null
     },
     {
       "id": "transamerica-expo",
       "fonte": "Transamerica Expo Center",
       "eventos": 2,
-      "ms": 1233,
+      "ms": 1348,
       "erro": null
     }
   ],
@@ -1403,46 +1403,43 @@
       "acionavel": false
     },
     {
-      "id": "eventseye:abimad|2027-01-26",
-      "nome": "ABIMAD",
-      "descricao": "Brazilian Contemporary Home Furnishings Exhibition. ABIMAD is the leading high-end furniture and accessories fair in Latin America. The fair holds two annual editions showcasing the best of Brazilian design and the main international trends",
+      "id": "sao-paulo-expo:abimad43|2027-01-26",
+      "nome": "ABIMAD’43",
+      "descricao": "A principal vitrine latino-americana de móveis e acessórios de alta decoração, em um grande encontro com lançamentos e oportunidades de negócios.",
       "dataInicio": "2027-01-26",
       "dataFim": "2027-01-29",
-      "textoData": "01/26/2027 4 days",
-      "espaco": "São Paulo Expo Exhibition & Convention Center",
-      "link": "https://www.eventseye.com/fairs/f-abimad-13314-1.html",
+      "textoData": "26 - 29 jan",
+      "espaco": "Pavilhões",
+      "link": "https://www.saopauloexpo.com.br/pt/evento-spe/feira-abimad-2027/?occurrence=2027-01-26",
       "local": {
-        "nome": "São Paulo Expo Exhibition & Convention Center",
+        "nome": "São Paulo Expo",
         "cidade": "São Paulo",
         "uf": "SP"
       },
-      "periodicidade": "twice a year",
       "fonte": {
-        "id": "eventseye",
-        "nome": "EventsEye (feiras no Brasil)",
-        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
-        "agregador": true
+        "id": "sao-paulo-expo",
+        "nome": "São Paulo Expo",
+        "url": "https://www.saopauloexpo.com.br/pt/agenda-de-eventos/",
+        "agregador": false
       },
-      "fonteDominio": "eventseye.com",
-      "score": 81,
+      "fonteDominio": "saopauloexpo.com.br",
+      "score": 68,
       "faixa": "alto",
       "confianca": "alta",
-      "tipo": "Feira",
+      "tipo": "Evento",
       "sinais": [
-        "América Latina",
-        "Nacional",
-        "Internacional",
+        "43ª edição",
         "Entidade nacional"
       ],
       "componentes": [
         {
           "rotulo": "Porte",
-          "valor": 0,
+          "valor": 24,
           "teto": 45
         },
         {
           "rotulo": "Alcance",
-          "valor": 25,
+          "valor": 0,
           "teto": 25
         },
         {
@@ -1452,7 +1449,7 @@
         },
         {
           "rotulo": "Tipo de evento",
-          "valor": 22,
+          "valor": 10,
           "teto": 25
         },
         {
@@ -1461,8 +1458,8 @@
           "teto": 8
         }
       ],
-      "porte": 0,
-      "alcance": 25,
+      "porte": 24,
+      "alcance": 0,
       "mercado": 26,
       "publicoEstimado": null,
       "diasDeEvento": 4,
@@ -1883,43 +1880,40 @@
       "acionavel": false
     },
     {
-      "id": "eventseye:exporevestir|2027-02-22",
-      "nome": "EXPO REVESTIR",
-      "descricao": "Expo Revestir is the epicenter of the world of construction coatings and finishes in Latin America and one of the most significant in the world. A total immersion in trends, technology, and business networking",
+      "id": "sao-paulo-expo:exporevestir|2027-02-22",
+      "nome": "EXPO REVESTIR 2027",
+      "descricao": "Lançamentos e tendências em revestimentos e acabamentos para profissionais de arquitetura, design de interiores, construção e revenda.",
       "dataInicio": "2027-02-22",
       "dataFim": "2027-02-26",
-      "textoData": "02/22/2027 5 days",
-      "espaco": "São Paulo Expo Exhibition & Convention Center",
-      "link": "https://www.eventseye.com/fairs/f-expo-revestir-2582-1.html",
+      "textoData": "22 - 26 fev",
+      "espaco": "Pavilhões",
+      "link": "https://www.saopauloexpo.com.br/pt/evento-spe/expo-revestir-2027/?occurrence=2027-02-22",
       "local": {
-        "nome": "São Paulo Expo Exhibition & Convention Center",
+        "nome": "São Paulo Expo",
         "cidade": "São Paulo",
         "uf": "SP"
       },
-      "periodicidade": "once a year",
       "fonte": {
-        "id": "eventseye",
-        "nome": "EventsEye (feiras no Brasil)",
-        "url": "https://www.eventseye.com/fairs/c1_trade-shows_brazil.html",
-        "agregador": true
+        "id": "sao-paulo-expo",
+        "nome": "São Paulo Expo",
+        "url": "https://www.saopauloexpo.com.br/pt/agenda-de-eventos/",
+        "agregador": false
       },
-      "fonteDominio": "eventseye.com",
-      "score": 55,
-      "faixa": "medio",
+      "fonteDominio": "saopauloexpo.com.br",
+      "score": 36,
+      "faixa": "baixo",
       "confianca": "alta",
       "tipo": "Feira",
-      "sinais": [
-        "América Latina"
-      ],
+      "sinais": [],
       "componentes": [
         {
           "rotulo": "Porte",
-          "valor": 0,
+          "valor": 6,
           "teto": 45
         },
         {
           "rotulo": "Alcance",
-          "valor": 25,
+          "valor": 0,
           "teto": 25
         },
         {
@@ -1938,8 +1932,70 @@
           "teto": 8
         }
       ],
-      "porte": 0,
-      "alcance": 25,
+      "porte": 6,
+      "alcance": 0,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 5,
+      "faltamDias": 87,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "sao-paulo-expo:hausdecorshow|2027-02-22",
+      "nome": "HAUS DECOR SHOW 2027",
+      "descricao": "Lançamentos em iluminação, móveis, tecnologia residencial e tintas para quem projeta, constrói e transforma ambientes residenciais e corporativos.",
+      "dataInicio": "2027-02-22",
+      "dataFim": "2027-02-26",
+      "textoData": "22 - 26 fev",
+      "espaco": "Pavilhões",
+      "link": "https://www.saopauloexpo.com.br/pt/evento-spe/haus-decor-show-2027/?occurrence=2027-02-22",
+      "local": {
+        "nome": "São Paulo Expo",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "sao-paulo-expo",
+        "nome": "São Paulo Expo",
+        "url": "https://www.saopauloexpo.com.br/pt/agenda-de-eventos/",
+        "agregador": false
+      },
+      "fonteDominio": "saopauloexpo.com.br",
+      "score": 36,
+      "faixa": "baixo",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 6,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 0,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 8,
+          "teto": 8
+        }
+      ],
+      "porte": 6,
+      "alcance": 0,
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 5,
@@ -2788,6 +2844,72 @@
       ],
       "porte": 0,
       "alcance": 14,
+      "mercado": 0,
+      "publicoEstimado": null,
+      "diasDeEvento": 5,
+      "faltamDias": 108,
+      "janela": "ideal",
+      "acionavel": true
+    },
+    {
+      "id": "sao-paulo-expo:feiraplasticobrasil|2027-03-15",
+      "nome": "FEIRA PLÁSTICO BRASIL 2027",
+      "descricao": "Máquinas, matérias-primas, automação e reciclagem reunidas na maior feira da indústria do plástico na América Latina.",
+      "dataInicio": "2027-03-15",
+      "dataFim": "2027-03-19",
+      "textoData": "15 - 19 mar",
+      "espaco": "Pavilhões",
+      "link": "https://www.saopauloexpo.com.br/pt/evento-spe/feira-plastico-brasil-2027/?occurrence=2027-03-15",
+      "local": {
+        "nome": "São Paulo Expo",
+        "cidade": "São Paulo",
+        "uf": "SP"
+      },
+      "fonte": {
+        "id": "sao-paulo-expo",
+        "nome": "São Paulo Expo",
+        "url": "https://www.saopauloexpo.com.br/pt/agenda-de-eventos/",
+        "agregador": false
+      },
+      "fonteDominio": "saopauloexpo.com.br",
+      "score": 85,
+      "faixa": "alto",
+      "confianca": "alta",
+      "tipo": "Feira",
+      "sinais": [
+        "Maior do segmento",
+        "América Latina",
+        "Brasil"
+      ],
+      "componentes": [
+        {
+          "rotulo": "Porte",
+          "valor": 30,
+          "teto": 45
+        },
+        {
+          "rotulo": "Alcance",
+          "valor": 25,
+          "teto": 25
+        },
+        {
+          "rotulo": "Organizador",
+          "valor": 0,
+          "teto": 28
+        },
+        {
+          "rotulo": "Tipo de evento",
+          "valor": 22,
+          "teto": 25
+        },
+        {
+          "rotulo": "Duração",
+          "valor": 8,
+          "teto": 8
+        }
+      ],
+      "porte": 30,
+      "alcance": 25,
       "mercado": 0,
       "publicoEstimado": null,
       "diasDeEvento": 5,
